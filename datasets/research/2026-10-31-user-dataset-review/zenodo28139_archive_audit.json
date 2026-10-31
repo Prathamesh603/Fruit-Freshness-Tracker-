@@ -1,0 +1,44 @@
+{
+  "archive": "DatasetResidencia-2808.v1-version1-definitivaresidencia.yolov11.zip",
+  "archive_bytes": 7648225279,
+  "entries": 56283,
+  "uncompressed_bytes": 7664187742,
+  "counts": {
+    "train/images": 22334,
+    "test/images": 2133,
+    "valid/images": 3672,
+    "train/labels": 22334,
+    "other/other": 5,
+    "test/labels": 2133,
+    "valid/labels": 3672
+  },
+  "metadata_files": [
+    {
+      "member": "data.yaml",
+      "path": "zenodo28139/00_data.yaml",
+      "bytes": 631,
+      "sha256": "d41c24075d4d222e055a04f0ae160a530d84dec60a4709d894bbac455488d152"
+    },
+    {
+      "member": "data.yaml",
+      "path": "zenodo28139/01_data.yaml",
+      "bytes": 631,
+      "sha256": "d41c24075d4d222e055a04f0ae160a530d84dec60a4709d894bbac455488d152"
+    },
+    {
+      "member": "data.yaml",
+      "path": "zenodo28139/02_data.yaml",
+      "bytes": 631,
+      "sha256": "d41c24075d4d222e055a04f0ae160a530d84dec60a4709d894bbac455488d152"
+    },
+    {
+      "member": "README.roboflow.txt",
+      "path": "zenodo28139/03_README.roboflow.txt",
+      "bytes": 943,
+      "sha256": "d392913183367f4f006e3d9deea31ebb315490a0eb46f6830fd5eafbed3599f0"
+    }
+  ],
+  "range_bytes_transferred": 8280623,
+  "whole_archive_crc_verified": false,
+  "image_content_verified": false
+}

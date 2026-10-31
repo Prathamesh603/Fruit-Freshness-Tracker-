@@ -1,0 +1,10 @@
+fruit,train_images,val_images,test_images,train_boxes,val_boxes,test_boxes
+apple,3317,493,272,29352,4700,2713
+banana,14,5,4,26,15,5
+grape,81,19,9,484,139,71
+lemon,215,58,25,1242,322,194
+mango,149,31,28,724,120,164
+orange,2001,437,210,36598,8346,3351
+pomegranate,3,3,4,22,41,60
+strawberry,43,6,3,74,6,3
+tomato,1748,279,192,9875,1244,903

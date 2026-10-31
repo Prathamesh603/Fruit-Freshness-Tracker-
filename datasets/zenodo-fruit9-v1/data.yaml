@@ -1,0 +1,15 @@
+path: D:/Projects/Fruit freshness detection/datasets/zenodo-fruit9-v1/prepared
+train: images/train
+val: images/val
+test: images/test
+nc: 9
+names:
+- apple
+- banana
+- grape
+- lemon
+- mango
+- orange
+- pomegranate
+- strawberry
+- tomato

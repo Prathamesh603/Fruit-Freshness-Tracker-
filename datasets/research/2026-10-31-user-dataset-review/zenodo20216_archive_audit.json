@@ -1,0 +1,35 @@
+{
+  "archive": "AgricultureDataset.zip",
+  "archive_bytes": 1005423492,
+  "entries": 40445,
+  "uncompressed_bytes": 1003405058,
+  "counts": {
+    "other/other": 4,
+    "test/other": 3,
+    "test/images": 1690,
+    "test/labels": 1690,
+    "train/other": 3,
+    "train/images": 15944,
+    "train/labels": 15944,
+    "valid/other": 3,
+    "valid/images": 2582,
+    "valid/labels": 2582
+  },
+  "metadata_files": [
+    {
+      "member": "AgricultureDataset/data.yaml",
+      "path": "zenodo20216/00_data.yaml",
+      "bytes": 562,
+      "sha256": "7fd5e28d03a38088e27107890889f9761ff9729574ef6df0b6880355f6d9557e"
+    },
+    {
+      "member": "AgricultureDataset/README.roboflow.txt",
+      "path": "zenodo20216/01_README.roboflow.txt",
+      "bytes": 957,
+      "sha256": "d0c71a1f5dd6405ce8fc1d0e54d662c158674a04c7a42d4d8089a8fcf6f0a42c"
+    }
+  ],
+  "range_bytes_transferred": 6566186,
+  "whole_archive_crc_verified": false,
+  "image_content_verified": false
+}

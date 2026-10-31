@@ -1,0 +1,347 @@
+[
+  {
+    "path": "models/classic/nanodet-plus-m416-v1/weights/nanodet.bin",
+    "bytes": 2397184,
+    "sha256": "f7555ca6cb9650ee41e2f0a53fdf46b6e187a2a09792208d8c3eec033b6ac615"
+  },
+  {
+    "path": "models/classic/nanodet-plus-m416-v1/weights/nanodet.param",
+    "bytes": 23123,
+    "sha256": "d79e18ecd8595081bb29fdf0c790a47fcea96fbf58598350569a92e71e915b72"
+  },
+  {
+    "path": "models/classic/smartfruit-mobilenetv2-v1/weights/freshness.tflite",
+    "bytes": 2673592,
+    "sha256": "e09307ca0aacdfc83666ca8ff25c02659d6323a1372409b390561619778b10a4"
+  },
+  {
+    "path": "models/custom-classifiers/mobilenetv3small-fruit9-v1/weights/freshness.keras",
+    "bytes": 9964863,
+    "sha256": "c03f4ac9d79a4bb9ae2d653665caf20476aa52b0f2d56cded4df9a31afab1a62"
+  },
+  {
+    "path": "models/custom-classifiers/mobilenetv3small-fruit9-v1/weights/freshness_float16.tflite",
+    "bytes": 1965992,
+    "sha256": "34190f8beee78b9be9b605fdd12428aba074eda36df38a5f9d5ba63a961267b7"
+  },
+  {
+    "path": "models/custom-classifiers/mobilenetv3small-fruit9-v1/weights/freshness_float32.tflite",
+    "bytes": 3795240,
+    "sha256": "fcd1ea470eb0f7eed1c7b1aeb6b1718fcd9f3e1843ec1a3f7cf51d741eb94a81"
+  },
+  {
+    "path": "models/custom-classifiers/mobilenetv3small-sixclass-v1/weights/freshness.tflite",
+    "bytes": 3763884,
+    "sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e"
+  },
+  {
+    "path": "models/custom-detectors/yolov8n-fruit9-v1/weights/fruit-detector-yolov8n-9class-v1.pt",
+    "bytes": 6215139,
+    "sha256": "813fd499ece31bffd60d6f81cf75709ec43cd3a4d5b9a698227c7403b10dd190"
+  },
+  {
+    "path": "models/custom-detectors/yolov8n-fruit9-v2/weights/detector.pt",
+    "bytes": 6218275,
+    "sha256": "440c4ef36dc825878d1bd84a58eb91885726b9714774ddcc42081b11341d9419"
+  },
+  {
+    "path": "models/custom-detectors/yolov8n-fruit9-v2/weights/detector.torchscript",
+    "bytes": 12384862,
+    "sha256": "f91fce5e7f991afc813c7feb3d4cea5b76f988aace576333bb909061db03eaf4"
+  },
+  {
+    "path": "models/custom-detectors/yolov8n-fruit9-v2/weights/ncnn/detector.bin",
+    "bytes": 6068488,
+    "sha256": "f359a44c5916ed7f37c2392aa19bd8153000c183391bdb7a3b038479c315d70e"
+  },
+  {
+    "path": "models/custom-detectors/yolov8n-fruit9-v2/weights/ncnn/detector.param",
+    "bytes": 16547,
+    "sha256": "6fea23c3582bd94bbf0ef316b93ce973d5f7f1b57dcd3bd19eab9e6505330e7a"
+  },
+  {
+    "path": "models/custom-detectors/yolov8n-fruit9-v2/weights/ncnn/detector.pnnx.bin",
+    "bytes": 12096554,
+    "sha256": "a8f8393ba06dd8ff36a9afa205636a053fc88e7a76e3071b8ecb4dea55b51693"
+  },
+  {
+    "path": "models/custom-detectors/yolov8n-fruit9-v2/weights/ncnn/detector.pnnx.onnx",
+    "bytes": 6070074,
+    "sha256": "c4d67a67788581d005a9d6fb18a53abb3a3277db7cfbffd80e77d65829c7b661"
+  },
+  {
+    "path": "models/custom-detectors/yolov8n-fruit9-v2/weights/ncnn/detector.pnnx.param",
+    "bytes": 31471,
+    "sha256": "4372f890e704a640b9ab26ba2c612fbe13a3ed743bce09322df911860796112d"
+  },
+  {
+    "path": "model_exports/mobilenetv3small-sixclass-v1/freshness.tflite",
+    "bytes": 3763884,
+    "sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/apk/Fruit-Lens-Classic-CPU-v1-arm64.apk",
+    "bytes": 17777959,
+    "sha256": "4822134589a7469b38cf73e8a227925ab2400ef39c4228f4e1ec3fb908019929"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/apk/Fruit-Lens-Classic-Plus-v1-arm64.apk",
+    "bytes": 17799223,
+    "sha256": "a9b825abb0a4ee2645f9154041a3b3d9151b2122821540fbd99f3c6aea09e377"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/apk/Fruit-Lens-Classic-Plus-v1.1-arm64.apk",
+    "bytes": 17799227,
+    "sha256": "319c92019e4ce20a827095b72be6718ce68a8003402f5634dd25c4fef44d975a"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/apk/original/FruitLens-Original-arm64.apk",
+    "bytes": 17777943,
+    "sha256": "dd9d75a84acf8ff8edf3dc500388bd8f6a49776d337ae8e0c92e229578ba52c9"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/8.13/executionHistory/executionHistory.bin",
+    "bytes": 3927705,
+    "sha256": "417cec574af5c68008740c2cf244e3b8c6f5aeb3272eb582b3eba21c05110e47"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/8.13/fileChanges/last-build.bin",
+    "bytes": 1,
+    "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/8.13/fileHashes/fileHashes.bin",
+    "bytes": 258469,
+    "sha256": "9c1f84e06cd0f2f2b256f25069f7880155b3f90b4d8bbc73b401e88df606e860"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/8.13/fileHashes/resourceHashesCache.bin",
+    "bytes": 19517,
+    "sha256": "b39ae02c27b42c214af6fa77d7f94c69f39c75f209594b7996c6a083eb6ad25c"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/buildOutputCleanup/outputFiles.bin",
+    "bytes": 54005,
+    "sha256": "befc24d108a59357e4d2eee44356cc8d972a941d5c755c83e08389858fe89f24"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/android/app/src/main/assets/detector/nanodet.bin",
+    "bytes": 2397184,
+    "sha256": "f7555ca6cb9650ee41e2f0a53fdf46b6e187a2a09792208d8c3eec033b6ac615"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/android/app/src/main/assets/detector/nanodet.param",
+    "bytes": 23123,
+    "sha256": "d79e18ecd8595081bb29fdf0c790a47fcea96fbf58598350569a92e71e915b72"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/android/app/src/main/assets/model/freshness.tflite",
+    "bytes": 2673592,
+    "sha256": "e09307ca0aacdfc83666ca8ff25c02659d6323a1372409b390561619778b10a4"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/apk/Fruit-Lens-Classic-Plus-v1-arm64.apk",
+    "bytes": 17799223,
+    "sha256": "a9b825abb0a4ee2645f9154041a3b3d9151b2122821540fbd99f3c6aea09e377"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/editions/02-classic-plus/apk/Fruit-Lens-Classic-Plus-v1.1-arm64.apk",
+    "bytes": 17799227,
+    "sha256": "319c92019e4ce20a827095b72be6718ce68a8003402f5634dd25c4fef44d975a"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/source/android/.gradle/8.13/executionHistory/executionHistory.bin",
+    "bytes": 3210523,
+    "sha256": "39e51567e23d1cd23e6634d63e0f24dd7884918d25f0c370e4e7c16adbe0b283"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/source/android/.gradle/8.13/fileChanges/last-build.bin",
+    "bytes": 1,
+    "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/source/android/.gradle/8.13/fileHashes/fileHashes.bin",
+    "bytes": 213360,
+    "sha256": "30697c0145d4515cf78156967dde6a48d660e998797983ccab2ef8fbc6c27ee8"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/source/android/.gradle/8.13/fileHashes/resourceHashesCache.bin",
+    "bytes": 19211,
+    "sha256": "1e3e550eb13f9185ba964bbd97ad010766ae82278ad89ee0be64607be24d43be"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/source/android/.gradle/buildOutputCleanup/outputFiles.bin",
+    "bytes": 25301,
+    "sha256": "5c26e1f75cbc77607a66566ca3bf37adc9bc7b5770bf21a13883685711f8e9a2"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/source/android/app/src/main/assets/detector/nanodet.bin",
+    "bytes": 2397184,
+    "sha256": "f7555ca6cb9650ee41e2f0a53fdf46b6e187a2a09792208d8c3eec033b6ac615"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/source/android/app/src/main/assets/detector/nanodet.param",
+    "bytes": 23123,
+    "sha256": "d79e18ecd8595081bb29fdf0c790a47fcea96fbf58598350569a92e71e915b72"
+  },
+  {
+    "path": "apps/01-fruit-lens-classic/source/android/app/src/main/assets/model/freshness.tflite",
+    "bytes": 2673592,
+    "sha256": "e09307ca0aacdfc83666ca8ff25c02659d6323a1372409b390561619778b10a4"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/android/.gradle/8.13/executionHistory/executionHistory.bin",
+    "bytes": 5725095,
+    "sha256": "92648278bb2720aa8f425becbfc1e8c8b4ea1dccccc2fc34f916eca709d7d654"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/android/.gradle/8.13/fileChanges/last-build.bin",
+    "bytes": 1,
+    "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/android/.gradle/8.13/fileHashes/fileHashes.bin",
+    "bytes": 263069,
+    "sha256": "d3037bb4cfb37465db9e2e5c1f3fda850382ba1128a79f2148157d135bf0a2ce"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/android/.gradle/8.13/fileHashes/resourceHashesCache.bin",
+    "bytes": 20401,
+    "sha256": "9e2a1a94cf3ef825cb2cc3eb62c4c7ec59b043c30603898d096516b02af0216a"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/android/.gradle/buildOutputCleanup/outputFiles.bin",
+    "bytes": 53969,
+    "sha256": "b7d84a86b1eaee0bc67b7131c682ad25681ac468172bfc104d25fc553ca8e144"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/android/app/src/main/assets/detector/detector.bin",
+    "bytes": 6068488,
+    "sha256": "f359a44c5916ed7f37c2392aa19bd8153000c183391bdb7a3b038479c315d70e"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/android/app/src/main/assets/detector/detector.param",
+    "bytes": 16547,
+    "sha256": "6fea23c3582bd94bbf0ef316b93ce973d5f7f1b57dcd3bd19eab9e6505330e7a"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/android/app/src/main/assets/model/freshness.tflite",
+    "bytes": 1965992,
+    "sha256": "34190f8beee78b9be9b605fdd12428aba074eda36df38a5f9d5ba63a961267b7"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/apk/Fruit-Lens-Custom-v1-arm64.apk",
+    "bytes": 20481689,
+    "sha256": "a239a355058465c8adc099e41e93ce1e8e905595e12766aebb117d82d53b2173"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/apk/Fruit-Lens-Custom-v1.1-arm64.apk",
+    "bytes": 20481689,
+    "sha256": "652c4b9c71ee42b1ab250eacfde784749c141ff0d26597411329f7a10e066eef"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/apk/Fruit-Lens-Custom-v1.2-arm64.apk",
+    "bytes": 20481693,
+    "sha256": "5936f01455dc5bee21f7bf56fd1e3cde74fb6733699e93b8cc509a6d23986910"
+  },
+  {
+    "path": "apps/02-fruit-lens-custom/apk/Fruit-Lens-Custom-v1.3-arm64.apk",
+    "bytes": 20481693,
+    "sha256": "6612a4d8f00c5071e9953c046ebd5f223b954cbe014fb9a092fb093a517c3c6c"
+  },
+  {
+    "path": "detector_training/reference-yolo11m-bohni/original_best.pt",
+    "bytes": 40565868,
+    "sha256": "499ccee2169731363de26146d9989942c27f3849f64509e0b5190cbd1c679c19"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v1/artifacts/fruit-detector-yolov8n-9class-v1.pt",
+    "bytes": 6215139,
+    "sha256": "813fd499ece31bffd60d6f81cf75709ec43cd3a4d5b9a698227c7403b10dd190"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v1/artifacts/fruit-detector-yolov8n-9class-v1.torchscript",
+    "bytes": 12379870,
+    "sha256": "a14d08fe9a25cd126f3ff75f2af3a8a7b8a2616727e838267db55a9fe091ef2d"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v1/pretrained/yolov8n.pt",
+    "bytes": 6549796,
+    "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v1/runs/train/weights/best.pt",
+    "bytes": 6215139,
+    "sha256": "813fd499ece31bffd60d6f81cf75709ec43cd3a4d5b9a698227c7403b10dd190"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v1/runs/train/weights/best.torchscript",
+    "bytes": 12379870,
+    "sha256": "a14d08fe9a25cd126f3ff75f2af3a8a7b8a2616727e838267db55a9fe091ef2d"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v1/runs/train/weights/last.pt",
+    "bytes": 6215139,
+    "sha256": "2d27344615bd3590fac346f9083a1e9f7a4d75b1af2b341144b57028505b07ae"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v2/artifacts/fruit-detector-yolov8n-9class-v2.pt",
+    "bytes": 6218275,
+    "sha256": "440c4ef36dc825878d1bd84a58eb91885726b9714774ddcc42081b11341d9419"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v2/artifacts/fruit-detector-yolov8n-9class-v2.torchscript",
+    "bytes": 12379870,
+    "sha256": "c880231bf1cdd7cf5127a5b3e86edbbc0dbb654a78018a8e37b7aa9f032cc24c"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v2/pretrained/yolov8n.pt",
+    "bytes": 6549796,
+    "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v2/runs/train/weights/best.pt",
+    "bytes": 6218275,
+    "sha256": "440c4ef36dc825878d1bd84a58eb91885726b9714774ddcc42081b11341d9419"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v2/runs/train/weights/best.torchscript",
+    "bytes": 12379870,
+    "sha256": "c880231bf1cdd7cf5127a5b3e86edbbc0dbb654a78018a8e37b7aa9f032cc24c"
+  },
+  {
+    "path": "detector_training/yolov8n-fruit9-v2/runs/train/weights/last.pt",
+    "bytes": 6218275,
+    "sha256": "d0c1209643d1d2b31ecdf1c3fad37837885d49808e8aaa97bbd78a0454ca1787"
+  },
+  {
+    "path": "classifier_training/mobilenetv3small-fruit9-v1/artifacts/freshness.keras",
+    "bytes": 9964863,
+    "sha256": "c03f4ac9d79a4bb9ae2d653665caf20476aa52b0f2d56cded4df9a31afab1a62"
+  },
+  {
+    "path": "classifier_training/mobilenetv3small-fruit9-v1/artifacts/freshness_float16.tflite",
+    "bytes": 1965992,
+    "sha256": "34190f8beee78b9be9b605fdd12428aba074eda36df38a5f9d5ba63a961267b7"
+  },
+  {
+    "path": "classifier_training/mobilenetv3small-fruit9-v1/artifacts/freshness_float32.tflite",
+    "bytes": 3795240,
+    "sha256": "fcd1ea470eb0f7eed1c7b1aeb6b1718fcd9f3e1843ec1a3f7cf51d741eb94a81"
+  },
+  {
+    "path": "classifier_training/mobilenetv3small-fruit9-v1/checkpoints/best.keras",
+    "bytes": 9964863,
+    "sha256": "c03f4ac9d79a4bb9ae2d653665caf20476aa52b0f2d56cded4df9a31afab1a62"
+  },
+  {
+    "path": "classifier_training/mobilenetv3small-fruit9-v1/checkpoints/head_best.keras",
+    "bytes": 4366377,
+    "sha256": "668f7ad21ee1c4b4690426d9aec03ffb74fa1838035cb3ec042950aa5cf62bb8"
+  },
+  {
+    "path": "classifier_training/mobilenetv3small-fruit9-v1/checkpoints/last.keras",
+    "bytes": 9964863,
+    "sha256": "d40afcfdfe298e9d031676d2c8f739821d449830b27e06552a755b7837acd33b"
+  }
+]

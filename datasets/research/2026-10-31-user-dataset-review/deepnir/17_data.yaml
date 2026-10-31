@@ -1,0 +1,5 @@
+train: /home/USERNAME/dataset/yolov5/mango/train/images
+val: /home/USERNAME/dataset/yolov5/mango/valid/images
+
+nc: 1
+names: ['1']

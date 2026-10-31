@@ -1,0 +1,5 @@
+train: /home/USERNAME/dataset/yolov5/cherry/train/images
+val: /home/USERNAME/dataset/yolov5/cherry/valid/images
+
+nc: 1
+names: ['1']

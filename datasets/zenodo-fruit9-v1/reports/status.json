@@ -1,0 +1,62 @@
+{
+  "stage": "prepared",
+  "task": "fruit_identity_detection_only",
+  "images": 9640,
+  "splits": {
+    "test": 746,
+    "val": 1329,
+    "train": 7565
+  },
+  "boxes": 100794,
+  "per_split_class_boxes": {
+    "train": {
+      "apple": 29352,
+      "banana": 26,
+      "grape": 484,
+      "lemon": 1242,
+      "mango": 724,
+      "orange": 36598,
+      "pomegranate": 22,
+      "strawberry": 74,
+      "tomato": 9875
+    },
+    "val": {
+      "apple": 4700,
+      "banana": 15,
+      "grape": 139,
+      "lemon": 322,
+      "mango": 120,
+      "orange": 8346,
+      "pomegranate": 41,
+      "strawberry": 6,
+      "tomato": 1244
+    },
+    "test": {
+      "apple": 2713,
+      "banana": 5,
+      "grape": 71,
+      "lemon": 194,
+      "mango": 164,
+      "orange": 3351,
+      "pomegranate": 60,
+      "strawberry": 3,
+      "tomato": 903
+    }
+  },
+  "rejected": 134,
+  "exact_duplicate_images_removed": 3445,
+  "duplicate_label_conflicts": 865,
+  "freshness_labels_available": false,
+  "independent_phone_validation": false,
+  "source_splits_retained": true,
+  "near_duplicate_and_source_family_audit_complete": false,
+  "training_ready": false,
+  "remaining_checks": [
+    "source-family and perceptual overlap within source and against old holdouts",
+    "visual completeness and class imbalance; review quarantine before restoring",
+    "independent phone holdout"
+  ],
+  "free_disk_bytes": 6558011392,
+  "conflict_images_quarantined": 627,
+  "active_conflicting_exact_duplicates": 0
+}

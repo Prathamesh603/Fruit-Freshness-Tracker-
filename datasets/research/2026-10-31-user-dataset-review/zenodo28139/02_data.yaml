@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 36
+names: ['Apple', 'Apricot', 'Aubergine', 'Banana', 'Bean', 'Carrot', 'Cherry', 'Courgette', 'DragonFruit', 'Durian', 'Fig', 'Grape', 'Lemon', 'Lime', 'Lychee', 'Mango', 'Orange', 'Peach', 'Pear', 'Pepper', 'Person', 'Pineapple', 'Plum', 'Pomegranate', 'Post', 'Pothole', 'Puddle', 'Quince', 'Rice', 'Row', 'Salad', 'Strawberry', 'Tomato', 'Trace', 'Trunk', 'Watermelon']
+
+roboflow:
+  workspace: vision-rzoan
+  project: datasetresidencia-2808
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vision-rzoan/datasetresidencia-2808/dataset/1

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 30
+names: ['Apple', 'Apricot', 'Aubegine', 'Banana', 'Bean', 'Carrot', 'Cherry', 'Courgette', 'DragonFruit', 'Durian', 'Fig', 'Grape', 'Lemon', 'Lime', 'Lychee', 'Mango', 'Orange', 'Peach', 'Pear', 'Pepper', 'Pineapple', 'Plum', 'Pomegranate', 'Quince', 'Radish', 'Rice', 'Salad', 'Strawberry', 'Tomato', 'Watermelon']
+
+roboflow:
+  workspace: vision-rzoan
+  project: datasettfg-2502
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vision-rzoan/datasettfg-2502/dataset/2

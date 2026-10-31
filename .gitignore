@@ -49,3 +49,10 @@ models/**/weights/**/*.pnnx.*
 models/**/weights/**/*.py
 models/**/weights/*.ncnn.*
 apps/02-fruit-lens-custom/build*.log
+
+# Reproducible Zenodo nine-fruit detection data; keep scripts and audit reports.
+datasets/zenodo-fruit9-v1/downloads/*
+!datasets/zenodo-fruit9-v1/downloads/README.md
+datasets/zenodo-fruit9-v1/prepared/
+datasets/zenodo-fruit9-v1/original-labels/
+datasets/zenodo-fruit9-v1/quarantine/

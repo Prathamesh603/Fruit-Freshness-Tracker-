@@ -1,0 +1,23 @@
+{
+  "candidate_files_recorded": 69,
+  "checked_model_apk_files": 54,
+  "unchanged_model_apk_files": 54,
+  "excluded_gradle_cache_bin_files": [
+    "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/8.13/executionHistory/executionHistory.bin",
+    "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/8.13/fileChanges/last-build.bin",
+    "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/8.13/fileHashes/fileHashes.bin",
+    "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/8.13/fileHashes/resourceHashesCache.bin",
+    "apps/01-fruit-lens-classic/editions/02-classic-plus/android/.gradle/buildOutputCleanup/outputFiles.bin",
+    "apps/01-fruit-lens-classic/source/android/.gradle/8.13/executionHistory/executionHistory.bin",
+    "apps/01-fruit-lens-classic/source/android/.gradle/8.13/fileChanges/last-build.bin",
+    "apps/01-fruit-lens-classic/source/android/.gradle/8.13/fileHashes/fileHashes.bin",
+    "apps/01-fruit-lens-classic/source/android/.gradle/8.13/fileHashes/resourceHashesCache.bin",
+    "apps/01-fruit-lens-classic/source/android/.gradle/buildOutputCleanup/outputFiles.bin",
+    "apps/02-fruit-lens-custom/android/.gradle/8.13/executionHistory/executionHistory.bin",
+    "apps/02-fruit-lens-custom/android/.gradle/8.13/fileChanges/last-build.bin",
+    "apps/02-fruit-lens-custom/android/.gradle/8.13/fileHashes/fileHashes.bin",
+    "apps/02-fruit-lens-custom/android/.gradle/8.13/fileHashes/resourceHashesCache.bin",
+    "apps/02-fruit-lens-custom/android/.gradle/buildOutputCleanup/outputFiles.bin"
+  ],
+  "errors": []
+}
