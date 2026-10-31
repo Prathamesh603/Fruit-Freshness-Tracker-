@@ -1,0 +1,52 @@
+{
+  "detector": "yolov8n-fruit9-v2",
+  "classifier": "mobilenetv3small-fruit9-v1",
+  "backend": "CPU",
+  "threads_per_model": 2,
+  "GPU": false,
+  "NPU": false,
+  "files": {
+    "DATA_SOURCES.md": {
+      "bytes": 564,
+      "sha256": "ed359ed081ea2e332c25e8edb2199cac3438efd75be46af3c867ddb317260156"
+    },
+    "README.md": {
+      "bytes": 159,
+      "sha256": "f96799d6aebc4e826ec13a9416500507353b516f38353422cc626cf803795e69"
+    },
+    "detector/detector.bin": {
+      "bytes": 6068488,
+      "sha256": "f359a44c5916ed7f37c2392aa19bd8153000c183391bdb7a3b038479c315d70e"
+    },
+    "detector/detector.param": {
+      "bytes": 16547,
+      "sha256": "6fea23c3582bd94bbf0ef316b93ce973d5f7f1b57dcd3bd19eab9e6505330e7a"
+    },
+    "detector/NCNN_LICENSE.txt": {
+      "bytes": 6427,
+      "sha256": "7c974bac98848df46be1af5bdaa3c3c9c01f6082a90f55caeb7f60c6208aa255"
+    },
+    "detector/README.md": {
+      "bytes": 289,
+      "sha256": "3de43e21fbb50c10f8fe8dcaa946f65638e48dcf93e098eb37249333014df05b"
+    },
+    "detector/ULTRALYTICS_LICENSE.txt": {
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    "model/freshness.tflite": {
+      "bytes": 1965992,
+      "sha256": "34190f8beee78b9be9b605fdd12428aba074eda36df38a5f9d5ba63a961267b7"
+    },
+    "model/model.json": {
+      "bytes": 3461,
+      "sha256": "a02f84e161ca98c81b376f5e9ff3222ac8a44eb6f23c7037d3beb6b9d517dcc6"
+    },
+    "model/README.md": {
+      "bytes": 270,
+      "sha256": "b925324f2ee06a2cdead4cf98862bcc835953ae7bb272cd2ffa7ebc030c9abf5"
+    }
+  },
+  "source_namespace": "com.fruitlens.app",
+  "application_id": "com.fruitlens.custom"
+}

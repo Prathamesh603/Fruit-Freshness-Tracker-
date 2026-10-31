@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "R8_optimized": true,
+  "model_prewarm_ready": true,
+  "real_camera_capture": true,
+  "result_screen_rendered": true,
+  "classic_and_custom_coinstalled": true,
+  "note": "x86_64 emulator internal build, not arm64 phone performance validation"
+}

@@ -1,0 +1,1 @@
+MobileNetV3Small nine-fruit v1,18outputs,160RGB[-1,1],bilinear resize. Float16weights,float32IO. See model.json for exact labels/hash. CPU LiteRT2threads; low score or identity mismatch yields Uncertain. Training records: classifier_training/mobilenetv3small-fruit9-v1/.

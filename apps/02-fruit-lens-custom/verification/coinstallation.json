@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "package:com.fruitlens.app.test",
+    "package:com.fruitlens.classic",
+    "package:com.fruitlens.custom",
+    "package:com.fruitlens.app",
+    "package:com.fruitlens.custom.test"
+  ],
+  "custom_installed": true,
+  "classic_installed": true,
+  "note": "Distinct IDs, no replacement of Classic"
+}

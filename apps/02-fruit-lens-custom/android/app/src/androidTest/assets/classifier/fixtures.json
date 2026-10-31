@@ -1,0 +1,164 @@
+[
+  {
+    "file": "class_00.png",
+    "expected_class": 0,
+    "expected_score": 0.9879106283187866,
+    "source": "mendeley8",
+    "source_image_id": "mendeley8_FreshApple_FreshApple (100)",
+    "source_sha256": "0a2b388ed669a61c8d33401bed06809bb051c8180231310c898dd0f9173b38ee",
+    "truth_class": 0
+  },
+  {
+    "file": "class_01.png",
+    "expected_class": 1,
+    "expected_score": 0.9999988079071045,
+    "source": "mendeley8",
+    "source_image_id": "mendeley8_RottenApple_RottenApple (106)",
+    "source_sha256": "ef0a136d06a6eaf67c83404a8e3cc68d3002d352ec94853ab5f21f7328e956e6",
+    "truth_class": 1
+  },
+  {
+    "file": "class_02.png",
+    "expected_class": 2,
+    "expected_score": 1.0,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_F_Banana_100",
+    "source_sha256": "650dd4b1b6fcada79db11c5b675c05df7cf1920c43f09f3b349fd835f9bd4806",
+    "truth_class": 2
+  },
+  {
+    "file": "class_03.png",
+    "expected_class": 3,
+    "expected_score": 1.0,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_S_Banana_101",
+    "source_sha256": "e0ff49cc839541dcec9e470ade502ee699f9052dbbe144f9766897f1e85b3d5f",
+    "truth_class": 3
+  },
+  {
+    "file": "class_04.png",
+    "expected_class": 4,
+    "expected_score": 0.999376118183136,
+    "source": "mendeley8",
+    "source_image_id": "mendeley8_FreshGrape_FreshGrape (10)",
+    "source_sha256": "1d7290d38e07269fa09e31ed800eafcc29625cfb1f8a6d26386ff52f6db449d6",
+    "truth_class": 4
+  },
+  {
+    "file": "class_05.png",
+    "expected_class": 5,
+    "expected_score": 0.9999719858169556,
+    "source": "mendeley8",
+    "source_image_id": "mendeley8_RottenGrape_RottenGrape (101)",
+    "source_sha256": "f2ccf0813828f06a35be64f5b3bf0004c1b1bc9616273f8582544e3153013dfd",
+    "truth_class": 5
+  },
+  {
+    "file": "class_06.png",
+    "expected_class": 6,
+    "expected_score": 0.9999781847000122,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_F_Lemon_109",
+    "source_sha256": "f43ef2211bde1daa09f065dac9193133acd4b1043f4fdd79a68416fcaa73c6e7",
+    "truth_class": 6
+  },
+  {
+    "file": "class_07.png",
+    "expected_class": 7,
+    "expected_score": 1.0,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_S_Lemon_10",
+    "source_sha256": "7c5bef6b68d6e1aac29ff7ae83257aa81f138f1f1f9eeca44ea8aa646adeef51",
+    "truth_class": 7
+  },
+  {
+    "file": "class_08.png",
+    "expected_class": 8,
+    "expected_score": 0.9999994039535522,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_F_Mango_102",
+    "source_sha256": "c4a4e1a1c2cff430b57a782ed763346d7fc19eac8b62a26c49f1950394ec28c3",
+    "truth_class": 8
+  },
+  {
+    "file": "class_09.png",
+    "expected_class": 9,
+    "expected_score": 1.0,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_S_Mango_110",
+    "source_sha256": "9bfd995004b44c94e6cc65fd670f0e75221f888815dd5e1e9066671eef40b9a3",
+    "truth_class": 9
+  },
+  {
+    "file": "class_10.png",
+    "expected_class": 10,
+    "expected_score": 0.9999992847442627,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_F_Orange_101",
+    "source_sha256": "d5897ea8c966cddc60c3a294982f5e8a8d675ce9bc16afd1fdb5f064dee15608",
+    "truth_class": 10
+  },
+  {
+    "file": "class_11.png",
+    "expected_class": 11,
+    "expected_score": 0.9999996423721313,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_S_Orange_108",
+    "source_sha256": "ee2897d31eeda2f54be783b2015aa8ca13afcfe83f34f35c56c0a0043f86fe69",
+    "truth_class": 11
+  },
+  {
+    "file": "class_12.png",
+    "expected_class": 12,
+    "expected_score": 0.9999998807907104,
+    "source": "mendeley8",
+    "source_image_id": "mendeley8_FreshPomegranate_FreshPomegranate (116)",
+    "source_sha256": "81bced7aa392b5d902e6d949c66204920f1c6c0f9e9f14d4f193a8d3896939b7",
+    "truth_class": 12
+  },
+  {
+    "file": "class_13.png",
+    "expected_class": 13,
+    "expected_score": 0.9996330738067627,
+    "source": "mendeley8",
+    "source_image_id": "mendeley8_RottenPomegranate_RottenPomegranate (1)",
+    "source_sha256": "d3cfde6aad7d1a23eac6e4996773c05afcb17a715c4073a0551d1623b517dcee",
+    "truth_class": 13
+  },
+  {
+    "file": "class_14.png",
+    "expected_class": 14,
+    "expected_score": 0.9988923668861389,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_F_Strawberry_114",
+    "source_sha256": "90688ee2db62684860a500167f939f3d7ffd51b164a6d97f367d015d14df13d8",
+    "truth_class": 14
+  },
+  {
+    "file": "class_15.png",
+    "expected_class": 15,
+    "expected_score": 1.0,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_S_Strawberry_11",
+    "source_sha256": "14484c856cd7ce87860bcc6bf74ea8f56ac8fde74da487e411537595d05410c9",
+    "truth_class": 15
+  },
+  {
+    "file": "class_16.png",
+    "expected_class": 16,
+    "expected_score": 0.9985852241516113,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_F_Tomato_105",
+    "source_sha256": "23e1005c53ff0a283f490aee12a5aedb0b8b727dfd3a8c0eabb960af307ccdf3",
+    "truth_class": 16
+  },
+  {
+    "file": "class_17.png",
+    "expected_class": 17,
+    "expected_score": 0.9999953508377075,
+    "source": "fruit16k",
+    "source_image_id": "fruit16k_S_Tomato_105",
+    "source_sha256": "9580006d2dfd3be26052f33d9c4c079c0f1d177374f6238976a0ce0dc8012866",
+    "truth_class": 17
+  }
+]

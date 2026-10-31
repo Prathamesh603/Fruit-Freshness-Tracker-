@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "modelId": "mobilenetv3small-fruit9-v1",
+  "modelFile": "freshness.tflite",
+  "sha256": "34190f8beee78b9be9b605fdd12428aba074eda36df38a5f9d5ba63a961267b7",
+  "input": {
+    "layout": "NHWC",
+    "width": 160,
+    "height": 160,
+    "channels": 3,
+    "colorSpace": "RGB",
+    "resizeMode": "stretch",
+    "interpolation": "bilinear",
+    "mean": [
+      127.5,
+      127.5,
+      127.5
+    ],
+    "std": [
+      127.5,
+      127.5,
+      127.5
+    ]
+  },
+  "output": {
+    "scoreType": "probabilities"
+  },
+  "labels": [
+    {
+      "id": "fresh_apple",
+      "fruit": "apple",
+      "condition": "fresh",
+      "displayName": "Apple \u00b7 Fresh"
+    },
+    {
+      "id": "spoiled_apple",
+      "fruit": "apple",
+      "condition": "spoiled",
+      "displayName": "Apple \u00b7 Not fresh"
+    },
+    {
+      "id": "fresh_banana",
+      "fruit": "banana",
+      "condition": "fresh",
+      "displayName": "Banana \u00b7 Fresh"
+    },
+    {
+      "id": "spoiled_banana",
+      "fruit": "banana",
+      "condition": "spoiled",
+      "displayName": "Banana \u00b7 Not fresh"
+    },
+    {
+      "id": "fresh_grape",
+      "fruit": "grape",
+      "condition": "fresh",
+      "displayName": "Grape \u00b7 Fresh"
+    },
+    {
+      "id": "spoiled_grape",
+      "fruit": "grape",
+      "condition": "spoiled",
+      "displayName": "Grape \u00b7 Not fresh"
+    },
+    {
+      "id": "fresh_lemon",
+      "fruit": "lemon",
+      "condition": "fresh",
+      "displayName": "Lemon \u00b7 Fresh"
+    },
+    {
+      "id": "spoiled_lemon",
+      "fruit": "lemon",
+      "condition": "spoiled",
+      "displayName": "Lemon \u00b7 Not fresh"
+    },
+    {
+      "id": "fresh_mango",
+      "fruit": "mango",
+      "condition": "fresh",
+      "displayName": "Mango \u00b7 Fresh"
+    },
+    {
+      "id": "spoiled_mango",
+      "fruit": "mango",
+      "condition": "spoiled",
+      "displayName": "Mango \u00b7 Not fresh"
+    },
+    {
+      "id": "fresh_orange",
+      "fruit": "orange",
+      "condition": "fresh",
+      "displayName": "Orange \u00b7 Fresh"
+    },
+    {
+      "id": "spoiled_orange",
+      "fruit": "orange",
+      "condition": "spoiled",
+      "displayName": "Orange \u00b7 Not fresh"
+    },
+    {
+      "id": "fresh_pomegranate",
+      "fruit": "pomegranate",
+      "condition": "fresh",
+      "displayName": "Pomegranate \u00b7 Fresh"
+    },
+    {
+      "id": "spoiled_pomegranate",
+      "fruit": "pomegranate",
+      "condition": "spoiled",
+      "displayName": "Pomegranate \u00b7 Not fresh"
+    },
+    {
+      "id": "fresh_strawberry",
+      "fruit": "strawberry",
+      "condition": "fresh",
+      "displayName": "Strawberry \u00b7 Fresh"
+    },
+    {
+      "id": "spoiled_strawberry",
+      "fruit": "strawberry",
+      "condition": "spoiled",
+      "displayName": "Strawberry \u00b7 Not fresh"
+    },
+    {
+      "id": "fresh_tomato",
+      "fruit": "tomato",
+      "condition": "fresh",
+      "displayName": "Tomato \u00b7 Fresh"
+    },
+    {
+      "id": "spoiled_tomato",
+      "fruit": "tomato",
+      "condition": "spoiled",
+      "displayName": "Tomato \u00b7 Not fresh"
+    }
+  ],
+  "decision": {
+    "minScore": 0.8,
+    "thresholdValidated": false
+  },
+  "note": "0.8 is an uncalibrated UI abstention heuristic. Scores are not freshness percentages. Camera validation pending."
+}

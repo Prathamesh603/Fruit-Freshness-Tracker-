@@ -1,0 +1,1 @@
+YOLOv8n fruit9 v2 NCNN deployment,416RGB/255 letterbox114, input in0/output out0. Class order: apple banana grape lemon mango orange pomegranate strawberry tomato. CPU2threads, no Vulkan. Model hash/provenance: edition MODEL_BUNDLE.json and root models/custom-detectors/yolov8n-fruit9-v2/.
