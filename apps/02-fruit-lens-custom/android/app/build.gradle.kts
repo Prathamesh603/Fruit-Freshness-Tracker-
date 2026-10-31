@@ -13,8 +13,8 @@ android {
         applicationId = "com.fruitlens.custom"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0-custom"
+        versionCode = 2
+        versionName = "1.1.0-custom"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild { cmake { arguments += "-DANDROID_STL=c++_shared" } }
     }

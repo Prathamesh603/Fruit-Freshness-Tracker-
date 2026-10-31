@@ -9,6 +9,7 @@ import android.os.ParcelFileDescriptor
 import androidx.compose.ui.test.assertIsEnabled
 import androidx.compose.ui.test.junit4.createEmptyComposeRule
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.onRoot
@@ -97,12 +98,38 @@ class InferenceSmokeTest {
             // The Compose test clock must render the asynchronous worker's result before capture.
             compose.waitForIdle()
             compose.onNodeWithText("Your scan").assertExists()
+            assertEquals((1..model.state.value.results.size).toList(), model.state.value.results.map { it.id })
+            compose.onNodeWithText("#1").assertExists()
             compose.onRoot().captureToImage().asAndroidBitmap().useBitmap { screenshot ->
                 File(instrumentation.targetContext.filesDir, "smoke-result.png").outputStream().use {
                     screenshot.compress(Bitmap.CompressFormat.PNG, 100, it)
                 }
             }
             Log.i("FruitLensTest", "pipelineProcessingMs=${model.state.value.processingMs}")
+        }
+    }
+
+    @Test fun multipleFruitIdsMatchOverlayAndCards() {
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            lateinit var model: ScannerViewModel
+            scenario.onActivity { model = ViewModelProvider(it)[ScannerViewModel::class.java] }
+            compose.waitUntil(timeoutMillis = 30_000) { model.state.value.ready }
+            val file = File(instrumentation.targetContext.cacheDir, "two-bananas.png")
+            instrumentation.context.assets.open("two-bananas.png").use { input -> file.outputStream().use(input::copyTo) }
+            scenario.onActivity { assertTrue(model.beginCapture()); model.classify(Uri.fromFile(file), deleteAfter = true) }
+            compose.waitUntil(timeoutMillis = 30_000) { !model.state.value.busy }
+            val results = model.state.value.results
+            assertTrue("Should find both separate banana regions", results.size >= 2)
+            assertEquals((1..results.size).toList(), results.map { it.id })
+            compose.onNodeWithText("#1").assertExists()
+            compose.onNodeWithText("#2").assertExists()
+            val description = results.joinToString("; ") { "Fruit #${it.id}, ${it.detection.fruit}, ${FreshnessDisplay.assessment(it)}" }
+            compose.onNodeWithContentDescription(description).assertExists()
+            compose.onRoot().captureToImage().asAndroidBitmap().useBitmap { screenshot ->
+                File(instrumentation.targetContext.filesDir, "multi-fruit-result.png").outputStream().use {
+                    screenshot.compress(Bitmap.CompressFormat.PNG, 100, it)
+                }
+            }
         }
     }
 

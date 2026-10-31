@@ -19,9 +19,10 @@ def main():
     (REPORTS/'instrumentation.txt').write_text(result)
     logs=adb('logcat','-d','-s','FruitLensTest:I','AndroidRuntime:E','*:S')
     (REPORTS/'inference-logcat.txt').write_text(logs)
-    assert 'OK (5 tests)' in result,result
+    assert 'OK (6 tests)' in result,result
     screenshot=adb('exec-out','run-as','com.fruitlens.custom','cat','files/smoke-result.png',binary=True)
     (REPORTS/'smoke-result.png').write_bytes(screenshot)
+    (REPORTS/'multi-fruit-result.png').write_bytes(adb('exec-out','run-as','com.fruitlens.custom','cat','files/multi-fruit-result.png',binary=True))
     packages=adb('shell','pm','list','packages','com.fruitlens')
     (REPORTS/'coinstallation.json').write_text(json.dumps(dict(packages=packages.splitlines(),custom_installed='package:com.fruitlens.custom' in packages,classic_installed='package:com.fruitlens.classic' in packages,note='Distinct IDs, no replacement of Classic'),indent=2))
     print(result,flush=True)

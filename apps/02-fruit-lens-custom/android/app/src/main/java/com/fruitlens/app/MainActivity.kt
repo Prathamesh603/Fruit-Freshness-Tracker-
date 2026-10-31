@@ -30,12 +30,19 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
+import androidx.compose.ui.graphics.nativeCanvas
+import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.graphics.luminance
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.LocalLifecycleOwner
@@ -122,15 +129,38 @@ private fun ScannerScreen(model: ScannerViewModel = viewModel()) {
                             val photo = state.photo!!
                             Image(photo.asImageBitmap(), contentDescription = "Captured fruit photo with detected regions",
                                 contentScale = ContentScale.Fit, modifier = Modifier.fillMaxSize())
-                            Canvas(Modifier.fillMaxSize()) {
+                            Canvas(Modifier.fillMaxSize().semantics {
+                                contentDescription = state.results.joinToString("; ") {
+                                    "Fruit #${it.id}, ${it.detection.fruit}, ${FreshnessDisplay.assessment(it)}"
+                                }
+                            }) {
                                 val scale = minOf(size.width / photo.width, size.height / photo.height)
                                 val width = photo.width * scale
                                 val height = photo.height * scale
                                 val offset = Offset((size.width - width) / 2, (size.height - height) / 2)
                                 state.results.forEach {
                                     val b = it.detection.bounds
-                                    drawRect(Color(0xFF9AD5B3), offset + Offset(b.left * width, b.top * height),
+                                    val tint = Color(FreshnessDisplay.tint(it))
+                                    val origin = offset + Offset(b.left * width, b.top * height)
+                                    drawRect(tint, origin,
                                         Size(b.width() * width, b.height() * height), style = Stroke(3.dp.toPx()))
+                                    val label = "#${it.id}"
+                                    val paint = android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply {
+                                        textSize = 14.sp.toPx()
+                                        typeface = android.graphics.Typeface.DEFAULT_BOLD
+                                        color = if (tint.luminance() > 0.35f) android.graphics.Color.BLACK else android.graphics.Color.WHITE
+                                    }
+                                    val padding = 6.dp.toPx()
+                                    val badgeWidth = paint.measureText(label) + 2 * padding
+                                    val badgeHeight = paint.fontSpacing + 2 * padding
+                                    val x = origin.x.coerceIn(0f, (size.width - badgeWidth).coerceAtLeast(0f))
+                                    val y = origin.y.coerceIn(0f, (size.height - badgeHeight).coerceAtLeast(0f))
+                                    drawIntoCanvas { canvas ->
+                                        val background = android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply { color = tint.toArgb() }
+                                        canvas.nativeCanvas.drawRoundRect(x, y, x + badgeWidth, y + badgeHeight,
+                                            5.dp.toPx(), 5.dp.toPx(), background)
+                                        canvas.nativeCanvas.drawText(label, x + padding, y + padding - paint.fontMetrics.top, paint)
+                                    }
                                 }
                             }
                         }
@@ -153,6 +183,8 @@ private fun ScannerScreen(model: ScannerViewModel = viewModel()) {
                 }
 
                 ScanResults(state)
+                if (state.results.isNotEmpty()) Text("Match each #ID to its card. Green: Fresh · Red: Not fresh · Gray: Uncertain. Color follows model scores, not a measured freshness percentage.",
+                    style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
 
                 Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Button(
@@ -220,12 +252,23 @@ private fun ScanResults(state: ScannerState) {
         val agreement = result.label.fruit == detected.detection.fruit
         val confident = agreement && result.confident
         val fruit = detected.detection.fruit.replaceFirstChar { it.uppercase() }
-        val assessment = if (confident) {
-            if (result.label.condition == "fresh") "Fresh" else "Not fresh"
-        } else "Uncertain"
+        val assessment = FreshnessDisplay.assessment(detected)
         val detail = if (confident) "Visual estimate. Check another side to get a clearer view."
             else "Try a closer photo with the whole fruit in even light."
-        InfoCard("$fruit - $assessment", detail)
+        Surface(shape = RoundedCornerShape(24.dp), color = MaterialTheme.colorScheme.surface,
+            modifier = Modifier.fillMaxWidth()) {
+            Row(Modifier.padding(24.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Surface(color = Color(FreshnessDisplay.tint(detected)), shape = RoundedCornerShape(8.dp)) {
+                    val tint = Color(FreshnessDisplay.tint(detected))
+                    Text("#${detected.id}", Modifier.padding(8.dp), fontWeight = FontWeight.Bold,
+                        color = if (tint.luminance() > 0.35f) Color.Black else Color.White)
+                }
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text("$fruit - $assessment", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                    Text(detail, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+            }
+        }
     }
 }
 

@@ -9,7 +9,8 @@ import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.security.MessageDigest
 
-data class ScanResult(val label: FruitLabel, val score: Float, val accepted: Boolean, val processingMs: Long, val confident: Boolean = false)
+data class ScanResult(val label: FruitLabel, val score: Float, val accepted: Boolean, val processingMs: Long,
+    val confident: Boolean = false, val freshScore: Float? = null)
 
 /** Owned by one worker thread. Models and tensor buffers are reused between scans. */
 class FreshnessClassifier(context: Context) : AutoCloseable {
@@ -81,9 +82,14 @@ class FreshnessClassifier(context: Context) : AutoCloseable {
             }
             val scores = ScoreMath.probabilities(values, spec.scoreType == "logits")
             val best = scores.indices.maxBy { scores[it] }
+            val fruit = spec.labels[best].fruit
+            val fresh = spec.labels.indexOfFirst { it.fruit == fruit && it.condition == "fresh" }
+            val notFresh = spec.labels.indexOfFirst { it.fruit == fruit && it.condition == "spoiled" }
+            val freshScore = if (fresh >= 0 && notFresh >= 0)
+                ScoreMath.freshScore(scores[fresh], scores[notFresh]) else null
             return ScanResult(spec.labels[best], scores[best],
                 spec.thresholdValidated && scores[best] >= spec.minScore,
-                (System.nanoTime() - start) / 1_000_000, scores[best] >= spec.minScore)
+                (System.nanoTime() - start) / 1_000_000, scores[best] >= spec.minScore, freshScore)
         } finally {
             if (resized !== bitmap) resized.recycle()
         }

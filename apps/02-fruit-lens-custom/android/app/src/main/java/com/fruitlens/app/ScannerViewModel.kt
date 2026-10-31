@@ -26,7 +26,7 @@ data class ScannerState(
     val processingMs: Long = 0,
 )
 
-data class DetectedResult(val detection: FruitDetection, val classification: ScanResult)
+data class DetectedResult(val detection: FruitDetection, val classification: ScanResult, val id: Int = 0)
 
 class ScannerViewModel(application: Application) : AndroidViewModel(application) {
     private val worker = Executors.newSingleThreadExecutor()
@@ -104,9 +104,10 @@ class ScannerViewModel(application: Application) : AndroidViewModel(application)
                         DetectedResult(detection, classification.copy(accepted = classification.accepted && classification.label.fruit == detection.fruit))
                     } finally { if (crop !== photo) crop.recycle() }
                 }
+                val numbered = results.mapIndexed { index, result -> result.copy(id = index + 1) }
                 mutableState.value = mutableState.value.copy(busy = false,
                     message = if (results.isEmpty()) "No supported fruit was found clearly enough. Move closer in even light. Supported: apple, banana, grape, lemon, mango, orange, pomegranate, strawberry and tomato." else null,
-                    results = results, photo = photo, processingMs = (System.nanoTime() - start) / 1_000_000)
+                    results = numbered, photo = photo, processingMs = (System.nanoTime() - start) / 1_000_000)
                 bitmap = null // State owns this image until replaced; allow GC instead of recycling a displayed bitmap.
             } catch (error: Exception) {
                 reportError("Couldn't assess this photo. ${error.message ?: "Try a clearer image."}")

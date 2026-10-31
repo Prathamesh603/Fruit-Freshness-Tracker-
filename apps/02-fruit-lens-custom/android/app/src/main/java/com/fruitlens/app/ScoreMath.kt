@@ -5,6 +5,12 @@ import kotlin.math.roundToInt
 
 /** Shared numerical contract; no Android APIs so these checks can run on the JVM. */
 object ScoreMath {
+    /** Relative Fresh vs Not fresh score for one fruit, not a freshness percentage. */
+    fun freshScore(fresh: Float, notFresh: Float): Float? {
+        if (!fresh.isFinite() || !notFresh.isFinite() || fresh < 0f || notFresh < 0f) return null
+        val total = fresh + notFresh
+        return if (total.isFinite() && total > 0f) (fresh / total).coerceIn(0f, 1f) else null
+    }
     fun normalize(pixel: Int, mean: Float, std: Float): Float = (pixel - mean) / std
 
     fun quantize(real: Float, scale: Float, zeroPoint: Int, signed: Boolean): Int {
