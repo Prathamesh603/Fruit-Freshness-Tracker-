@@ -8,8 +8,8 @@ Quick links: [Classic](apps/01-fruit-lens-classic/README.md) ·
 [Detector results](detector_training/yolov8n-fruit9-v2/MODEL_CARD.md) ·
 [Classifier results](classifier_training/mobilenetv3small-fruit9-v1/MODEL_CARD.md).
 
-Latest Custom update: [v1.1 APK](apps/02-fruit-lens-custom/apk/Fruit-Lens-Custom-v1.1-arm64.apk)
-with matching fruit IDs and colored boxes. [Update notes](apps/02-fruit-lens-custom/CHANGELOG.md).
+Latest Custom update: [v1.2 APK](apps/02-fruit-lens-custom/apk/Fruit-Lens-Custom-v1.2-arm64.apk)
+with matching fruit IDs, colored boxes and per-fruit prediction scores. [Update notes](apps/02-fruit-lens-custom/CHANGELOG.md).
 
 ## What we built, in order
 

@@ -1,6 +1,6 @@
 """Exercise the Custom app's actual Android models on the project-owned emulator."""
 from pathlib import Path
-import subprocess,json
+import subprocess,json,time
 APP=Path(__file__).resolve().parent
 ROOT=APP.parents[1]
 ADB=ROOT/'android/.tools/android-sdk/platform-tools/adb.exe'
@@ -11,6 +11,9 @@ def adb(*args,binary=False):
 def main():
     REPORTS.mkdir(exist_ok=True)
     adb('wait-for-device')
+    deadline=time.monotonic()+90
+    while adb('shell','getprop','sys.boot_completed').strip()!='1' and time.monotonic()<deadline:
+        time.sleep(1)
     assert adb('shell','getprop','sys.boot_completed').strip()=='1'
     adb('logcat','-c')
     for apk in ['debug/app-x86_64-debug.apk','androidTest/debug/app-debug-androidTest.apk']:

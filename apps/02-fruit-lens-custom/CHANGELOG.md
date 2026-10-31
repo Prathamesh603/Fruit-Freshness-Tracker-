@@ -1,5 +1,21 @@
 # Custom app updates
 
+## 1.2.0-custom, version code 3
+
+Install `apk/Fruit-Lens-Custom-v1.2-arm64.apk` to update Custom. Earlier APKs remain
+available. Each numbered card now shows:
+
+- **Detection score:** the detector's score for the fruit region and identity.
+- **Prediction score:** the classifier's highest joint fruit/condition output.
+- **Model pick** when the result is Uncertain, so a high classifier score does
+  not hide disagreement with the detector.
+
+Scores are displayed as percentages with one decimal. Values above99.9% are
+shown as `>99.9%` instead of rounding to100%. They are uncalibrated model outputs,
+not a measured percentage of freshness or an accuracy guarantee for this photo.
+Overall processing time, matching IDs and box colors are retained. No extra
+inference or model-weight changes are introduced.
+
 ## 1.1.0-custom, version code 2
 
 Install `apk/Fruit-Lens-Custom-v1.1-arm64.apk` to update Custom. The original v1 APK

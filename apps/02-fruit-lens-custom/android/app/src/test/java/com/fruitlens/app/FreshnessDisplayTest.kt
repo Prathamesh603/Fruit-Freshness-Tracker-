@@ -4,6 +4,13 @@ import org.junit.Assert.*
 import org.junit.Test
 
 class FreshnessDisplayTest {
+    @Test fun scoresAreReadableWithoutRoundingHighScoresToCertain() {
+        assertEquals("87.1%", FreshnessDisplay.scoreLabel(0.871f))
+        assertEquals(">99.9%", FreshnessDisplay.scoreLabel(0.99999f))
+        assertEquals(">99.9%", FreshnessDisplay.scoreLabel(1f))
+        assertEquals("0.0%", FreshnessDisplay.scoreLabel(0f))
+        assertEquals("Unavailable", FreshnessDisplay.scoreLabel(Float.NaN))
+    }
     @Test fun usesSameFruitPairRatherThanWinningClassConfidence() {
         assertEquals(0.9f, ScoreMath.freshScore(0.09f, 0.01f)!!, 0.00001f)
         assertEquals(0.1f, ScoreMath.freshScore(0.01f, 0.09f)!!, 0.00001f)

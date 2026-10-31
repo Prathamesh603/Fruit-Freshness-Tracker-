@@ -2,8 +2,8 @@
   "edition": "Fruit Lens Custom",
   "applicationId": "com.fruitlens.custom",
   "sourceNamespace": "com.fruitlens.app",
-  "versionName": "1.1.0-custom",
-  "versionCode": 2,
+  "versionName": "1.2.0-custom",
+  "versionCode": 3,
   "detector": "yolov8n-fruit9-v2",
   "classifier": "mobilenetv3small-fruit9-v1",
   "inference_backend": "CPU",
@@ -11,9 +11,9 @@
   "GPU": false,
   "NPU": false,
   "apk": {
-    "path": "apk/Fruit-Lens-Custom-v1.1-arm64.apk",
-    "bytes": 20481689,
-    "sha256": "652c4b9c71ee42b1ab250eacfde784749c141ff0d26597411329f7a10e066eef",
+    "path": "apk/Fruit-Lens-Custom-v1.2-arm64.apk",
+    "bytes": 20481693,
+    "sha256": "5936f01455dc5bee21f7bf56fd1e3cde74fb6733699e93b8cc509a6d23986910",
     "signing": "local development key; verified, not Play Store signing"
   },
   "models": {
@@ -59,7 +59,7 @@
     }
   },
   "verification": {
-    "JVM_tests": 8,
+    "JVM_tests": 9,
     "Android_tests": 6,
     "Android_classifier_parity_cases": 18,
     "classic_snapshot_files": 71,

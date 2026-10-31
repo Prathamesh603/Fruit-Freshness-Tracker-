@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "JVM_tests": 8,
+  "JVM_tests": 9,
   "Android_tests": 6,
   "Android_classifier_parity_cases": 18,
   "classic_snapshot_files": 71,

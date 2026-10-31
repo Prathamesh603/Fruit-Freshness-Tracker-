@@ -9,6 +9,8 @@ import android.os.ParcelFileDescriptor
 import androidx.compose.ui.test.assertIsEnabled
 import androidx.compose.ui.test.junit4.createEmptyComposeRule
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.assertCountEquals
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.captureToImage
@@ -121,6 +123,8 @@ class InferenceSmokeTest {
             val results = model.state.value.results
             assertTrue("Should find both separate banana regions", results.size >= 2)
             assertEquals((1..results.size).toList(), results.map { it.id })
+            compose.onAllNodesWithText("Detection score").assertCountEquals(results.size)
+            compose.onAllNodesWithText("Prediction score").assertCountEquals(results.size)
             compose.onNodeWithText("#1").assertExists()
             compose.onNodeWithText("#2").assertExists()
             val description = results.joinToString("; ") { "Fruit #${it.id}, ${it.detection.fruit}, ${FreshnessDisplay.assessment(it)}" }

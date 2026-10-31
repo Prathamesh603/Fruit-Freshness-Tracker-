@@ -266,9 +266,23 @@ private fun ScanResults(state: ScannerState) {
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Text("$fruit - $assessment", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
                     Text(detail, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    if (!confident) Text("Model pick: ${result.label.fruit.replaceFirstChar { it.uppercase() }} - ${if (result.label.condition == "fresh") "Fresh" else "Not fresh"}",
+                        style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    ScoreRow("Detection score", FreshnessDisplay.scoreLabel(detected.detection.score))
+                    ScoreRow("Prediction score", FreshnessDisplay.scoreLabel(result.score))
+                    Text("Model scores, not a freshness percentage.", style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
         }
+    }
+}
+
+@Composable
+private fun ScoreRow(label: String, value: String) {
+    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+        Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(value, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
     }
 }
 
