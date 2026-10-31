@@ -1,0 +1,19 @@
+[
+  {
+    "filename": "Processed Data.zip",
+    "id": "7b216853-8f3b-47fd-b1ae-df88a367a1d1",
+    "content_details": {
+      "id": "8282674e-3803-4b08-9288-69f89bbf1c3c",
+      "sha256_hash": "6607a48bf2817f9dfc8d4a1c32ce663c1d8308b4b1251e9bf65f074fcac53f11",
+      "content_type": "application/zip",
+      "size": 347828971,
+      "created_date": "2026-07-28T19:01:39.257Z",
+      "download_url": "https://data.mendeley.com/public-files/datasets/42m5tb7yv9/files/7b216853-8f3b-47fd-b1ae-df88a367a1d1/file_downloaded",
+      "view_url": "https://data.mendeley.com/public-files/datasets/42m5tb7yv9/files/7b216853-8f3b-47fd-b1ae-df88a367a1d1/file_viewed",
+      "download_expiry_time": "2126-10-30T13:18:32.071185937Z"
+    },
+    "size": 347828971,
+    "last_modified_date": "2026-07-28T19:01:39.257Z",
+    "status": "COMPLETED"
+  }
+]

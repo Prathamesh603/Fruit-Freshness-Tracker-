@@ -1,0 +1,16 @@
+{
+  "freshness_float32.tflite": {
+    "samples": 90,
+    "maximum_probability_difference": 2.384185791015625e-07,
+    "argmax_agreement": 1.0,
+    "desktop_CPU_median_ms": 1.6799000004539266,
+    "timing_note": "Four-thread desktop CPU TFLite inference only, not Android latency"
+  },
+  "freshness_float16.tflite": {
+    "samples": 90,
+    "maximum_probability_difference": 0.0019459724426269531,
+    "argmax_agreement": 1.0,
+    "desktop_CPU_median_ms": 1.4409999994313694,
+    "timing_note": "Four-thread desktop CPU TFLite inference only, not Android latency"
+  }
+}

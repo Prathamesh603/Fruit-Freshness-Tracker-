@@ -1,0 +1,1 @@
+Measured archive counts, source class distribution, image hashes, augmentation families, duplicates, geometry issues and baseline overlap flags. STATUS.md explains the findings. These are staging inventories, not a claim of training readiness.

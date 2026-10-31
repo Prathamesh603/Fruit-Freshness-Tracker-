@@ -1,0 +1,17 @@
+{
+  "note": "Same original frozen test set, input416. New Bohni groups touching original holdouts were excluded by family/transform hash checks. Crop/physical-fruit independence is not guaranteed.",
+  "v1": {
+    "metrics/precision(B)": 0.6580508912547004,
+    "metrics/recall(B)": 0.5861563605529482,
+    "metrics/mAP50(B)": 0.5868262464637967,
+    "metrics/mAP50-95(B)": 0.47723581237776336,
+    "fitness": 0.48819485578636673
+  },
+  "v2": {
+    "metrics/precision(B)": 0.8435219847538786,
+    "metrics/recall(B)": 0.4887060418648414,
+    "metrics/mAP50(B)": 0.5235683855118997,
+    "metrics/mAP50-95(B)": 0.433881633570301,
+    "fitness": 0.44285030876446085
+  }
+}

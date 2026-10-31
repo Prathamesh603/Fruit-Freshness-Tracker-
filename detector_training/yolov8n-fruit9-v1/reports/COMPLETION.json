@@ -1,0 +1,8 @@
+{
+  "training_completed": true,
+  "heldout_evaluation_completed": true,
+  "torchscript_parity_passed": true,
+  "android_integrated": false,
+  "production_validated": false,
+  "free_D_bytes": 5082869760
+}

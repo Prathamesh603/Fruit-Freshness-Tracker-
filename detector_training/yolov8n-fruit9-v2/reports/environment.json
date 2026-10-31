@@ -1,0 +1,16 @@
+{
+  "python": "3.10.11",
+  "torch": "2.5.1+cu121",
+  "cuda_build": "12.1",
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "gpu_vram_bytes": 4294705152,
+  "packages": {
+    "ultralytics": "8.3.40",
+    "torchvision": "0.20.1+cu121",
+    "numpy": "2.2.6",
+    "Pillow": "12.3.0",
+    "opencv-python": "4.10.0.84"
+  },
+  "split_manifest_sha256": "d8672553ee2f0fb1e27e5e8065647917cfdf6cfbc1aa1dea548cdc5597115cac",
+  "D_free_bytes": 3809452032
+}

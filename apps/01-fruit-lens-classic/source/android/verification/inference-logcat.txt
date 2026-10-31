@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of kernel
+10-30 15:48:46.711  3641  3661 I FruitLensTest: detected=[(banana, 0.78828996)] milliseconds=45
+10-30 15:48:46.805  3641  3661 I FruitLensTest: suggestion=fresh_banana score=0.99987185 processingMs=29
+10-30 15:48:46.812  3641  3661 I FruitLensTest: suggestion=fresh_banana score=0.99987185 processingMs=6
+10-30 15:48:46.819  3641  3661 I FruitLensTest: suggestion=fresh_banana score=0.99987185 processingMs=6
+10-30 15:48:53.804  3641  3661 I FruitLensTest: cameraCaptureDecoded=696x928
+10-30 15:48:55.684  3641  3661 I FruitLensTest: pipelineProcessingMs=138

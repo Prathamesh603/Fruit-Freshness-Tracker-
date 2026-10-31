@@ -1,0 +1,12 @@
+{
+  "epoch": 60,
+  "elapsed_seconds": 2494.91,
+  "metrics": {
+    "metrics/precision(B)": 0.7344933622260857,
+    "metrics/recall(B)": 0.5675473770456005,
+    "metrics/mAP50(B)": 0.6485537309615533,
+    "metrics/mAP50-95(B)": 0.56050314313626
+  },
+  "best_fitness": 0.5692,
+  "D_free_bytes": 5108723712
+}

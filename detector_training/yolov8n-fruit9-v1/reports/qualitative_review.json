@@ -1,0 +1,7 @@
+{
+  "sample_sheet_inspected": true,
+  "mango_detection_failed_on_single_test_image": true,
+  "extra_wrong_class_boxes_observed": true,
+  "pomegranate_AP_not_reliable_due_to_one_test_box": true,
+  "ready_for_nine_fruit_deployment": false
+}

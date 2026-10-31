@@ -1,0 +1,55 @@
+{
+  "version": "v1",
+  "seed": 42,
+  "source_id": "mendeley_bdd69gyhv8_v1",
+  "audit_path": "ml/data/manifests/data_audit.json",
+  "audit_sha256": "ee4d6e50c921b388a3f23aa2a79b341af3d59fa8c4ef5f887b026038a40f4656",
+  "split_manifest": "ml/data/manifests/splits_v1.csv",
+  "split_manifest_sha256": "47cfa8f903e04a59b9a1a059ff4d5f2267bd2010104e7f115a2a48121e8e1cd7",
+  "total_images": 1197,
+  "excluded_conflict_groups": [
+    "g00463"
+  ],
+  "excluded_images": 3,
+  "counts": {
+    "train": {
+      "fresh_apple": 140,
+      "fresh_banana": 140,
+      "fresh_orange": 138,
+      "rotten_apple": 140,
+      "rotten_banana": 140,
+      "rotten_orange": 139
+    },
+    "val": {
+      "fresh_apple": 30,
+      "fresh_banana": 30,
+      "fresh_orange": 30,
+      "rotten_apple": 30,
+      "rotten_banana": 30,
+      "rotten_orange": 30
+    },
+    "test": {
+      "fresh_apple": 30,
+      "fresh_banana": 30,
+      "fresh_orange": 30,
+      "rotten_apple": 30,
+      "rotten_banana": 30,
+      "rotten_orange": 30
+    }
+  },
+  "group_counts": {
+    "train": 817,
+    "val": 176,
+    "test": 173
+  },
+  "ratios": {
+    "train": 0.6992,
+    "val": 0.1504,
+    "test": 0.1504
+  },
+  "validation": {
+    "no_group_overlap": true,
+    "no_exact_hash_overlap": true,
+    "all_labels_present": true
+  }
+}

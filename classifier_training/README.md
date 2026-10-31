@@ -1,0 +1,1 @@
+Separate freshness-classifier experiments. Each version preserves its own data split, logs, checkpoints, evaluation and deployment artifacts. Detector training lives in detector_training; the Classic app is preserved separately. Start with mobilenetv3small-fruit9-v1/MODEL_CARD.md.

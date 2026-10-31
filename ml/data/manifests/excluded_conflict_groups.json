@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "group_id": "g00463",
+      "labels": [
+        "fresh_orange",
+        "rotten_orange"
+      ],
+      "paths": [
+        "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (166).jpg",
+        "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (61).jpg",
+        "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (108).jpg"
+      ]
+    }
+  ],
+  "count": 1
+}

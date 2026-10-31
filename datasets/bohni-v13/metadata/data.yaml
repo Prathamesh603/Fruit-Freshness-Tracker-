@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 35
+names: ['Apple', 'Banana', 'Beetroot', 'Bitter_Gourd', 'Bottle_Gourd', 'Cabbage', 'Capsicum', 'Carrot', 'Cauliflower', 'Cherry', 'Chilli', 'Coconut', 'Cucumber', 'EggPlant', 'Ginger', 'Grape', 'Green_Orange', 'Kiwi', 'Maize', 'Mango', 'Melon', 'Okra', 'Onion', 'Orange', 'Peach', 'Pear', 'Peas', 'Pineapple', 'Pomegranate', 'Potato', 'Radish', 'Strawberry', 'Tomato', 'Turnip', 'Watermelon']
+
+roboflow:
+  workspace: bohni-tech
+  project: fruits-and-vegi
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bohni-tech/fruits-and-vegi/dataset/13

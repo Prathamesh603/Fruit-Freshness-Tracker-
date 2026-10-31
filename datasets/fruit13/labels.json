@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "fruit_names": [
+    "apple",
+    "banana",
+    "grape",
+    "guava",
+    "jujube",
+    "lemon",
+    "lulo",
+    "mango",
+    "orange",
+    "pomegranate",
+    "strawberry",
+    "tamarillo",
+    "tomato"
+  ],
+  "detection_classes": [
+    {
+      "id": 0,
+      "name": "apple"
+    },
+    {
+      "id": 1,
+      "name": "banana"
+    },
+    {
+      "id": 2,
+      "name": "grape"
+    },
+    {
+      "id": 3,
+      "name": "guava"
+    },
+    {
+      "id": 4,
+      "name": "jujube"
+    },
+    {
+      "id": 5,
+      "name": "lemon"
+    },
+    {
+      "id": 6,
+      "name": "lulo"
+    },
+    {
+      "id": 7,
+      "name": "mango"
+    },
+    {
+      "id": 8,
+      "name": "orange"
+    },
+    {
+      "id": 9,
+      "name": "pomegranate"
+    },
+    {
+      "id": 10,
+      "name": "strawberry"
+    },
+    {
+      "id": 11,
+      "name": "tamarillo"
+    },
+    {
+      "id": 12,
+      "name": "tomato"
+    }
+  ],
+  "classification_classes": [
+    {
+      "id": 0,
+      "name": "fresh_apple",
+      "fruit": "apple",
+      "condition": "fresh"
+    },
+    {
+      "id": 1,
+      "name": "fresh_banana",
+      "fruit": "banana",
+      "condition": "fresh"
+    },
+    {
+      "id": 2,
+      "name": "fresh_grape",
+      "fruit": "grape",
+      "condition": "fresh"
+    },
+    {
+      "id": 3,
+      "name": "fresh_guava",
+      "fruit": "guava",
+      "condition": "fresh"
+    },
+    {
+      "id": 4,
+      "name": "fresh_jujube",
+      "fruit": "jujube",
+      "condition": "fresh"
+    },
+    {
+      "id": 5,
+      "name": "fresh_lemon",
+      "fruit": "lemon",
+      "condition": "fresh"
+    },
+    {
+      "id": 6,
+      "name": "fresh_lulo",
+      "fruit": "lulo",
+      "condition": "fresh"
+    },
+    {
+      "id": 7,
+      "name": "fresh_mango",
+      "fruit": "mango",
+      "condition": "fresh"
+    },
+    {
+      "id": 8,
+      "name": "fresh_orange",
+      "fruit": "orange",
+      "condition": "fresh"
+    },
+    {
+      "id": 9,
+      "name": "fresh_pomegranate",
+      "fruit": "pomegranate",
+      "condition": "fresh"
+    },
+    {
+      "id": 10,
+      "name": "fresh_strawberry",
+      "fruit": "strawberry",
+      "condition": "fresh"
+    },
+    {
+      "id": 11,
+      "name": "fresh_tamarillo",
+      "fruit": "tamarillo",
+      "condition": "fresh"
+    },
+    {
+      "id": 12,
+      "name": "fresh_tomato",
+      "fruit": "tomato",
+      "condition": "fresh"
+    },
+    {
+      "id": 13,
+      "name": "spoiled_apple",
+      "fruit": "apple",
+      "condition": "spoiled"
+    },
+    {
+      "id": 14,
+      "name": "spoiled_banana",
+      "fruit": "banana",
+      "condition": "spoiled"
+    },
+    {
+      "id": 15,
+      "name": "spoiled_grape",
+      "fruit": "grape",
+      "condition": "spoiled"
+    },
+    {
+      "id": 16,
+      "name": "spoiled_guava",
+      "fruit": "guava",
+      "condition": "spoiled"
+    },
+    {
+      "id": 17,
+      "name": "spoiled_jujube",
+      "fruit": "jujube",
+      "condition": "spoiled"
+    },
+    {
+      "id": 18,
+      "name": "spoiled_lemon",
+      "fruit": "lemon",
+      "condition": "spoiled"
+    },
+    {
+      "id": 19,
+      "name": "spoiled_lulo",
+      "fruit": "lulo",
+      "condition": "spoiled"
+    },
+    {
+      "id": 20,
+      "name": "spoiled_mango",
+      "fruit": "mango",
+      "condition": "spoiled"
+    },
+    {
+      "id": 21,
+      "name": "spoiled_orange",
+      "fruit": "orange",
+      "condition": "spoiled"
+    },
+    {
+      "id": 22,
+      "name": "spoiled_pomegranate",
+      "fruit": "pomegranate",
+      "condition": "spoiled"
+    },
+    {
+      "id": 23,
+      "name": "spoiled_strawberry",
+      "fruit": "strawberry",
+      "condition": "spoiled"
+    },
+    {
+      "id": 24,
+      "name": "spoiled_tamarillo",
+      "fruit": "tamarillo",
+      "condition": "spoiled"
+    },
+    {
+      "id": 25,
+      "name": "spoiled_tomato",
+      "fruit": "tomato",
+      "condition": "spoiled"
+    }
+  ],
+  "state": "planned taxonomy; not a deployed model",
+  "condition_labels_need_review": true
+}

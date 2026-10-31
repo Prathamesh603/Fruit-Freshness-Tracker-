@@ -1,0 +1,131 @@
+{
+  "checkpoint_sha256": "440c4ef36dc825878d1bd84a58eb91885726b9714774ddcc42081b11341d9419",
+  "split": "test",
+  "images": 584,
+  "boxes": 1486,
+  "metrics": {
+    "metrics/precision(B)": 0.8344303494244768,
+    "metrics/recall(B)": 0.715577324252868,
+    "metrics/mAP50(B)": 0.7901417277557587,
+    "metrics/mAP50-95(B)": 0.6203506410722665,
+    "fitness": 0.6373297497406157
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "fruit": "apple",
+      "test_images": 238,
+      "test_boxes": 333,
+      "precision": 0.9812526571033304,
+      "recall": 0.9430795483754272,
+      "f1": 0.961787481463436,
+      "AP50": 0.9908330063743022,
+      "AP50_95": 0.9518513762426675
+    },
+    {
+      "class_id": 1,
+      "fruit": "banana",
+      "test_images": 282,
+      "test_boxes": 504,
+      "precision": 0.9881481376434649,
+      "recall": 0.9925593675032286,
+      "f1": 0.9903488404525956,
+      "AP50": 0.9946385939987155,
+      "AP50_95": 0.8922684146590315
+    },
+    {
+      "class_id": 2,
+      "fruit": "grape",
+      "test_images": 23,
+      "test_boxes": 59,
+      "precision": 0.9726929752330439,
+      "recall": 0.6038481866171921,
+      "f1": 0.7451234429431931,
+      "AP50": 0.8226522302093834,
+      "AP50_95": 0.4954159632292835
+    },
+    {
+      "class_id": 3,
+      "fruit": "lemon",
+      "test_images": 8,
+      "test_boxes": 29,
+      "precision": 0.45312017057446624,
+      "recall": 0.20689655172413793,
+      "f1": 0.28408068353788285,
+      "AP50": 0.2698771925782077,
+      "AP50_95": 0.18421824876305531
+    },
+    {
+      "class_id": 4,
+      "fruit": "mango",
+      "test_images": 9,
+      "test_boxes": 26,
+      "precision": 0.8199993851962936,
+      "recall": 0.7692307692307693,
+      "f1": 0.7938041649740817,
+      "AP50": 0.8098532275604035,
+      "AP50_95": 0.5360679542134383
+    },
+    {
+      "class_id": 5,
+      "fruit": "orange",
+      "test_images": 253,
+      "test_boxes": 387,
+      "precision": 0.9891127933674904,
+      "recall": 0.9390293417569703,
+      "f1": 0.9634206092584753,
+      "AP50": 0.9897982446334546,
+      "AP50_95": 0.9503211119270027
+    },
+    {
+      "class_id": 6,
+      "fruit": "pomegranate",
+      "test_images": 13,
+      "test_boxes": 34,
+      "precision": 0.9616397945090875,
+      "recall": 0.7373863454523373,
+      "f1": 0.8347135303412015,
+      "AP50": 0.8889462558384761,
+      "AP50_95": 0.5990631422364461
+    },
+    {
+      "class_id": 7,
+      "fruit": "strawberry",
+      "test_images": 17,
+      "test_boxes": 80,
+      "precision": 0.7564193578379751,
+      "recall": 0.6599305134981028,
+      "f1": 0.7048882840890539,
+      "AP50": 0.7067803185609011,
+      "AP50_95": 0.4890260029822689
+    },
+    {
+      "class_id": 8,
+      "fruit": "tomato",
+      "test_images": 15,
+      "test_boxes": 34,
+      "precision": 0.587487873355139,
+      "recall": 0.5882352941176471,
+      "f1": 0.5878613461643984,
+      "AP50": 0.6378964800479857,
+      "AP50_95": 0.48492355539720444
+    }
+  ],
+  "framework_timing_ms_per_image": {
+    "preprocess": 0.30562934810168124,
+    "inference": 2.959502886419427,
+    "loss": 0.0034264505726017366,
+    "postprocess": 1.4454604011692413
+  },
+  "confidence_for_AP": 0.001,
+  "NMS_iou": 0.7,
+  "max_detections": 300,
+  "note": "Precision/recall use framework max-F1 operating point; this is not a separately calibrated app threshold.",
+  "limitations": [
+    "Same-source grouped test, not independent phone evaluation",
+    "Lemon and original-source rare-class support remains limited; see per-class counts",
+    "Original session and physical-fruit IDs unavailable",
+    "Prepared-food and cut-fruit scenes occur in source data",
+    "No Android latency measured; framework timing is desktop CUDA timing"
+  ]
+}

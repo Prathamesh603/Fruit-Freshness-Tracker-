@@ -1,0 +1,46 @@
+{
+  "10_jpg": [
+    "train",
+    "valid"
+  ],
+  "14_jpg": [
+    "train",
+    "valid"
+  ],
+  "22_jpg": [
+    "train",
+    "valid"
+  ],
+  "24_jpg": [
+    "train",
+    "valid"
+  ],
+  "28_jpg": [
+    "train",
+    "valid"
+  ],
+  "29_jpg": [
+    "train",
+    "valid"
+  ],
+  "30_jpg": [
+    "train",
+    "valid"
+  ],
+  "33_jpg": [
+    "train",
+    "valid"
+  ],
+  "49_jpg": [
+    "train",
+    "valid"
+  ],
+  "7_jpg": [
+    "train",
+    "valid"
+  ],
+  "8_jpg": [
+    "train",
+    "valid"
+  ]
+}

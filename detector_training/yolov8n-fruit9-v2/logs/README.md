@@ -1,0 +1,1 @@
+YOLOv8n nine-fruit detector, experiment v2. Live training and pipeline logs.

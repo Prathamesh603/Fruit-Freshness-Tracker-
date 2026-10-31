@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "verified_prepared_images": 3221,
+  "all_nine_classes_evaluated": true,
+  "manifest_unchanged_since_training": true,
+  "sha256_and_transform_group_split_disjoint": true,
+  "artifact_hashes_passed": true,
+  "TorchScript_parity_passed": true,
+  "existing_classifier_hashes_unchanged": true,
+  "production_accuracy_validated": false
+}

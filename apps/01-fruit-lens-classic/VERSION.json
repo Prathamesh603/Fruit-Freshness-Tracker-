@@ -1,0 +1,155 @@
+{
+  "edition": "Fruit Lens Classic — Pretrained CPU",
+  "launcherName": "Fruit Lens Classic",
+  "applicationId": "com.fruitlens.classic",
+  "sourceNamespace": "com.fruitlens.app",
+  "versionName": "1.0.0-classic",
+  "versionCode": 1,
+  "preservedAt": "2026-10-30T17:55:53.818514+05:30",
+  "status": "preserved local demonstration/test baseline",
+  "futureCustomEdition": {
+    "folder": "apps/02-fruit-lens-custom",
+    "launcherName": "Fruit Lens Custom",
+    "applicationId": "com.fruitlens.custom",
+    "integrationStatus": "not integrated in this preservation task"
+  },
+  "originalApk": {
+    "file": "apk/original/FruitLens-Original-arm64.apk",
+    "applicationId": "com.fruitlens.app",
+    "sha256": "dd9d75a84acf8ff8edf3dc500388bd8f6a49776d337ae8e0c92e229578ba52c9",
+    "bytes": 17777943
+  },
+  "classicApk": {
+    "file": "apk/Fruit-Lens-Classic-CPU-v1-arm64.apk",
+    "sha256": "4822134589a7469b38cf73e8a227925ab2400ef39c4228f4e1ec3fb908019929",
+    "bytes": 17777959,
+    "MiB": 16.95,
+    "signing": "development key; signature verified"
+  },
+  "inference": {
+    "execution": "CPU only",
+    "detector": {
+      "architecture": "NanoDet-Plus-m",
+      "input": [
+        416,
+        416
+      ],
+      "runtime": "NCNN 20261020",
+      "threads": 2,
+      "vulkanCompute": false,
+      "fp16StorageRequested": true,
+      "scoreThreshold": 0.4,
+      "nmsIoU": 0.5,
+      "maxRegions": 5
+    },
+    "classifier": {
+      "architecture": "MobileNetV2-based Smart Fruit reference",
+      "input": [
+        1,
+        96,
+        96,
+        3
+      ],
+      "output": [
+        1,
+        9
+      ],
+      "ioType": "FLOAT32",
+      "normalization": "RGB raw pixel / 255",
+      "resize": "nearest stretch",
+      "runtime": "LiteRT 1.4.2 CPU Interpreter",
+      "xnnpackRequested": true,
+      "threads": 2,
+      "thresholdValidated": false
+    },
+    "gpuOrNpuDelegate": false,
+    "cloudInference": false
+  },
+  "models": {
+    "model/freshness.tflite": {
+      "sha256": "e09307ca0aacdfc83666ca8ff25c02659d6323a1372409b390561619778b10a4",
+      "bytes": 2673592
+    },
+    "model/model.json": {
+      "sha256": "175ad62cd114618e5436df8ff59195be337237fd5045da52586420e02e21d8f0",
+      "bytes": 2387
+    },
+    "model/labels.json": {
+      "sha256": "026cd7f23fa3f0c6d3733f7eb9ee6447b2ef89b7ca84320c24a83997bc876a5b",
+      "bytes": 1260
+    },
+    "detector/nanodet.param": {
+      "sha256": "d79e18ecd8595081bb29fdf0c790a47fcea96fbf58598350569a92e71e915b72",
+      "bytes": 23123
+    },
+    "detector/nanodet.bin": {
+      "sha256": "f7555ca6cb9650ee41e2f0a53fdf46b6e187a2a09792208d8c3eec033b6ac615",
+      "bytes": 2397184
+    },
+    "detector/provenance.json": {
+      "sha256": "e3f3da7ab99e5518b52d03170b48fe470a9790d49b6496a8e6d0cb547d91bd89",
+      "bytes": 870
+    }
+  },
+  "preservationChecks": {
+    "allPackagedModelAssetsByteIdenticalToOriginalApk": true,
+    "runtimeSourceUnchangedExceptBrandingAndBuildLocationSupport": true,
+    "classicJVMTestsPassed": 5,
+    "classicBuildSucceeded": true,
+    "coinstallationAndWarmup": {
+      "originalAppRetained": true,
+      "classicAppInstalled": true,
+      "originalId": "com.fruitlens.app",
+      "classicId": "com.fruitlens.classic",
+      "classicBrandRendered": true,
+      "modelWarmupAndReadyState": true,
+      "testedAbi": "x86_64",
+      "testedAndroidApi": 30
+    }
+  },
+  "userPhoneObservations": {
+    "processingMs": [
+      68,
+      40,
+      65,
+      101,
+      74,
+      50
+    ],
+    "minMs": 40,
+    "maxMs": 101,
+    "meanMs": 66.33333333333333,
+    "medianMs": 66.5,
+    "reportedRegionCounts": [
+      1,
+      1,
+      2,
+      5,
+      2,
+      1
+    ],
+    "collectedOn": "original APK before Classic rebranding",
+    "deviceModel": "not visible in provided screenshots",
+    "accuracyMeasured": false,
+    "formalBenchmark": false,
+    "timingExcludes": [
+      "camera capture",
+      "bitmap decode/orientation",
+      "final UI rendering"
+    ]
+  },
+  "limitations": {
+    "classifierAccuracy": "not independently evaluated",
+    "referenceClassifierRedistribution": "unresolved",
+    "fruitCounting": "region count can include groups/overlaps",
+    "freshnessScore": "uncalibrated model score, not freshness percentage",
+    "gpuUsageNote": "Android may use GPU normally to render UI; model inference uses CPU"
+  },
+  "portableSnapshotExcludes": [
+    "SDK/NDK/Gradle caches",
+    ".gradle",
+    ".cxx",
+    "build",
+    "local.properties"
+  ]
+}

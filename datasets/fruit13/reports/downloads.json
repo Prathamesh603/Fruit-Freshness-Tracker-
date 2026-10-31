@@ -1,0 +1,37 @@
+{
+  "openimages_classes": {
+    "url": "https://storage.googleapis.com/openimages/v5/class-descriptions-boxable.csv",
+    "path": "sources/openimages/class-descriptions-boxable.csv",
+    "bytes": 12011,
+    "sha256": "2fa47fb1b87e71c90b9fbee2dc1184eb8c59601bb811ea4424b200653cedff8e",
+    "status": "downloaded"
+  },
+  "openimages_validation_info": {
+    "url": "https://storage.googleapis.com/openimages/2018_04/validation/validation-images-with-rotation.csv",
+    "path": "sources/openimages/validation-images-with-rotation.csv",
+    "bytes": 15245485,
+    "sha256": "ed93a0e121fe345effdfc7359b848dbc64a1ff6778c8c73563157cb500b33a17",
+    "status": "downloaded"
+  },
+  "openimages_validation_boxes": {
+    "url": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "path": "sources/openimages/validation-annotations-bbox.csv",
+    "bytes": 25105048,
+    "sha256": "d8bbd59410af14835d7733165a7bb8a3f0213981b22dd5077b0b9f7878991ff2",
+    "status": "downloaded"
+  },
+  "detection_boxes": {
+    "url": "https://codeload.github.com/zijianchen98/Fruit-freshness-detection-dataset/zip/0cdcf30cb86a6a051b666d9138b5436264972040",
+    "path": "raw/fruit_freshness_boxes/publisher.zip",
+    "bytes": 174095109,
+    "sha256": "2406e052f6ff71ea1398bff96dd222fbb411ed5005d4a1fb4bbd6913ae3a36cc",
+    "status": "downloaded"
+  },
+  "fruit16k": {
+    "url": "https://data.mendeley.com/public-api/zip/6ps7gtp2wg/download/1",
+    "path": "raw/fruit16k/publisher.zip",
+    "bytes": 99928214,
+    "sha256": "9ff1c7efeb7c130f6d476adbee5c007a12df4d69960eb2356f0b34fedb75c59c",
+    "status": "downloaded"
+  }
+}

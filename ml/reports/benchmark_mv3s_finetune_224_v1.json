@@ -1,0 +1,44 @@
+{
+  "model": "ml/checkpoints/mv3s_finetune_224_v1/export/freshness.tflite",
+  "model_sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e",
+  "model_bytes": 3763884,
+  "runtime": {
+    "backend": "ai-edge-litert",
+    "threads": 2,
+    "input_shape": [
+      1,
+      224,
+      224,
+      3
+    ],
+    "input_dtype": "float32",
+    "output_shape": [
+      1,
+      6
+    ]
+  },
+  "load_seconds": 0.0076628000006166985,
+  "inference_only": {
+    "count": 300,
+    "mean_ms": 1.49178033334465,
+    "min_ms": 0.896699999429984,
+    "p50_ms": 1.2867500008724164,
+    "p90_ms": 2.2861000001284997,
+    "p95_ms": 2.8242700002920174,
+    "max_ms": 6.820700000389479
+  },
+  "desktop_preprocess_plus_inference": {
+    "count": 300,
+    "mean_ms": 43.86664933334639,
+    "min_ms": 6.425599998692633,
+    "p50_ms": 36.59029999926133,
+    "p90_ms": 84.22537999995258,
+    "p95_ms": 108.03136999911659,
+    "max_ms": 173.45079999904556
+  },
+  "notes": [
+    "Measured on the development Windows CPU with two LiteRT threads; this is not an Android device benchmark.",
+    "desktop_preprocess_plus_inference includes PIL decode, EXIF transpose, RGB conversion, resize, float normalization, tensor copy, and invoke.",
+    "Do not substitute these timings for on-device measurements."
+  ]
+}

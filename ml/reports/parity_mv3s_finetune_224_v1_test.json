@@ -1,0 +1,1290 @@
+{
+  "split": "test",
+  "count": 180,
+  "keras": "ml/checkpoints/mv3s_finetune_224_v1/best.keras",
+  "keras_sha256": "d7b86370692bceb18fbf4c829314a058b331241c368817a94f29414c26639b67",
+  "tflite": "ml/checkpoints/mv3s_finetune_224_v1/export/freshness.tflite",
+  "tflite_sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e",
+  "tflite_model_details": {
+    "input_shape": [
+      1,
+      224,
+      224,
+      3
+    ],
+    "input_dtype": "float32",
+    "output_shape": [
+      1,
+      6
+    ],
+    "output_dtype": "float32"
+  },
+  "max_absolute_probability_difference": 7.450580596923828e-06,
+  "mean_absolute_probability_difference": 8.590419753318201e-08,
+  "top1_agreement": 1.0,
+  "top1_disagreements": 0,
+  "keras_accuracy": 0.9777777777777777,
+  "tflite_accuracy": 0.9777777777777777,
+  "per_example_max_difference": [
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (100).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (112).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (114).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 3.14321368932724e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (12).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 2.975866664201021e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (128).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 4.1109160520136356e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (134).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (138).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 7.748603820800781e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (141).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 3.650784492492676e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (144).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 4.0978193283081055e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (156).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 2.3515895009040833e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (162).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (163).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 4.8603396862745285e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (168).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 1.3751559890806675e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (175).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 3.5390257835388184e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (181).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (186).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 3.2014213502407074e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (189).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (19).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 7.494236342608929e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (190).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 1.5133991837501526e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (3).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 4.511093720793724e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (34).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 2.7939677238464355e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (37).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 6.2282197177410126e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (45).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 3.259629011154175e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (46).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 2.1420419216156006e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (57).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 2.2649765014648438e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (6).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 2.6226043701171875e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (66).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 2.980232238769531e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (67).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 1.1324882507324219e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (75).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 1.7834827303886414e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (85).jpg",
+      "label": "fresh_apple",
+      "keras_prediction": "fresh_apple",
+      "tflite_prediction": "fresh_apple",
+      "max_probability_difference": 3.5390257835388184e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (1).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 8.847564458847046e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (108).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 4.33996319770813e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (11).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 3.608874976634979e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (117).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 7.003545761108398e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (125).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 2.5756889954209328e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (126).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 4.76837158203125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (133).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 3.3760443329811096e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (135).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 1.5279510989785194e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (148).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 2.980232238769531e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (162).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 5.704350769519806e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (163).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 2.852175384759903e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (164).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 2.444721758365631e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (17).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 3.8853613659739494e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (177).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 4.598405212163925e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (181).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 2.393790055066347e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (19).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 1.862645149230957e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (190).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 4.98257577419281e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (21).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 4.249159246683121e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (22).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 3.14321368932724e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (26).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 1.2514647096395493e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (28).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 2.7066562324762344e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (35).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 1.4044344425201416e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (43).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 1.885928213596344e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (6).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 9.022187441587448e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (62).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 1.2005330063402653e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (71).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 2.561137080192566e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (74).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 3.6670826375484467e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (79).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (91).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 4.118192009627819e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (95).jpg",
+      "label": "fresh_banana",
+      "keras_prediction": "fresh_banana",
+      "tflite_prediction": "fresh_banana",
+      "max_probability_difference": 3.3032847568392754e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (103).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 9.371433407068253e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (105).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 5.547917680814862e-11
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (108).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 1.2096279533579946e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (119).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 4.638422979041934e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (133).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 2.0838342607021332e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (135).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 9.5367431640625e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (138).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (141).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (147).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 6.05359673500061e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (155).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 7.09405867382884e-11
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (159).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 1.6298145055770874e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (161).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (162).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 9.371433407068253e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (164).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 1.7782440409064293e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (165).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 4.598405212163925e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (177).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 8.149072527885437e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (18).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 7.392372936010361e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (24).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 2.7567148208618164e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (35).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 6.271875463426113e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (51).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 1.3131648302078247e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (52).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 6.183981895446777e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (54).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 7.450580596923828e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (57).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 2.115964889526367e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (6).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 3.3760443329811096e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (72).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 1.5425030142068863e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (8).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 7.683411240577698e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (82).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 1.6996636986732483e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (90).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 2.648448571562767e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (94).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 2.0838342607021332e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (96).jpg",
+      "label": "fresh_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 5.471520125865936e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (104).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.8440186977386475e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (116).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (117).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 3.3178366720676422e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (121).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.331500243395567e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (125).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.178705133497715e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (132).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 6.693881005048752e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (139).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 5.675246939063072e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (152).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.2005330063402653e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (153).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.0244548320770264e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (159).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 2.750311978161335e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (163).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.5861587598919868e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (167).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 2.384185791015625e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (168).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 2.384185791015625e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (174).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 2.7241185307502747e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (180).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.2246891856193542e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (190).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (193).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 8.672941476106644e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (195).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (22).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.7695128917694092e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (37).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (43).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.5832483768463135e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (63).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 2.7124769985675812e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (65).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 2.384185791015625e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (72).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.1473894119262695e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (80).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 2.9206275939941406e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (87).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 9.238719940185547e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (88).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (89).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 1.0728836059570312e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (94).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 3.958120942115784e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (95).jpg",
+      "label": "rotten_apple",
+      "keras_prediction": "rotten_apple",
+      "tflite_prediction": "rotten_apple",
+      "max_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (100).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 1.30385160446167e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (110).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (111).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 2.384185791015625e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (12).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 8.139977580867708e-11
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (123).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 5.966285243630409e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (125).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 1.735315890982747e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (126).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 4.103640094399452e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (136).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 4.1109160520136356e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (140).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 2.7939677238464355e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (155).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 1.8277205526828766e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (159).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 2.3283064365386963e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (164).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (171).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 1.4733814168721437e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (193).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 3.1723175197839737e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (2).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 1.4115357771515846e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (200).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 2.444721758365631e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (27).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 4.5838532969355583e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (29).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 4.547473508864641e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (42).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 1.3504177331924438e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (43).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 3.818422555923462e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (47).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 1.9372237147763371e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (59).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 3.128661774098873e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (61).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 5.820766091346741e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (63).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 5.3660187404602766e-11
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (64).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 4.729372449219227e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (76).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 4.874891601502895e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (81).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 7.057678885757923e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (84).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 3.41970007866621e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (90).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (96).jpg",
+      "label": "rotten_banana",
+      "keras_prediction": "rotten_banana",
+      "tflite_prediction": "rotten_banana",
+      "max_probability_difference": 2.066371962428093e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (1).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.2032687664031982e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (12).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.9572325982153416e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (125).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 2.6921043172478676e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (126).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 3.14321368932724e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (130).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 7.450580596923828e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (131).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (155).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 3.3760443329811096e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (158).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 2.9848888516426086e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (163).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 2.5331974029541016e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (167).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 8.585629984736443e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (17).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 2.2919266484677792e-10
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (175).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (177).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.327134668827057e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (184).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 3.5762786865234375e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (194).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 8.032657206058502e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (199).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (2).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 3.2186508178710938e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (25).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 4.33996319770813e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (50).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 2.60770320892334e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (62).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (65).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (67).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.1920928955078125e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (77).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 3.4051481634378433e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (79).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 2.9685907065868378e-09
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (8).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.0244548320770264e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (83).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "fresh_orange",
+      "tflite_prediction": "fresh_orange",
+      "max_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (86).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.257285475730896e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (88).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 3.606081008911133e-06
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (93).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 3.0081719160079956e-07
+    },
+    {
+      "relative_path": "ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (96).jpg",
+      "label": "rotten_orange",
+      "keras_prediction": "rotten_orange",
+      "tflite_prediction": "rotten_orange",
+      "max_probability_difference": 1.1816155165433884e-08
+    }
+  ]
+}

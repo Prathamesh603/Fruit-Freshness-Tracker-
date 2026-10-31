@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "elapsed_seconds": 405.57029485702515,
+  "fine_epochs": 12,
+  "head_baseline_val_loss": 0.02818145975470543,
+  "selected_val_loss": 0.005855325143784285,
+  "parameters": 949506,
+  "train_backend": "TensorFlow CPU",
+  "GPU_used": false
+}

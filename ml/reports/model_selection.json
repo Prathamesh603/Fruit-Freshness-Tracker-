@@ -1,0 +1,33 @@
+{
+  "selection_rule": [
+    "Maximize validation macro F1.",
+    "Break ties with lower validation loss on the validation split.",
+    "If still tied, prefer the frozen-backbone run because it has fewer trainable parameters."
+  ],
+  "selection_split": "val",
+  "test_split_used_for_selection": false,
+  "candidates": [
+    {
+      "run_id": "mv3s_frozen_224_v1",
+      "val_macro_f1": 1.0,
+      "val_loss": 0.08083995431661606,
+      "val_accuracy": 1.0,
+      "best_epoch": 8,
+      "selected": false,
+      "reason": "Tied on validation macro F1; higher validation loss than the fine-tuned run."
+    },
+    {
+      "run_id": "mv3s_finetune_224_v1",
+      "val_macro_f1": 1.0,
+      "val_loss": 0.02550596185028553,
+      "val_accuracy": 1.0,
+      "best_epoch": 1,
+      "selected": true,
+      "reason": "Tied on validation macro F1 and had the lower validation loss."
+    }
+  ],
+  "selected_run_id": "mv3s_finetune_224_v1",
+  "selected_checkpoint": "ml/checkpoints/mv3s_finetune_224_v1/best.keras",
+  "selected_checkpoint_sha256": "d7b86370692bceb18fbf4c829314a058b331241c368817a94f29414c26639b67",
+  "note": "Both candidates saturated the 180-image validation split. The selection therefore used validation loss as the predefined tie-breaker; the test split was not used for selection."
+}

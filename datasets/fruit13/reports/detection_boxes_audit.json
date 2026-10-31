@@ -1,0 +1,22 @@
+{
+  "images": 3202,
+  "boxes": 7087,
+  "fruit_counts": {
+    "apple": 1987,
+    "orange": 2059,
+    "banana": 3041
+  },
+  "source_label_counts": {
+    "fresh_apple": 705,
+    "rotten_orange": 327,
+    "normal_orange": 995,
+    "rotten_banana": 781,
+    "fresh_banana": 904,
+    "rotten_apple": 179,
+    "fresh_orange": 737,
+    "normal_apple": 1103,
+    "normal_banana": 1356
+  },
+  "issues": [],
+  "training_ready": false
+}

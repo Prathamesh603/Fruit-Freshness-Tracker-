@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "modelId": "smart-fruit-mobilenetv2-reference-200d8dff",
+  "modelFile": "freshness.tflite",
+  "sha256": "e09307ca0aacdfc83666ca8ff25c02659d6323a1372409b390561619778b10a4",
+  "input": {
+    "width": 96,
+    "height": 96,
+    "channels": 3,
+    "layout": "NHWC",
+    "colorSpace": "RGB",
+    "resizeMode": "stretch",
+    "mean": [
+      0,
+      0,
+      0
+    ],
+    "std": [
+      255,
+      255,
+      255
+    ],
+    "interpolation": "nearest"
+  },
+  "output": {
+    "scoreType": "probabilities"
+  },
+  "labels": [
+    {
+      "id": "fresh_apple",
+      "fruit": "apple",
+      "condition": "fresh",
+      "displayName": "Apple · No visible spoilage"
+    },
+    {
+      "id": "fresh_banana",
+      "fruit": "banana",
+      "condition": "fresh",
+      "displayName": "Banana · No visible spoilage"
+    },
+    {
+      "id": "fresh_orange",
+      "fruit": "orange",
+      "condition": "fresh",
+      "displayName": "Orange · No visible spoilage"
+    },
+    {
+      "id": "rotten_apple",
+      "fruit": "apple",
+      "condition": "rotten",
+      "displayName": "Apple · Visible spoilage"
+    },
+    {
+      "id": "rotten_banana",
+      "fruit": "banana",
+      "condition": "rotten",
+      "displayName": "Banana · Visible spoilage"
+    },
+    {
+      "id": "rotten_orange",
+      "fruit": "orange",
+      "condition": "rotten",
+      "displayName": "Orange · Visible spoilage"
+    },
+    {
+      "id": "unripe_apple",
+      "fruit": "apple",
+      "condition": "unripe",
+      "displayName": "Apple · Unripe appearance"
+    },
+    {
+      "id": "unripe_banana",
+      "fruit": "banana",
+      "condition": "unripe",
+      "displayName": "Banana · Unripe appearance"
+    },
+    {
+      "id": "unripe_orange",
+      "fruit": "orange",
+      "condition": "unripe",
+      "displayName": "Orange · Unripe appearance"
+    }
+  ],
+  "decision": {
+    "minScore": 0.8,
+    "thresholdValidated": false
+  },
+  "redistribution": {
+    "status": "unresolved",
+    "notes": "Public repository has no visible license. Local evaluation candidate only."
+  },
+  "source": "https://raw.githubusercontent.com/JosephMoustaid/smart-fruit-models-notebooks/200d8dffb48679567777a6ab5adc1d87eeea1c88/ripeness_model.tflite",
+  "sourceCommit": "200d8dffb48679567777a6ab5adc1d87eeea1c88"
+}

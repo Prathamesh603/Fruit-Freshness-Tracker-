@@ -1,0 +1,17 @@
+{
+  "run_id": "mv3s_finetune_224_v1",
+  "split_manifest": "ml/data/manifests/splits_v1.csv",
+  "backbone": "MobileNetV3Small",
+  "weights": "imagenet",
+  "input_size": 224,
+  "train_size": 256,
+  "batch_size": 24,
+  "epochs": 8,
+  "patience": 3,
+  "learning_rate": 0.0001,
+  "dropout": 0.2,
+  "seed": 42,
+  "initialize_from": "ml/checkpoints/mv3s_frozen_224_v1/best.keras",
+  "fine_tune_layers": 40,
+  "freeze_batch_norm": true
+}

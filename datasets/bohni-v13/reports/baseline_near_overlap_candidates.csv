@@ -1,0 +1,5 @@
+source_member,source_family,baseline_image_id,baseline_split,hamming_distance
+train/images/0UDWUD0Q3YX1_jpg.rf.51786d2e5c90784786f39fa1d1c1c714.jpg,0UDWUD0Q3YX1_jpg,boxes_341,val,6
+train/images/0UDWUD0Q3YX1_jpg.rf.51786d2e5c90784786f39fa1d1c1c714.jpg,0UDWUD0Q3YX1_jpg,boxes_412,val,6
+train/images/Partially2ripe232_jpg.rf.764e8b8907a149f56a21156847bfcaa2.jpg,Partially2ripe232_jpg,boxes_569,train,6
+train/images/Partially2ripe232_jpg.rf.85df2df9508f2f5d4ba6c06490a73d57.jpg,Partially2ripe232_jpg,boxes_569,train,6

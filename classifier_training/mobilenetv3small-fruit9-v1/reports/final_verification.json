@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_hashes_verified": 13354,
+  "manifest_unchanged": true,
+  "hash_and_group_split_disjoint": true,
+  "all18_classes_present_each_split": true,
+  "export_parity_passed": true,
+  "detector_and_existing_classifiers_unchanged": true,
+  "classic_snapshot_files_verified": 71,
+  "derived_training_cache_bytes_reclaimed": 1051738240
+}

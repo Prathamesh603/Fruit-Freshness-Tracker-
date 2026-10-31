@@ -1,0 +1,223 @@
+Overriding model.yaml nc=80 with nc=35
+WARNING ⚠️ validating an untrained model YAML will result in 0 mAP.
+Ultralytics 8.3.40 🚀 Python-3.10.11 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce GTX 1650, 4096MiB)
+YOLO11m summary (fused): 303 layers, 20,057,017 parameters, 39,465 gradients, 67.8 GFLOPs
+
+val: Scanning D:\Projects\Fruit freshness detection\detector_training\yolov8n-fruit9-v1\data\labels\test.cache... 483 images, 0 backgrounds, 0 corrupt: 100%|##########| 483/483 [00:00<?, ?it/s]
+val: Scanning D:\Projects\Fruit freshness detection\detector_training\yolov8n-fruit9-v1\data\labels\test.cache... 483 images, 0 backgrounds, 0 corrupt: 100%|##########| 483/483 [00:00<?, ?it/s]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/61 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   2%|1         | 1/61 [00:00<00:49,  1.21it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   3%|3         | 2/61 [00:01<00:33,  1.76it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   5%|4         | 3/61 [00:01<00:28,  2.05it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   7%|6         | 4/61 [00:01<00:25,  2.23it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   8%|8         | 5/61 [00:02<00:24,  2.30it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  10%|9         | 6/61 [00:02<00:22,  2.44it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  11%|#1        | 7/61 [00:03<00:21,  2.49it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  13%|#3        | 8/61 [00:03<00:21,  2.51it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  15%|#4        | 9/61 [00:03<00:20,  2.52it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  16%|#6        | 10/61 [00:04<00:19,  2.56it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  18%|#8        | 11/61 [00:04<00:19,  2.57it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  20%|#9        | 12/61 [00:05<00:19,  2.57it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  21%|##1       | 13/61 [00:05<00:18,  2.56it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  23%|##2       | 14/61 [00:05<00:18,  2.54it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  25%|##4       | 15/61 [00:06<00:17,  2.56it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  26%|##6       | 16/61 [00:06<00:17,  2.59it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  28%|##7       | 17/61 [00:07<00:17,  2.56it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  30%|##9       | 18/61 [00:07<00:16,  2.57it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  31%|###1      | 19/61 [00:07<00:16,  2.57it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  33%|###2      | 20/61 [00:08<00:16,  2.51it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  34%|###4      | 21/61 [00:08<00:15,  2.54it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  36%|###6      | 22/61 [00:09<00:15,  2.56it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  38%|###7      | 23/61 [00:09<00:15,  2.53it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  39%|###9      | 24/61 [00:09<00:14,  2.52it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  41%|####      | 25/61 [00:10<00:14,  2.51it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  43%|####2     | 26/61 [00:10<00:13,  2.52it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  44%|####4     | 27/61 [00:11<00:13,  2.52it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  46%|####5     | 28/61 [00:11<00:13,  2.53it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  48%|####7     | 29/61 [00:11<00:12,  2.55it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  49%|####9     | 30/61 [00:12<00:12,  2.52it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  51%|#####     | 31/61 [00:12<00:11,  2.50it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  52%|#####2    | 32/61 [00:12<00:11,  2.53it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  54%|#####4    | 33/61 [00:13<00:11,  2.53it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  56%|#####5    | 34/61 [00:13<00:10,  2.54it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  57%|#####7    | 35/61 [00:14<00:10,  2.53it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  59%|#####9    | 36/61 [00:14<00:09,  2.54it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  61%|######    | 37/61 [00:14<00:09,  2.55it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  62%|######2   | 38/61 [00:15<00:08,  2.56it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  64%|######3   | 39/61 [00:15<00:08,  2.57it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  66%|######5   | 40/61 [00:16<00:08,  2.59it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  67%|######7   | 41/61 [00:16<00:07,  2.60it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  69%|######8   | 42/61 [00:16<00:07,  2.53it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  70%|#######   | 43/61 [00:17<00:07,  2.49it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  72%|#######2  | 44/61 [00:17<00:07,  2.42it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  74%|#######3  | 45/61 [00:18<00:06,  2.38it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  75%|#######5  | 46/61 [00:18<00:06,  2.36it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  77%|#######7  | 47/61 [00:19<00:06,  2.29it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  79%|#######8  | 48/61 [00:19<00:05,  2.27it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  80%|########  | 49/61 [00:20<00:05,  2.22it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  82%|########1 | 50/61 [00:20<00:05,  2.18it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  84%|########3 | 51/61 [00:20<00:04,  2.16it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  85%|########5 | 52/61 [00:21<00:04,  2.07it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  87%|########6 | 53/61 [00:21<00:03,  2.03it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|########8 | 54/61 [00:22<00:03,  2.01it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  90%|######### | 55/61 [00:23<00:03,  2.00it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  92%|#########1| 56/61 [00:23<00:02,  1.99it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  93%|#########3| 57/61 [00:24<00:02,  1.99it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  95%|#########5| 58/61 [00:24<00:01,  1.99it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  97%|#########6| 59/61 [00:25<00:01,  1.98it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  98%|#########8| 60/61 [00:25<00:00,  2.03it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|##########| 61/61 [00:25<00:00,  2.58it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|##########| 61/61 [00:25<00:00,  2.38it/s]
+                   all        483       1187      0.485      0.343      0.431       0.34
+                 apple        219        281      0.729      0.865      0.778      0.739
+                banana        267        483       0.95       0.78      0.946      0.754
+                 grape          2         10      0.868        0.4      0.561      0.227
+                 lemon          8         29          0          0          0          0
+                 mango          1          1          0          0          0          0
+                orange        240        338          1      0.447      0.935      0.885
+           pomegranate          1          1          0          0          0          0
+            strawberry          6         31      0.421       0.29      0.338      0.236
+                tomato          7         13      0.393      0.308      0.317      0.219
+Speed: 0.6ms preprocess, 46.1ms inference, 0.0ms loss, 1.8ms postprocess per image
+Results saved to [1mD:\Projects\Fruit freshness detection\detector_training\reference-yolo11m-bohni\runs\test640[0m
+{
+  "reference": "Piyu12/fruit-veg-yolo11m-detector",
+  "revision": "82c9865261175e778ba5641cf8560b5d10439ec6",
+  "source_classes_verified": 35,
+  "weights_bytes": 40565868,
+  "input_size": 640,
+  "test_images": 483,
+  "test_boxes": 1187,
+  "missing_target_classes": [
+    "lemon"
+  ],
+  "metrics_nine_target_scope": {
+    "metrics/precision(B)": 0.4845493877262003,
+    "metrics/recall(B)": 0.34332598040951684,
+    "metrics/mAP50(B)": 0.43061556480528623,
+    "metrics/mAP50-95(B)": 0.34001160407191156,
+    "fitness": 0.34907200014524903
+  },
+  "per_class": [
+    {
+      "fruit": "apple",
+      "images": 219,
+      "boxes": 281,
+      "AP50": 0.7781279818241073,
+      "AP50_95": 0.739172165479706,
+      "precision": 0.728764057898157,
+      "recall": 0.8647686832740213
+    },
+    {
+      "fruit": "banana",
+      "images": 267,
+      "boxes": 483,
+      "AP50": 0.9457853007635112,
+      "AP50_95": 0.7537811556386825,
+      "precision": 0.9495974675690031,
+      "recall": 0.7801363428010469
+    },
+    {
+      "fruit": "grape",
+      "images": 2,
+      "boxes": 10,
+      "AP50": 0.5607296466973886,
+      "AP50_95": 0.2274228353140917,
+      "precision": 0.8680741577570192,
+      "recall": 0.4
+    },
+    {
+      "fruit": "lemon",
+      "images": 8,
+      "boxes": 29,
+      "AP50": 0.0,
+      "AP50_95": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "fruit": "mango",
+      "images": 1,
+      "boxes": 1,
+      "AP50": 0.0,
+      "AP50_95": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "fruit": "orange",
+      "images": 240,
+      "boxes": 338,
+      "AP50": 0.9351986321293283,
+      "AP50_95": 0.8846886650539979,
+      "precision": 1.0,
+      "recall": 0.4470139092731142
+    },
+    {
+      "fruit": "pomegranate",
+      "images": 1,
+      "boxes": 1,
+      "AP50": 0.0,
+      "AP50_95": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "fruit": "strawberry",
+      "images": 6,
+      "boxes": 31,
+      "AP50": 0.3382904392015863,
+      "AP50_95": 0.2357668694763507,
+      "precision": 0.42128509115835266,
+      "recall": 0.2903225806451613
+    },
+    {
+      "fruit": "tomato",
+      "images": 7,
+      "boxes": 13,
+      "AP50": 0.3174080826316541,
+      "AP50_95": 0.2192727456843752,
+      "precision": 0.39322371515327104,
+      "recall": 0.3076923076923077
+    }
+  ],
+  "shared_eight_classes": [
+    "apple",
+    "banana",
+    "grape",
+    "mango",
+    "orange",
+    "pomegranate",
+    "strawberry",
+    "tomato"
+  ],
+  "shared_scope": {
+    "reference_mAP50": 0.484442510405947,
+    "reference_mAP50_95": 0.3825130545809005,
+    "trained_yolov8n_mAP50": 0.5955355908497584,
+    "trained_yolov8n_mAP50_95": 0.4865631269921976
+  },
+  "GPU_framework_timing_ms": {
+    "preprocess": 0.6037967792455701,
+    "inference": 46.06632613740846,
+    "loss": 0.0020751795166521095,
+    "postprocess": 1.8182403058985992
+  },
+  "baseline_GPU_framework_timing_ms": {
+    "preprocess": 0.33472537007144276,
+    "inference": 3.056594797296307,
+    "loss": 0.0,
+    "postprocess": 1.7205977785414543
+  },
+  "elapsed_seconds": 49.58218599999964,
+  "limitations": [
+    "Reference-training overlap with this test pool is unknown; not independently validated",
+    "Rare-class support remains tiny; do not generalize from mango/pomegranate scores",
+    "Common size at 416; native 640 run is an exploratory resolution check, not model selection",
+    "Green_Orange and Orange scores merged by maximum before class-aware NMS",
+    "Lemon is unsupported; its score channel is zero in nine-target evaluation",
+    "Desktop GPU timings, not Android latency",
+    "No freshness inference"
+  ]
+}

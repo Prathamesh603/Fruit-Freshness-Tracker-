@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-10-30T15:51:19.977642+05:30",
+  "artifact": {
+    "path": "dist/FruitLens-Android-arm64.apk",
+    "bytes": 17777943,
+    "MiB": 16.95,
+    "sha256": "dd9d75a84acf8ff8edf3dc500388bd8f6a49776d337ae8e0c92e229578ba52c9",
+    "signing": "development key, APK v2 verified"
+  },
+  "models": {
+    "detector": "NanoDet-Plus-m 416 / NCNN 20261020 CPU",
+    "classifier": "Smart Fruit MobileNetV2 reference, 96x96, nine classes / LiteRT 1.4.2 CPU",
+    "freshnessValidation": "not independently evaluated",
+    "referenceWeightRedistribution": "unresolved"
+  },
+  "checks": {
+    "pythonBundleTests": 6,
+    "jvmNumericalTests": 5,
+    "androidEmulatorIntegrationTests": 4,
+    "optimizedEmulatorStartupWarmupAndCameraCapture": true,
+    "apk16KiBZipAlignment": true,
+    "arm64ElfLoadAlignmentAtLeast16KiB": true,
+    "internetPermission": false,
+    "phoneHardwareTested": false,
+    "renderedComposeResultPreview": true,
+    "manualPhotoPickerSelection": "Inconclusive on emulator: chooser opened and fixture appeared, but injected selection did not complete. Not counted as a passing check."
+  },
+  "scope": "Android API 26+, arm64 phones; apples, bananas, oranges; offline photo scanning; up to five fruit regions",
+  "performance": "Emulator execution smoke tests only. Nord 2T latency, energy, sustained FPS and real-world freshness accuracy remain unmeasured."
+}

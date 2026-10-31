@@ -1,0 +1,100 @@
+{
+  "test_images": 2004,
+  "joint18_accuracy": 0.9965069860279441,
+  "macro_f1": 0.9928276434549471,
+  "fruit_identity_accuracy": 0.9985029940119761,
+  "condition_accuracy_joint_prediction": 0.998003992015968,
+  "per_fruit": [
+    {
+      "fruit": "apple",
+      "test_images": 59,
+      "fresh_test_images": 30,
+      "spoiled_test_images": 29,
+      "joint18_accuracy": 1.0,
+      "known_fruit_condition_accuracy": 1.0,
+      "spoiled_recall": 1.0,
+      "spoiled_predicted_fresh": 0
+    },
+    {
+      "fruit": "banana",
+      "test_images": 358,
+      "fresh_test_images": 179,
+      "spoiled_test_images": 179,
+      "joint18_accuracy": 1.0,
+      "known_fruit_condition_accuracy": 1.0,
+      "spoiled_recall": 1.0,
+      "spoiled_predicted_fresh": 0
+    },
+    {
+      "fruit": "grape",
+      "test_images": 59,
+      "fresh_test_images": 29,
+      "spoiled_test_images": 30,
+      "joint18_accuracy": 0.9830508474576272,
+      "known_fruit_condition_accuracy": 0.9830508474576272,
+      "spoiled_recall": 0.9666666666666667,
+      "spoiled_predicted_fresh": 1
+    },
+    {
+      "fruit": "lemon",
+      "test_images": 231,
+      "fresh_test_images": 82,
+      "spoiled_test_images": 149,
+      "joint18_accuracy": 1.0,
+      "known_fruit_condition_accuracy": 1.0,
+      "spoiled_recall": 1.0,
+      "spoiled_predicted_fresh": 0
+    },
+    {
+      "fruit": "mango",
+      "test_images": 284,
+      "fresh_test_images": 138,
+      "spoiled_test_images": 146,
+      "joint18_accuracy": 0.9964788732394366,
+      "known_fruit_condition_accuracy": 1.0,
+      "spoiled_recall": 1.0,
+      "spoiled_predicted_fresh": 0
+    },
+    {
+      "fruit": "orange",
+      "test_images": 357,
+      "fresh_test_images": 178,
+      "spoiled_test_images": 179,
+      "joint18_accuracy": 0.9943977591036415,
+      "known_fruit_condition_accuracy": 0.9971988795518207,
+      "spoiled_recall": 1.0,
+      "spoiled_predicted_fresh": 0
+    },
+    {
+      "fruit": "pomegranate",
+      "test_images": 59,
+      "fresh_test_images": 30,
+      "spoiled_test_images": 29,
+      "joint18_accuracy": 0.9661016949152542,
+      "known_fruit_condition_accuracy": 0.9830508474576272,
+      "spoiled_recall": 0.9655172413793104,
+      "spoiled_predicted_fresh": 1
+    },
+    {
+      "fruit": "strawberry",
+      "test_images": 336,
+      "fresh_test_images": 169,
+      "spoiled_test_images": 167,
+      "joint18_accuracy": 1.0,
+      "known_fruit_condition_accuracy": 1.0,
+      "spoiled_recall": 1.0,
+      "spoiled_predicted_fresh": 0
+    },
+    {
+      "fruit": "tomato",
+      "test_images": 261,
+      "fresh_test_images": 133,
+      "spoiled_test_images": 128,
+      "joint18_accuracy": 0.9961685823754789,
+      "known_fruit_condition_accuracy": 0.9961685823754789,
+      "spoiled_recall": 1.0,
+      "spoiled_predicted_fresh": 0
+    }
+  ],
+  "independent_phone_validation": false
+}

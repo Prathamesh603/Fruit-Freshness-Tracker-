@@ -1,0 +1,181 @@
+relative_path,label,candidate_label,mapped_prediction,max_score
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (100).jpg,fresh_apple,freshapples,fresh_apple,0.8124251961708069
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (112).jpg,fresh_apple,freshapples,fresh_apple,0.9780634641647339
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (114).jpg,fresh_apple,freshapples,fresh_apple,0.8292579650878906
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (12).jpg,fresh_apple,freshapples,fresh_apple,0.7587419152259827
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (128).jpg,fresh_apple,freshapples,fresh_apple,0.805602490901947
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (134).jpg,fresh_apple,freshoranges,fresh_orange,0.7047833800315857
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (138).jpg,fresh_apple,rottenapples,rotten_apple,0.6822168827056885
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (141).jpg,fresh_apple,freshapples,fresh_apple,0.9653394818305969
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (144).jpg,fresh_apple,freshapples,fresh_apple,0.9369601607322693
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (156).jpg,fresh_apple,freshapples,fresh_apple,0.7347378730773926
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (162).jpg,fresh_apple,rottenapples,rotten_apple,0.44315460324287415
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (163).jpg,fresh_apple,freshapples,fresh_apple,0.8204931020736694
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (168).jpg,fresh_apple,rottenapples,rotten_apple,0.9428226351737976
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (175).jpg,fresh_apple,freshoranges,fresh_orange,0.41949474811553955
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (181).jpg,fresh_apple,freshoranges,fresh_orange,0.5252977609634399
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (186).jpg,fresh_apple,freshapples,fresh_apple,0.6584031581878662
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (189).jpg,fresh_apple,freshapples,fresh_apple,0.9296517968177795
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (19).jpg,fresh_apple,rottenapples,rotten_apple,0.7829123735427856
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (190).jpg,fresh_apple,freshapples,fresh_apple,0.5941269993782043
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (3).jpg,fresh_apple,freshapples,fresh_apple,0.3107587397098541
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (34).jpg,fresh_apple,freshoranges,fresh_orange,0.4287946820259094
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (37).jpg,fresh_apple,unripe apple,unripe_apple,0.8632799983024597
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (45).jpg,fresh_apple,unripe apple,unripe_apple,0.8360434770584106
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (46).jpg,fresh_apple,freshapples,fresh_apple,0.7442060112953186
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (57).jpg,fresh_apple,freshoranges,fresh_orange,0.9574156403541565
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (6).jpg,fresh_apple,freshapples,fresh_apple,0.9456876516342163
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (66).jpg,fresh_apple,freshoranges,fresh_orange,0.5188959240913391
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (67).jpg,fresh_apple,freshoranges,fresh_orange,0.3726562559604645
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (75).jpg,fresh_apple,unripe orange,unripe_orange,0.3764696717262268
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshApple/FreshApple (85).jpg,fresh_apple,freshoranges,fresh_orange,0.5290032625198364
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (1).jpg,fresh_banana,rottenbanana,rotten_banana,0.4355042576789856
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (108).jpg,fresh_banana,rottenapples,rotten_apple,0.5467116832733154
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (11).jpg,fresh_banana,freshbanana,fresh_banana,0.9362688064575195
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (117).jpg,fresh_banana,rottenbanana,rotten_banana,0.943220317363739
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (125).jpg,fresh_banana,freshbanana,fresh_banana,0.9370356202125549
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (126).jpg,fresh_banana,freshbanana,fresh_banana,0.6808689832687378
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (133).jpg,fresh_banana,rottenbanana,rotten_banana,0.5586064457893372
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (135).jpg,fresh_banana,freshbanana,fresh_banana,0.9089284539222717
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (148).jpg,fresh_banana,unripe banana,unripe_banana,0.5055884122848511
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (162).jpg,fresh_banana,freshbanana,fresh_banana,0.6949710249900818
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (163).jpg,fresh_banana,freshbanana,fresh_banana,0.9970753192901611
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (164).jpg,fresh_banana,freshbanana,fresh_banana,0.9488608241081238
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (17).jpg,fresh_banana,freshbanana,fresh_banana,0.8091925382614136
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (177).jpg,fresh_banana,freshbanana,fresh_banana,0.961598813533783
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (181).jpg,fresh_banana,freshbanana,fresh_banana,0.9921966791152954
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (19).jpg,fresh_banana,freshbanana,fresh_banana,0.6613433361053467
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (190).jpg,fresh_banana,unripe orange,unripe_orange,0.6098668575286865
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (21).jpg,fresh_banana,freshbanana,fresh_banana,0.6687791347503662
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (22).jpg,fresh_banana,freshbanana,fresh_banana,0.5034651160240173
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (26).jpg,fresh_banana,freshbanana,fresh_banana,0.6781021952629089
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (28).jpg,fresh_banana,freshbanana,fresh_banana,0.7337577939033508
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (35).jpg,fresh_banana,unripe banana,unripe_banana,0.6281352639198303
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (43).jpg,fresh_banana,unripe banana,unripe_banana,0.7409693002700806
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (6).jpg,fresh_banana,unripe banana,unripe_banana,0.7340758442878723
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (62).jpg,fresh_banana,unripe banana,unripe_banana,0.4282519519329071
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (71).jpg,fresh_banana,rottenbanana,rotten_banana,0.6377733945846558
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (74).jpg,fresh_banana,unripe banana,unripe_banana,0.6653544306755066
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (79).jpg,fresh_banana,rottenbanana,rotten_banana,0.2369101643562317
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (91).jpg,fresh_banana,rottenapples,rotten_apple,0.26845166087150574
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshBanana/FreshBanana (95).jpg,fresh_banana,rottenbanana,rotten_banana,0.5593817234039307
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (103).jpg,fresh_orange,rottenoranges,rotten_orange,0.7530178427696228
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (105).jpg,fresh_orange,freshoranges,fresh_orange,0.6979327201843262
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (108).jpg,fresh_orange,freshoranges,fresh_orange,0.4187875986099243
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (119).jpg,fresh_orange,rottenoranges,rotten_orange,0.7603488564491272
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (133).jpg,fresh_orange,freshoranges,fresh_orange,0.9878576993942261
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (135).jpg,fresh_orange,freshoranges,fresh_orange,0.682460367679596
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (138).jpg,fresh_orange,rottenapples,rotten_apple,0.6309000849723816
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (141).jpg,fresh_orange,freshoranges,fresh_orange,0.983744740486145
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (147).jpg,fresh_orange,freshoranges,fresh_orange,0.9949947595596313
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (155).jpg,fresh_orange,freshoranges,fresh_orange,0.9911001324653625
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (159).jpg,fresh_orange,unripe orange,unripe_orange,0.31230634450912476
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (161).jpg,fresh_orange,unripe orange,unripe_orange,0.6463697552680969
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (162).jpg,fresh_orange,unripe orange,unripe_orange,0.9656486511230469
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (164).jpg,fresh_orange,rottenoranges,rotten_orange,0.49500277638435364
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (165).jpg,fresh_orange,unripe orange,unripe_orange,0.8337228894233704
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (177).jpg,fresh_orange,freshoranges,fresh_orange,0.9544750452041626
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (18).jpg,fresh_orange,freshoranges,fresh_orange,0.9890706539154053
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (24).jpg,fresh_orange,freshoranges,fresh_orange,0.9992795586585999
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (35).jpg,fresh_orange,freshoranges,fresh_orange,0.9962598085403442
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (51).jpg,fresh_orange,freshoranges,fresh_orange,0.8550554513931274
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (52).jpg,fresh_orange,freshoranges,fresh_orange,0.9500474333763123
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (54).jpg,fresh_orange,rottenoranges,rotten_orange,0.5648897290229797
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (57).jpg,fresh_orange,freshoranges,fresh_orange,0.9813639521598816
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (6).jpg,fresh_orange,freshoranges,fresh_orange,0.9863428473472595
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (72).jpg,fresh_orange,freshoranges,fresh_orange,0.8060136437416077
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (8).jpg,fresh_orange,freshoranges,fresh_orange,0.7951297760009766
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (82).jpg,fresh_orange,freshoranges,fresh_orange,0.5535788536071777
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (90).jpg,fresh_orange,rottenoranges,rotten_orange,0.6375192999839783
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (94).jpg,fresh_orange,rottenoranges,rotten_orange,0.5368303656578064
+ml/data/raw/mendeley_bdd69gyhv8/originals/FreshOrange/FreshOrange (96).jpg,fresh_orange,rottenapples,rotten_apple,0.4427447021007538
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (104).jpg,rotten_apple,rottenapples,rotten_apple,0.4792806804180145
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (116).jpg,rotten_apple,unripe orange,unripe_orange,0.43885788321495056
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (117).jpg,rotten_apple,unripe orange,unripe_orange,0.4667421877384186
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (121).jpg,rotten_apple,unripe orange,unripe_orange,0.6574455499649048
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (125).jpg,rotten_apple,unripe apple,unripe_apple,0.41983428597450256
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (132).jpg,rotten_apple,unripe apple,unripe_apple,0.7631641626358032
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (139).jpg,rotten_apple,unripe apple,unripe_apple,0.6042133569717407
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (152).jpg,rotten_apple,rottenapples,rotten_apple,0.4474475085735321
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (153).jpg,rotten_apple,unripe orange,unripe_orange,0.6587344408035278
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (159).jpg,rotten_apple,unripe orange,unripe_orange,0.44282230734825134
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (163).jpg,rotten_apple,unripe orange,unripe_orange,0.5352968573570251
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (167).jpg,rotten_apple,rottenoranges,rotten_orange,0.6394627094268799
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (168).jpg,rotten_apple,rottenapples,rotten_apple,0.6601454615592957
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (174).jpg,rotten_apple,rottenapples,rotten_apple,0.9658340811729431
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (180).jpg,rotten_apple,rottenoranges,rotten_orange,0.8507053256034851
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (190).jpg,rotten_apple,unripe apple,unripe_apple,0.8625319600105286
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (193).jpg,rotten_apple,unripe apple,unripe_apple,0.7318406701087952
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (195).jpg,rotten_apple,unripe apple,unripe_apple,0.7669851183891296
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (22).jpg,rotten_apple,rottenapples,rotten_apple,0.827735185623169
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (37).jpg,rotten_apple,freshapples,fresh_apple,0.508843183517456
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (43).jpg,rotten_apple,freshapples,fresh_apple,0.607487678527832
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (63).jpg,rotten_apple,freshapples,fresh_apple,0.8463441133499146
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (65).jpg,rotten_apple,freshapples,fresh_apple,0.9141737222671509
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (72).jpg,rotten_apple,rottenapples,rotten_apple,0.5133377909660339
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (80).jpg,rotten_apple,rottenapples,rotten_apple,0.7392709255218506
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (87).jpg,rotten_apple,rottenapples,rotten_apple,0.5549049973487854
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (88).jpg,rotten_apple,rottenapples,rotten_apple,0.350254088640213
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (89).jpg,rotten_apple,rottenapples,rotten_apple,0.4056171178817749
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (94).jpg,rotten_apple,rottenapples,rotten_apple,0.8806883096694946
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenApple/RottenApple (95).jpg,rotten_apple,freshoranges,fresh_orange,0.5855981707572937
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (100).jpg,rotten_banana,rottenbanana,rotten_banana,0.9598126411437988
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (110).jpg,rotten_banana,rottenbanana,rotten_banana,0.9937612414360046
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (111).jpg,rotten_banana,rottenbanana,rotten_banana,0.9963476061820984
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (12).jpg,rotten_banana,rottenbanana,rotten_banana,0.9998904466629028
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (123).jpg,rotten_banana,rottenbanana,rotten_banana,0.9333949685096741
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (125).jpg,rotten_banana,rottenbanana,rotten_banana,0.9722446799278259
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (126).jpg,rotten_banana,rottenbanana,rotten_banana,0.6553167700767517
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (136).jpg,rotten_banana,rottenbanana,rotten_banana,0.9996200799942017
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (140).jpg,rotten_banana,rottenbanana,rotten_banana,0.9139856696128845
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (155).jpg,rotten_banana,rottenbanana,rotten_banana,0.8774838447570801
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (159).jpg,rotten_banana,rottenbanana,rotten_banana,0.9963136315345764
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (164).jpg,rotten_banana,rottenoranges,rotten_orange,0.6703857779502869
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (171).jpg,rotten_banana,rottenbanana,rotten_banana,0.9566474556922913
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (193).jpg,rotten_banana,rottenbanana,rotten_banana,0.7257947325706482
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (2).jpg,rotten_banana,rottenbanana,rotten_banana,0.3735852539539337
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (200).jpg,rotten_banana,unripe banana,unripe_banana,0.9115903973579407
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (27).jpg,rotten_banana,unripe banana,unripe_banana,0.6739052534103394
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (29).jpg,rotten_banana,rottenbanana,rotten_banana,0.9989076852798462
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (42).jpg,rotten_banana,rottenbanana,rotten_banana,0.5351760387420654
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (43).jpg,rotten_banana,rottenbanana,rotten_banana,0.9971045851707458
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (47).jpg,rotten_banana,rottenbanana,rotten_banana,0.999685525894165
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (59).jpg,rotten_banana,rottenbanana,rotten_banana,0.9974665641784668
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (61).jpg,rotten_banana,rottenbanana,rotten_banana,0.999521017074585
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (63).jpg,rotten_banana,rottenbanana,rotten_banana,0.9998385906219482
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (64).jpg,rotten_banana,rottenbanana,rotten_banana,0.9993719458580017
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (76).jpg,rotten_banana,rottenbanana,rotten_banana,0.985521137714386
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (81).jpg,rotten_banana,rottenbanana,rotten_banana,0.9870449900627136
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (84).jpg,rotten_banana,rottenbanana,rotten_banana,0.9999829530715942
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (90).jpg,rotten_banana,rottenbanana,rotten_banana,0.9059696793556213
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenBanana/RottenBanana (96).jpg,rotten_banana,rottenbanana,rotten_banana,0.9999221563339233
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (1).jpg,rotten_orange,rottenoranges,rotten_orange,0.513112485408783
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (12).jpg,rotten_orange,rottenoranges,rotten_orange,0.6225517988204956
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (125).jpg,rotten_orange,rottenoranges,rotten_orange,0.4773998260498047
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (126).jpg,rotten_orange,freshoranges,fresh_orange,0.539603590965271
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (130).jpg,rotten_orange,rottenoranges,rotten_orange,0.7971181869506836
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (131).jpg,rotten_orange,rottenoranges,rotten_orange,0.6420877575874329
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (155).jpg,rotten_orange,rottenoranges,rotten_orange,0.8238809108734131
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (158).jpg,rotten_orange,freshoranges,fresh_orange,0.8939898610115051
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (163).jpg,rotten_orange,rottenoranges,rotten_orange,0.982891321182251
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (167).jpg,rotten_orange,rottenoranges,rotten_orange,0.6968095898628235
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (17).jpg,rotten_orange,rottenapples,rotten_apple,0.7469357848167419
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (175).jpg,rotten_orange,unripe orange,unripe_orange,0.4610975682735443
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (177).jpg,rotten_orange,rottenoranges,rotten_orange,0.6695824265480042
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (184).jpg,rotten_orange,rottenapples,rotten_apple,0.3289681673049927
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (194).jpg,rotten_orange,rottenapples,rotten_apple,0.5853691697120667
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (199).jpg,rotten_orange,rottenoranges,rotten_orange,0.8191510438919067
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (2).jpg,rotten_orange,rottenoranges,rotten_orange,0.9734700918197632
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (25).jpg,rotten_orange,rottenapples,rotten_apple,0.3999043107032776
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (50).jpg,rotten_orange,rottenoranges,rotten_orange,0.8046498894691467
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (62).jpg,rotten_orange,rottenoranges,rotten_orange,0.823815107345581
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (65).jpg,rotten_orange,freshapples,fresh_apple,0.46958115696907043
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (67).jpg,rotten_orange,freshoranges,fresh_orange,0.5613657236099243
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (77).jpg,rotten_orange,rottenoranges,rotten_orange,0.8625025153160095
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (79).jpg,rotten_orange,rottenoranges,rotten_orange,0.9674120545387268
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (8).jpg,rotten_orange,freshapples,fresh_apple,0.33378151059150696
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (83).jpg,rotten_orange,rottenoranges,rotten_orange,0.6129366159439087
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (86).jpg,rotten_orange,freshoranges,fresh_orange,0.25534942746162415
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (88).jpg,rotten_orange,rottenoranges,rotten_orange,0.805648684501648
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (93).jpg,rotten_orange,rottenoranges,rotten_orange,0.7174227237701416
+ml/data/raw/mendeley_bdd69gyhv8/originals/RottenOrange/RottenOrange (96).jpg,rotten_orange,rottenoranges,rotten_orange,0.5631242990493774

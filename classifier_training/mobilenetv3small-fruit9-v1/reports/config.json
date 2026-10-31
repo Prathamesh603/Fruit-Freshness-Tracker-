@@ -1,0 +1,21 @@
+{
+  "backbone": "MobileNetV3Small",
+  "initialization": "ImageNet",
+  "input_size": 160,
+  "normalization": "(RGB-127.5)/127.5",
+  "backend": "TensorFlow CPU",
+  "seed": 42,
+  "head_epochs": 30,
+  "head_patience": 5,
+  "fine_epochs": 12,
+  "fine_patience": 4,
+  "head_lr": 0.001,
+  "fine_lr": 0.0001,
+  "batch": 32,
+  "trainable_backbone_tail_layers": 40,
+  "freeze_batchnorm": true,
+  "selection": "validation cross entropy",
+  "class_weights": "inverse training frequency",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1"
+}

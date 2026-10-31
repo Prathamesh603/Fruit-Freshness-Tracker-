@@ -1,0 +1,665 @@
+group_id,image_id,path,label
+phash_000083,mendeley8_FreshApple_FreshApple (175),raw/mendeley8/images/FreshApple/FreshApple (175).jpg,fresh_apple
+phash_000083,mendeley8_RottenPomegranate_RottenPomegranate (33),raw/mendeley8/images/RottenPomegranate/RottenPomegranate (33).jpg,spoiled_pomegranate
+phash_000411,mendeley8_FreshGrape_FreshGrape (12),raw/mendeley8/images/FreshGrape/FreshGrape (12).jpg,fresh_grape
+phash_000411,mendeley8_FreshJujube_FreshJujube (100),raw/mendeley8/images/FreshJujube/FreshJujube (100).jpg,fresh_jujube
+phash_000411,mendeley8_FreshJujube_FreshJujube (107),raw/mendeley8/images/FreshJujube/FreshJujube (107).jpg,fresh_jujube
+phash_000411,mendeley8_FreshJujube_FreshJujube (90),raw/mendeley8/images/FreshJujube/FreshJujube (90).jpg,fresh_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (27),raw/mendeley8/images/RottenJujube/RottenJujube (27).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (40),raw/mendeley8/images/RottenJujube/RottenJujube (40).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (41),raw/mendeley8/images/RottenJujube/RottenJujube (41).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (42),raw/mendeley8/images/RottenJujube/RottenJujube (42).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (43),raw/mendeley8/images/RottenJujube/RottenJujube (43).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (47),raw/mendeley8/images/RottenJujube/RottenJujube (47).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (48),raw/mendeley8/images/RottenJujube/RottenJujube (48).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (51),raw/mendeley8/images/RottenJujube/RottenJujube (51).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (52),raw/mendeley8/images/RottenJujube/RottenJujube (52).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (53),raw/mendeley8/images/RottenJujube/RottenJujube (53).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (54),raw/mendeley8/images/RottenJujube/RottenJujube (54).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (70),raw/mendeley8/images/RottenJujube/RottenJujube (70).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (71),raw/mendeley8/images/RottenJujube/RottenJujube (71).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (72),raw/mendeley8/images/RottenJujube/RottenJujube (72).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (73),raw/mendeley8/images/RottenJujube/RottenJujube (73).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (75),raw/mendeley8/images/RottenJujube/RottenJujube (75).jpg,spoiled_jujube
+phash_000411,mendeley8_RottenJujube_RottenJujube (77),raw/mendeley8/images/RottenJujube/RottenJujube (77).jpg,spoiled_jujube
+phash_000411,fruit16k_F_Mango_277,raw/fruit16k/images/F_Mango/277.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_313,raw/fruit16k/images/F_Mango/313.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_314,raw/fruit16k/images/F_Mango/314.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_315,raw/fruit16k/images/F_Mango/315.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_338,raw/fruit16k/images/F_Mango/338.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_346,raw/fruit16k/images/F_Mango/346.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_369,raw/fruit16k/images/F_Mango/369.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_410,raw/fruit16k/images/F_Mango/410.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_424,raw/fruit16k/images/F_Mango/424.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_425,raw/fruit16k/images/F_Mango/425.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_431,raw/fruit16k/images/F_Mango/431.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_432,raw/fruit16k/images/F_Mango/432.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_433,raw/fruit16k/images/F_Mango/433.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_443,raw/fruit16k/images/F_Mango/443.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_444,raw/fruit16k/images/F_Mango/444.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_463,raw/fruit16k/images/F_Mango/463.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_465,raw/fruit16k/images/F_Mango/465.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_535,raw/fruit16k/images/F_Mango/535.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_567,raw/fruit16k/images/F_Mango/567.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_582,raw/fruit16k/images/F_Mango/582.jpg,fresh_mango
+phash_000411,fruit16k_F_Mango_597,raw/fruit16k/images/F_Mango/597.jpg,fresh_mango
+phash_000411,fruit16k_F_Strawberry_181,raw/fruit16k/images/F_Strawberry/181.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_317,raw/fruit16k/images/F_Strawberry/317.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_333,raw/fruit16k/images/F_Strawberry/333.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_334,raw/fruit16k/images/F_Strawberry/334.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_402,raw/fruit16k/images/F_Strawberry/402.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_403,raw/fruit16k/images/F_Strawberry/403.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_484,raw/fruit16k/images/F_Strawberry/484.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_525,raw/fruit16k/images/F_Strawberry/525.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_526,raw/fruit16k/images/F_Strawberry/526.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_619,raw/fruit16k/images/F_Strawberry/619.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_670,raw/fruit16k/images/F_Strawberry/670.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Strawberry_713,raw/fruit16k/images/F_Strawberry/713.jpg,fresh_strawberry
+phash_000411,fruit16k_F_Tamarillo_161,raw/fruit16k/images/F_Tamarillo/161.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_162,raw/fruit16k/images/F_Tamarillo/162.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_163,raw/fruit16k/images/F_Tamarillo/163.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_164,raw/fruit16k/images/F_Tamarillo/164.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_210,raw/fruit16k/images/F_Tamarillo/210.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_211,raw/fruit16k/images/F_Tamarillo/211.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_425,raw/fruit16k/images/F_Tamarillo/425.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_426,raw/fruit16k/images/F_Tamarillo/426.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_430,raw/fruit16k/images/F_Tamarillo/430.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_439,raw/fruit16k/images/F_Tamarillo/439.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_449,raw/fruit16k/images/F_Tamarillo/449.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_450,raw/fruit16k/images/F_Tamarillo/450.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_543,raw/fruit16k/images/F_Tamarillo/543.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tamarillo_544,raw/fruit16k/images/F_Tamarillo/544.jpg,fresh_tamarillo
+phash_000411,fruit16k_F_Tomato_236,raw/fruit16k/images/F_Tomato/236.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_237,raw/fruit16k/images/F_Tomato/237.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_238,raw/fruit16k/images/F_Tomato/238.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_269,raw/fruit16k/images/F_Tomato/269.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_270,raw/fruit16k/images/F_Tomato/270.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_271,raw/fruit16k/images/F_Tomato/271.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_288,raw/fruit16k/images/F_Tomato/288.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_289,raw/fruit16k/images/F_Tomato/289.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_296,raw/fruit16k/images/F_Tomato/296.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_302,raw/fruit16k/images/F_Tomato/302.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_303,raw/fruit16k/images/F_Tomato/303.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_305,raw/fruit16k/images/F_Tomato/305.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_308,raw/fruit16k/images/F_Tomato/308.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_309,raw/fruit16k/images/F_Tomato/309.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_315,raw/fruit16k/images/F_Tomato/315.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_340,raw/fruit16k/images/F_Tomato/340.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_350,raw/fruit16k/images/F_Tomato/350.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_370,raw/fruit16k/images/F_Tomato/370.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_371,raw/fruit16k/images/F_Tomato/371.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_372,raw/fruit16k/images/F_Tomato/372.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_383,raw/fruit16k/images/F_Tomato/383.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_391,raw/fruit16k/images/F_Tomato/391.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_415,raw/fruit16k/images/F_Tomato/415.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_416,raw/fruit16k/images/F_Tomato/416.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_417,raw/fruit16k/images/F_Tomato/417.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_433,raw/fruit16k/images/F_Tomato/433.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_434,raw/fruit16k/images/F_Tomato/434.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_437,raw/fruit16k/images/F_Tomato/437.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_473,raw/fruit16k/images/F_Tomato/473.jpg,fresh_tomato
+phash_000411,fruit16k_F_Tomato_485,raw/fruit16k/images/F_Tomato/485.jpg,fresh_tomato
+phash_000411,fruit16k_S_Lulo_179,raw/fruit16k/images/S_Lulo/179.jpg,spoiled_lulo
+phash_000411,fruit16k_S_Mango_208,raw/fruit16k/images/S_Mango/208.jpg,spoiled_mango
+phash_000411,fruit16k_S_Mango_243,raw/fruit16k/images/S_Mango/243.jpg,spoiled_mango
+phash_000411,fruit16k_S_Mango_298,raw/fruit16k/images/S_Mango/298.jpg,spoiled_mango
+phash_000411,fruit16k_S_Mango_299,raw/fruit16k/images/S_Mango/299.jpg,spoiled_mango
+phash_000411,fruit16k_S_Strawberry_273,raw/fruit16k/images/S_Strawberry/273.jpg,spoiled_strawberry
+phash_000411,fruit16k_S_Strawberry_730,raw/fruit16k/images/S_Strawberry/730.jpg,spoiled_strawberry
+phash_000411,fruit16k_S_Tamarillo_159,raw/fruit16k/images/S_Tamarillo/159.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_164,raw/fruit16k/images/S_Tamarillo/164.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_165,raw/fruit16k/images/S_Tamarillo/165.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_187,raw/fruit16k/images/S_Tamarillo/187.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_264,raw/fruit16k/images/S_Tamarillo/264.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_265,raw/fruit16k/images/S_Tamarillo/265.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_274,raw/fruit16k/images/S_Tamarillo/274.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_297,raw/fruit16k/images/S_Tamarillo/297.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_322,raw/fruit16k/images/S_Tamarillo/322.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_487,raw/fruit16k/images/S_Tamarillo/487.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tamarillo_836,raw/fruit16k/images/S_Tamarillo/836.jpg,spoiled_tamarillo
+phash_000411,fruit16k_S_Tomato_275,raw/fruit16k/images/S_Tomato/275.jpg,spoiled_tomato
+phash_000411,fruit16k_S_Tomato_554,raw/fruit16k/images/S_Tomato/554.jpg,spoiled_tomato
+phash_000494,mendeley8_FreshGrape_FreshGrape (197),raw/mendeley8/images/FreshGrape/FreshGrape (197).jpg,fresh_grape
+phash_000494,fruit16k_F_Strawberry_228,raw/fruit16k/images/F_Strawberry/228.jpg,fresh_strawberry
+phash_000502,mendeley8_FreshGrape_FreshGrape (23),raw/mendeley8/images/FreshGrape/FreshGrape (23).jpg,fresh_grape
+phash_000502,mendeley8_FreshGrape_FreshGrape (27),raw/mendeley8/images/FreshGrape/FreshGrape (27).jpg,fresh_grape
+phash_000502,fruit16k_S_Strawberry_693,raw/fruit16k/images/S_Strawberry/693.jpg,spoiled_strawberry
+phash_000503,mendeley8_FreshGrape_FreshGrape (24),raw/mendeley8/images/FreshGrape/FreshGrape (24).jpg,fresh_grape
+phash_000503,fruit16k_S_Strawberry_354,raw/fruit16k/images/S_Strawberry/354.jpg,spoiled_strawberry
+phash_000504,mendeley8_FreshGrape_FreshGrape (25),raw/mendeley8/images/FreshGrape/FreshGrape (25).jpg,fresh_grape
+phash_000504,mendeley8_FreshGrape_FreshGrape (30),raw/mendeley8/images/FreshGrape/FreshGrape (30).jpg,fresh_grape
+phash_000504,fruit16k_F_Strawberry_388,raw/fruit16k/images/F_Strawberry/388.jpg,fresh_strawberry
+phash_000504,fruit16k_S_Strawberry_246,raw/fruit16k/images/S_Strawberry/246.jpg,spoiled_strawberry
+phash_000504,fruit16k_S_Strawberry_249,raw/fruit16k/images/S_Strawberry/249.jpg,spoiled_strawberry
+phash_000506,mendeley8_FreshGrape_FreshGrape (28),raw/mendeley8/images/FreshGrape/FreshGrape (28).jpg,fresh_grape
+phash_000506,fruit16k_S_Banana_489,raw/fruit16k/images/S_Banana/489.jpg,spoiled_banana
+phash_000506,fruit16k_S_Banana_536,raw/fruit16k/images/S_Banana/536.jpg,spoiled_banana
+phash_000506,fruit16k_S_Banana_537,raw/fruit16k/images/S_Banana/537.jpg,spoiled_banana
+phash_000510,mendeley8_FreshGrape_FreshGrape (32),raw/mendeley8/images/FreshGrape/FreshGrape (32).jpg,fresh_grape
+phash_000510,fruit16k_F_Lemon_976,raw/fruit16k/images/F_Lemon/976.jpg,fresh_lemon
+phash_000529,mendeley8_FreshGrape_FreshGrape (5),raw/mendeley8/images/FreshGrape/FreshGrape (5).jpg,fresh_grape
+phash_000529,fruit16k_F_Mango_362,raw/fruit16k/images/F_Mango/362.jpg,fresh_mango
+phash_000529,fruit16k_F_Strawberry_353,raw/fruit16k/images/F_Strawberry/353.jpg,fresh_strawberry
+phash_000529,fruit16k_F_Tomato_292,raw/fruit16k/images/F_Tomato/292.jpg,fresh_tomato
+phash_000529,fruit16k_F_Tomato_381,raw/fruit16k/images/F_Tomato/381.jpg,fresh_tomato
+phash_000529,fruit16k_F_Tomato_392,raw/fruit16k/images/F_Tomato/392.jpg,fresh_tomato
+phash_000529,fruit16k_F_Tomato_424,raw/fruit16k/images/F_Tomato/424.jpg,fresh_tomato
+phash_000529,fruit16k_F_Tomato_452,raw/fruit16k/images/F_Tomato/452.jpg,fresh_tomato
+phash_000529,fruit16k_F_Tomato_460,raw/fruit16k/images/F_Tomato/460.jpg,fresh_tomato
+phash_000529,fruit16k_F_Tomato_461,raw/fruit16k/images/F_Tomato/461.jpg,fresh_tomato
+phash_000529,fruit16k_S_Strawberry_464,raw/fruit16k/images/S_Strawberry/464.jpg,spoiled_strawberry
+phash_000529,fruit16k_S_Strawberry_485,raw/fruit16k/images/S_Strawberry/485.jpg,spoiled_strawberry
+phash_000529,fruit16k_S_Tamarillo_231,raw/fruit16k/images/S_Tamarillo/231.jpg,spoiled_tamarillo
+phash_000529,fruit16k_S_Tomato_436,raw/fruit16k/images/S_Tomato/436.jpg,spoiled_tomato
+phash_000563,mendeley8_FreshGrape_FreshGrape (81),raw/mendeley8/images/FreshGrape/FreshGrape (81).jpg,fresh_grape
+phash_000563,fruit16k_F_Mango_456,raw/fruit16k/images/F_Mango/456.jpg,fresh_mango
+phash_000563,fruit16k_F_Strawberry_590,raw/fruit16k/images/F_Strawberry/590.jpg,fresh_strawberry
+phash_000563,fruit16k_F_Tomato_312,raw/fruit16k/images/F_Tomato/312.jpg,fresh_tomato
+phash_000563,fruit16k_S_Tomato_224,raw/fruit16k/images/S_Tomato/224.jpg,spoiled_tomato
+phash_000563,fruit16k_S_Tomato_674,raw/fruit16k/images/S_Tomato/674.jpg,spoiled_tomato
+phash_000603,mendeley8_FreshGuava_FreshGuava (12),raw/mendeley8/images/FreshGuava/FreshGuava (12).jpg,fresh_guava
+phash_000603,mendeley8_RottenOrange_RottenOrange (65),raw/mendeley8/images/RottenOrange/RottenOrange (65).jpg,spoiled_orange
+phash_000639,mendeley8_FreshGuava_FreshGuava (152),raw/mendeley8/images/FreshGuava/FreshGuava (152).jpg,fresh_guava
+phash_000639,mendeley8_RottenGuava_RottenGuava (108),raw/mendeley8/images/RottenGuava/RottenGuava (108).jpg,spoiled_guava
+phash_000639,mendeley8_RottenOrange_RottenOrange (140),raw/mendeley8/images/RottenOrange/RottenOrange (140).jpg,spoiled_orange
+phash_000639,mendeley8_RottenPomegranate_RottenPomegranate (110),raw/mendeley8/images/RottenPomegranate/RottenPomegranate (110).jpg,spoiled_pomegranate
+phash_000639,mendeley8_RottenPomegranate_RottenPomegranate (114),raw/mendeley8/images/RottenPomegranate/RottenPomegranate (114).jpg,spoiled_pomegranate
+phash_000843,mendeley8_FreshJujube_FreshJujube (163),raw/mendeley8/images/FreshJujube/FreshJujube (163).jpg,fresh_jujube
+phash_000843,mendeley8_RottenJujube_RottenJujube (119),raw/mendeley8/images/RottenJujube/RottenJujube (119).jpg,spoiled_jujube
+phash_000875,mendeley8_FreshJujube_FreshJujube (194),raw/mendeley8/images/FreshJujube/FreshJujube (194).jpg,fresh_jujube
+phash_000875,fruit16k_F_Tamarillo_679,raw/fruit16k/images/F_Tamarillo/679.jpg,fresh_tamarillo
+phash_000899,mendeley8_FreshJujube_FreshJujube (35),raw/mendeley8/images/FreshJujube/FreshJujube (35).jpg,fresh_jujube
+phash_000899,mendeley8_RottenJujube_RottenJujube (111),raw/mendeley8/images/RottenJujube/RottenJujube (111).jpg,spoiled_jujube
+phash_000900,mendeley8_FreshJujube_FreshJujube (36),raw/mendeley8/images/FreshJujube/FreshJujube (36).jpg,fresh_jujube
+phash_000900,mendeley8_RottenJujube_RottenJujube (94),raw/mendeley8/images/RottenJujube/RottenJujube (94).jpg,spoiled_jujube
+phash_000983,mendeley8_FreshOrange_FreshOrange (117),raw/mendeley8/images/FreshOrange/FreshOrange (117).jpg,fresh_orange
+phash_000983,mendeley8_FreshOrange_FreshOrange (143),raw/mendeley8/images/FreshOrange/FreshOrange (143).jpg,fresh_orange
+phash_000983,mendeley8_RottenApple_RottenApple (173),raw/mendeley8/images/RottenApple/RottenApple (173).jpg,spoiled_apple
+phash_001034,mendeley8_FreshOrange_FreshOrange (166),raw/mendeley8/images/FreshOrange/FreshOrange (166).jpg,fresh_orange
+phash_001034,mendeley8_FreshOrange_FreshOrange (61),raw/mendeley8/images/FreshOrange/FreshOrange (61).jpg,fresh_orange
+phash_001034,mendeley8_RottenOrange_RottenOrange (108),raw/mendeley8/images/RottenOrange/RottenOrange (108).jpg,spoiled_orange
+phash_001535,mendeley8_RottenApple_RottenApple (110),raw/mendeley8/images/RottenApple/RottenApple (110).jpg,spoiled_apple
+phash_001535,mendeley8_RottenPomegranate_RottenPomegranate (75),raw/mendeley8/images/RottenPomegranate/RottenPomegranate (75).jpg,spoiled_pomegranate
+phash_001606,mendeley8_RottenApple_RottenApple (178),raw/mendeley8/images/RottenApple/RottenApple (178).jpg,spoiled_apple
+phash_001606,mendeley8_RottenPomegranate_RottenPomegranate (80),raw/mendeley8/images/RottenPomegranate/RottenPomegranate (80).jpg,spoiled_pomegranate
+phash_001609,mendeley8_RottenApple_RottenApple (180),raw/mendeley8/images/RottenApple/RottenApple (180).jpg,spoiled_apple
+phash_001609,mendeley8_RottenGuava_RottenGuava (88),raw/mendeley8/images/RottenGuava/RottenGuava (88).jpg,spoiled_guava
+phash_001668,mendeley8_RottenApple_RottenApple (53),raw/mendeley8/images/RottenApple/RottenApple (53).jpg,spoiled_apple
+phash_001668,mendeley8_RottenGuava_RottenGuava (82),raw/mendeley8/images/RottenGuava/RottenGuava (82).jpg,spoiled_guava
+phash_001746,mendeley8_RottenBanana_RottenBanana (123),raw/mendeley8/images/RottenBanana/RottenBanana (123).jpg,spoiled_banana
+phash_001746,fruit16k_S_Tamarillo_381,raw/fruit16k/images/S_Tamarillo/381.jpg,spoiled_tamarillo
+phash_002310,mendeley8_RottenJujube_RottenJujube (103),raw/mendeley8/images/RottenJujube/RottenJujube (103).jpg,spoiled_jujube
+phash_002310,fruit16k_F_Mango_575,raw/fruit16k/images/F_Mango/575.jpg,fresh_mango
+phash_002325,mendeley8_RottenJujube_RottenJujube (118),raw/mendeley8/images/RottenJujube/RottenJujube (118).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (121),raw/mendeley8/images/RottenJujube/RottenJujube (121).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (124),raw/mendeley8/images/RottenJujube/RottenJujube (124).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (126),raw/mendeley8/images/RottenJujube/RottenJujube (126).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (127),raw/mendeley8/images/RottenJujube/RottenJujube (127).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (128),raw/mendeley8/images/RottenJujube/RottenJujube (128).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (129),raw/mendeley8/images/RottenJujube/RottenJujube (129).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (131),raw/mendeley8/images/RottenJujube/RottenJujube (131).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (132),raw/mendeley8/images/RottenJujube/RottenJujube (132).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (133),raw/mendeley8/images/RottenJujube/RottenJujube (133).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (134),raw/mendeley8/images/RottenJujube/RottenJujube (134).jpg,spoiled_jujube
+phash_002325,mendeley8_RottenJujube_RottenJujube (139),raw/mendeley8/images/RottenJujube/RottenJujube (139).jpg,spoiled_jujube
+phash_002325,fruit16k_S_Strawberry_416,raw/fruit16k/images/S_Strawberry/416.jpg,spoiled_strawberry
+phash_002398,mendeley8_RottenJujube_RottenJujube (197),raw/mendeley8/images/RottenJujube/RottenJujube (197).jpg,spoiled_jujube
+phash_002398,fruit16k_F_Mango_614,raw/fruit16k/images/F_Mango/614.jpg,fresh_mango
+phash_002427,mendeley8_RottenJujube_RottenJujube (50),raw/mendeley8/images/RottenJujube/RottenJujube (50).jpg,spoiled_jujube
+phash_002427,fruit16k_F_Mango_350,raw/fruit16k/images/F_Mango/350.jpg,fresh_mango
+phash_002452,mendeley8_RottenJujube_RottenJujube (84),raw/mendeley8/images/RottenJujube/RottenJujube (84).jpg,spoiled_jujube
+phash_002452,fruit16k_F_Lemon_139,raw/fruit16k/images/F_Lemon/139.jpg,fresh_lemon
+phash_002452,fruit16k_F_Lemon_140,raw/fruit16k/images/F_Lemon/140.jpg,fresh_lemon
+phash_002452,fruit16k_F_Mango_371,raw/fruit16k/images/F_Mango/371.jpg,fresh_mango
+phash_002452,fruit16k_F_Mango_434,raw/fruit16k/images/F_Mango/434.jpg,fresh_mango
+phash_002452,fruit16k_F_Strawberry_553,raw/fruit16k/images/F_Strawberry/553.jpg,fresh_strawberry
+phash_002452,fruit16k_S_Strawberry_247,raw/fruit16k/images/S_Strawberry/247.jpg,spoiled_strawberry
+phash_002941,mendeley8_RottenStrawberry_RottenStrawberry (187),raw/mendeley8/images/RottenStrawberry/RottenStrawberry (187).jpg,spoiled_strawberry
+phash_002941,fruit16k_S_Tomato_553,raw/fruit16k/images/S_Tomato/553.jpg,spoiled_tomato
+phash_002948,mendeley8_RottenStrawberry_RottenStrawberry (193),raw/mendeley8/images/RottenStrawberry/RottenStrawberry (193).jpg,spoiled_strawberry
+phash_002948,fruit16k_F_Strawberry_417,raw/fruit16k/images/F_Strawberry/417.jpg,fresh_strawberry
+phash_002952,mendeley8_RottenStrawberry_RottenStrawberry (197),raw/mendeley8/images/RottenStrawberry/RottenStrawberry (197).jpg,spoiled_strawberry
+phash_002952,fruit16k_F_Strawberry_397,raw/fruit16k/images/F_Strawberry/397.jpg,fresh_strawberry
+phash_003017,mendeley8_RottenStrawberry_RottenStrawberry (77),raw/mendeley8/images/RottenStrawberry/RottenStrawberry (77).jpg,spoiled_strawberry
+phash_003017,fruit16k_F_Strawberry_689,raw/fruit16k/images/F_Strawberry/689.jpg,fresh_strawberry
+phash_003042,fruit16k_F_Banana_1,raw/fruit16k/images/F_Banana/1.jpg,fresh_banana
+phash_003042,fruit16k_S_Banana_6,raw/fruit16k/images/S_Banana/6.jpg,spoiled_banana
+phash_003472,fruit16k_F_Banana_507,raw/fruit16k/images/F_Banana/507.jpg,fresh_banana
+phash_003472,fruit16k_S_Banana_219,raw/fruit16k/images/S_Banana/219.jpg,spoiled_banana
+phash_003503,fruit16k_F_Banana_536,raw/fruit16k/images/F_Banana/536.jpg,fresh_banana
+phash_003503,fruit16k_S_Banana_25,raw/fruit16k/images/S_Banana/25.jpg,spoiled_banana
+phash_003921,fruit16k_F_Banana_953,raw/fruit16k/images/F_Banana/953.jpg,fresh_banana
+phash_003921,fruit16k_S_Mango_781,raw/fruit16k/images/S_Mango/781.jpg,spoiled_mango
+phash_003993,fruit16k_F_Lemon_147,raw/fruit16k/images/F_Lemon/147.jpg,fresh_lemon
+phash_003993,fruit16k_F_Lemon_148,raw/fruit16k/images/F_Lemon/148.jpg,fresh_lemon
+phash_003993,fruit16k_F_Tomato_5,raw/fruit16k/images/F_Tomato/5.jpg,fresh_tomato
+phash_003994,fruit16k_F_Lemon_149,raw/fruit16k/images/F_Lemon/149.jpg,fresh_lemon
+phash_003994,fruit16k_F_Lemon_150,raw/fruit16k/images/F_Lemon/150.jpg,fresh_lemon
+phash_003994,fruit16k_F_Lemon_157,raw/fruit16k/images/F_Lemon/157.jpg,fresh_lemon
+phash_003994,fruit16k_F_Lemon_158,raw/fruit16k/images/F_Lemon/158.jpg,fresh_lemon
+phash_003994,fruit16k_S_Strawberry_64,raw/fruit16k/images/S_Strawberry/64.jpg,spoiled_strawberry
+phash_004121,fruit16k_F_Lemon_37,raw/fruit16k/images/F_Lemon/37.jpg,fresh_lemon
+phash_004121,fruit16k_F_Lemon_38,raw/fruit16k/images/F_Lemon/38.jpg,fresh_lemon
+phash_004121,fruit16k_S_Tomato_68,raw/fruit16k/images/S_Tomato/68.jpg,spoiled_tomato
+phash_004168,fruit16k_F_Lemon_449,raw/fruit16k/images/F_Lemon/449.jpg,fresh_lemon
+phash_004168,fruit16k_F_Lemon_450,raw/fruit16k/images/F_Lemon/450.jpg,fresh_lemon
+phash_004168,fruit16k_F_Lemon_587,raw/fruit16k/images/F_Lemon/587.jpg,fresh_lemon
+phash_004168,fruit16k_F_Lemon_588,raw/fruit16k/images/F_Lemon/588.jpg,fresh_lemon
+phash_004168,fruit16k_F_Lemon_589,raw/fruit16k/images/F_Lemon/589.jpg,fresh_lemon
+phash_004168,fruit16k_F_Lemon_590,raw/fruit16k/images/F_Lemon/590.jpg,fresh_lemon
+phash_004168,fruit16k_S_Lemon_22,raw/fruit16k/images/S_Lemon/22.jpg,spoiled_lemon
+phash_004307,fruit16k_F_Lemon_766,raw/fruit16k/images/F_Lemon/766.jpg,fresh_lemon
+phash_004307,fruit16k_S_Lemon_852,raw/fruit16k/images/S_Lemon/852.jpg,spoiled_lemon
+phash_004336,fruit16k_F_Lemon_813,raw/fruit16k/images/F_Lemon/813.jpg,fresh_lemon
+phash_004336,fruit16k_F_Lemon_814,raw/fruit16k/images/F_Lemon/814.jpg,fresh_lemon
+phash_004336,fruit16k_S_Lemon_807,raw/fruit16k/images/S_Lemon/807.jpg,spoiled_lemon
+phash_004560,fruit16k_F_Lulo_297,raw/fruit16k/images/F_Lulo/297.jpg,fresh_lulo
+phash_004560,fruit16k_F_Lulo_298,raw/fruit16k/images/F_Lulo/298.jpg,fresh_lulo
+phash_004560,fruit16k_F_Orange_269,raw/fruit16k/images/F_Orange/269.jpg,fresh_orange
+phash_004575,fruit16k_F_Lulo_320,raw/fruit16k/images/F_Lulo/320.jpg,fresh_lulo
+phash_004575,fruit16k_F_Lulo_321,raw/fruit16k/images/F_Lulo/321.jpg,fresh_lulo
+phash_004575,fruit16k_S_Lulo_162,raw/fruit16k/images/S_Lulo/162.jpg,spoiled_lulo
+phash_005065,fruit16k_F_Mango_182,raw/fruit16k/images/F_Mango/182.jpg,fresh_mango
+phash_005065,fruit16k_F_Tomato_75,raw/fruit16k/images/F_Tomato/75.jpg,fresh_tomato
+phash_005095,fruit16k_F_Mango_21,raw/fruit16k/images/F_Mango/21.jpg,fresh_mango
+phash_005095,fruit16k_F_Orange_792,raw/fruit16k/images/F_Orange/792.jpg,fresh_orange
+phash_005095,fruit16k_S_Lemon_43,raw/fruit16k/images/S_Lemon/43.jpg,spoiled_lemon
+phash_005095,fruit16k_S_Lulo_869,raw/fruit16k/images/S_Lulo/869.jpg,spoiled_lulo
+phash_005095,fruit16k_S_Lulo_932,raw/fruit16k/images/S_Lulo/932.jpg,spoiled_lulo
+phash_005095,fruit16k_S_Mango_92,raw/fruit16k/images/S_Mango/92.jpg,spoiled_mango
+phash_005109,fruit16k_F_Mango_222,raw/fruit16k/images/F_Mango/222.jpg,fresh_mango
+phash_005109,fruit16k_S_Mango_122,raw/fruit16k/images/S_Mango/122.jpg,spoiled_mango
+phash_005164,fruit16k_F_Mango_276,raw/fruit16k/images/F_Mango/276.jpg,fresh_mango
+phash_005164,fruit16k_F_Tomato_301,raw/fruit16k/images/F_Tomato/301.jpg,fresh_tomato
+phash_005164,fruit16k_F_Tomato_369,raw/fruit16k/images/F_Tomato/369.jpg,fresh_tomato
+phash_005164,fruit16k_F_Tomato_413,raw/fruit16k/images/F_Tomato/413.jpg,fresh_tomato
+phash_005180,fruit16k_F_Mango_292,raw/fruit16k/images/F_Mango/292.jpg,fresh_mango
+phash_005180,fruit16k_F_Strawberry_335,raw/fruit16k/images/F_Strawberry/335.jpg,fresh_strawberry
+phash_005180,fruit16k_F_Strawberry_671,raw/fruit16k/images/F_Strawberry/671.jpg,fresh_strawberry
+phash_005180,fruit16k_F_Strawberry_705,raw/fruit16k/images/F_Strawberry/705.jpg,fresh_strawberry
+phash_005180,fruit16k_F_Tomato_313,raw/fruit16k/images/F_Tomato/313.jpg,fresh_tomato
+phash_005182,fruit16k_F_Mango_294,raw/fruit16k/images/F_Mango/294.jpg,fresh_mango
+phash_005182,fruit16k_F_Tomato_318,raw/fruit16k/images/F_Tomato/318.jpg,fresh_tomato
+phash_005191,fruit16k_F_Mango_301,raw/fruit16k/images/F_Mango/301.jpg,fresh_mango
+phash_005191,fruit16k_F_Mango_304,raw/fruit16k/images/F_Mango/304.jpg,fresh_mango
+phash_005191,fruit16k_F_Strawberry_534,raw/fruit16k/images/F_Strawberry/534.jpg,fresh_strawberry
+phash_005191,fruit16k_F_Strawberry_650,raw/fruit16k/images/F_Strawberry/650.jpg,fresh_strawberry
+phash_005201,fruit16k_F_Mango_316,raw/fruit16k/images/F_Mango/316.jpg,fresh_mango
+phash_005201,fruit16k_F_Mango_317,raw/fruit16k/images/F_Mango/317.jpg,fresh_mango
+phash_005201,fruit16k_F_Mango_318,raw/fruit16k/images/F_Mango/318.jpg,fresh_mango
+phash_005201,fruit16k_S_Strawberry_381,raw/fruit16k/images/S_Strawberry/381.jpg,spoiled_strawberry
+phash_005202,fruit16k_F_Mango_319,raw/fruit16k/images/F_Mango/319.jpg,fresh_mango
+phash_005202,fruit16k_F_Mango_421,raw/fruit16k/images/F_Mango/421.jpg,fresh_mango
+phash_005202,fruit16k_F_Mango_423,raw/fruit16k/images/F_Mango/423.jpg,fresh_mango
+phash_005202,fruit16k_F_Mango_451,raw/fruit16k/images/F_Mango/451.jpg,fresh_mango
+phash_005202,fruit16k_F_Mango_452,raw/fruit16k/images/F_Mango/452.jpg,fresh_mango
+phash_005202,fruit16k_F_Mango_453,raw/fruit16k/images/F_Mango/453.jpg,fresh_mango
+phash_005202,fruit16k_F_Mango_454,raw/fruit16k/images/F_Mango/454.jpg,fresh_mango
+phash_005202,fruit16k_F_Strawberry_496,raw/fruit16k/images/F_Strawberry/496.jpg,fresh_strawberry
+phash_005202,fruit16k_F_Tamarillo_623,raw/fruit16k/images/F_Tamarillo/623.jpg,fresh_tamarillo
+phash_005202,fruit16k_F_Tamarillo_624,raw/fruit16k/images/F_Tamarillo/624.jpg,fresh_tamarillo
+phash_005202,fruit16k_S_Lulo_196,raw/fruit16k/images/S_Lulo/196.jpg,spoiled_lulo
+phash_005202,fruit16k_S_Tomato_228,raw/fruit16k/images/S_Tomato/228.jpg,spoiled_tomato
+phash_005202,fruit16k_S_Tomato_344,raw/fruit16k/images/S_Tomato/344.jpg,spoiled_tomato
+phash_005202,fruit16k_S_Tomato_361,raw/fruit16k/images/S_Tomato/361.jpg,spoiled_tomato
+phash_005202,fruit16k_S_Tomato_390,raw/fruit16k/images/S_Tomato/390.jpg,spoiled_tomato
+phash_005202,fruit16k_S_Tomato_532,raw/fruit16k/images/S_Tomato/532.jpg,spoiled_tomato
+phash_005204,fruit16k_F_Mango_320,raw/fruit16k/images/F_Mango/320.jpg,fresh_mango
+phash_005204,fruit16k_F_Strawberry_400,raw/fruit16k/images/F_Strawberry/400.jpg,fresh_strawberry
+phash_005204,fruit16k_F_Tamarillo_443,raw/fruit16k/images/F_Tamarillo/443.jpg,fresh_tamarillo
+phash_005204,fruit16k_F_Tamarillo_444,raw/fruit16k/images/F_Tamarillo/444.jpg,fresh_tamarillo
+phash_005204,fruit16k_S_Strawberry_495,raw/fruit16k/images/S_Strawberry/495.jpg,spoiled_strawberry
+phash_005212,fruit16k_F_Mango_328,raw/fruit16k/images/F_Mango/328.jpg,fresh_mango
+phash_005212,fruit16k_F_Mango_363,raw/fruit16k/images/F_Mango/363.jpg,fresh_mango
+phash_005212,fruit16k_S_Strawberry_536,raw/fruit16k/images/S_Strawberry/536.jpg,spoiled_strawberry
+phash_005212,fruit16k_S_Tamarillo_514,raw/fruit16k/images/S_Tamarillo/514.jpg,spoiled_tamarillo
+phash_005212,fruit16k_S_Tomato_227,raw/fruit16k/images/S_Tomato/227.jpg,spoiled_tomato
+phash_005212,fruit16k_S_Tomato_276,raw/fruit16k/images/S_Tomato/276.jpg,spoiled_tomato
+phash_005212,fruit16k_S_Tomato_302,raw/fruit16k/images/S_Tomato/302.jpg,spoiled_tomato
+phash_005212,fruit16k_S_Tomato_414,raw/fruit16k/images/S_Tomato/414.jpg,spoiled_tomato
+phash_005212,fruit16k_S_Tomato_490,raw/fruit16k/images/S_Tomato/490.jpg,spoiled_tomato
+phash_005212,fruit16k_S_Tomato_497,raw/fruit16k/images/S_Tomato/497.jpg,spoiled_tomato
+phash_005212,fruit16k_S_Tomato_529,raw/fruit16k/images/S_Tomato/529.jpg,spoiled_tomato
+phash_005212,fruit16k_S_Tomato_638,raw/fruit16k/images/S_Tomato/638.jpg,spoiled_tomato
+phash_005233,fruit16k_F_Mango_349,raw/fruit16k/images/F_Mango/349.jpg,fresh_mango
+phash_005233,fruit16k_F_Mango_359,raw/fruit16k/images/F_Mango/359.jpg,fresh_mango
+phash_005233,fruit16k_F_Mango_361,raw/fruit16k/images/F_Mango/361.jpg,fresh_mango
+phash_005233,fruit16k_F_Mango_438,raw/fruit16k/images/F_Mango/438.jpg,fresh_mango
+phash_005233,fruit16k_F_Mango_455,raw/fruit16k/images/F_Mango/455.jpg,fresh_mango
+phash_005233,fruit16k_F_Mango_544,raw/fruit16k/images/F_Mango/544.jpg,fresh_mango
+phash_005233,fruit16k_F_Mango_545,raw/fruit16k/images/F_Mango/545.jpg,fresh_mango
+phash_005233,fruit16k_F_Mango_549,raw/fruit16k/images/F_Mango/549.jpg,fresh_mango
+phash_005233,fruit16k_F_Mango_572,raw/fruit16k/images/F_Mango/572.jpg,fresh_mango
+phash_005233,fruit16k_F_Mango_593,raw/fruit16k/images/F_Mango/593.jpg,fresh_mango
+phash_005233,fruit16k_F_Strawberry_342,raw/fruit16k/images/F_Strawberry/342.jpg,fresh_strawberry
+phash_005233,fruit16k_F_Strawberry_404,raw/fruit16k/images/F_Strawberry/404.jpg,fresh_strawberry
+phash_005233,fruit16k_F_Strawberry_506,raw/fruit16k/images/F_Strawberry/506.jpg,fresh_strawberry
+phash_005233,fruit16k_F_Strawberry_573,raw/fruit16k/images/F_Strawberry/573.jpg,fresh_strawberry
+phash_005233,fruit16k_F_Strawberry_629,raw/fruit16k/images/F_Strawberry/629.jpg,fresh_strawberry
+phash_005233,fruit16k_F_Strawberry_709,raw/fruit16k/images/F_Strawberry/709.jpg,fresh_strawberry
+phash_005233,fruit16k_F_Tamarillo_503,raw/fruit16k/images/F_Tamarillo/503.jpg,fresh_tamarillo
+phash_005233,fruit16k_F_Tamarillo_504,raw/fruit16k/images/F_Tamarillo/504.jpg,fresh_tamarillo
+phash_005233,fruit16k_F_Tomato_399,raw/fruit16k/images/F_Tomato/399.jpg,fresh_tomato
+phash_005233,fruit16k_F_Tomato_481,raw/fruit16k/images/F_Tomato/481.jpg,fresh_tomato
+phash_005233,fruit16k_F_Tomato_482,raw/fruit16k/images/F_Tomato/482.jpg,fresh_tomato
+phash_005233,fruit16k_S_Strawberry_290,raw/fruit16k/images/S_Strawberry/290.jpg,spoiled_strawberry
+phash_005233,fruit16k_S_Strawberry_291,raw/fruit16k/images/S_Strawberry/291.jpg,spoiled_strawberry
+phash_005233,fruit16k_S_Strawberry_292,raw/fruit16k/images/S_Strawberry/292.jpg,spoiled_strawberry
+phash_005233,fruit16k_S_Strawberry_293,raw/fruit16k/images/S_Strawberry/293.jpg,spoiled_strawberry
+phash_005233,fruit16k_S_Strawberry_309,raw/fruit16k/images/S_Strawberry/309.jpg,spoiled_strawberry
+phash_005233,fruit16k_S_Strawberry_470,raw/fruit16k/images/S_Strawberry/470.jpg,spoiled_strawberry
+phash_005233,fruit16k_S_Strawberry_520,raw/fruit16k/images/S_Strawberry/520.jpg,spoiled_strawberry
+phash_005233,fruit16k_S_Strawberry_542,raw/fruit16k/images/S_Strawberry/542.jpg,spoiled_strawberry
+phash_005233,fruit16k_S_Tamarillo_228,raw/fruit16k/images/S_Tamarillo/228.jpg,spoiled_tamarillo
+phash_005233,fruit16k_S_Tamarillo_229,raw/fruit16k/images/S_Tamarillo/229.jpg,spoiled_tamarillo
+phash_005233,fruit16k_S_Tamarillo_922,raw/fruit16k/images/S_Tamarillo/922.jpg,spoiled_tamarillo
+phash_005233,fruit16k_S_Tomato_225,raw/fruit16k/images/S_Tomato/225.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_226,raw/fruit16k/images/S_Tomato/226.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_231,raw/fruit16k/images/S_Tomato/231.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_232,raw/fruit16k/images/S_Tomato/232.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_242,raw/fruit16k/images/S_Tomato/242.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_318,raw/fruit16k/images/S_Tomato/318.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_345,raw/fruit16k/images/S_Tomato/345.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_387,raw/fruit16k/images/S_Tomato/387.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_435,raw/fruit16k/images/S_Tomato/435.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_479,raw/fruit16k/images/S_Tomato/479.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_622,raw/fruit16k/images/S_Tomato/622.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_656,raw/fruit16k/images/S_Tomato/656.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_673,raw/fruit16k/images/S_Tomato/673.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_719,raw/fruit16k/images/S_Tomato/719.jpg,spoiled_tomato
+phash_005233,fruit16k_S_Tomato_720,raw/fruit16k/images/S_Tomato/720.jpg,spoiled_tomato
+phash_005236,fruit16k_F_Mango_352,raw/fruit16k/images/F_Mango/352.jpg,fresh_mango
+phash_005236,fruit16k_F_Strawberry_398,raw/fruit16k/images/F_Strawberry/398.jpg,fresh_strawberry
+phash_005238,fruit16k_F_Mango_354,raw/fruit16k/images/F_Mango/354.jpg,fresh_mango
+phash_005238,fruit16k_S_Mango_396,raw/fruit16k/images/S_Mango/396.jpg,spoiled_mango
+phash_005244,fruit16k_F_Mango_364,raw/fruit16k/images/F_Mango/364.jpg,fresh_mango
+phash_005244,fruit16k_S_Tamarillo_174,raw/fruit16k/images/S_Tamarillo/174.jpg,spoiled_tamarillo
+phash_005247,fruit16k_F_Mango_367,raw/fruit16k/images/F_Mango/367.jpg,fresh_mango
+phash_005247,fruit16k_S_Strawberry_305,raw/fruit16k/images/S_Strawberry/305.jpg,spoiled_strawberry
+phash_005250,fruit16k_F_Mango_370,raw/fruit16k/images/F_Mango/370.jpg,fresh_mango
+phash_005250,fruit16k_F_Mango_601,raw/fruit16k/images/F_Mango/601.jpg,fresh_mango
+phash_005250,fruit16k_F_Strawberry_347,raw/fruit16k/images/F_Strawberry/347.jpg,fresh_strawberry
+phash_005250,fruit16k_F_Strawberry_366,raw/fruit16k/images/F_Strawberry/366.jpg,fresh_strawberry
+phash_005250,fruit16k_F_Tomato_502,raw/fruit16k/images/F_Tomato/502.jpg,fresh_tomato
+phash_005250,fruit16k_S_Tomato_646,raw/fruit16k/images/S_Tomato/646.jpg,spoiled_tomato
+phash_005297,fruit16k_F_Mango_416,raw/fruit16k/images/F_Mango/416.jpg,fresh_mango
+phash_005297,fruit16k_F_Strawberry_554,raw/fruit16k/images/F_Strawberry/554.jpg,fresh_strawberry
+phash_005297,fruit16k_S_Strawberry_656,raw/fruit16k/images/S_Strawberry/656.jpg,spoiled_strawberry
+phash_005304,fruit16k_F_Mango_427,raw/fruit16k/images/F_Mango/427.jpg,fresh_mango
+phash_005304,fruit16k_F_Mango_428,raw/fruit16k/images/F_Mango/428.jpg,fresh_mango
+phash_005304,fruit16k_F_Tomato_538,raw/fruit16k/images/F_Tomato/538.jpg,fresh_tomato
+phash_005304,fruit16k_F_Tomato_539,raw/fruit16k/images/F_Tomato/539.jpg,fresh_tomato
+phash_005304,fruit16k_F_Tomato_578,raw/fruit16k/images/F_Tomato/578.jpg,fresh_tomato
+phash_005304,fruit16k_S_Tomato_399,raw/fruit16k/images/S_Tomato/399.jpg,spoiled_tomato
+phash_005304,fruit16k_S_Tomato_453,raw/fruit16k/images/S_Tomato/453.jpg,spoiled_tomato
+phash_005321,fruit16k_F_Mango_457,raw/fruit16k/images/F_Mango/457.jpg,fresh_mango
+phash_005321,fruit16k_F_Strawberry_715,raw/fruit16k/images/F_Strawberry/715.jpg,fresh_strawberry
+phash_005325,fruit16k_F_Mango_462,raw/fruit16k/images/F_Mango/462.jpg,fresh_mango
+phash_005325,fruit16k_F_Tomato_252,raw/fruit16k/images/F_Tomato/252.jpg,fresh_tomato
+phash_005329,fruit16k_F_Mango_468,raw/fruit16k/images/F_Mango/468.jpg,fresh_mango
+phash_005329,fruit16k_F_Tomato_282,raw/fruit16k/images/F_Tomato/282.jpg,fresh_tomato
+phash_005329,fruit16k_F_Tomato_495,raw/fruit16k/images/F_Tomato/495.jpg,fresh_tomato
+phash_005329,fruit16k_S_Strawberry_489,raw/fruit16k/images/S_Strawberry/489.jpg,spoiled_strawberry
+phash_005330,fruit16k_F_Mango_469,raw/fruit16k/images/F_Mango/469.jpg,fresh_mango
+phash_005330,fruit16k_F_Strawberry_341,raw/fruit16k/images/F_Strawberry/341.jpg,fresh_strawberry
+phash_005357,fruit16k_F_Mango_493,raw/fruit16k/images/F_Mango/493.jpg,fresh_mango
+phash_005357,fruit16k_F_Mango_522,raw/fruit16k/images/F_Mango/522.jpg,fresh_mango
+phash_005357,fruit16k_S_Tomato_471,raw/fruit16k/images/S_Tomato/471.jpg,spoiled_tomato
+phash_005384,fruit16k_F_Mango_518,raw/fruit16k/images/F_Mango/518.jpg,fresh_mango
+phash_005384,fruit16k_F_Mango_519,raw/fruit16k/images/F_Mango/519.jpg,fresh_mango
+phash_005384,fruit16k_F_Strawberry_669,raw/fruit16k/images/F_Strawberry/669.jpg,fresh_strawberry
+phash_005429,fruit16k_F_Mango_564,raw/fruit16k/images/F_Mango/564.jpg,fresh_mango
+phash_005429,fruit16k_F_Tomato_254,raw/fruit16k/images/F_Tomato/254.jpg,fresh_tomato
+phash_005429,fruit16k_F_Tomato_446,raw/fruit16k/images/F_Tomato/446.jpg,fresh_tomato
+phash_005429,fruit16k_S_Tamarillo_296,raw/fruit16k/images/S_Tamarillo/296.jpg,spoiled_tamarillo
+phash_005429,fruit16k_S_Tamarillo_298,raw/fruit16k/images/S_Tamarillo/298.jpg,spoiled_tamarillo
+phash_005429,fruit16k_S_Tamarillo_324,raw/fruit16k/images/S_Tamarillo/324.jpg,spoiled_tamarillo
+phash_005429,fruit16k_S_Tomato_267,raw/fruit16k/images/S_Tomato/267.jpg,spoiled_tomato
+phash_005429,fruit16k_S_Tomato_373,raw/fruit16k/images/S_Tomato/373.jpg,spoiled_tomato
+phash_005440,fruit16k_F_Mango_577,raw/fruit16k/images/F_Mango/577.jpg,fresh_mango
+phash_005440,fruit16k_F_Strawberry_663,raw/fruit16k/images/F_Strawberry/663.jpg,fresh_strawberry
+phash_005446,fruit16k_F_Mango_584,raw/fruit16k/images/F_Mango/584.jpg,fresh_mango
+phash_005446,fruit16k_S_Strawberry_548,raw/fruit16k/images/S_Strawberry/548.jpg,spoiled_strawberry
+phash_005446,fruit16k_S_Strawberry_692,raw/fruit16k/images/S_Strawberry/692.jpg,spoiled_strawberry
+phash_005446,fruit16k_S_Strawberry_697,raw/fruit16k/images/S_Strawberry/697.jpg,spoiled_strawberry
+phash_005478,fruit16k_F_Mango_616,raw/fruit16k/images/F_Mango/616.jpg,fresh_mango
+phash_005478,fruit16k_F_Strawberry_572,raw/fruit16k/images/F_Strawberry/572.jpg,fresh_strawberry
+phash_005478,fruit16k_S_Strawberry_412,raw/fruit16k/images/S_Strawberry/412.jpg,spoiled_strawberry
+phash_005632,fruit16k_F_Mango_765,raw/fruit16k/images/F_Mango/765.jpg,fresh_mango
+phash_005632,fruit16k_S_Strawberry_41,raw/fruit16k/images/S_Strawberry/41.jpg,spoiled_strawberry
+phash_005632,fruit16k_S_Strawberry_55,raw/fruit16k/images/S_Strawberry/55.jpg,spoiled_strawberry
+phash_005818,fruit16k_F_Mango_936,raw/fruit16k/images/F_Mango/936.jpg,fresh_mango
+phash_005818,fruit16k_S_Mango_762,raw/fruit16k/images/S_Mango/762.jpg,spoiled_mango
+phash_006120,fruit16k_F_Orange_332,raw/fruit16k/images/F_Orange/332.jpg,fresh_orange
+phash_006120,fruit16k_S_Mango_512,raw/fruit16k/images/S_Mango/512.jpg,spoiled_mango
+phash_007019,fruit16k_F_Strawberry_313,raw/fruit16k/images/F_Strawberry/313.jpg,fresh_strawberry
+phash_007019,fruit16k_S_Strawberry_256,raw/fruit16k/images/S_Strawberry/256.jpg,spoiled_strawberry
+phash_007034,fruit16k_F_Strawberry_328,raw/fruit16k/images/F_Strawberry/328.jpg,fresh_strawberry
+phash_007034,fruit16k_F_Tomato_287,raw/fruit16k/images/F_Tomato/287.jpg,fresh_tomato
+phash_007034,fruit16k_F_Tomato_297,raw/fruit16k/images/F_Tomato/297.jpg,fresh_tomato
+phash_007034,fruit16k_F_Tomato_436,raw/fruit16k/images/F_Tomato/436.jpg,fresh_tomato
+phash_007034,fruit16k_F_Tomato_438,raw/fruit16k/images/F_Tomato/438.jpg,fresh_tomato
+phash_007034,fruit16k_S_Strawberry_472,raw/fruit16k/images/S_Strawberry/472.jpg,spoiled_strawberry
+phash_007034,fruit16k_S_Strawberry_483,raw/fruit16k/images/S_Strawberry/483.jpg,spoiled_strawberry
+phash_007037,fruit16k_F_Strawberry_330,raw/fruit16k/images/F_Strawberry/330.jpg,fresh_strawberry
+phash_007037,fruit16k_F_Strawberry_497,raw/fruit16k/images/F_Strawberry/497.jpg,fresh_strawberry
+phash_007037,fruit16k_F_Tomato_299,raw/fruit16k/images/F_Tomato/299.jpg,fresh_tomato
+phash_007037,fruit16k_F_Tomato_470,raw/fruit16k/images/F_Tomato/470.jpg,fresh_tomato
+phash_007037,fruit16k_F_Tomato_471,raw/fruit16k/images/F_Tomato/471.jpg,fresh_tomato
+phash_007037,fruit16k_S_Strawberry_383,raw/fruit16k/images/S_Strawberry/383.jpg,spoiled_strawberry
+phash_007040,fruit16k_F_Strawberry_336,raw/fruit16k/images/F_Strawberry/336.jpg,fresh_strawberry
+phash_007040,fruit16k_S_Strawberry_471,raw/fruit16k/images/S_Strawberry/471.jpg,spoiled_strawberry
+phash_007040,fruit16k_S_Strawberry_680,raw/fruit16k/images/S_Strawberry/680.jpg,spoiled_strawberry
+phash_007063,fruit16k_F_Strawberry_360,raw/fruit16k/images/F_Strawberry/360.jpg,fresh_strawberry
+phash_007063,fruit16k_S_Tamarillo_260,raw/fruit16k/images/S_Tamarillo/260.jpg,spoiled_tamarillo
+phash_007067,fruit16k_F_Strawberry_364,raw/fruit16k/images/F_Strawberry/364.jpg,fresh_strawberry
+phash_007067,fruit16k_S_Orange_290,raw/fruit16k/images/S_Orange/290.jpg,spoiled_orange
+phash_007076,fruit16k_F_Strawberry_373,raw/fruit16k/images/F_Strawberry/373.jpg,fresh_strawberry
+phash_007076,fruit16k_F_Strawberry_444,raw/fruit16k/images/F_Strawberry/444.jpg,fresh_strawberry
+phash_007076,fruit16k_F_Strawberry_445,raw/fruit16k/images/F_Strawberry/445.jpg,fresh_strawberry
+phash_007076,fruit16k_F_Strawberry_462,raw/fruit16k/images/F_Strawberry/462.jpg,fresh_strawberry
+phash_007076,fruit16k_F_Strawberry_488,raw/fruit16k/images/F_Strawberry/488.jpg,fresh_strawberry
+phash_007076,fruit16k_F_Strawberry_606,raw/fruit16k/images/F_Strawberry/606.jpg,fresh_strawberry
+phash_007076,fruit16k_F_Strawberry_607,raw/fruit16k/images/F_Strawberry/607.jpg,fresh_strawberry
+phash_007076,fruit16k_S_Strawberry_359,raw/fruit16k/images/S_Strawberry/359.jpg,spoiled_strawberry
+phash_007076,fruit16k_S_Strawberry_567,raw/fruit16k/images/S_Strawberry/567.jpg,spoiled_strawberry
+phash_007076,fruit16k_S_Strawberry_577,raw/fruit16k/images/S_Strawberry/577.jpg,spoiled_strawberry
+phash_007076,fruit16k_S_Strawberry_587,raw/fruit16k/images/S_Strawberry/587.jpg,spoiled_strawberry
+phash_007076,fruit16k_S_Strawberry_594,raw/fruit16k/images/S_Strawberry/594.jpg,spoiled_strawberry
+phash_007076,fruit16k_S_Strawberry_605,raw/fruit16k/images/S_Strawberry/605.jpg,spoiled_strawberry
+phash_007096,fruit16k_F_Strawberry_393,raw/fruit16k/images/F_Strawberry/393.jpg,fresh_strawberry
+phash_007096,fruit16k_S_Strawberry_522,raw/fruit16k/images/S_Strawberry/522.jpg,spoiled_strawberry
+phash_007096,fruit16k_S_Strawberry_603,raw/fruit16k/images/S_Strawberry/603.jpg,spoiled_strawberry
+phash_007104,fruit16k_F_Strawberry_405,raw/fruit16k/images/F_Strawberry/405.jpg,fresh_strawberry
+phash_007104,fruit16k_F_Strawberry_406,raw/fruit16k/images/F_Strawberry/406.jpg,fresh_strawberry
+phash_007104,fruit16k_S_Tamarillo_307,raw/fruit16k/images/S_Tamarillo/307.jpg,spoiled_tamarillo
+phash_007147,fruit16k_F_Strawberry_449,raw/fruit16k/images/F_Strawberry/449.jpg,fresh_strawberry
+phash_007147,fruit16k_S_Strawberry_329,raw/fruit16k/images/S_Strawberry/329.jpg,spoiled_strawberry
+phash_007194,fruit16k_F_Strawberry_495,raw/fruit16k/images/F_Strawberry/495.jpg,fresh_strawberry
+phash_007194,fruit16k_S_Tomato_319,raw/fruit16k/images/S_Tomato/319.jpg,spoiled_tomato
+phash_007215,fruit16k_F_Strawberry_516,raw/fruit16k/images/F_Strawberry/516.jpg,fresh_strawberry
+phash_007215,fruit16k_S_Strawberry_516,raw/fruit16k/images/S_Strawberry/516.jpg,spoiled_strawberry
+phash_007231,fruit16k_F_Strawberry_533,raw/fruit16k/images/F_Strawberry/533.jpg,fresh_strawberry
+phash_007231,fruit16k_S_Strawberry_539,raw/fruit16k/images/S_Strawberry/539.jpg,spoiled_strawberry
+phash_007239,fruit16k_F_Strawberry_541,raw/fruit16k/images/F_Strawberry/541.jpg,fresh_strawberry
+phash_007239,fruit16k_S_Mango_263,raw/fruit16k/images/S_Mango/263.jpg,spoiled_mango
+phash_007267,fruit16k_F_Strawberry_569,raw/fruit16k/images/F_Strawberry/569.jpg,fresh_strawberry
+phash_007267,fruit16k_S_Strawberry_517,raw/fruit16k/images/S_Strawberry/517.jpg,spoiled_strawberry
+phash_007281,fruit16k_F_Strawberry_584,raw/fruit16k/images/F_Strawberry/584.jpg,fresh_strawberry
+phash_007281,fruit16k_S_Strawberry_463,raw/fruit16k/images/S_Strawberry/463.jpg,spoiled_strawberry
+phash_007289,fruit16k_F_Strawberry_593,raw/fruit16k/images/F_Strawberry/593.jpg,fresh_strawberry
+phash_007289,fruit16k_F_Tomato_440,raw/fruit16k/images/F_Tomato/440.jpg,fresh_tomato
+phash_007289,fruit16k_S_Tomato_270,raw/fruit16k/images/S_Tomato/270.jpg,spoiled_tomato
+phash_007289,fruit16k_S_Tomato_333,raw/fruit16k/images/S_Tomato/333.jpg,spoiled_tomato
+phash_007289,fruit16k_S_Tomato_503,raw/fruit16k/images/S_Tomato/503.jpg,spoiled_tomato
+phash_007289,fruit16k_S_Tomato_675,raw/fruit16k/images/S_Tomato/675.jpg,spoiled_tomato
+phash_007335,fruit16k_F_Strawberry_639,raw/fruit16k/images/F_Strawberry/639.jpg,fresh_strawberry
+phash_007335,fruit16k_F_Strawberry_675,raw/fruit16k/images/F_Strawberry/675.jpg,fresh_strawberry
+phash_007335,fruit16k_S_Strawberry_304,raw/fruit16k/images/S_Strawberry/304.jpg,spoiled_strawberry
+phash_007335,fruit16k_S_Strawberry_449,raw/fruit16k/images/S_Strawberry/449.jpg,spoiled_strawberry
+phash_007335,fruit16k_S_Strawberry_451,raw/fruit16k/images/S_Strawberry/451.jpg,spoiled_strawberry
+phash_007335,fruit16k_S_Strawberry_454,raw/fruit16k/images/S_Strawberry/454.jpg,spoiled_strawberry
+phash_007335,fruit16k_S_Strawberry_455,raw/fruit16k/images/S_Strawberry/455.jpg,spoiled_strawberry
+phash_007335,fruit16k_S_Strawberry_457,raw/fruit16k/images/S_Strawberry/457.jpg,spoiled_strawberry
+phash_007343,fruit16k_F_Strawberry_646,raw/fruit16k/images/F_Strawberry/646.jpg,fresh_strawberry
+phash_007343,fruit16k_S_Strawberry_346,raw/fruit16k/images/S_Strawberry/346.jpg,spoiled_strawberry
+phash_007355,fruit16k_F_Strawberry_659,raw/fruit16k/images/F_Strawberry/659.jpg,fresh_strawberry
+phash_007355,fruit16k_F_Tamarillo_189,raw/fruit16k/images/F_Tamarillo/189.jpg,fresh_tamarillo
+phash_007366,fruit16k_F_Strawberry_676,raw/fruit16k/images/F_Strawberry/676.jpg,fresh_strawberry
+phash_007366,fruit16k_F_Strawberry_680,raw/fruit16k/images/F_Strawberry/680.jpg,fresh_strawberry
+phash_007366,fruit16k_S_Strawberry_566,raw/fruit16k/images/S_Strawberry/566.jpg,spoiled_strawberry
+phash_007366,fruit16k_S_Strawberry_739,raw/fruit16k/images/S_Strawberry/739.jpg,spoiled_strawberry
+phash_007366,fruit16k_S_Strawberry_740,raw/fruit16k/images/S_Strawberry/740.jpg,spoiled_strawberry
+phash_007366,fruit16k_S_Strawberry_745,raw/fruit16k/images/S_Strawberry/745.jpg,spoiled_strawberry
+phash_007373,fruit16k_F_Strawberry_683,raw/fruit16k/images/F_Strawberry/683.jpg,fresh_strawberry
+phash_007373,fruit16k_F_Tomato_414,raw/fruit16k/images/F_Tomato/414.jpg,fresh_tomato
+phash_007373,fruit16k_F_Tomato_427,raw/fruit16k/images/F_Tomato/427.jpg,fresh_tomato
+phash_007373,fruit16k_F_Tomato_496,raw/fruit16k/images/F_Tomato/496.jpg,fresh_tomato
+phash_007373,fruit16k_S_Tamarillo_352,raw/fruit16k/images/S_Tamarillo/352.jpg,spoiled_tamarillo
+phash_007373,fruit16k_S_Tomato_312,raw/fruit16k/images/S_Tomato/312.jpg,spoiled_tomato
+phash_007373,fruit16k_S_Tomato_321,raw/fruit16k/images/S_Tomato/321.jpg,spoiled_tomato
+phash_007373,fruit16k_S_Tomato_463,raw/fruit16k/images/S_Tomato/463.jpg,spoiled_tomato
+phash_007373,fruit16k_S_Tomato_663,raw/fruit16k/images/S_Tomato/663.jpg,spoiled_tomato
+phash_007373,fruit16k_S_Tomato_701,raw/fruit16k/images/S_Tomato/701.jpg,spoiled_tomato
+phash_007373,fruit16k_S_Tomato_729,raw/fruit16k/images/S_Tomato/729.jpg,spoiled_tomato
+phash_007376,fruit16k_F_Strawberry_686,raw/fruit16k/images/F_Strawberry/686.jpg,fresh_strawberry
+phash_007376,fruit16k_S_Strawberry_510,raw/fruit16k/images/S_Strawberry/510.jpg,spoiled_strawberry
+phash_007760,fruit16k_F_Tamarillo_171,raw/fruit16k/images/F_Tamarillo/171.jpg,fresh_tamarillo
+phash_007760,fruit16k_S_Tamarillo_170,raw/fruit16k/images/S_Tamarillo/170.jpg,spoiled_tamarillo
+phash_007926,fruit16k_F_Tamarillo_392,raw/fruit16k/images/F_Tamarillo/392.jpg,fresh_tamarillo
+phash_007926,fruit16k_S_Strawberry_414,raw/fruit16k/images/S_Strawberry/414.jpg,spoiled_strawberry
+phash_008018,fruit16k_F_Tamarillo_53,raw/fruit16k/images/F_Tamarillo/53.jpg,fresh_tamarillo
+phash_008018,fruit16k_S_Tamarillo_792,raw/fruit16k/images/S_Tamarillo/792.jpg,spoiled_tamarillo
+phash_008080,fruit16k_F_Tamarillo_620,raw/fruit16k/images/F_Tamarillo/620.jpg,fresh_tamarillo
+phash_008080,fruit16k_F_Tamarillo_621,raw/fruit16k/images/F_Tamarillo/621.jpg,fresh_tamarillo
+phash_008080,fruit16k_S_Mango_254,raw/fruit16k/images/S_Mango/254.jpg,spoiled_mango
+phash_008131,fruit16k_F_Tamarillo_695,raw/fruit16k/images/F_Tamarillo/695.jpg,fresh_tamarillo
+phash_008131,fruit16k_F_Tamarillo_696,raw/fruit16k/images/F_Tamarillo/696.jpg,fresh_tamarillo
+phash_008131,fruit16k_S_Lulo_111,raw/fruit16k/images/S_Lulo/111.jpg,spoiled_lulo
+phash_008424,fruit16k_F_Tomato_172,raw/fruit16k/images/F_Tomato/172.jpg,fresh_tomato
+phash_008424,fruit16k_S_Banana_166,raw/fruit16k/images/S_Banana/166.jpg,spoiled_banana
+phash_008492,fruit16k_F_Tomato_240,raw/fruit16k/images/F_Tomato/240.jpg,fresh_tomato
+phash_008492,fruit16k_F_Tomato_241,raw/fruit16k/images/F_Tomato/241.jpg,fresh_tomato
+phash_008492,fruit16k_F_Tomato_322,raw/fruit16k/images/F_Tomato/322.jpg,fresh_tomato
+phash_008492,fruit16k_F_Tomato_323,raw/fruit16k/images/F_Tomato/323.jpg,fresh_tomato
+phash_008492,fruit16k_S_Strawberry_531,raw/fruit16k/images/S_Strawberry/531.jpg,spoiled_strawberry
+phash_008492,fruit16k_S_Strawberry_682,raw/fruit16k/images/S_Strawberry/682.jpg,spoiled_strawberry
+phash_008505,fruit16k_F_Tomato_255,raw/fruit16k/images/F_Tomato/255.jpg,fresh_tomato
+phash_008505,fruit16k_F_Tomato_412,raw/fruit16k/images/F_Tomato/412.jpg,fresh_tomato
+phash_008505,fruit16k_F_Tomato_466,raw/fruit16k/images/F_Tomato/466.jpg,fresh_tomato
+phash_008505,fruit16k_F_Tomato_503,raw/fruit16k/images/F_Tomato/503.jpg,fresh_tomato
+phash_008505,fruit16k_S_Tamarillo_262,raw/fruit16k/images/S_Tamarillo/262.jpg,spoiled_tamarillo
+phash_008505,fruit16k_S_Tamarillo_480,raw/fruit16k/images/S_Tamarillo/480.jpg,spoiled_tamarillo
+phash_008506,fruit16k_F_Tomato_256,raw/fruit16k/images/F_Tomato/256.jpg,fresh_tomato
+phash_008506,fruit16k_F_Tomato_257,raw/fruit16k/images/F_Tomato/257.jpg,fresh_tomato
+phash_008506,fruit16k_S_Tomato_716,raw/fruit16k/images/S_Tomato/716.jpg,spoiled_tomato
+phash_008507,fruit16k_F_Tomato_258,raw/fruit16k/images/F_Tomato/258.jpg,fresh_tomato
+phash_008507,fruit16k_F_Tomato_497,raw/fruit16k/images/F_Tomato/497.jpg,fresh_tomato
+phash_008507,fruit16k_F_Tomato_498,raw/fruit16k/images/F_Tomato/498.jpg,fresh_tomato
+phash_008507,fruit16k_S_Strawberry_687,raw/fruit16k/images/S_Strawberry/687.jpg,spoiled_strawberry
+phash_008507,fruit16k_S_Tamarillo_190,raw/fruit16k/images/S_Tamarillo/190.jpg,spoiled_tamarillo
+phash_008507,fruit16k_S_Tomato_272,raw/fruit16k/images/S_Tomato/272.jpg,spoiled_tomato
+phash_008514,fruit16k_F_Tomato_264,raw/fruit16k/images/F_Tomato/264.jpg,fresh_tomato
+phash_008514,fruit16k_F_Tomato_284,raw/fruit16k/images/F_Tomato/284.jpg,fresh_tomato
+phash_008514,fruit16k_S_Tomato_290,raw/fruit16k/images/S_Tomato/290.jpg,spoiled_tomato
+phash_008514,fruit16k_S_Tomato_291,raw/fruit16k/images/S_Tomato/291.jpg,spoiled_tomato
+phash_008516,fruit16k_F_Tomato_266,raw/fruit16k/images/F_Tomato/266.jpg,fresh_tomato
+phash_008516,fruit16k_S_Tomato_297,raw/fruit16k/images/S_Tomato/297.jpg,spoiled_tomato
+phash_008517,fruit16k_F_Tomato_267,raw/fruit16k/images/F_Tomato/267.jpg,fresh_tomato
+phash_008517,fruit16k_F_Tomato_435,raw/fruit16k/images/F_Tomato/435.jpg,fresh_tomato
+phash_008517,fruit16k_S_Tomato_296,raw/fruit16k/images/S_Tomato/296.jpg,spoiled_tomato
+phash_008535,fruit16k_F_Tomato_293,raw/fruit16k/images/F_Tomato/293.jpg,fresh_tomato
+phash_008535,fruit16k_S_Strawberry_504,raw/fruit16k/images/S_Strawberry/504.jpg,spoiled_strawberry
+phash_008548,fruit16k_F_Tomato_317,raw/fruit16k/images/F_Tomato/317.jpg,fresh_tomato
+phash_008548,fruit16k_S_Mango_297,raw/fruit16k/images/S_Mango/297.jpg,spoiled_mango
+phash_008548,fruit16k_S_Tamarillo_247,raw/fruit16k/images/S_Tamarillo/247.jpg,spoiled_tamarillo
+phash_008554,fruit16k_F_Tomato_325,raw/fruit16k/images/F_Tomato/325.jpg,fresh_tomato
+phash_008554,fruit16k_S_Tomato_286,raw/fruit16k/images/S_Tomato/286.jpg,spoiled_tomato
+phash_008554,fruit16k_S_Tomato_364,raw/fruit16k/images/S_Tomato/364.jpg,spoiled_tomato
+phash_008565,fruit16k_F_Tomato_337,raw/fruit16k/images/F_Tomato/337.jpg,fresh_tomato
+phash_008565,fruit16k_F_Tomato_409,raw/fruit16k/images/F_Tomato/409.jpg,fresh_tomato
+phash_008565,fruit16k_F_Tomato_456,raw/fruit16k/images/F_Tomato/456.jpg,fresh_tomato
+phash_008565,fruit16k_F_Tomato_457,raw/fruit16k/images/F_Tomato/457.jpg,fresh_tomato
+phash_008565,fruit16k_S_Strawberry_488,raw/fruit16k/images/S_Strawberry/488.jpg,spoiled_strawberry
+phash_008584,fruit16k_F_Tomato_358,raw/fruit16k/images/F_Tomato/358.jpg,fresh_tomato
+phash_008584,fruit16k_S_Tomato_474,raw/fruit16k/images/S_Tomato/474.jpg,spoiled_tomato
+phash_008584,fruit16k_S_Tomato_614,raw/fruit16k/images/S_Tomato/614.jpg,spoiled_tomato
+phash_008597,fruit16k_F_Tomato_373,raw/fruit16k/images/F_Tomato/373.jpg,fresh_tomato
+phash_008597,fruit16k_F_Tomato_441,raw/fruit16k/images/F_Tomato/441.jpg,fresh_tomato
+phash_008597,fruit16k_F_Tomato_445,raw/fruit16k/images/F_Tomato/445.jpg,fresh_tomato
+phash_008597,fruit16k_F_Tomato_474,raw/fruit16k/images/F_Tomato/474.jpg,fresh_tomato
+phash_008597,fruit16k_S_Tamarillo_364,raw/fruit16k/images/S_Tamarillo/364.jpg,spoiled_tamarillo
+phash_008597,fruit16k_S_Tomato_268,raw/fruit16k/images/S_Tomato/268.jpg,spoiled_tomato
+phash_008597,fruit16k_S_Tomato_444,raw/fruit16k/images/S_Tomato/444.jpg,spoiled_tomato
+phash_008597,fruit16k_S_Tomato_711,raw/fruit16k/images/S_Tomato/711.jpg,spoiled_tomato
+phash_008610,fruit16k_F_Tomato_387,raw/fruit16k/images/F_Tomato/387.jpg,fresh_tomato
+phash_008610,fruit16k_S_Tomato_404,raw/fruit16k/images/S_Tomato/404.jpg,spoiled_tomato
+phash_008610,fruit16k_S_Tomato_449,raw/fruit16k/images/S_Tomato/449.jpg,spoiled_tomato
+phash_008615,fruit16k_F_Tomato_393,raw/fruit16k/images/F_Tomato/393.jpg,fresh_tomato
+phash_008615,fruit16k_S_Tamarillo_232,raw/fruit16k/images/S_Tamarillo/232.jpg,spoiled_tamarillo
+phash_008615,fruit16k_S_Tomato_458,raw/fruit16k/images/S_Tomato/458.jpg,spoiled_tomato
+phash_008653,fruit16k_F_Tomato_444,raw/fruit16k/images/F_Tomato/444.jpg,fresh_tomato
+phash_008653,fruit16k_F_Tomato_463,raw/fruit16k/images/F_Tomato/463.jpg,fresh_tomato
+phash_008653,fruit16k_S_Tomato_349,raw/fruit16k/images/S_Tomato/349.jpg,spoiled_tomato
+phash_008685,fruit16k_F_Tomato_488,raw/fruit16k/images/F_Tomato/488.jpg,fresh_tomato
+phash_008685,fruit16k_S_Strawberry_297,raw/fruit16k/images/S_Strawberry/297.jpg,spoiled_strawberry
+phash_008792,fruit16k_F_Tomato_6,raw/fruit16k/images/F_Tomato/6.jpg,fresh_tomato
+phash_008792,fruit16k_S_Tomato_153,raw/fruit16k/images/S_Tomato/153.jpg,spoiled_tomato
+phash_008797,fruit16k_F_Tomato_604,raw/fruit16k/images/F_Tomato/604.jpg,fresh_tomato
+phash_008797,fruit16k_S_Mango_518,raw/fruit16k/images/S_Mango/518.jpg,spoiled_mango
+phash_008881,fruit16k_F_Tomato_689,raw/fruit16k/images/F_Tomato/689.jpg,fresh_tomato
+phash_008881,fruit16k_S_Mango_535,raw/fruit16k/images/S_Mango/535.jpg,spoiled_mango
+phash_008885,fruit16k_F_Tomato_692,raw/fruit16k/images/F_Tomato/692.jpg,fresh_tomato
+phash_008885,fruit16k_F_Tomato_708,raw/fruit16k/images/F_Tomato/708.jpg,fresh_tomato
+phash_008885,fruit16k_S_Mango_608,raw/fruit16k/images/S_Mango/608.jpg,spoiled_mango
+phash_008886,fruit16k_F_Tomato_693,raw/fruit16k/images/F_Tomato/693.jpg,fresh_tomato
+phash_008886,fruit16k_S_Mango_508,raw/fruit16k/images/S_Mango/508.jpg,spoiled_mango
+phash_009123,fruit16k_F_Tomato_926,raw/fruit16k/images/F_Tomato/926.jpg,fresh_tomato
+phash_009123,fruit16k_S_Mango_798,raw/fruit16k/images/S_Mango/798.jpg,spoiled_mango
+phash_009141,fruit16k_F_Tomato_942,raw/fruit16k/images/F_Tomato/942.jpg,fresh_tomato
+phash_009141,fruit16k_S_Mango_897,raw/fruit16k/images/S_Mango/897.jpg,spoiled_mango
+phash_009711,fruit16k_S_Banana_595,raw/fruit16k/images/S_Banana/595.jpg,spoiled_banana
+phash_009711,fruit16k_S_Strawberry_347,raw/fruit16k/images/S_Strawberry/347.jpg,spoiled_strawberry
+phash_010723,fruit16k_S_Lemon_690,raw/fruit16k/images/S_Lemon/690.jpg,spoiled_lemon
+phash_010723,fruit16k_S_Strawberry_294,raw/fruit16k/images/S_Strawberry/294.jpg,spoiled_strawberry
+phash_011378,fruit16k_S_Lulo_425,raw/fruit16k/images/S_Lulo/425.jpg,spoiled_lulo
+phash_011378,fruit16k_S_Orange_580,raw/fruit16k/images/S_Orange/580.jpg,spoiled_orange
+phash_012125,fruit16k_S_Mango_209,raw/fruit16k/images/S_Mango/209.jpg,spoiled_mango
+phash_012125,fruit16k_S_Strawberry_343,raw/fruit16k/images/S_Strawberry/343.jpg,spoiled_strawberry
+phash_012128,fruit16k_S_Mango_211,raw/fruit16k/images/S_Mango/211.jpg,spoiled_mango
+phash_012128,fruit16k_S_Strawberry_380,raw/fruit16k/images/S_Strawberry/380.jpg,spoiled_strawberry
+phash_012377,fruit16k_S_Mango_46,raw/fruit16k/images/S_Mango/46.jpg,spoiled_mango
+phash_012377,fruit16k_S_Tomato_103,raw/fruit16k/images/S_Tomato/103.jpg,spoiled_tomato
+phash_012397,fruit16k_S_Mango_48,raw/fruit16k/images/S_Mango/48.jpg,spoiled_mango
+phash_012397,fruit16k_S_Tomato_102,raw/fruit16k/images/S_Tomato/102.jpg,spoiled_tomato
+phash_012397,fruit16k_S_Tomato_128,raw/fruit16k/images/S_Tomato/128.jpg,spoiled_tomato
+phash_012397,fruit16k_S_Tomato_136,raw/fruit16k/images/S_Tomato/136.jpg,spoiled_tomato
+phash_012397,fruit16k_S_Tomato_27,raw/fruit16k/images/S_Tomato/27.jpg,spoiled_tomato
+phash_012397,fruit16k_S_Tomato_28,raw/fruit16k/images/S_Tomato/28.jpg,spoiled_tomato
+phash_012397,fruit16k_S_Tomato_30,raw/fruit16k/images/S_Tomato/30.jpg,spoiled_tomato
+phash_012397,fruit16k_S_Tomato_31,raw/fruit16k/images/S_Tomato/31.jpg,spoiled_tomato
+phash_012725,fruit16k_S_Mango_804,raw/fruit16k/images/S_Mango/804.jpg,spoiled_mango
+phash_012725,fruit16k_S_Mango_805,raw/fruit16k/images/S_Mango/805.jpg,spoiled_mango
+phash_012725,fruit16k_S_Mango_842,raw/fruit16k/images/S_Mango/842.jpg,spoiled_mango
+phash_012725,fruit16k_S_Tamarillo_670,raw/fruit16k/images/S_Tamarillo/670.jpg,spoiled_tamarillo
+phash_014001,fruit16k_S_Strawberry_283,raw/fruit16k/images/S_Strawberry/283.jpg,spoiled_strawberry
+phash_014001,fruit16k_S_Tomato_322,raw/fruit16k/images/S_Tomato/322.jpg,spoiled_tomato
+phash_014001,fruit16k_S_Tomato_323,raw/fruit16k/images/S_Tomato/323.jpg,spoiled_tomato
+phash_014001,fruit16k_S_Tomato_324,raw/fruit16k/images/S_Tomato/324.jpg,spoiled_tomato
+phash_014001,fruit16k_S_Tomato_325,raw/fruit16k/images/S_Tomato/325.jpg,spoiled_tomato
+phash_014001,fruit16k_S_Tomato_379,raw/fruit16k/images/S_Tomato/379.jpg,spoiled_tomato
+phash_014013,fruit16k_S_Strawberry_300,raw/fruit16k/images/S_Strawberry/300.jpg,spoiled_strawberry
+phash_014013,fruit16k_S_Tamarillo_263,raw/fruit16k/images/S_Tamarillo/263.jpg,spoiled_tamarillo
+phash_014122,fruit16k_S_Strawberry_420,raw/fruit16k/images/S_Strawberry/420.jpg,spoiled_strawberry
+phash_014122,fruit16k_S_Strawberry_424,raw/fruit16k/images/S_Strawberry/424.jpg,spoiled_strawberry
+phash_014122,fruit16k_S_Tamarillo_292,raw/fruit16k/images/S_Tamarillo/292.jpg,spoiled_tamarillo
+phash_014171,fruit16k_S_Strawberry_479,raw/fruit16k/images/S_Strawberry/479.jpg,spoiled_strawberry
+phash_014171,fruit16k_S_Tamarillo_205,raw/fruit16k/images/S_Tamarillo/205.jpg,spoiled_tamarillo
+phash_014176,fruit16k_S_Strawberry_484,raw/fruit16k/images/S_Strawberry/484.jpg,spoiled_strawberry
+phash_014176,fruit16k_S_Tomato_727,raw/fruit16k/images/S_Tomato/727.jpg,spoiled_tomato
+phash_014253,fruit16k_S_Strawberry_573,raw/fruit16k/images/S_Strawberry/573.jpg,spoiled_strawberry
+phash_014253,fruit16k_S_Tomato_547,raw/fruit16k/images/S_Tomato/547.jpg,spoiled_tomato
+phash_014365,fruit16k_S_Strawberry_690,raw/fruit16k/images/S_Strawberry/690.jpg,spoiled_strawberry
+phash_014365,fruit16k_S_Tomato_570,raw/fruit16k/images/S_Tomato/570.jpg,spoiled_tomato
+phash_015517,fruit16k_S_Tamarillo_892,raw/fruit16k/images/S_Tamarillo/892.jpg,spoiled_tamarillo
+phash_015517,fruit16k_S_Tomato_714,raw/fruit16k/images/S_Tomato/714.jpg,spoiled_tomato

@@ -1,0 +1,10 @@
+{
+  "originalAppRetained": true,
+  "classicAppInstalled": true,
+  "originalId": "com.fruitlens.app",
+  "classicId": "com.fruitlens.classic",
+  "classicBrandRendered": true,
+  "modelWarmupAndReadyState": true,
+  "testedAbi": "x86_64",
+  "testedAndroidApi": 30
+}

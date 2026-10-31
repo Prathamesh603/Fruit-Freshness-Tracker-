@@ -1,0 +1,14 @@
+path: D:\Projects\Fruit freshness detection\detector_training\yolov8n-fruit9-v2\data
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: apple
+  1: banana
+  2: grape
+  3: lemon
+  4: mango
+  5: orange
+  6: pomegranate
+  7: strawberry
+  8: tomato

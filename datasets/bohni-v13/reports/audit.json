@@ -1,0 +1,46 @@
+{
+  "archive": "D:\\Projects\\Fruit freshness detection\\datasets\\Fruits and Vegi.v13-verison8.yolov8.zip",
+  "archive_bytes": 709892684,
+  "archive_sha256": "e53de22bd94867b4c7034506423249ad823d8c3878481485f498e613b2ad4f1c",
+  "actual_images": 6730,
+  "publisher_readme_images": 6805,
+  "source_split_images": {
+    "test": 10,
+    "train": 6573,
+    "valid": 147
+  },
+  "source_classes": 35,
+  "source_boxes": 20592,
+  "geometry_errors": 0,
+  "source_families": 2282,
+  "families_crossing_source_splits": 11,
+  "exact_duplicate_groups": 1,
+  "exact_duplicate_copies": 1,
+  "target_images": 2330,
+  "target_boxes": 6801,
+  "target_source_families": 802,
+  "target_classes": [
+    "apple",
+    "banana",
+    "grape",
+    "mango",
+    "orange",
+    "pomegranate",
+    "strawberry",
+    "tomato"
+  ],
+  "missing_nine_class_target": [
+    "lemon"
+  ],
+  "missing_thirteen_class_targets": [
+    "guava",
+    "jujube",
+    "lemon",
+    "lulo",
+    "tamarillo"
+  ],
+  "baseline_exact_overlap_images": 0,
+  "baseline_exact_phash_overlap_images": 0,
+  "training_ready": false,
+  "note": "All project splits unassigned. Augmented family grouping, near-duplicate/crop overlap checks, and label review required."
+}

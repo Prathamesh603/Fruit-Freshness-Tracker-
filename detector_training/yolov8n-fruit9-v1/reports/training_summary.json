@@ -1,0 +1,13 @@
+{
+  "training_completed": true,
+  "elapsed_seconds_this_invocation": 2495.829936981201,
+  "best_checkpoint": "D:\\Projects\\Fruit freshness detection\\detector_training\\yolov8n-fruit9-v1\\runs\\train\\weights\\best.pt",
+  "last_checkpoint": "D:\\Projects\\Fruit freshness detection\\detector_training\\yolov8n-fruit9-v1\\runs\\train\\weights\\last.pt",
+  "metrics": {
+    "metrics/precision(B)": 0.7344933622260857,
+    "metrics/recall(B)": 0.5675473770456005,
+    "metrics/mAP50(B)": 0.6485537309615533,
+    "metrics/mAP50-95(B)": 0.56050314313626,
+    "fitness": 0.5693082019187894
+  }
+}

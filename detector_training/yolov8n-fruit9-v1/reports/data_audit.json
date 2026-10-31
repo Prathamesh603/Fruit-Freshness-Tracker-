@@ -1,0 +1,124 @@
+{
+  "names": [
+    "apple",
+    "banana",
+    "grape",
+    "lemon",
+    "mango",
+    "orange",
+    "pomegranate",
+    "strawberry",
+    "tomato"
+  ],
+  "input_images": 3615,
+  "accepted_images": 3221,
+  "excluded_images": 394,
+  "exclusion_reasons": {
+    "source_image_has_target_group_or_depiction_box": 176,
+    "exact_pixels_with_inconsistent_annotations": 218
+  },
+  "splits": {
+    "train": {
+      "images_with_fruit": {
+        "apple": 1020,
+        "banana": 1247,
+        "grape": 11,
+        "lemon": 40,
+        "mango": 1,
+        "orange": 1122,
+        "pomegranate": 7,
+        "strawberry": 30,
+        "tomato": 34
+      },
+      "images": 2255
+    },
+    "val": {
+      "images_with_fruit": {
+        "apple": 219,
+        "banana": 267,
+        "grape": 2,
+        "lemon": 8,
+        "mango": 1,
+        "orange": 241,
+        "pomegranate": 1,
+        "strawberry": 6,
+        "tomato": 7
+      },
+      "images": 483
+    },
+    "test": {
+      "images_with_fruit": {
+        "apple": 219,
+        "banana": 267,
+        "grape": 2,
+        "lemon": 8,
+        "mango": 1,
+        "orange": 240,
+        "pomegranate": 1,
+        "strawberry": 6,
+        "tomato": 7
+      },
+      "images": 483
+    }
+  },
+  "boxes_by_split": {
+    "train": {
+      "apple": 1320,
+      "orange": 1464,
+      "banana": 2084,
+      "lemon": 78,
+      "tomato": 227,
+      "strawberry": 164,
+      "pomegranate": 14,
+      "grape": 56,
+      "mango": 5
+    },
+    "val": {
+      "banana": 455,
+      "apple": 307,
+      "orange": 331,
+      "pomegranate": 1,
+      "tomato": 74,
+      "strawberry": 58,
+      "lemon": 21,
+      "mango": 5,
+      "grape": 4
+    },
+    "test": {
+      "banana": 483,
+      "orange": 338,
+      "apple": 281,
+      "strawberry": 31,
+      "tomato": 13,
+      "lemon": 29,
+      "grape": 10,
+      "pomegranate": 1,
+      "mango": 1
+    }
+  },
+  "hash_groups_per_class": {
+    "apple": 424,
+    "banana": 349,
+    "grape": 15,
+    "lemon": 56,
+    "mango": 3,
+    "orange": 428,
+    "pomegranate": 9,
+    "strawberry": 42,
+    "tomato": 48
+  },
+  "seed": 42,
+  "phash_radius": 6,
+  "rotation_reflection_variants": 8,
+  "no_sha256_overlap": true,
+  "no_phash_group_overlap": true,
+  "prepared_image_long_side": 640,
+  "manifest_sha256": "b3c6d6fb576c13ca89fba8e5832f2ba4c3eec3b521924c82dacfba32d37ca889",
+  "limitations": [
+    "Physical fruit/session IDs unavailable",
+    "Same-source test, not independent phone evaluation",
+    "Mango and pomegranate have very few independent images",
+    "GitHub source image provenance unresolved",
+    "Source VOC endpoints treated as continuous supplied coordinates, no blanket one-pixel shift"
+  ]
+}

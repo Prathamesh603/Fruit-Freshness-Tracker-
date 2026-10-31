@@ -1,0 +1,41 @@
+Ultralytics 8.3.40 🚀 Python-3.10.11 torch-2.5.1+cu121 CUDA:0 (NVIDIA GeForce GTX 1650, 4096MiB)
+Model summary (fused): 168 layers, 3,007,403 parameters, 0 gradients, 8.1 GFLOPs
+
+val: Scanning D:\Projects\Fruit freshness detection\detector_training\yolov8n-fruit9-v1\data\labels\test.cache... 483 images, 0 backgrounds, 0 corrupt: 100%|##########| 483/483 [00:00<?, ?it/s]
+val: Scanning D:\Projects\Fruit freshness detection\detector_training\yolov8n-fruit9-v1\data\labels\test.cache... 483 images, 0 backgrounds, 0 corrupt: 100%|##########| 483/483 [00:00<?, ?it/s]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/61 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   2%|1         | 1/61 [00:00<00:33,  1.77it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   7%|6         | 4/61 [00:00<00:08,  6.63it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  11%|#1        | 7/61 [00:00<00:05, 10.46it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  16%|#6        | 10/61 [00:01<00:03, 13.55it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  21%|##1       | 13/61 [00:01<00:03, 15.96it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  25%|##4       | 15/61 [00:01<00:02, 16.57it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  30%|##9       | 18/61 [00:01<00:02, 18.59it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  34%|###4      | 21/61 [00:01<00:02, 19.87it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  39%|###9      | 24/61 [00:01<00:01, 20.92it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  44%|####4     | 27/61 [00:01<00:01, 20.94it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  49%|####9     | 30/61 [00:01<00:01, 21.30it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  54%|#####4    | 33/61 [00:02<00:01, 19.91it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  59%|#####9    | 36/61 [00:02<00:01, 20.74it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  64%|######3   | 39/61 [00:02<00:01, 20.60it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  69%|######8   | 42/61 [00:02<00:00, 20.18it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  74%|#######3  | 45/61 [00:02<00:00, 20.42it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  79%|#######8  | 48/61 [00:02<00:00, 20.13it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  84%|########3 | 51/61 [00:02<00:00, 20.76it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  89%|########8 | 54/61 [00:03<00:00, 19.87it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  93%|#########3| 57/61 [00:03<00:00, 20.07it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  98%|#########8| 60/61 [00:03<00:00, 20.50it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|##########| 61/61 [00:03<00:00, 17.72it/s]
+                   all        483       1187      0.844      0.489      0.524      0.434
+                 apple        219        281      0.986      0.968      0.992      0.973
+                banana        267        483      0.988      0.998      0.995      0.897
+                 grape          2         10      0.991        0.4      0.535      0.221
+                 lemon          8         29      0.486      0.207      0.281      0.191
+                 mango          1          1          1          0    0.00538    0.00389
+                orange        240        338      0.997      0.977      0.995       0.97
+           pomegranate          1          1          1          0     0.0663     0.0133
+            strawberry          6         31      0.459      0.387      0.328      0.201
+                tomato          7         13      0.684      0.462      0.514      0.435
+Speed: 0.3ms preprocess, 3.0ms inference, 0.0ms loss, 1.5ms postprocess per image
+PIPELINE_COMPLETE

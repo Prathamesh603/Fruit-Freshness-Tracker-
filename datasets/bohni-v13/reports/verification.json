@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "archive_images": 6730,
+  "prepared_pairs": 2330,
+  "prepared_boxes": 6801,
+  "prepared_bytes": 173359896,
+  "candidates": 2326,
+  "held_images": 4,
+  "training_ready": false,
+  "project_splits_assigned": false,
+  "new_training_started": false,
+  "D_free_GiB": 3.805767059326172
+}

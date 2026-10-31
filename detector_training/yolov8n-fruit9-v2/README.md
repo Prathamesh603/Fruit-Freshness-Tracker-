@@ -1,0 +1,1 @@
+YOLOv8n nine-fruit detector, experiment v2. Bohni eight-fruit subset plus frozen nine-fruit v1 data. CPU/GPU settings and measured results are recorded in reports. This detector does not predict freshness.

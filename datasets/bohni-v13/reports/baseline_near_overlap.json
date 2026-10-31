@@ -1,0 +1,9 @@
+{
+  "canonical_phash_radius": 6,
+  "candidate_pairs": 4,
+  "candidate_images": 3,
+  "families_touching_baseline_holdouts": [
+    "0UDWUD0Q3YX1_jpg"
+  ],
+  "note": "Potential visual overlap, not confirmed identity. This canonical pHash check does not establish crop/rotation independence."
+}

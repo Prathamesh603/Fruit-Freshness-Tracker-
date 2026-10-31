@@ -1,0 +1,32 @@
+{
+  "names": [
+    "apple",
+    "banana",
+    "grape",
+    "lemon",
+    "mango",
+    "orange",
+    "pomegranate",
+    "strawberry",
+    "tomato"
+  ],
+  "accepted_images": 4936,
+  "excluded_images": 611,
+  "splits": {
+    "train": 3761,
+    "test": 584,
+    "val": 591
+  },
+  "manifest_sha256": "d8672553ee2f0fb1e27e5e8065647917cfdf6cfbc1aa1dea548cdc5597115cac",
+  "frozen_v1_splits_preserved": true,
+  "heldout_bohni_views_per_component": 1,
+  "phash_radius": 6,
+  "rotation_reflection_variants": 8,
+  "storage": "Compact copies of existing prepared files",
+  "limitations": [
+    "Physical fruit/session IDs unknown; pHash does not guarantee crop independence",
+    "Publisher annotations used as supplied; incomplete labels and stock/composite images occur",
+    "Same-source evaluation, not independent phone evaluation",
+    "Lemon support remains sparse"
+  ]
+}

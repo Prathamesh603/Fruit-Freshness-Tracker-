@@ -1,0 +1,158 @@
+{
+  "archive": {
+    "data": {
+      "status": "PENDING"
+    },
+    "error": null,
+    "loading": false
+  },
+  "articles": {
+    "list": [],
+    "loading": true
+  },
+  "citations": {
+    "data": {},
+    "count": 0,
+    "error": false,
+    "loading": true
+  },
+  "configClient": {
+    "environment": "live",
+    "recaptchaV3SiteKey": "6LcEHc8ZAAAAAMenhT9jO_B-EJAoGq_v29B7HaCf",
+    "adobeAnalytics": {
+      "newPage": {
+        "page": {
+          "businessUnit": "els:rp:st",
+          "language": "en",
+          "productName": "md",
+          "environment": "dev",
+          "noTracking": "false",
+          "sectionName": "md:data",
+          "type": "cp-ca"
+        },
+        "content": {
+          "type": "md:datasets",
+          "format": "MIME-HTML"
+        }
+      }
+    },
+    "apiBaseUrl": "/api/datasets-v2",
+    "publicApiBaseUrl": "/public-api",
+    "baseUrl": "/datasets",
+    "baseAssetsUrl": "/datasets"
+  },
+  "customer": {
+    "customer": null,
+    "institution": null
+  },
+  "dataset": {
+    "snapshot": {
+      "id": "6ps7gtp2wg",
+      "version": 1,
+      "name": "Spoiled and fresh fruit inspection dataset",
+      "description": "The design of quality control systems in food has become an essential element in research to ensure a state suitable for consumption. It is necessary to develop automatic and efficient systems that can verify their condition before distribution.  The proposed dataset can be used with a deep learning-based algorithm for the identification of the fruits and the state in which they are.\n\nThe data set has 8 different fruits:\n-banana\n-lemon\n-lulo\n-mango\n-orange\n-strawberry\n-tamarillo\n-tomato.\n \nTwo thousand images of each one of the types of fruits are acquired for a total of 16000 samples. Half of them correspond to fresh fruits and the other half to non-fresh or spoiled fruits.\n\nFor the acquisition of the dataset, changing of backgrounds, rotation of the fruits, distance of capture, and light variations were made, in order to make it robust.",
+      "doi": "10.17632/6ps7gtp2wg.1",
+      "publish_date": "2020-11-01T07:47:35.848Z",
+      "last_modification_date": "2020-10-31T19:35:52.353Z",
+      "is_confidential": false,
+      "customer": {
+        "id": "7377952c-6404-4428-bbfc-77242cfc301e",
+        "name": "Mendeley Guests",
+        "chief_id": 810289,
+        "config": {
+          "repository_id": "MENDELEY_DATA",
+          "dataset_size_limit": 10737418240,
+          "doi_prefix": "10.17632"
+        },
+        "is_user_mendeley_admin": false,
+        "customer_roles": [],
+        "is_guest": true,
+        "is_user_customer_moderator": false
+      },
+      "owner": {
+        "id": "566a73e7-8736-333b-8da1-b373ff9dddb5",
+        "first_name": "Cesar Giovany",
+        "last_name": "Pachon Suescun",
+        "display_name": "Cesar Giovany Pachon Suescun",
+        "$ref": "/profiles/566a73e7-8736-333b-8da1-b373ff9dddb5"
+      },
+      "categories": [
+        {
+          "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249523402",
+          "label": "Machine Learning"
+        },
+        {
+          "id": "data.elsevier.com/vocabulary/OmniScience/Concept-442095486",
+          "label": "Deep Learning"
+        },
+        {
+          "id": "data.elsevier.com/vocabulary/OmniScience/Concept-442112949",
+          "label": "Computer Vision Algorithms"
+        }
+      ],
+      "licence": {
+        "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+        "short_name": "CC BY 4.0",
+        "full_name": "Creative Commons Attribution 4.0 International",
+        "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+        "url": "http://creativecommons.org/licenses/by/4.0",
+        "category": "Creative",
+        "customer_id": null
+      },
+      "institutions": [],
+      "organisational_unit_names": [],
+      "contributors": [
+        {
+          "id": "566a73e7-8736-333b-8da1-b373ff9dddb5",
+          "first_name": "Cesar Giovany",
+          "last_name": "Pachon Suescun",
+          "$ref": "/profiles/566a73e7-8736-333b-8da1-b373ff9dddb5"
+        },
+        {
+          "first_name": "Javier Orlando",
+          "last_name": "Pinz\u00f3n Arenas",
+          "institution": "Universidad Militar Nueva Granada"
+        },
+        {
+          "id": "00bd1beb-94cb-3adc-a254-d778ea7f3969",
+          "first_name": "Robinson",
+          "last_name": "Jim\u00e9nez-Moreno",
+          "$ref": "/profiles/00bd1beb-94cb-3adc-a254-d778ea7f3969",
+          "institution": "Universidad Militar Nueva Granada"
+        }
+      ],
+      "related_links": [],
+      "custom_metadata": {},
+      "is_metadata_only": false
+    },
+    "contributors": [],
+    "doi": "",
+    "status": 200,
+    "loading": false
+  },
+  "environment": "live",
+  "files": {
+    "list": [],
+    "currentFile": {},
+    "folders": [],
+    "currentFolder": {},
+    "filesLoading": true,
+    "foldersLoading": true
+  },
+  "fileViewer": {
+    "navigationLoaded": false,
+    "metadataLoaded": false
+  },
+  "hostname": "data.mendeley.com",
+  "idToken": null,
+  "orcidDomain": "https://orcid.org",
+  "repository": {
+    "repository": null,
+    "loading": true
+  },
+  "s3": "https://static.data.mendeley.com",
+  "versions": {
+    "list": [],
+    "loading": true
+  }
+}

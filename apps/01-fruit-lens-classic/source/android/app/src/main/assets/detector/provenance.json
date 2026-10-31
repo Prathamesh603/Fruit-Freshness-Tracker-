@@ -1,0 +1,15 @@
+{
+  "model": "NanoDet-Plus-m",
+  "inputSize": 416,
+  "source": "https://github.com/RangiLyu/nanodet/releases/download/v1.0.0-alpha-1/nanodet-plus-m_416_ncnn.zip",
+  "archiveSha256": "16696bb22b77f04d2e098ec1c2ac079d10e7ea94e2c1e0228934345a1bc429e1",
+  "runtime": "20261020",
+  "runtimeSource": "https://github.com/Tencent/ncnn/releases/download/20261020/ncnn-20261020-android.zip",
+  "runtimeArchiveSha256": "62a9edb493ceb42a5c9cbf2d3a79b3f44bff06c625134ffb64d183dcc42c25fc",
+  "files": {
+    "nanodet.bin": "f7555ca6cb9650ee41e2f0a53fdf46b6e187a2a09792208d8c3eec033b6ac615",
+    "nanodet.param": "d79e18ecd8595081bb29fdf0c790a47fcea96fbf58598350569a92e71e915b72",
+    "NANODET_LICENSE.txt": "b074cca89569a8f57266e4ee8f81a0c728433d5525d98608ff708fec91034312",
+    "NCNN_LICENSE.txt": "7c974bac98848df46be1af5bdaa3c3c9c01f6082a90f55caeb7f60c6208aa255"
+  }
+}

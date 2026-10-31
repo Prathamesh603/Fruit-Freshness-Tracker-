@@ -1,0 +1,3 @@
+dd9d75a84acf8ff8edf3dc500388bd8f6a49776d337ae8e0c92e229578ba52c9  apk/original/FruitLens-Original-arm64.apk
+4822134589a7469b38cf73e8a227925ab2400ef39c4228f4e1ec3fb908019929  apk/Fruit-Lens-Classic-CPU-v1-arm64.apk
+e2bbaff987fdba7666215df854f61232b3e9b03756100fdd402d330429078eb5  SNAPSHOT_MANIFEST.json

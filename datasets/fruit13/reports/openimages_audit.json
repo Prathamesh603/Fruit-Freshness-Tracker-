@@ -1,0 +1,25 @@
+{
+  "expected_images": 413,
+  "downloaded_images": 413,
+  "boxes": 1462,
+  "fruit_box_counts": {
+    "lemon": 190,
+    "tomato": 423,
+    "grape": 158,
+    "orange": 176,
+    "strawberry": 330,
+    "mango": 13,
+    "apple": 128,
+    "pomegranate": 18,
+    "banana": 26
+  },
+  "missing_target_fruits": [
+    "guava",
+    "jujube",
+    "lulo",
+    "tamarillo"
+  ],
+  "failures": [],
+  "training_ready": false,
+  "note": "Public validation subset staged as raw data; no final project split. No freshness labels."
+}

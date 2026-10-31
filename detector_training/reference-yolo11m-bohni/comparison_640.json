@@ -1,0 +1,140 @@
+{
+  "reference": "Piyu12/fruit-veg-yolo11m-detector",
+  "revision": "82c9865261175e778ba5641cf8560b5d10439ec6",
+  "source_classes_verified": 35,
+  "weights_bytes": 40565868,
+  "input_size": 640,
+  "test_images": 483,
+  "test_boxes": 1187,
+  "missing_target_classes": [
+    "lemon"
+  ],
+  "metrics_nine_target_scope": {
+    "metrics/precision(B)": 0.4845493877262003,
+    "metrics/recall(B)": 0.34332598040951684,
+    "metrics/mAP50(B)": 0.43061556480528623,
+    "metrics/mAP50-95(B)": 0.34001160407191156,
+    "fitness": 0.34907200014524903
+  },
+  "per_class": [
+    {
+      "fruit": "apple",
+      "images": 219,
+      "boxes": 281,
+      "AP50": 0.7781279818241073,
+      "AP50_95": 0.739172165479706,
+      "precision": 0.728764057898157,
+      "recall": 0.8647686832740213
+    },
+    {
+      "fruit": "banana",
+      "images": 267,
+      "boxes": 483,
+      "AP50": 0.9457853007635112,
+      "AP50_95": 0.7537811556386825,
+      "precision": 0.9495974675690031,
+      "recall": 0.7801363428010469
+    },
+    {
+      "fruit": "grape",
+      "images": 2,
+      "boxes": 10,
+      "AP50": 0.5607296466973886,
+      "AP50_95": 0.2274228353140917,
+      "precision": 0.8680741577570192,
+      "recall": 0.4
+    },
+    {
+      "fruit": "lemon",
+      "images": 8,
+      "boxes": 29,
+      "AP50": 0.0,
+      "AP50_95": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "fruit": "mango",
+      "images": 1,
+      "boxes": 1,
+      "AP50": 0.0,
+      "AP50_95": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "fruit": "orange",
+      "images": 240,
+      "boxes": 338,
+      "AP50": 0.9351986321293283,
+      "AP50_95": 0.8846886650539979,
+      "precision": 1.0,
+      "recall": 0.4470139092731142
+    },
+    {
+      "fruit": "pomegranate",
+      "images": 1,
+      "boxes": 1,
+      "AP50": 0.0,
+      "AP50_95": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "fruit": "strawberry",
+      "images": 6,
+      "boxes": 31,
+      "AP50": 0.3382904392015863,
+      "AP50_95": 0.2357668694763507,
+      "precision": 0.42128509115835266,
+      "recall": 0.2903225806451613
+    },
+    {
+      "fruit": "tomato",
+      "images": 7,
+      "boxes": 13,
+      "AP50": 0.3174080826316541,
+      "AP50_95": 0.2192727456843752,
+      "precision": 0.39322371515327104,
+      "recall": 0.3076923076923077
+    }
+  ],
+  "shared_eight_classes": [
+    "apple",
+    "banana",
+    "grape",
+    "mango",
+    "orange",
+    "pomegranate",
+    "strawberry",
+    "tomato"
+  ],
+  "shared_scope": {
+    "reference_mAP50": 0.484442510405947,
+    "reference_mAP50_95": 0.3825130545809005,
+    "trained_yolov8n_mAP50": 0.5955355908497584,
+    "trained_yolov8n_mAP50_95": 0.4865631269921976
+  },
+  "GPU_framework_timing_ms": {
+    "preprocess": 0.6037967792455701,
+    "inference": 46.06632613740846,
+    "loss": 0.0020751795166521095,
+    "postprocess": 1.8182403058985992
+  },
+  "baseline_GPU_framework_timing_ms": {
+    "preprocess": 0.33472537007144276,
+    "inference": 3.056594797296307,
+    "loss": 0.0,
+    "postprocess": 1.7205977785414543
+  },
+  "elapsed_seconds": 49.58218599999964,
+  "limitations": [
+    "Reference-training overlap with this test pool is unknown; not independently validated",
+    "Rare-class support remains tiny; do not generalize from mango/pomegranate scores",
+    "Common size at 416; native 640 run is an exploratory resolution check, not model selection",
+    "Green_Orange and Orange scores merged by maximum before class-aware NMS",
+    "Lemon is unsupported; its score channel is zero in nine-target evaluation",
+    "Desktop GPU timings, not Android latency",
+    "No freshness inference"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "inventory_integrity_passed": true,
+  "training_ready": false,
+  "verified_images": 22815,
+  "classification_images": 19200,
+  "github_detection_images": 3202,
+  "openimages_detection_images": 413,
+  "source_boxes": 8549,
+  "missing_box_queue_images": 4800,
+  "image_sha256_failures": [],
+  "undocumented_folders": [],
+  "cross_task_exact_overlap_records": 0,
+  "inventory_sha256": {
+    "classification/images.csv": "25d75fa4a8aa5b4a0331f75472069c6a5421ad4cf0f9e70773f71b04f94d4aa8",
+    "detection/boxed_images.csv": "a86c0b4116f1c0768d847e9ebe7a1da244e789b43b20b7e022bf0def28d35193",
+    "detection/publisher_boxes.csv": "f86074b07c167e37f4d1e9e8a895e56933ebe6b3755229cffb004b15ab3e6cd2",
+    "detection/openimages_images.csv": "ee4f644000b72cc907e5ecaef623d9a7dec928c7ab85c2eaa6675ac20d46bc75",
+    "detection/openimages_boxes.csv": "91d203b93ab08fce781187c35dde4b3b2385b8730bd300fc3435b2f8c47f6ddc",
+    "labels.json": "58064f1e087bcd534f69dee3b4ca3945dc8b548cd232890676089fbb389a186d"
+  },
+  "limitations": [
+    "Human label/box review is incomplete",
+    "Physical-fruit/session grouping is incomplete",
+    "No final project splits",
+    "Four detection classes lack boxes",
+    "No independent phone evaluation",
+    "Cross-task near-duplicate grouping remains required"
+  ]
+}

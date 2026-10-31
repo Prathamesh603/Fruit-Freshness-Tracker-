@@ -1,0 +1,14 @@
+{
+  "fruit16k": {
+    "minimum_width": 224,
+    "maximum_width": 224,
+    "minimum_height": 224,
+    "maximum_height": 224
+  },
+  "mendeley8": {
+    "minimum_width": 251,
+    "maximum_width": 4160,
+    "minimum_height": 301,
+    "maximum_height": 4160
+  }
+}
