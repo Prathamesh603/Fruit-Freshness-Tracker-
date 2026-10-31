@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "converter": "pnnx20261020",
+  "ncnn": "20261020",
+  "weights": "FP16",
+  "runtime": "CPU; no Vulkan; FP16 arithmetic disabled",
+  "input": "in0 RGB/255 CHW 416 letterbox114",
+  "output": "out0 shape13x3549 xywh +9scores",
+  "records": [
+    {
+      "image": "boxes_1389",
+      "shape": [
+        13,
+        3549
+      ],
+      "bbox_max_abs": 0.65130615234375,
+      "score_max_abs": 0.00018656253814697266
+    },
+    {
+      "image": "boxes_1011",
+      "shape": [
+        13,
+        3549
+      ],
+      "bbox_max_abs": 1.34857177734375,
+      "score_max_abs": 0.00160139799118042
+    },
+    {
+      "image": "oid_589eb1664bed4c06",
+      "shape": [
+        13,
+        3549
+      ],
+      "bbox_max_abs": 0.5492706298828125,
+      "score_max_abs": 0.00021424144506454468
+    },
+    {
+      "image": "oid_0e9135fa9d27282f",
+      "shape": [
+        13,
+        3549
+      ],
+      "bbox_max_abs": 1.6606903076171875,
+      "score_max_abs": 0.0014891177415847778
+    },
+    {
+      "image": "oid_bf51df396cb12f55",
+      "shape": [
+        13,
+        3549
+      ],
+      "bbox_max_abs": 1.475921630859375,
+      "score_max_abs": 0.0021978914737701416
+    },
+    {
+      "image": "boxes_1296",
+      "shape": [
+        13,
+        3549
+      ],
+      "bbox_max_abs": 1.47198486328125,
+      "score_max_abs": 0.0016047358512878418
+    },
+    {
+      "image": "oid_9f844386435dcaa3",
+      "shape": [
+        13,
+        3549
+      ],
+      "bbox_max_abs": 1.634918212890625,
+      "score_max_abs": 0.0009998977184295654
+    },
+    {
+      "image": "oid_08b38afe6c5fa6cc",
+      "shape": [
+        13,
+        3549
+      ],
+      "bbox_max_abs": 2.16064453125,
+      "score_max_abs": 0.0018568336963653564
+    },
+    {
+      "image": "oid_0c1574422512912a",
+      "shape": [
+        13,
+        3549
+      ],
+      "bbox_max_abs": 1.5446624755859375,
+      "score_max_abs": 0.0017450153827667236
+    }
+  ],
+  "limitations": "Raw-output agreement on9 held-out images; not full exported-model accuracy or phone latency validation"
+}

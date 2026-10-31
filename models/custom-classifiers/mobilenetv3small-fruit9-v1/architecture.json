@@ -1,0 +1,6 @@
+{
+  "parameters": 949506,
+  "top_level_layers": 4,
+  "backbone_layers": 157,
+  "tensorflow": "2.21.0"
+}

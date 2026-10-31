@@ -1,0 +1,45 @@
+pnnxparam = D:\Projects\Fruit freshness detection\models\custom-detectors\yolov8n-fruit9-v2\weights\ncnn/detector.pnnx.param
+pnnxbin = D:\Projects\Fruit freshness detection\models\custom-detectors\yolov8n-fruit9-v2\weights\ncnn/detector.pnnx.bin
+pnnxpy = D:\Projects\Fruit freshness detection\models\custom-detectors\yolov8n-fruit9-v2\weights\ncnn/detector_pnnx.py
+pnnxonnx = D:\Projects\Fruit freshness detection\models\custom-detectors\yolov8n-fruit9-v2\weights\ncnn/detector.pnnx.onnx
+ncnnparam = D:\Projects\Fruit freshness detection\models\custom-detectors\yolov8n-fruit9-v2\weights\ncnn/detector.param
+ncnnbin = D:\Projects\Fruit freshness detection\models\custom-detectors\yolov8n-fruit9-v2\weights\ncnn/detector.bin
+ncnnpy = D:\Projects\Fruit freshness detection\models\custom-detectors\yolov8n-fruit9-v2\weights\ncnn/detector_ncnn.py
+fp16 = 1
+optlevel = 2
+device = cpu
+inputshape = [1,3,416,416]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,416,416]f32
+############# pass_level0
+inline module = ultralytics.nn.modules.block.Bottleneck
+inline module = ultralytics.nn.modules.block.C2f
+inline module = ultralytics.nn.modules.block.DFL
+inline module = ultralytics.nn.modules.block.SPPF
+inline module = ultralytics.nn.modules.conv.Concat
+inline module = ultralytics.nn.modules.conv.Conv
+inline module = ultralytics.nn.modules.head.Detect
+inline module = ultralytics.nn.modules.block.Bottleneck
+inline module = ultralytics.nn.modules.block.C2f
+inline module = ultralytics.nn.modules.block.DFL
+inline module = ultralytics.nn.modules.block.SPPF
+inline module = ultralytics.nn.modules.conv.Concat
+inline module = ultralytics.nn.modules.conv.Conv
+inline module = ultralytics.nn.modules.head.Detect
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+model inputshape = [1,3,416,416]f32
+FLOPS = 3.463G
+memory OPS = 38.527M

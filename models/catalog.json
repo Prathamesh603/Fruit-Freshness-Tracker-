@@ -1,0 +1,110 @@
+[
+  {
+    "version": "classic/nanodet-plus-m416-v1",
+    "title": "NanoDet-Plus-m416",
+    "task": "detection",
+    "training_data_and_results": "COCO80 categories; app uses banana/apple/orange. Official pretrained export; no local training or matched accuracy benchmark.",
+    "preprocessing_and_runtime": "Input416 BGR, mean103.53/116.28/123.675 and std57.375/57.12/58.395. CPU NCNN2threads; no Vulkan. Output3598 rows of80scores+32distance logits. See Classic TECHNICAL_DETAILS.md.",
+    "architecture": "Original architecture parameter/layer count is not independently established for this exact asset. See graph/operator inspection for executable structure.",
+    "files": {
+      "weights/nanodet.bin": {
+        "bytes": 2397184,
+        "sha256": "f7555ca6cb9650ee41e2f0a53fdf46b6e187a2a09792208d8c3eec033b6ac615"
+      },
+      "weights/nanodet.param": {
+        "bytes": 23123,
+        "sha256": "d79e18ecd8595081bb29fdf0c790a47fcea96fbf58598350569a92e71e915b72"
+      }
+    }
+  },
+  {
+    "version": "classic/smartfruit-mobilenetv2-v1",
+    "title": "SmartFruit MobileNetV2 based",
+    "task": "classification",
+    "training_data_and_results": "Existing JosephMoustaid/smart-fruit-models-notebooks model. Nine classes: apple/banana/orange times fresh/rotten/unripe. Local training not performed. Original training dataset/split and independently measured accuracy unavailable. Redistribution terms unresolved; retained for local baseline comparison.",
+    "preprocessing_and_runtime": "96RGB, nearest resize, pixel/255. LiteRT CPU2threads. Nine probability outputs; no unsupported-fruit rejection.",
+    "architecture": "Original trainable parameter/layer count cannot be recovered reliably from the optimized TFLite graph alone. Graph weight and operator counts are separately measured in inspection.json.",
+    "files": {
+      "weights/freshness.tflite": {
+        "bytes": 2673592,
+        "sha256": "e09307ca0aacdfc83666ca8ff25c02659d6323a1372409b390561619778b10a4"
+      }
+    }
+  },
+  {
+    "version": "custom-detectors/yolov8n-fruit9-v1",
+    "title": "YOLOv8n nine-fruit v1",
+    "task": "detection",
+    "training_data_and_results": "Nine fruits.3,221prepared images.60epochs, best49, GTX1650 CUDA. GitHub fruit freshness boxes + Open Images. Test mAP50:58.68%; mAP50-95:47.72%. Mango0% with tiny support. Not camera validated.",
+    "preprocessing_and_runtime": "416RGB/255, letterbox114. Class order apple,banana,grape,lemon,mango,orange,pomegranate,strawberry,tomato. See training model.json for raw tensor contract.",
+    "architecture": "3,012,603 unfused parameters. Detailed architecture saved beside weights.",
+    "files": {
+      "weights/fruit-detector-yolov8n-9class-v1.pt": {
+        "bytes": 6215139,
+        "sha256": "813fd499ece31bffd60d6f81cf75709ec43cd3a4d5b9a698227c7403b10dd190"
+      }
+    }
+  },
+  {
+    "version": "custom-detectors/yolov8n-fruit9-v2",
+    "title": "YOLOv8n nine-fruit v2",
+    "task": "detection",
+    "training_data_and_results": "Nine fruits.4,936images:3,761train/591val/584test. Bohni v13 eight-fruit subset plus frozen v1 data.43epochs, best31, GTX1650 CUDA. Combined test mAP50:79.01%; mAP50-95:62.04%. Original frozen test mAP50:52.36%, below v1(58.68%). Lemon remains weak; v2 is not a universal improvement.",
+    "preprocessing_and_runtime": "416RGB/255, letterbox114. NCNN input in0; output out0 is13x3549:xywh then9scores. FP16stored weights, CPU2threads, no Vulkan, FP16arithmetic disabled. App NMS0.5/score0.4/max5regions are engineering settings, not calibrated accuracy thresholds.",
+    "architecture": "3,012,603 unfused parameters; fused checkpoint graph3,007,403. Detailed module/layer tables saved beside weights.",
+    "files": {
+      "weights/detector.pt": {
+        "bytes": 6218275,
+        "sha256": "440c4ef36dc825878d1bd84a58eb91885726b9714774ddcc42081b11341d9419"
+      },
+      "weights/detector.torchscript": {
+        "bytes": 12384862,
+        "sha256": "f91fce5e7f991afc813c7feb3d4cea5b76f988aace576333bb909061db03eaf4"
+      },
+      "weights/ncnn/detector.bin": {
+        "bytes": 6068488,
+        "sha256": "f359a44c5916ed7f37c2392aa19bd8153000c183391bdb7a3b038479c315d70e"
+      },
+      "weights/ncnn/detector.param": {
+        "bytes": 16547,
+        "sha256": "6fea23c3582bd94bbf0ef316b93ce973d5f7f1b57dcd3bd19eab9e6505330e7a"
+      }
+    }
+  },
+  {
+    "version": "custom-classifiers/mobilenetv3small-sixclass-v1",
+    "title": "MobileNetV3Small six-class v1",
+    "task": "classification",
+    "training_data_and_results": "Fresh/rotten apple,banana,orange;6classes.1,197images:837train/180val/180test. Mendeley8-fruit source subset.12head+4fine epochs, TensorFlow CPU. Test176/180(97.78%), not phone validated.",
+    "preprocessing_and_runtime": "224RGB, bilinear resize, (pixel-127.5)/127.5. Float32TFLite; six labels in source export metadata.",
+    "architecture": "942,582 parameters. Optimized graph inspection is recorded separately.",
+    "files": {
+      "weights/freshness.tflite": {
+        "bytes": 3763884,
+        "sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e"
+      }
+    }
+  },
+  {
+    "version": "custom-classifiers/mobilenetv3small-fruit9-v1",
+    "title": "MobileNetV3Small nine-fruit v1",
+    "task": "classification",
+    "training_data_and_results": "Fresh/spoiled for9fruits,18joint classes.13,354candidate images:9,338train/2,012val/2,004test. Mendeley8-fruit originals + FRUIT-16K; no freshness invented from Bohni. Frozen ImageNet features train head(up to30epochs), then12fine epochs; best fine11. TensorFlow2.21/Keras3.15 CPU. Joint identity+condition test accuracy99.65%(1,997/2,004), macro F1.99283. Same-source grouped split; adjacent captures/source backgrounds may inflate scores. No independent camera accuracy.",
+    "preprocessing_and_runtime": "160RGB, bilinear stretch, (pixel-127.5)/127.5. Output18softmax probabilities; order fresh/spoiled pairs for apple,banana,grape,lemon,mango,orange,pomegranate,strawberry,tomato. Float16weights with float32IO1.97MB; float32export3.80MB. App uses Fresh/Not fresh/Uncertain while source label IDs are preserved.",
+    "architecture": "949,506 parameters; last40backbone layers selected for fine-tuning with BatchNorm frozen. Full Keras layer summary and configuration saved beside weights.",
+    "files": {
+      "weights/freshness.keras": {
+        "bytes": 9964863,
+        "sha256": "c03f4ac9d79a4bb9ae2d653665caf20476aa52b0f2d56cded4df9a31afab1a62"
+      },
+      "weights/freshness_float16.tflite": {
+        "bytes": 1965992,
+        "sha256": "34190f8beee78b9be9b605fdd12428aba074eda36df38a5f9d5ba63a961267b7"
+      },
+      "weights/freshness_float32.tflite": {
+        "bytes": 3795240,
+        "sha256": "fcd1ea470eb0f7eed1c7b1aeb6b1718fcd9f3e1843ec1a3f7cf51d741eb94a81"
+      }
+    }
+  }
+]

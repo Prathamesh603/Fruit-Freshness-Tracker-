@@ -1,0 +1,14 @@
+{
+  "version": "classic/smartfruit-mobilenetv2-v1",
+  "title": "SmartFruit MobileNetV2 based",
+  "task": "classification",
+  "training_data_and_results": "Existing JosephMoustaid/smart-fruit-models-notebooks model. Nine classes: apple/banana/orange times fresh/rotten/unripe. Local training not performed. Original training dataset/split and independently measured accuracy unavailable. Redistribution terms unresolved; retained for local baseline comparison.",
+  "preprocessing_and_runtime": "96RGB, nearest resize, pixel/255. LiteRT CPU2threads. Nine probability outputs; no unsupported-fruit rejection.",
+  "architecture": "Original trainable parameter/layer count cannot be recovered reliably from the optimized TFLite graph alone. Graph weight and operator counts are separately measured in inspection.json.",
+  "files": {
+    "weights/freshness.tflite": {
+      "bytes": 2673592,
+      "sha256": "e09307ca0aacdfc83666ca8ff25c02659d6323a1372409b390561619778b10a4"
+    }
+  }
+}

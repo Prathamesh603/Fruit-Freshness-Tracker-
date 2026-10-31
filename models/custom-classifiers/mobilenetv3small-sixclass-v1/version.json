@@ -1,0 +1,14 @@
+{
+  "version": "custom-classifiers/mobilenetv3small-sixclass-v1",
+  "title": "MobileNetV3Small six-class v1",
+  "task": "classification",
+  "training_data_and_results": "Fresh/rotten apple,banana,orange;6classes.1,197images:837train/180val/180test. Mendeley8-fruit source subset.12head+4fine epochs, TensorFlow CPU. Test176/180(97.78%), not phone validated.",
+  "preprocessing_and_runtime": "224RGB, bilinear resize, (pixel-127.5)/127.5. Float32TFLite; six labels in source export metadata.",
+  "architecture": "942,582 parameters. Optimized graph inspection is recorded separately.",
+  "files": {
+    "weights/freshness.tflite": {
+      "bytes": 3763884,
+      "sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "model_id": "mobilenetv3small-fruit9-v1",
+  "task": "joint_fruit_visible_condition_classification",
+  "labels": [
+    {
+      "id": 0,
+      "fruit": "apple",
+      "condition": "fresh",
+      "display": "No visible spoilage"
+    },
+    {
+      "id": 1,
+      "fruit": "apple",
+      "condition": "spoiled",
+      "display": "Visible spoilage"
+    },
+    {
+      "id": 2,
+      "fruit": "banana",
+      "condition": "fresh",
+      "display": "No visible spoilage"
+    },
+    {
+      "id": 3,
+      "fruit": "banana",
+      "condition": "spoiled",
+      "display": "Visible spoilage"
+    },
+    {
+      "id": 4,
+      "fruit": "grape",
+      "condition": "fresh",
+      "display": "No visible spoilage"
+    },
+    {
+      "id": 5,
+      "fruit": "grape",
+      "condition": "spoiled",
+      "display": "Visible spoilage"
+    },
+    {
+      "id": 6,
+      "fruit": "lemon",
+      "condition": "fresh",
+      "display": "No visible spoilage"
+    },
+    {
+      "id": 7,
+      "fruit": "lemon",
+      "condition": "spoiled",
+      "display": "Visible spoilage"
+    },
+    {
+      "id": 8,
+      "fruit": "mango",
+      "condition": "fresh",
+      "display": "No visible spoilage"
+    },
+    {
+      "id": 9,
+      "fruit": "mango",
+      "condition": "spoiled",
+      "display": "Visible spoilage"
+    },
+    {
+      "id": 10,
+      "fruit": "orange",
+      "condition": "fresh",
+      "display": "No visible spoilage"
+    },
+    {
+      "id": 11,
+      "fruit": "orange",
+      "condition": "spoiled",
+      "display": "Visible spoilage"
+    },
+    {
+      "id": 12,
+      "fruit": "pomegranate",
+      "condition": "fresh",
+      "display": "No visible spoilage"
+    },
+    {
+      "id": 13,
+      "fruit": "pomegranate",
+      "condition": "spoiled",
+      "display": "Visible spoilage"
+    },
+    {
+      "id": 14,
+      "fruit": "strawberry",
+      "condition": "fresh",
+      "display": "No visible spoilage"
+    },
+    {
+      "id": 15,
+      "fruit": "strawberry",
+      "condition": "spoiled",
+      "display": "Visible spoilage"
+    },
+    {
+      "id": 16,
+      "fruit": "tomato",
+      "condition": "fresh",
+      "display": "No visible spoilage"
+    },
+    {
+      "id": 17,
+      "fruit": "tomato",
+      "condition": "spoiled",
+      "display": "Visible spoilage"
+    }
+  ],
+  "input": {
+    "shape": [
+      1,
+      160,
+      160,
+      3
+    ],
+    "dtype": "float32",
+    "color": "RGB",
+    "resize": "EXIF transpose then bilinear resize to160x160",
+    "normalization": "(pixel-127.5)/127.5"
+  },
+  "output": {
+    "shape": [
+      1,
+      18
+    ],
+    "activation": "softmax",
+    "unknown_class": false
+  },
+  "parameters": 949506,
+  "training_backend": "TensorFlow CPU",
+  "artifacts": {
+    "freshness_float32.tflite": {
+      "bytes": 3795240,
+      "sha256": "fcd1ea470eb0f7eed1c7b1aeb6b1718fcd9f3e1843ec1a3f7cf51d741eb94a81"
+    },
+    "freshness_float16.tflite": {
+      "bytes": 1965992,
+      "sha256": "34190f8beee78b9be9b605fdd12428aba074eda36df38a5f9d5ba63a961267b7"
+    }
+  },
+  "integration_rule": "Do not force unsupported fruit into these 18 classes. Require detector-supported identity, check classifier identity agreement, and allow uncertain results. Known-fruit pair metrics are separately reported and are not the accuracy of the entire detector/classifier pipeline.",
+  "android_validated": false,
+  "source_checkpoint": {
+    "file": "freshness.keras",
+    "bytes": 9964863,
+    "sha256": "c03f4ac9d79a4bb9ae2d653665caf20476aa52b0f2d56cded4df9a31afab1a62"
+  }
+}

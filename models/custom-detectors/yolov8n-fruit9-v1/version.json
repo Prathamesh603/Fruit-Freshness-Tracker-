@@ -1,0 +1,14 @@
+{
+  "version": "custom-detectors/yolov8n-fruit9-v1",
+  "title": "YOLOv8n nine-fruit v1",
+  "task": "detection",
+  "training_data_and_results": "Nine fruits.3,221prepared images.60epochs, best49, GTX1650 CUDA. GitHub fruit freshness boxes + Open Images. Test mAP50:58.68%; mAP50-95:47.72%. Mango0% with tiny support. Not camera validated.",
+  "preprocessing_and_runtime": "416RGB/255, letterbox114. Class order apple,banana,grape,lemon,mango,orange,pomegranate,strawberry,tomato. See training model.json for raw tensor contract.",
+  "architecture": "3,012,603 unfused parameters. Detailed architecture saved beside weights.",
+  "files": {
+    "weights/fruit-detector-yolov8n-9class-v1.pt": {
+      "bytes": 6215139,
+      "sha256": "813fd499ece31bffd60d6f81cf75709ec43cd3a4d5b9a698227c7403b10dd190"
+    }
+  }
+}

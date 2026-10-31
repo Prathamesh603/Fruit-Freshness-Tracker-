@@ -1,0 +1,26 @@
+{
+  "version": "custom-detectors/yolov8n-fruit9-v2",
+  "title": "YOLOv8n nine-fruit v2",
+  "task": "detection",
+  "training_data_and_results": "Nine fruits.4,936images:3,761train/591val/584test. Bohni v13 eight-fruit subset plus frozen v1 data.43epochs, best31, GTX1650 CUDA. Combined test mAP50:79.01%; mAP50-95:62.04%. Original frozen test mAP50:52.36%, below v1(58.68%). Lemon remains weak; v2 is not a universal improvement.",
+  "preprocessing_and_runtime": "416RGB/255, letterbox114. NCNN input in0; output out0 is13x3549:xywh then9scores. FP16stored weights, CPU2threads, no Vulkan, FP16arithmetic disabled. App NMS0.5/score0.4/max5regions are engineering settings, not calibrated accuracy thresholds.",
+  "architecture": "3,012,603 unfused parameters; fused checkpoint graph3,007,403. Detailed module/layer tables saved beside weights.",
+  "files": {
+    "weights/detector.pt": {
+      "bytes": 6218275,
+      "sha256": "440c4ef36dc825878d1bd84a58eb91885726b9714774ddcc42081b11341d9419"
+    },
+    "weights/detector.torchscript": {
+      "bytes": 12384862,
+      "sha256": "f91fce5e7f991afc813c7feb3d4cea5b76f988aace576333bb909061db03eaf4"
+    },
+    "weights/ncnn/detector.bin": {
+      "bytes": 6068488,
+      "sha256": "f359a44c5916ed7f37c2392aa19bd8153000c183391bdb7a3b038479c315d70e"
+    },
+    "weights/ncnn/detector.param": {
+      "bytes": 16547,
+      "sha256": "6fea23c3582bd94bbf0ef316b93ce973d5f7f1b57dcd3bd19eab9e6505330e7a"
+    }
+  }
+}

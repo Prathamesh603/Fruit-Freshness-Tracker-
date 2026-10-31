@@ -1,0 +1,28 @@
+# Measured architecture details
+
+Read architecture.txt where present for every nested layer/module. Framework modules, Keras layers and optimized graph operations are different counts.
+
+architecture.json:
+{
+  "unfused_parameters": 3012603,
+  "modules_including_containers": 225,
+  "leaf_modules": 129,
+  "module_types": {
+    "DetectionModel": 1,
+    "Sequential": 7,
+    "Conv": 57,
+    "Conv2d": 64,
+    "BatchNorm2d": 57,
+    "SiLU": 1,
+    "C2f": 8,
+    "ModuleList": 10,
+    "Bottleneck": 10,
+    "SPPF": 1,
+    "MaxPool2d": 1,
+    "Upsample": 2,
+    "Concat": 4,
+    "Detect": 1,
+    "DFL": 1
+  },
+  "note": "Module totals include containers; they are not a universal cross-framework layer count."
+}

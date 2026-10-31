@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "modelId": "mobilenetv3small-sixclass-v1",
+  "modelVersion": "1.0.0",
+  "modelFile": "freshness.tflite",
+  "sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e",
+  "createdAt": "2026-10-30T10:28:47.195281+00:00",
+  "trainingRun": "mv3s_finetune_224_v1",
+  "input": {
+    "width": 224,
+    "height": 224,
+    "layout": "NHWC",
+    "channels": 3,
+    "colorSpace": "RGB",
+    "resizeMode": "stretch",
+    "interpolation": "bilinear",
+    "mean": [
+      127.5,
+      127.5,
+      127.5
+    ],
+    "std": [
+      127.5,
+      127.5,
+      127.5
+    ]
+  },
+  "output": {
+    "scoreType": "probabilities",
+    "tensorShape": [
+      1,
+      6
+    ]
+  },
+  "labels": [
+    {
+      "id": "fresh_apple",
+      "fruit": "apple",
+      "condition": "fresh",
+      "displayName": "Apple - No visible spoilage"
+    },
+    {
+      "id": "fresh_banana",
+      "fruit": "banana",
+      "condition": "fresh",
+      "displayName": "Banana - No visible spoilage"
+    },
+    {
+      "id": "fresh_orange",
+      "fruit": "orange",
+      "condition": "fresh",
+      "displayName": "Orange - No visible spoilage"
+    },
+    {
+      "id": "rotten_apple",
+      "fruit": "apple",
+      "condition": "rotten",
+      "displayName": "Apple - Visible spoilage"
+    },
+    {
+      "id": "rotten_banana",
+      "fruit": "banana",
+      "condition": "rotten",
+      "displayName": "Banana - Visible spoilage"
+    },
+    {
+      "id": "rotten_orange",
+      "fruit": "orange",
+      "condition": "rotten",
+      "displayName": "Orange - Visible spoilage"
+    }
+  ],
+  "decision": {
+    "minScore": 0.5833432078361511,
+    "thresholdValidated": true,
+    "validationSplit": "val",
+    "validationImages": 180,
+    "validationCoverage": 1.0,
+    "validationAcceptedAccuracy": 1.0,
+    "note": "Closed-set confidence cutoff selected on the validation split; it is not an OOD guarantee."
+  },
+  "redistribution": {
+    "status": "unresolved",
+    "notes": "Dataset is CC BY 4.0 and the backbone is Apache-2.0, but the repository has no project-level LICENSE. Confirm project release terms before external redistribution."
+  }
+}

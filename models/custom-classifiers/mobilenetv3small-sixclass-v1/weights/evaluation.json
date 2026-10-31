@@ -1,0 +1,648 @@
+{
+  "schemaVersion": 1,
+  "modelId": "mobilenetv3small-sixclass-v1",
+  "artifact": {
+    "file": "freshness.tflite",
+    "bytes": 3763884,
+    "sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e",
+    "format": "LiteRT / TFLite float32, TFLITE_BUILTINS only",
+    "input": {
+      "width": 224,
+      "height": 224,
+      "layout": "NHWC",
+      "channels": 3,
+      "colorSpace": "RGB",
+      "resizeMode": "stretch",
+      "interpolation": "bilinear",
+      "mean": [
+        127.5,
+        127.5,
+        127.5
+      ],
+      "std": [
+        127.5,
+        127.5,
+        127.5
+      ]
+    },
+    "output": {
+      "scoreType": "probabilities",
+      "tensorShape": [
+        1,
+        6
+      ]
+    }
+  },
+  "dataset": {
+    "source": "Mendeley Data",
+    "doi": "10.17632/bdd69gyhv8.1",
+    "license": "CC BY 4.0",
+    "contributors": [
+      "Nusrat Sultana",
+      "Musfika Jahan",
+      "Mohammad Shorif Uddin"
+    ],
+    "selected_source_classes": [
+      "FreshApple",
+      "FreshBanana",
+      "FreshOrange",
+      "RottenApple",
+      "RottenBanana",
+      "RottenOrange"
+    ],
+    "original_images_audited": 1200,
+    "excluded_images": 3,
+    "excluded_reason": "One near-duplicate group contained both fresh_orange and rotten_orange labels.",
+    "augmented_archive_used": false,
+    "split_manifest_sha256": "47cfa8f903e04a59b9a1a059ff4d5f2267bd2010104e7f115a2a48121e8e1cd7",
+    "split_counts": {
+      "train": {
+        "fresh_apple": 140,
+        "fresh_banana": 140,
+        "fresh_orange": 138,
+        "rotten_apple": 140,
+        "rotten_banana": 140,
+        "rotten_orange": 139
+      },
+      "val": {
+        "fresh_apple": 30,
+        "fresh_banana": 30,
+        "fresh_orange": 30,
+        "rotten_apple": 30,
+        "rotten_banana": 30,
+        "rotten_orange": 30
+      },
+      "test": {
+        "fresh_apple": 30,
+        "fresh_banana": 30,
+        "fresh_orange": 30,
+        "rotten_apple": 30,
+        "rotten_banana": 30,
+        "rotten_orange": 30
+      }
+    }
+  },
+  "training": {
+    "run_id": "mv3s_finetune_224_v1",
+    "architecture": "MobileNetV3Small",
+    "pretrained_weights": "Keras Applications ImageNet",
+    "input_size": 224,
+    "classes": [
+      "fresh_apple",
+      "fresh_banana",
+      "fresh_orange",
+      "rotten_apple",
+      "rotten_banana",
+      "rotten_orange"
+    ],
+    "selection_rule": "Validation macro F1, then validation loss; test was not used for selection.",
+    "test_used_for_selection": false,
+    "estimated_parameters": 942582
+  },
+  "validation": {
+    "count": 180,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "condition_accuracy": 1.0,
+    "expected_calibration_error_10bin": 0.02312125265598297,
+    "threshold_selection": {
+      "target_coverage": 0.95,
+      "rule": "Among thresholds with coverage >= target, maximize accepted accuracy, then coverage, then threshold.",
+      "chosen": {
+        "threshold": 0.5833432078361511,
+        "coverage": 1.0,
+        "accepted_count": 180,
+        "accepted_accuracy": 1.0
+      }
+    }
+  },
+  "test": {
+    "count": 180,
+    "accuracy": 0.9777777777777777,
+    "macro_f1": 0.9777716032231175,
+    "log_loss": 0.039158184081315994,
+    "mean_confidence": 0.9746469855308533,
+    "median_confidence": 0.9984925985336304,
+    "min_confidence": 0.5154107809066772,
+    "max_confidence": 0.9999957084655762,
+    "expected_calibration_error_10bin": 0.029793959856033326,
+    "calibration_bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.30000000000000004,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null
+      },
+      {
+        "lower": 0.30000000000000004,
+        "upper": 0.4,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6000000000000001,
+        "count": 1,
+        "accuracy": 0.0,
+        "mean_confidence": 0.5154107809066772
+      },
+      {
+        "lower": 0.6000000000000001,
+        "upper": 0.7000000000000001,
+        "count": 3,
+        "accuracy": 0.0,
+        "mean_confidence": 0.6280937790870667
+      },
+      {
+        "lower": 0.7000000000000001,
+        "upper": 0.8,
+        "count": 3,
+        "accuracy": 1.0,
+        "mean_confidence": 0.7295613288879395
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 6,
+        "accuracy": 1.0,
+        "mean_confidence": 0.8434497714042664
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 167,
+        "accuracy": 1.0,
+        "mean_confidence": 0.9927389025688171
+      }
+    ],
+    "confidence_accuracy_bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.5,
+        "count": 0,
+        "accuracy": null
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 1,
+        "accuracy": 0.0
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 3,
+        "accuracy": 0.0
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 3,
+        "accuracy": 1.0
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 6,
+        "accuracy": 1.0
+      },
+      {
+        "lower": 0.9,
+        "upper": 0.95,
+        "count": 4,
+        "accuracy": 1.0
+      },
+      {
+        "lower": 0.95,
+        "upper": 0.99,
+        "count": 32,
+        "accuracy": 1.0
+      },
+      {
+        "lower": 0.99,
+        "upper": 1.000001,
+        "count": 131,
+        "accuracy": 1.0
+      }
+    ],
+    "per_class": {
+      "fresh_apple": {
+        "precision": 1.0,
+        "recall": 0.9666666666666667,
+        "f1": 0.9830508474576272,
+        "support": 30
+      },
+      "fresh_banana": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 30
+      },
+      "fresh_orange": {
+        "precision": 0.9655172413793104,
+        "recall": 0.9333333333333333,
+        "f1": 0.9491525423728814,
+        "support": 30
+      },
+      "rotten_apple": {
+        "precision": 0.967741935483871,
+        "recall": 1.0,
+        "f1": 0.9836065573770492,
+        "support": 30
+      },
+      "rotten_banana": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 30
+      },
+      "rotten_orange": {
+        "precision": 0.9354838709677419,
+        "recall": 0.9666666666666667,
+        "f1": 0.9508196721311475,
+        "support": 30
+      }
+    },
+    "confusion_matrix": [
+      [
+        29,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        30,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        28,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        30,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        30,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        29
+      ]
+    ],
+    "condition_accuracy": 0.9777777777777777,
+    "condition_macro_f1": 0.9777750339548092,
+    "condition_confusion_matrix": [
+      [
+        87,
+        3
+      ],
+      [
+        1,
+        89
+      ]
+    ],
+    "false_fresh_count": 1,
+    "false_rotten_count": 3,
+    "error_decomposition": {
+      "correct": 176,
+      "same_fruit_wrong_condition": 4
+    },
+    "per_fruit": {
+      "apple": {
+        "count": 60,
+        "condition_correct": 59,
+        "condition_errors": 1,
+        "false_fresh": 0,
+        "false_rotten": 1,
+        "other_fruit_predictions": 0
+      },
+      "banana": {
+        "count": 60,
+        "condition_correct": 60,
+        "condition_errors": 0,
+        "false_fresh": 0,
+        "false_rotten": 0,
+        "other_fruit_predictions": 0
+      },
+      "orange": {
+        "count": 60,
+        "condition_correct": 57,
+        "condition_errors": 3,
+        "false_fresh": 1,
+        "false_rotten": 2,
+        "other_fruit_predictions": 0
+      }
+    },
+    "threshold": 0.5833432078361511,
+    "accepted_count": 179,
+    "coverage": 0.9944444444444445,
+    "accepted_accuracy": 0.9832402234636871,
+    "accepted_macro_f1": 0.9831402188134423,
+    "abstained_count": 1,
+    "model": "ml/checkpoints/mv3s_finetune_224_v1/export/freshness.tflite",
+    "model_sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e",
+    "model_details": {
+      "input_shape": [
+        1,
+        224,
+        224,
+        3
+      ],
+      "input_dtype": "float32",
+      "output_shape": [
+        1,
+        6
+      ],
+      "output_dtype": "float32"
+    },
+    "split": "test",
+    "split_manifest": "ml/data/manifests/splits_v1.csv",
+    "split_manifest_sha256": "47cfa8f903e04a59b9a1a059ff4d5f2267bd2010104e7f115a2a48121e8e1cd7",
+    "run_id": "mv3s_finetune_224_v1",
+    "label_counts": {
+      "fresh_apple": 30,
+      "fresh_banana": 30,
+      "fresh_orange": 30,
+      "rotten_apple": 30,
+      "rotten_banana": 30,
+      "rotten_orange": 30
+    }
+  },
+  "parity": {
+    "fixture_count": 6,
+    "absolute_tolerance": 0.0001,
+    "expected_file": "parity/expected.json",
+    "verify_script": "parity/verify_parity.py",
+    "input_files": [
+      "fresh_apple.png",
+      "fresh_banana.png",
+      "fresh_orange.png",
+      "rotten_apple.png",
+      "rotten_banana.png",
+      "rotten_orange.png"
+    ],
+    "count": 180,
+    "top1_agreement": 1.0,
+    "max_absolute_probability_difference": 7.450580596923828e-06
+  },
+  "desktop_benchmark": {
+    "model": "ml/checkpoints/mv3s_finetune_224_v1/export/freshness.tflite",
+    "model_sha256": "dd519afd78d27d731fc4cef0e9a02b96086e42122a51a768874b8b6fdfc9052e",
+    "model_bytes": 3763884,
+    "runtime": {
+      "backend": "ai-edge-litert",
+      "threads": 2,
+      "input_shape": [
+        1,
+        224,
+        224,
+        3
+      ],
+      "input_dtype": "float32",
+      "output_shape": [
+        1,
+        6
+      ]
+    },
+    "load_seconds": 0.0076628000006166985,
+    "inference_only": {
+      "count": 300,
+      "mean_ms": 1.49178033334465,
+      "min_ms": 0.896699999429984,
+      "p50_ms": 1.2867500008724164,
+      "p90_ms": 2.2861000001284997,
+      "p95_ms": 2.8242700002920174,
+      "max_ms": 6.820700000389479
+    },
+    "desktop_preprocess_plus_inference": {
+      "count": 300,
+      "mean_ms": 43.86664933334639,
+      "min_ms": 6.425599998692633,
+      "p50_ms": 36.59029999926133,
+      "p90_ms": 84.22537999995258,
+      "p95_ms": 108.03136999911659,
+      "max_ms": 173.45079999904556
+    },
+    "notes": [
+      "Measured on the development Windows CPU with two LiteRT threads; this is not an Android device benchmark.",
+      "desktop_preprocess_plus_inference includes PIL decode, EXIF transpose, RGB conversion, resize, float normalization, tensor copy, and invoke.",
+      "Do not substitute these timings for on-device measurements."
+    ]
+  },
+  "existing_candidate_comparison": {
+    "candidate": {
+      "model": "ml/reference/candidate_repo/ripeness_model.tflite",
+      "model_sha256": "e09307ca0aacdfc83666ca8ff25c02659d6323a1372409b390561619778b10a4",
+      "labels": [
+        "freshapples",
+        "freshbanana",
+        "freshoranges",
+        "rottenapples",
+        "rottenbanana",
+        "rottenoranges",
+        "unripe apple",
+        "unripe banana",
+        "unripe orange"
+      ],
+      "model_bytes": 2673592,
+      "license_status": "unresolved",
+      "preprocessing_assumption": "RGB, stretch resize, float32 [0,1] from the published notebook",
+      "input_shape": [
+        1,
+        96,
+        96,
+        3
+      ],
+      "output_shape": [
+        1,
+        9
+      ]
+    },
+    "split": "test",
+    "count": 180,
+    "mapped_label_accuracy": 0.5833333333333334,
+    "mapped_macro_f1": 0.628745917628191,
+    "valid_six_class_coverage": 0.8388888888888889,
+    "unripe_predictions": 29,
+    "accuracy_on_valid_predictions": 0.695364238410596,
+    "predicted_label_distribution": {
+      "fresh_apple": 21,
+      "fresh_orange": 31,
+      "rotten_apple": 23,
+      "unripe_apple": 8,
+      "unripe_orange": 13,
+      "rotten_banana": 33,
+      "fresh_banana": 15,
+      "unripe_banana": 8,
+      "rotten_orange": 28
+    },
+    "condition_accuracy_over_all": 0.6666666666666666,
+    "false_fresh_count": 11,
+    "false_rotten_count": 20,
+    "fruit_only_accuracy": 0.8333333333333334,
+    "per_class": {
+      "fresh_apple": {
+        "precision": 0.7142857142857143,
+        "recall": 0.5,
+        "f1": 0.588235294117647,
+        "support": 30
+      },
+      "fresh_banana": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 30
+      },
+      "fresh_orange": {
+        "precision": 0.5806451612903226,
+        "recall": 0.6,
+        "f1": 0.5901639344262295,
+        "support": 30
+      },
+      "rotten_apple": {
+        "precision": 0.4782608695652174,
+        "recall": 0.36666666666666664,
+        "f1": 0.41509433962264153,
+        "support": 30
+      },
+      "rotten_banana": {
+        "precision": 0.8181818181818182,
+        "recall": 0.9,
+        "f1": 0.8571428571428572,
+        "support": 30
+      },
+      "rotten_orange": {
+        "precision": 0.6785714285714286,
+        "recall": 0.6333333333333333,
+        "f1": 0.6551724137931035,
+        "support": 30
+      }
+    },
+    "confusion_matrix_actual_by_predicted": [
+      [
+        15,
+        0,
+        8,
+        4,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        15,
+        0,
+        2,
+        6,
+        0,
+        7
+      ],
+      [
+        0,
+        0,
+        18,
+        2,
+        0,
+        6,
+        4
+      ],
+      [
+        4,
+        0,
+        1,
+        11,
+        0,
+        2,
+        12
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        27,
+        1,
+        2
+      ],
+      [
+        2,
+        0,
+        4,
+        4,
+        0,
+        19,
+        1
+      ]
+    ],
+    "confusion_columns": [
+      "fresh_apple",
+      "fresh_banana",
+      "fresh_orange",
+      "rotten_apple",
+      "rotten_banana",
+      "rotten_orange",
+      "unripe"
+    ],
+    "notes": [
+      "Predictions outside the six canonical classes are counted as errors and shown as 'unripe'.",
+      "This candidate was trained on a different dataset and is not licensed for redistribution."
+    ]
+  },
+  "redistribution": {
+    "status": "unresolved",
+    "notes": "Dataset is CC BY 4.0 and the backbone is Apache-2.0, but the repository has no project-level LICENSE. Confirm project release terms before external redistribution."
+  },
+  "not_evaluated": [
+    "Android device latency and memory",
+    "Phone-camera or field images",
+    "Out-of-distribution and unknown-class rejection",
+    "Food safety or edibility"
+  ]
+}
