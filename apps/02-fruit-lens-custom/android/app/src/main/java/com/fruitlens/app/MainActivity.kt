@@ -145,20 +145,27 @@ private fun ScannerScreen(model: ScannerViewModel = viewModel()) {
                                     drawRect(tint, origin,
                                         Size(b.width() * width, b.height() * height), style = Stroke(3.dp.toPx()))
                                     val label = "#${it.id}"
+                                    val boxSide = minOf(b.width() * width, b.height() * height)
+                                    val labelSize = (boxSide * 0.14f).coerceIn(7.sp.toPx(), 11.sp.toPx())
                                     val paint = android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply {
-                                        textSize = 14.sp.toPx()
+                                        textSize = labelSize
                                         typeface = android.graphics.Typeface.DEFAULT_BOLD
                                         color = if (tint.luminance() > 0.35f) android.graphics.Color.BLACK else android.graphics.Color.WHITE
                                     }
-                                    val padding = 6.dp.toPx()
+                                    val padding = 2.dp.toPx()
                                     val badgeWidth = paint.measureText(label) + 2 * padding
                                     val badgeHeight = paint.fontSpacing + 2 * padding
-                                    val x = origin.x.coerceIn(0f, (size.width - badgeWidth).coerceAtLeast(0f))
-                                    val y = origin.y.coerceIn(0f, (size.height - badgeHeight).coerceAtLeast(0f))
+                                    val gap = 2.dp.toPx()
+                                    val above = origin.y >= badgeHeight + gap
+                                    val beside = !above && origin.x >= badgeWidth + gap
+                                    val x = (if (beside) origin.x - badgeWidth - gap else origin.x)
+                                        .coerceIn(0f, (size.width - badgeWidth).coerceAtLeast(0f))
+                                    val y = (if (above) origin.y - badgeHeight - gap else origin.y)
+                                        .coerceIn(0f, (size.height - badgeHeight).coerceAtLeast(0f))
                                     drawIntoCanvas { canvas ->
                                         val background = android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply { color = tint.toArgb() }
                                         canvas.nativeCanvas.drawRoundRect(x, y, x + badgeWidth, y + badgeHeight,
-                                            5.dp.toPx(), 5.dp.toPx(), background)
+                                            3.dp.toPx(), 3.dp.toPx(), background)
                                         canvas.nativeCanvas.drawText(label, x + padding, y + padding - paint.fontMetrics.top, paint)
                                     }
                                 }

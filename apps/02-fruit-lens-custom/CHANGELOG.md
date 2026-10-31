@@ -1,5 +1,12 @@
 # Custom app updates
 
+## 1.3.0-custom, version code 4
+
+Image ID badges now scale with the bounding box's shorter side, from7to11sp,
+with2dp padding. They sit above the box where possible, or beside its left edge,
+so they cover less fruit. The matching card ID stays large and readable.
+Install apk/Fruit-Lens-Custom-v1.3-arm64.apk. Models and detection rules are unchanged.
+
 ## 1.2.0-custom, version code 3
 
 Install `apk/Fruit-Lens-Custom-v1.2-arm64.apk` to update Custom. Earlier APKs remain

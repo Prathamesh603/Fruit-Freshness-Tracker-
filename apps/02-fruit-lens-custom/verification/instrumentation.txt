@@ -85,7 +85,7 @@ INSTRUMENTATION_STATUS: test=capturedPhotoPipelineProducesAnExperimentalResult
 INSTRUMENTATION_STATUS_CODE: 0
 INSTRUMENTATION_RESULT: stream=
 
-Time: 10.287
+Time: 9.897
 
 OK (6 tests)
 

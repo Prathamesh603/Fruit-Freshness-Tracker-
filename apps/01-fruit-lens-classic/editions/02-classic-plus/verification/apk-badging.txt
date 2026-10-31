@@ -1,4 +1,4 @@
-package: name='com.fruitlens.classic.plus' versionCode='1' versionName='1.0.0-classic-plus' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+package: name='com.fruitlens.classic.plus' versionCode='2' versionName='1.1.0-classic-plus' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
 minSdkVersion:'26'
 targetSdkVersion:'36'
 uses-permission: name='android.permission.CAMERA'

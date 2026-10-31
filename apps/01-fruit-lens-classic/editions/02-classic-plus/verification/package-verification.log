@@ -2,8 +2,8 @@
   "edition": "Fruit Lens Classic Plus",
   "applicationId": "com.fruitlens.classic.plus",
   "sourceNamespace": "com.fruitlens.app",
-  "versionName": "1.0.0-classic-plus",
-  "versionCode": 1,
+  "versionName": "1.1.0-classic-plus",
+  "versionCode": 2,
   "detector": "NanoDet-Plus-m416",
   "classifier": "SmartFruit-MobileNetV2-reference",
   "inference_backend": "CPU",
@@ -11,9 +11,9 @@
   "GPU": false,
   "NPU": false,
   "apk": {
-    "path": "apk/Fruit-Lens-Classic-Plus-v1-arm64.apk",
-    "bytes": 17799223,
-    "sha256": "a9b825abb0a4ee2645f9154041a3b3d9151b2122821540fbd99f3c6aea09e377",
+    "path": "apk/Fruit-Lens-Classic-Plus-v1.1-arm64.apk",
+    "bytes": 17799227,
+    "sha256": "319c92019e4ce20a827095b72be6718ce68a8003402f5634dd25c4fef44d975a",
     "signing": "local development key; verified, not Play Store signing"
   },
   "models": {

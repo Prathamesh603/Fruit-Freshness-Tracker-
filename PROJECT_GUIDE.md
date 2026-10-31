@@ -8,10 +8,10 @@ Quick links: [Classic](apps/01-fruit-lens-classic/README.md) ·
 [Detector results](detector_training/yolov8n-fruit9-v2/MODEL_CARD.md) ·
 [Classifier results](classifier_training/mobilenetv3small-fruit9-v1/MODEL_CARD.md).
 
-Latest Custom update: [v1.2 APK](apps/02-fruit-lens-custom/apk/Fruit-Lens-Custom-v1.2-arm64.apk)
+Latest Custom update: [v1.3 APK](apps/02-fruit-lens-custom/apk/Fruit-Lens-Custom-v1.3-arm64.apk)
 with matching fruit IDs, colored boxes and per-fruit prediction scores. [Update notes](apps/02-fruit-lens-custom/CHANGELOG.md).
 
-Classic with the same interface features: [Classic Plus APK](apps/01-fruit-lens-classic/apk/Fruit-Lens-Classic-Plus-v1-arm64.apk)
+Classic with the same interface features: [Classic Plus APK](apps/01-fruit-lens-classic/apk/Fruit-Lens-Classic-Plus-v1.1-arm64.apk)
 and [Classic Plus source/setup](apps/01-fruit-lens-classic/editions/02-classic-plus/README.md).
 It keeps the original pretrained models, supports apple/banana/orange, and adds
 IDs, scores, green/red boxes and a separate amber Unripe state. Its app ID is
