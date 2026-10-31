@@ -44,3 +44,8 @@ ml/reference/candidate_repo/
 models/**/weights/*_ncnn_model/*.py
 models/**/weights/*.pnnx.*
 models/**/weights/*.ncnn.*
+
+models/**/weights/**/*.pnnx.*
+models/**/weights/**/*.py
+models/**/weights/*.ncnn.*
+apps/02-fruit-lens-custom/build*.log
