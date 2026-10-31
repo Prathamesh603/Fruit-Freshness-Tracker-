@@ -1,0 +1,138 @@
+Performing Streamed Install
+Success
+
+Performing Streamed Install
+Success
+
+Traceback (most recent call last):
+  File "D:\Projects\Fruit freshness detection\apps\01-fruit-lens-classic\editions\02-classic-plus\run_smoke_tests.py", line 32, in <module>
+    if __name__=='__main__':main()
+  File "D:\Projects\Fruit freshness detection\apps\01-fruit-lens-classic\editions\02-classic-plus\run_smoke_tests.py", line 25, in main
+    assert 'OK (5 tests)' in result,result
+AssertionError: INSTRUMENTATION_STATUS: class=com.fruitlens.app.InferenceSmokeTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+com.fruitlens.app.InferenceSmokeTest:
+INSTRUMENTATION_STATUS: test=emptySceneDoesNotBecomeAFruitResult
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.fruitlens.app.InferenceSmokeTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=emptySceneDoesNotBecomeAFruitResult
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.fruitlens.app.InferenceSmokeTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=realModelsLoadAndClassifyRepeatedly
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.fruitlens.app.InferenceSmokeTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=realModelsLoadAndClassifyRepeatedly
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.fruitlens.app.InferenceSmokeTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=multipleFruitIdsMatchOverlayAndCards
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.fruitlens.app.InferenceSmokeTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Must run runDetachLifecycle() once after runAttachLifecycle() and before markAsDetached()
+	at androidx.compose.ui.internal.InlineClassHelperKt.throwIllegalStateException(InlineClassHelper.kt:28)
+	at androidx.compose.ui.Modifier$Node.runDetachLifecycle$ui_release(Modifier.kt:443)
+	at androidx.compose.ui.node.NodeChain.runDetachLifecycle$ui_release(NodeChain.kt:350)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:599)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:600)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:600)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:600)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:600)
+	at androidx.compose.ui.node.LayoutNode.onChildRemoved(LayoutNode.kt:367)
+	at androidx.compose.ui.node.LayoutNode.removeAll$ui_release(LayoutNode.kt:353)
+	at androidx.compose.ui.node.UiApplier.onClear(UiApplier.android.kt:41)
+	at androidx.compose.runtime.AbstractApplier.clear(Applier.kt:216)
+	at androidx.compose.runtime.CompositionImpl.dispose(Composition.kt:880)
+	at androidx.compose.ui.platform.WrappedComposition.dispose(Wrapper.android.kt:154)
+	at androidx.compose.ui.platform.WrappedComposition.onStateChanged(Wrapper.android.kt:165)
+	at androidx.lifecycle.LifecycleRegistry$ObserverWithState.dispatchEvent(LifecycleRegistry.jvm.kt:313)
+	at androidx.lifecycle.LifecycleRegistry.backwardPass(LifecycleRegistry.jvm.kt:266)
+	at androidx.lifecycle.LifecycleRegistry.sync(LifecycleRegistry.jvm.kt:284)
+	at androidx.lifecycle.LifecycleRegistry.moveToState(LifecycleRegistry.jvm.kt:135)
+	at androidx.lifecycle.LifecycleRegistry.handleLifecycleEvent(LifecycleRegistry.jvm.kt:119)
+	at androidx.lifecycle.ReportFragment$Companion.dispatch$lifecycle_runtime_release(ReportFragment.android.kt:181)
+	at androidx.lifecycle.ReportFragment$LifecycleCallbacks.onActivityPreDestroyed(ReportFragment.android.kt:137)
+	at android.app.Activity.dispatchActivityPreDestroyed(Activity.java:1498)
+	at android.app.Activity.performDestroy(Activity.java:8235)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1344)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnDestroy(MonitoringInstrumentation.java:753)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:5096)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:5140)
+	at android.app.servertransaction.DestroyActivityItem.execute(DestroyActivityItem.java:44)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing multipleFruitIdsMatchOverlayAndCards(com.fruitlens.app.InferenceSmokeTest):
+java.lang.IllegalStateException: Must run runDetachLifecycle() once after runAttachLifecycle() and before markAsDetached()
+	at androidx.compose.ui.internal.InlineClassHelperKt.throwIllegalStateException(InlineClassHelper.kt:28)
+	at androidx.compose.ui.Modifier$Node.runDetachLifecycle$ui_release(Modifier.kt:443)
+	at androidx.compose.ui.node.NodeChain.runDetachLifecycle$ui_release(NodeChain.kt:350)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:599)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:600)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:600)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:600)
+	at androidx.compose.ui.node.LayoutNode.detach$ui_release(LayoutNode.kt:600)
+	at androidx.compose.ui.node.LayoutNode.onChildRemoved(LayoutNode.kt:367)
+	at androidx.compose.ui.node.LayoutNode.removeAll$ui_release(LayoutNode.kt:353)
+	at androidx.compose.ui.node.UiApplier.onClear(UiApplier.android.kt:41)
+	at androidx.compose.runtime.AbstractApplier.clear(Applier.kt:216)
+	at androidx.compose.runtime.CompositionImpl.dispose(Composition.kt:880)
+	at androidx.compose.ui.platform.WrappedComposition.dispose(Wrapper.android.kt:154)
+	at androidx.compose.ui.platform.WrappedComposition.onStateChanged(Wrapper.android.kt:165)
+	at androidx.lifecycle.LifecycleRegistry$ObserverWithState.dispatchEvent(LifecycleRegistry.jvm.kt:313)
+	at androidx.lifecycle.LifecycleRegistry.backwardPass(LifecycleRegistry.jvm.kt:266)
+	at androidx.lifecycle.LifecycleRegistry.sync(LifecycleRegistry.jvm.kt:284)
+	at androidx.lifecycle.LifecycleRegistry.moveToState(LifecycleRegistry.jvm.kt:135)
+	at androidx.lifecycle.LifecycleRegistry.handleLifecycleEvent(LifecycleRegistry.jvm.kt:119)
+	at androidx.lifecycle.ReportFragment$Companion.dispatch$lifecycle_runtime_release(ReportFragment.android.kt:181)
+	at androidx.lifecycle.ReportFragment$LifecycleCallbacks.onActivityPreDestroyed(ReportFragment.android.kt:137)
+	at android.app.Activity.dispatchActivityPreDestroyed(Activity.java:1498)
+	at android.app.Activity.performDestroy(Activity.java:8235)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1344)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnDestroy(MonitoringInstrumentation.java:753)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:5096)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:5140)
+	at android.app.servertransaction.DestroyActivityItem.execute(DestroyActivityItem.java:44)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=multipleFruitIdsMatchOverlayAndCards
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0
+

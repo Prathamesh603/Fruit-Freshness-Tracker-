@@ -1,0 +1,1 @@
+Classic pretrained models only. See preserved Classic TECHNICAL_DETAILS.md and adjacent original model cards/provenance/licenses. No Custom weights or training datasets are packaged in this edition. Classifier redistribution terms remain unresolved; local evaluation candidate.

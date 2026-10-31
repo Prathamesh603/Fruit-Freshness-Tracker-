@@ -1,0 +1,80 @@
+{
+  "edition": "Fruit Lens Classic Plus",
+  "applicationId": "com.fruitlens.classic.plus",
+  "sourceNamespace": "com.fruitlens.app",
+  "versionName": "1.0.0-classic-plus",
+  "versionCode": 1,
+  "detector": "NanoDet-Plus-m416",
+  "classifier": "SmartFruit-MobileNetV2-reference",
+  "inference_backend": "CPU",
+  "threads_per_model": 2,
+  "GPU": false,
+  "NPU": false,
+  "apk": {
+    "path": "apk/Fruit-Lens-Classic-Plus-v1-arm64.apk",
+    "bytes": 17799223,
+    "sha256": "a9b825abb0a4ee2645f9154041a3b3d9151b2122821540fbd99f3c6aea09e377",
+    "signing": "local development key; verified, not Play Store signing"
+  },
+  "models": {
+    "DATA_SOURCES.md": {
+      "bytes": 277,
+      "sha256": "bc47dbde64c4bbfe92eee22689f95dc51f92843c1cc33816b75b222c0904d05e"
+    },
+    "detector/nanodet.bin": {
+      "bytes": 2397184,
+      "sha256": "f7555ca6cb9650ee41e2f0a53fdf46b6e187a2a09792208d8c3eec033b6ac615"
+    },
+    "detector/nanodet.param": {
+      "bytes": 23123,
+      "sha256": "d79e18ecd8595081bb29fdf0c790a47fcea96fbf58598350569a92e71e915b72"
+    },
+    "detector/NANODET_LICENSE.txt": {
+      "bytes": 11395,
+      "sha256": "b074cca89569a8f57266e4ee8f81a0c728433d5525d98608ff708fec91034312"
+    },
+    "detector/NCNN_LICENSE.txt": {
+      "bytes": 6427,
+      "sha256": "7c974bac98848df46be1af5bdaa3c3c9c01f6082a90f55caeb7f60c6208aa255"
+    },
+    "detector/provenance.json": {
+      "bytes": 870,
+      "sha256": "e3f3da7ab99e5518b52d03170b48fe470a9790d49b6496a8e6d0cb547d91bd89"
+    },
+    "model/evaluation.json": {
+      "bytes": 146,
+      "sha256": "cad458f0c45e6b46b5c766939da50f680ecbd37612aaf82c32368717aad7b9bc"
+    },
+    "model/freshness.tflite": {
+      "bytes": 2673592,
+      "sha256": "e09307ca0aacdfc83666ca8ff25c02659d6323a1372409b390561619778b10a4"
+    },
+    "model/labels.json": {
+      "bytes": 1260,
+      "sha256": "026cd7f23fa3f0c6d3733f7eb9ee6447b2ef89b7ca84320c24a83997bc876a5b"
+    },
+    "model/model.json": {
+      "bytes": 2387,
+      "sha256": "175ad62cd114618e5436df8ff59195be337237fd5045da52586420e02e21d8f0"
+    },
+    "model/MODEL_CARD.md": {
+      "bytes": 668,
+      "sha256": "c92bacdbf481066cb406a4be189e8674aa942bc0329a702f95c1b87f426574bf"
+    }
+  },
+  "verification": {
+    "JVM_tests": 10,
+    "Android_tests": 5,
+    "Android_classifier_outputs": 9,
+    "classic_snapshot_files": 71,
+    "APK_identity_and_signature": true,
+    "APK_16KiB_alignment": true,
+    "packaged_model_hashes": true,
+    "all_catalog_hashes": true,
+    "R8_internal_startup_and_capture": true
+  },
+  "phone_latency_measured": false,
+  "independent_camera_accuracy_validated": false,
+  "archive_mirror": "../../apk/Fruit-Lens-Classic-Plus-v1-arm64.apk",
+  "initial_ui_teardown_test_failure_recorded": true
+}

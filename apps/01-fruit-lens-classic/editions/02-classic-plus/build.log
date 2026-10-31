@@ -1,0 +1,156 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:processDebugNavigationResources
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :app:compileDebugNavigationResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug
+> Task :app:processDebugManifestForPackage
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:compressDebugAssets
+> Task :app:mergeDebugResources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeLibDexDebug
+> Task :app:processDebugResources
+> Task :app:mergeExtDexDebug
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:configureCMakeDebug[x86_64]
+> Task :app:compileDebugKotlin
+> Task :app:buildCMakeDebug[x86_64]
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:processDebugJavaRes
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeProjectDexDebug
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:processDebugAndroidTestNavigationResources
+> Task :app:checkDebugAndroidTestAarMetadata
+> Task :app:compileDebugAndroidTestNavigationResources
+> Task :app:generateDebugAndroidTestResValues
+> Task :app:mapDebugAndroidTestSourceSetPaths
+> Task :app:generateDebugAndroidTestResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:processDebugAndroidTestManifest
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeDebugAndroidTestResources
+> Task :app:mergeDebugJavaResource
+> Task :app:testDebugUnitTest
+> Task :app:javaPreCompileDebugAndroidTest
+> Task :app:mergeDebugAndroidTestShaders
+> Task :app:compileDebugAndroidTestShaders NO-SOURCE
+> Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeDebugAndroidTestAssets
+> Task :app:desugarDebugAndroidTestFileDependencies
+> Task :app:compressDebugAndroidTestAssets
+> Task :app:mergeDebugAndroidTestJniLibFolders
+> Task :app:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebugAndroidTest
+> Task :app:writeDebugAndroidTestSigningConfigVersions
+> Task :app:preInternalBuild UP-TO-DATE
+> Task :app:checkDebugAndroidTestDuplicateClasses
+> Task :app:processDebugAndroidTestResources
+> Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :app:mergeLibDexDebugAndroidTest
+> Task :app:mergeExtDexDebugAndroidTest
+> Task :app:compileDebugAndroidTestKotlin
+> Task :app:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :app:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebugAndroidTest
+> Task :app:mergeDebugAndroidTestGlobalSynthetics
+> Task :app:processDebugAndroidTestJavaRes
+> Task :app:mergeProjectDexDebugAndroidTest
+> Task :app:mergeDebugAndroidTestJavaResource
+> Task :app:configureCMakeRelWithDebInfo[x86_64]
+> Task :app:buildCMakeRelWithDebInfo[x86_64]
+> Task :app:packageDebugAndroidTest
+> Task :app:createDebugAndroidTestApkListingFileRedirect
+> Task :app:assembleDebugAndroidTest
+> Task :app:mergeInternalJniLibFolders
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkInternalAarMetadata
+> Task :app:processInternalNavigationResources
+> Task :app:checkInternalDuplicateClasses
+> Task :app:compileInternalNavigationResources
+> Task :app:generateInternalResValues
+> Task :app:mapInternalSourceSetPaths
+> Task :app:generateInternalResources
+> Task :app:mergeInternalNativeLibs
+> Task :app:packageInternalResources
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+> Task :app:createInternalCompatibleScreenManifests
+> Task :app:extractDeepLinksInternal
+> Task :app:parseInternalLocalResources
+> Task :app:stripInternalDebugSymbols
+> Task :app:processInternalMainManifest
+> Task :app:processInternalManifest
+> Task :app:javaPreCompileInternal
+> Task :app:extractProguardFiles
+> Task :app:mergeInternalStartupProfile
+> Task :app:mergeInternalArtProfile
+> Task :app:mergeInternalShaders
+> Task :app:compileInternalShaders NO-SOURCE
+> Task :app:generateInternalAssets UP-TO-DATE
+> Task :app:extractInternalNativeSymbolTables
+> Task :app:mergeInternalAssets
+> Task :app:compressInternalAssets
+> Task :app:extractInternalVersionControlInfo
+> Task :app:collectInternalDependencies
+> Task :app:sdkInternalDependencyData
+> Task :app:validateSigningInternal
+> Task :app:writeInternalAppMetadata
+> Task :app:writeInternalSigningConfigVersions
+> Task :app:processInternalManifestForPackage
+> Task :app:mergeInternalResources
+> Task :app:mergeInternalNativeDebugMetadata
+> Task :app:processInternalResources
+> Task :app:compileInternalKotlin
+> Task :app:compileInternalJavaWithJavac NO-SOURCE
+> Task :app:mergeInternalGeneratedProguardFiles
+> Task :app:processInternalJavaRes
+> Task :app:generateInternalLintVitalReportModel
+> Task :app:expandInternalArtProfileWildcards
+> Task :app:mergeInternalJavaResource
+> Task :app:lintVitalAnalyzeInternal
+> Task :app:lintVitalReportInternal
+> Task :app:lintVitalInternal
+> Task :app:minifyInternalWithR8
+> Task :app:convertShrunkResourcesToBinaryInternal
+> Task :app:compileInternalArtProfile
+> Task :app:optimizeInternalResources
+> Task :app:packageInternal
+> Task :app:createInternalApkListingFileRedirect
+> Task :app:assembleInternal
+
+BUILD SUCCESSFUL in 2m 48s
+129 actionable tasks: 129 executed
