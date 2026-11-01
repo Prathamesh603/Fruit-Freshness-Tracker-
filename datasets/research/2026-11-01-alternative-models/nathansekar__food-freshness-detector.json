@@ -1,0 +1,81 @@
+{
+  "_id": "6a57abf1956b00483c390338",
+  "id": "nathansekar/food-freshness-detector",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "library_name": "fastai",
+  "tags": [
+    "fastai",
+    "image-classification",
+    "food",
+    "freshness",
+    "pytorch",
+    "resnet",
+    "en",
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 72,
+  "likes": 0,
+  "modelId": "nathansekar/food-freshness-detector",
+  "author": "nathansekar",
+  "sha": "7488ca2d7204656f2f5b464e1a295871396a513d",
+  "lastModified": "2026-07-15T15:49:40.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "language": "en",
+    "license": "mit",
+    "tags": [
+      "image-classification",
+      "food",
+      "freshness",
+      "fastai",
+      "pytorch",
+      "resnet"
+    ],
+    "library_name": "fastai"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "7bbabe42b75bd09242d5c814d0f9d83fda89bf17",
+      "size": 1979
+    },
+    {
+      "rfilename": "assets/demo.png",
+      "blobId": "ab9bfc9300574d6c3393a27c3354b7b14273325d",
+      "size": 1959
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "6ee7a0a2593edc0f0f6739e2cd97e40c035528e6",
+      "size": 61
+    },
+    {
+      "rfilename": "model_weights.pth",
+      "blobId": "127c698b6e39cf3d72b617b51f5f167b37282e7e",
+      "size": 46914522,
+      "lfs": {
+        "sha256": "61334d5fa30bba7388be9e17840c5bc7f75cf938bf929852a0d3e07b0baf6dea",
+        "size": 46914522,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "vocab.json",
+      "blobId": "53358ecb10eea46d2ed461f93be7466c1b3c8129",
+      "size": 39
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-07-15T15:49:05.000Z",
+  "usedStorage": 46914522
+}

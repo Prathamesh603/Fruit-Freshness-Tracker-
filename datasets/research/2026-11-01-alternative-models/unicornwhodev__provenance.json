@@ -1,0 +1,36 @@
+{
+  "source": "https://huggingface.co/datasets/Project-AgML/fresh_rotten_fruit_classification",
+  "revision": "65d4488931fef98c76bf996180064397fbe7da34",
+  "dataset_license": "CC BY 4.0",
+  "audit": {
+    "status": "passed",
+    "cpu_verified": true,
+    "counts": {
+      "train": 10877,
+      "validation": 2348,
+      "test": 2310
+    },
+    "groups": 15528,
+    "exact_duplicate_leakage": false,
+    "group_leakage": false,
+    "class_support": {
+      "train": [
+        0,
+        1
+      ],
+      "validation": [
+        0,
+        1
+      ],
+      "test": [
+        0,
+        1
+      ]
+    },
+    "annotation_semantics_human_review_done": false,
+    "review_sha256": "908bc1b2737c741c6595560df35588c09dad49d4b59fddcf13436f85a22db3a2",
+    "source_receipt_sha256": "ba59b58bae5259d20ac55b154119b54422b535766fec97e37026549dd526fd98",
+    "original_annotations_preserved": true
+  },
+  "archive_sha256": "e4395de5bcf728858f71f3691d79cc4470b9c57cdbd3759a91b8d1d6e8044f29"
+}

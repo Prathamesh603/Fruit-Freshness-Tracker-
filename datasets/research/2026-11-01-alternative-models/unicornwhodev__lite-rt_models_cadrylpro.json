@@ -1,0 +1,3684 @@
+{
+  "_id": "6ac2fc9d8eaa83aa8d9d10d2",
+  "id": "unicornwhodev/lite-rt_models_cadrylpro",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "library_name": "tensorflow-lite",
+  "tags": [
+    "tensorflow-lite",
+    "tflite",
+    "cadryl",
+    "litert",
+    "image-classification",
+    "object-detection",
+    "image-segmentation",
+    "fr",
+    "en",
+    "region:us"
+  ],
+  "downloads": 1467,
+  "likes": 0,
+  "modelId": "unicornwhodev/lite-rt_models_cadrylpro",
+  "author": "unicornwhodev",
+  "sha": "84ff5c347085886cc00352ecd0e56ff529c35b2e",
+  "lastModified": "2026-10-27T09:13:45.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "language": [
+      "fr",
+      "en"
+    ],
+    "tags": [
+      "cadryl",
+      "litert",
+      "tflite",
+      "image-classification",
+      "object-detection",
+      "image-segmentation"
+    ],
+    "library_name": "tensorflow-lite"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "CHANGELOG.md",
+      "blobId": "7b9d60cfc8b0c0178a4f45379a4480b1fe82459a",
+      "size": 1874
+    },
+    {
+      "rfilename": "LICENSE_CODE_APACHE_2_0.txt",
+      "blobId": "75b52484ea471f882c29e02693b4f02dba175b5e",
+      "size": 11560
+    },
+    {
+      "rfilename": "MANIFEST.sha256.json",
+      "blobId": "1d45b20e4c09af11631ac00beb381687524bcf6c",
+      "size": 59224
+    },
+    {
+      "rfilename": "NOTICES.md",
+      "blobId": "91c3f5113efa361830898e25d53cc8d699e20c90",
+      "size": 3504
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "e813502136934f2b387b240c28857c38586bf430",
+      "size": 4754
+    },
+    {
+      "rfilename": "cadryl/AUDIO.md",
+      "blobId": "085567d984e0c58505023b9dd7b67591346a7ac1",
+      "size": 963
+    },
+    {
+      "rfilename": "cadryl/INTEGRATION.md",
+      "blobId": "6c4282b3ae5d2478b48dadab978174a29582a967",
+      "size": 1091
+    },
+    {
+      "rfilename": "cadryl/MODELS.md",
+      "blobId": "c206f59242284aed1d84af08da98e1a93b997ad9",
+      "size": 20185
+    },
+    {
+      "rfilename": "cadryl/README.md",
+      "blobId": "0af44967ad5fc8390562d778a9577618c1c5c7f1",
+      "size": 1245
+    },
+    {
+      "rfilename": "cadryl/audio_frontend.json",
+      "blobId": "a04c9452728e0a6a5fdf65cae62b9c37bd873d4a",
+      "size": 1401
+    },
+    {
+      "rfilename": "cadryl/catalogue.json",
+      "blobId": "2c5971ae928daba95126a058b70bdce45a0c3aa8",
+      "size": 73700
+    },
+    {
+      "rfilename": "cadryl/qualification.json",
+      "blobId": "87f64234a8c4a6509cfa2c9923a2964058778f65",
+      "size": 72772
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/README.md",
+      "blobId": "006f637ebd31b75843fbcc8a04c73c4d0b9870be",
+      "size": 4526
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/SHA256.json",
+      "blobId": "22d63888c500a23ecbc69c7baae232dd86e6f4af",
+      "size": 38697
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/ATTRIBUTION.md",
+      "blobId": "8722e76f1b9503007a74da07e9a5ac1fd74f167b",
+      "size": 271
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/README.md",
+      "blobId": "1313613676b54df4c3324be6d78d2ade59daee4b",
+      "size": 3008
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/contracts.json",
+      "blobId": "ba68aab428919799b3cedb82c0294f5d231be046",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/labels.txt",
+      "blobId": "51d1b71c9da68d98dc61fff15f64634aa5858595",
+      "size": 14
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/model_fp16.tflite",
+      "blobId": "679053431006e382ffee09a9721396e3ef6d05c5",
+      "size": 1922536,
+      "lfs": {
+        "sha256": "feac5577568b025d17c8d8dac83a0835bbee8a70e47bb3e75fc6364f0a277ff6",
+        "size": 1922536,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/model_fp16.tflite.model_config.json",
+      "blobId": "39e90990ca8f40d04d45648eeb42f4ef34c100bb",
+      "size": 467
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/model_fp32.tflite",
+      "blobId": "c76ad28b6f963e50a1e90ef6d6b4d37d4a5930b1",
+      "size": 3744632,
+      "lfs": {
+        "sha256": "0022ffa4aef507fcfb053b572e7f9fce34182bc683672c083d7fda70b9b24a42",
+        "size": 3744632,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/model_fp32.tflite.model_config.json",
+      "blobId": "39e90990ca8f40d04d45648eeb42f4ef34c100bb",
+      "size": 467
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/provenance.json",
+      "blobId": "b7f784d0ac4fd54b38cd728b3a10430c2de52838",
+      "size": 934
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/recipe.json",
+      "blobId": "b21cd1cf04f3e1450a76c8d246fbc7209b2a44b4",
+      "size": 1512
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r320-s42/results.json",
+      "blobId": "9e4180feb6dda240b6b7bf4a649b90d71ffa4586",
+      "size": 3815
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/ATTRIBUTION.md",
+      "blobId": "8722e76f1b9503007a74da07e9a5ac1fd74f167b",
+      "size": 271
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/README.md",
+      "blobId": "af6b4cee1a92a8e0594aad4d9c1bc4cedfd47d99",
+      "size": 3008
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/contracts.json",
+      "blobId": "431637b597437772bc01d230d8e936b39ccc6f1d",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/labels.txt",
+      "blobId": "51d1b71c9da68d98dc61fff15f64634aa5858595",
+      "size": 14
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/model_fp16.tflite",
+      "blobId": "39cc5dcbc87a40c2344667da48b9c985d44013af",
+      "size": 1924292,
+      "lfs": {
+        "sha256": "f129b24595dd53f592a0370265b687f0e8649c06017e06ee79be26beda081762",
+        "size": 1924292,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/model_fp16.tflite.model_config.json",
+      "blobId": "c76b4306db1025a67381b8275bf5d07553fe6fc9",
+      "size": 467
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/model_fp32.tflite",
+      "blobId": "13ca8916571a268a4dbf4bf2a9cb7eef798ba9d8",
+      "size": 3746008,
+      "lfs": {
+        "sha256": "0a77270c8d02e4192cf9d2b2aa5510e35ded7f212cca4047eb855131abe3a024",
+        "size": 3746008,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/model_fp32.tflite.model_config.json",
+      "blobId": "c76b4306db1025a67381b8275bf5d07553fe6fc9",
+      "size": 467
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/provenance.json",
+      "blobId": "12bbf6a0ec7064e5d88df0adc867d3c2606d70ed",
+      "size": 934
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/recipe.json",
+      "blobId": "6afd659482d9b93a17c6eb0c6c42da87bb8eb141",
+      "size": 1467
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-r460-s42/results.json",
+      "blobId": "7d35d1a33bf46ff13b183d726957c703345de364",
+      "size": 3842
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/ATTRIBUTION.md",
+      "blobId": "8722e76f1b9503007a74da07e9a5ac1fd74f167b",
+      "size": 271
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/README.md",
+      "blobId": "3a7f253865b22434039fc09a5125a78ff38a9ef3",
+      "size": 2998
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/contracts.json",
+      "blobId": "f8349d4fec38638f2d88d8f9789ea5bff9dcb101",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/labels.txt",
+      "blobId": "51d1b71c9da68d98dc61fff15f64634aa5858595",
+      "size": 14
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/model_fp16.tflite",
+      "blobId": "8f83745ca5bfe40454671338271fe9bde4b74cee",
+      "size": 1923956,
+      "lfs": {
+        "sha256": "a99d924a5bbc04816ab224d4667dae2ed5fababb9b0c3bc97eab3db9cc57cd2e",
+        "size": 1923956,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/model_fp16.tflite.model_config.json",
+      "blobId": "cba47f5277c1a3e794c4d8182c509747848f6f15",
+      "size": 467
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/model_fp32.tflite",
+      "blobId": "63cef5ac5f5205b8c0c584c9999de5fc38e704d8",
+      "size": 3745672,
+      "lfs": {
+        "sha256": "569fe66e7402ea4685a26f8be051c8ae2098d2f9e093267d1b88947aac747f02",
+        "size": 3745672,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/model_fp32.tflite.model_config.json",
+      "blobId": "cba47f5277c1a3e794c4d8182c509747848f6f15",
+      "size": 467
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/provenance.json",
+      "blobId": "5fb71b94ec44b11b15f4ccd61c57d42457480fb3",
+      "size": 934
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/recipe.json",
+      "blobId": "947333b42287a77cfedaa3c3ac62274afb21d3ef",
+      "size": 1243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s17/results.json",
+      "blobId": "147aeda0171c9f6dca56a7564aab55fea2044df7",
+      "size": 3815
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/ATTRIBUTION.md",
+      "blobId": "8722e76f1b9503007a74da07e9a5ac1fd74f167b",
+      "size": 271
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/README.md",
+      "blobId": "9d675893344cedc3c1bc499207f76851cb8cb5b4",
+      "size": 2998
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/contracts.json",
+      "blobId": "55589c3e5de52684497a3c6c2b92885491e1b895",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/labels.txt",
+      "blobId": "51d1b71c9da68d98dc61fff15f64634aa5858595",
+      "size": 14
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/model_fp16.tflite",
+      "blobId": "53ca891090450b14bf2ddd225e577572a5efa49e",
+      "size": 1923956,
+      "lfs": {
+        "sha256": "725d44cba960bb16d3ad79db725d1a89b2b2f9d8473f1aa27c2dd4a81bd5f974",
+        "size": 1923956,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/model_fp16.tflite.model_config.json",
+      "blobId": "cba47f5277c1a3e794c4d8182c509747848f6f15",
+      "size": 467
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/model_fp32.tflite",
+      "blobId": "f750d5e98ddb280375b06bbdc0bb6d448767999e",
+      "size": 3745672,
+      "lfs": {
+        "sha256": "f2c5ff60d8a53c8cb02731e4496cc3227503d4c943b054cd0393466ed9580508",
+        "size": 3745672,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/model_fp32.tflite.model_config.json",
+      "blobId": "cba47f5277c1a3e794c4d8182c509747848f6f15",
+      "size": 467
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/provenance.json",
+      "blobId": "f50cd28051ce810c64a1809e461c815e1022ec7b",
+      "size": 934
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/recipe.json",
+      "blobId": "6a259768b680345fd5285ddfd4276604b94513db",
+      "size": 1243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/blur-s42/results.json",
+      "blobId": "d46b745c6e8de55fda133eeff7b9d44414e3268b",
+      "size": 3820
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/catalogue.json",
+      "blobId": "ecb0f2ea4ce422328109e47ca38141782a11c465",
+      "size": 7178
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/ATTRIBUTION.md",
+      "blobId": "c75423ddee205bc89ddb5c66b774176462ea98e3",
+      "size": 296
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/README.md",
+      "blobId": "4c96acf67f98a5b40c352e5f662870aa74523f3c",
+      "size": 3164
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/contracts.json",
+      "blobId": "42bdd63d93db4d7e7685410166fb91c292b29e80",
+      "size": 2266
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/labels.txt",
+      "blobId": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/model_fp16.tflite",
+      "blobId": "af61fa31bb2ebf7d2cf40d076c9d8f4bb9185e85",
+      "size": 2071596,
+      "lfs": {
+        "sha256": "9350c85967ecd313002b0831848a30effb084907e983db34ab6c8533fed03df2",
+        "size": 2071596,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/model_fp16.tflite.model_config.json",
+      "blobId": "3472603efdb4a2b04a23537938d0db76ab1f3d83",
+      "size": 522
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/model_fp32.tflite",
+      "blobId": "34296f734888cc1bcbf3c37a289d886f32bf13f9",
+      "size": 4040932,
+      "lfs": {
+        "sha256": "1fe9de570aee2d4fe87d517b89e5f5d2f2db9a586999fb903642eb2cf8d74b18",
+        "size": 4040932,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/model_fp32.tflite.model_config.json",
+      "blobId": "3472603efdb4a2b04a23537938d0db76ab1f3d83",
+      "size": 522
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/provenance.json",
+      "blobId": "b6fb9f263b8cc8018937c15cda4659ded801e334",
+      "size": 871
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/recipe.json",
+      "blobId": "9facb8d9697342bc68166d0bca6db22cb2bba397",
+      "size": 1543
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r320-s42/results.json",
+      "blobId": "f4dae933d57cf724110ece4006991b236dc59725",
+      "size": 1757
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/ATTRIBUTION.md",
+      "blobId": "c75423ddee205bc89ddb5c66b774176462ea98e3",
+      "size": 296
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/README.md",
+      "blobId": "dae5f6edd50a966d6092723f6f564f43c74a4c4c",
+      "size": 3164
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/contracts.json",
+      "blobId": "11bc41f72ff7a091936db8112f85c319a8cf8187",
+      "size": 2266
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/labels.txt",
+      "blobId": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/model_fp16.tflite",
+      "blobId": "7db5567a937f9d18f7437e4b5c2ed97b02e7b62a",
+      "size": 2073380,
+      "lfs": {
+        "sha256": "9df7217d22362e851244c1c98df9586216fddd802253f3ba20bfa2086d3c58cb",
+        "size": 2073380,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/model_fp16.tflite.model_config.json",
+      "blobId": "5638d3775da8b8b04eb862acd2bc20f67fcb1d01",
+      "size": 522
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/model_fp32.tflite",
+      "blobId": "8e42f5d88c84ea6c871be9c867b0dcaf2e7ba1b0",
+      "size": 4042336,
+      "lfs": {
+        "sha256": "3de3d0621e0afa716835c0ee67d357ad63994de1745aa01ed011d75cfa13ed5b",
+        "size": 4042336,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/model_fp32.tflite.model_config.json",
+      "blobId": "5638d3775da8b8b04eb862acd2bc20f67fcb1d01",
+      "size": 522
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/provenance.json",
+      "blobId": "3bd794593d7bb634fac6d8965707e29df835b684",
+      "size": 871
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/recipe.json",
+      "blobId": "afbc3c503698817e2d666b1ba58f9efbda056fa3",
+      "size": 1498
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-r460-s42/results.json",
+      "blobId": "a849c26a78697e9db10a447f27272ab9772cf0fe",
+      "size": 1756
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/ATTRIBUTION.md",
+      "blobId": "c75423ddee205bc89ddb5c66b774176462ea98e3",
+      "size": 296
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/README.md",
+      "blobId": "30253f6e3a8fa59a58ec1bf9ca7d079daf2a58b5",
+      "size": 3154
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/contracts.json",
+      "blobId": "2f6cb291b46664fb14462eca4ccbfd3e39386f55",
+      "size": 2266
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/labels.txt",
+      "blobId": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/model_fp16.tflite",
+      "blobId": "5d67d73a533d4b707d6b632e47bfc573f650f012",
+      "size": 2073044,
+      "lfs": {
+        "sha256": "85d7f0ce5a44934d09075e1774f43d1fe65ec6440381c982f290af226cbec305",
+        "size": 2073044,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/model_fp16.tflite.model_config.json",
+      "blobId": "70e3e33af7b4b2e4111b5bdfd2cd0e5e51e2db41",
+      "size": 522
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/model_fp32.tflite",
+      "blobId": "e30e250b6d6c0af303a2204de69fd828cc48ced9",
+      "size": 4042000,
+      "lfs": {
+        "sha256": "cdefc70998bd746a54cf9b9c138b8faa94c8d063adc6e7da61541f586f162315",
+        "size": 4042000,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/model_fp32.tflite.model_config.json",
+      "blobId": "70e3e33af7b4b2e4111b5bdfd2cd0e5e51e2db41",
+      "size": 522
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/provenance.json",
+      "blobId": "3b0797b88f150d790530a5234f79aa1544c87506",
+      "size": 871
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/recipe.json",
+      "blobId": "89ba808f6b76b6ca9ef46b1f53d3bcc6056458f8",
+      "size": 1262
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s17/results.json",
+      "blobId": "47e38f81cd650e7e9b29210f61928354523231d0",
+      "size": 1757
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/ATTRIBUTION.md",
+      "blobId": "c75423ddee205bc89ddb5c66b774176462ea98e3",
+      "size": 296
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/README.md",
+      "blobId": "41dc4bff6126696bb52d5d7c400d6721d6596862",
+      "size": 3154
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/contracts.json",
+      "blobId": "7fa0f50ca6229aedfb5e28a500dd844a4187e1f9",
+      "size": 2266
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/labels.txt",
+      "blobId": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/model_fp16.tflite",
+      "blobId": "bd73f1a4f6b2aae444d53bb075bf2a6484ee5eb1",
+      "size": 2073044,
+      "lfs": {
+        "sha256": "ba5a7f76491ad5f9e5caa00792b2f9a410a7392dafb315bd745500f229b66448",
+        "size": 2073044,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/model_fp16.tflite.model_config.json",
+      "blobId": "70e3e33af7b4b2e4111b5bdfd2cd0e5e51e2db41",
+      "size": 522
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/model_fp32.tflite",
+      "blobId": "af0f70cbe1f0ce5a3c1657e1fa8a05f2001060ad",
+      "size": 4042000,
+      "lfs": {
+        "sha256": "aeba5341be3a973436c2acc6045616916577e80cc6ca44109aca442a5e769c72",
+        "size": 4042000,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/model_fp32.tflite.model_config.json",
+      "blobId": "70e3e33af7b4b2e4111b5bdfd2cd0e5e51e2db41",
+      "size": 522
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/provenance.json",
+      "blobId": "c54d34f269c56e7a7147a23404c4f8e6b271057b",
+      "size": 871
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/recipe.json",
+      "blobId": "0384a2a7f7847fa7648d70ce76b2bbcfe9e7648f",
+      "size": 1262
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/document_corners-s42/results.json",
+      "blobId": "fb212693698eaeab51288e51749749b5928ac5e0",
+      "size": 1755
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/ATTRIBUTION.md",
+      "blobId": "7fce78aec2da57b138bca93153a95cdcfe0e5578",
+      "size": 268
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/README.md",
+      "blobId": "85c78e48fc9103496c0fe6fc29e46ffb338fc010",
+      "size": 3091
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/contracts.json",
+      "blobId": "60dfacc8a06ab9019b285d7e5226083b4b323c27",
+      "size": 2246
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/labels.txt",
+      "blobId": "1e4f4f71d2b16793a47f2bdcb48b5a84026db4ab",
+      "size": 76
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/model_fp16.tflite",
+      "blobId": "90d2d198ec796af9e96ddd70d0173f147e0f8beb",
+      "size": 8115296,
+      "lfs": {
+        "sha256": "980dee1fbfca6fb90c50629c766ce5197eb794b695b915bd5daf3daa69975614",
+        "size": 8115296,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/model_fp16.tflite.model_config.json",
+      "blobId": "bcc503bd1a1d22b709008f11778a32a25f7ea7b3",
+      "size": 585
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/model_fp32.tflite",
+      "blobId": "eedb2cc24256ae9f943af35b862522f73bac3c1e",
+      "size": 16087372,
+      "lfs": {
+        "sha256": "555c65c018e52736c03ee866a836a7c9289dedcfa5b8c6320be4b3f49dda68c8",
+        "size": 16087372,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/model_fp32.tflite.model_config.json",
+      "blobId": "bcc503bd1a1d22b709008f11778a32a25f7ea7b3",
+      "size": 585
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/provenance.json",
+      "blobId": "248cf8df9efd1228602e353de4d6716b819d8c7c",
+      "size": 1207
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/recipe.json",
+      "blobId": "8f1530183686d059d43132e539dba0df2e55226f",
+      "size": 1741
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r224-s42/results.json",
+      "blobId": "683c24e25ded56e2b79473755593ff8e2353ffa9",
+      "size": 8112
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/ATTRIBUTION.md",
+      "blobId": "7fce78aec2da57b138bca93153a95cdcfe0e5578",
+      "size": 268
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/README.md",
+      "blobId": "bad00e7e38c786c278d61bdac84526641430f5b9",
+      "size": 3091
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/contracts.json",
+      "blobId": "f02147ff276798aff02576f572ae820075915963",
+      "size": 2246
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/labels.txt",
+      "blobId": "1e4f4f71d2b16793a47f2bdcb48b5a84026db4ab",
+      "size": 76
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/model_fp16.tflite",
+      "blobId": "a1b0cb8fada317427f05aabca71142e986d2b531",
+      "size": 8116804,
+      "lfs": {
+        "sha256": "901cd5b571b13e4a265c25de0c2c528cfc0b6cf1e09eef20104c19bce129f090",
+        "size": 8116804,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/model_fp16.tflite.model_config.json",
+      "blobId": "358965b4115b36f01a29d629f4d17c1d8fcdfb3f",
+      "size": 585
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/model_fp32.tflite",
+      "blobId": "c7fe3174c9e9620f371b3da33cdbc661922df47d",
+      "size": 16088532,
+      "lfs": {
+        "sha256": "a60ea29cafd686e720bb32e0d7aea2f6d26df920a06f7e234e6926226b198f6e",
+        "size": 16088532,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/model_fp32.tflite.model_config.json",
+      "blobId": "358965b4115b36f01a29d629f4d17c1d8fcdfb3f",
+      "size": 585
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/provenance.json",
+      "blobId": "9e964e3b30f475f44921c156737c8f0c5816c5c5",
+      "size": 1207
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/recipe.json",
+      "blobId": "1b491078668d3afef7dad7bd7072c5ff2d3ff5ca",
+      "size": 1741
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fashion_mnist-r320-s42/results.json",
+      "blobId": "99300788b2ddb423303f3f4259627dd4dd93c875",
+      "size": 8202
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/ATTRIBUTION.md",
+      "blobId": "bacb9627b37e7e396dca3a045428368b0a1fbb69",
+      "size": 316
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/README.md",
+      "blobId": "33632223e2f1bc8ae570f609a8bffc84bfaa20ae",
+      "size": 3176
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/contracts.json",
+      "blobId": "5720d7bf42a6301ee5e6b36f46d5d0a0b30f5fe5",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/labels.txt",
+      "blobId": "836735f9d79e6d42be343cde9b03c27177d0c02f",
+      "size": 13
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/model_fp16.tflite",
+      "blobId": "877f8a257e8acc49b529a9a3bac1930b7e964c55",
+      "size": 1923956,
+      "lfs": {
+        "sha256": "b586a6c897dadd9c4e3f00ad9061042d4882722452b9861e113f5c4ff7c4636c",
+        "size": 1923956,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/model_fp16.tflite.model_config.json",
+      "blobId": "d9ad7fea1ad1f24d0234f00002e07e93c3f0bf2e",
+      "size": 466
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/model_fp32.tflite",
+      "blobId": "e3008bfacb94de521dd2679c4fec2dca83a9d3a8",
+      "size": 3745672,
+      "lfs": {
+        "sha256": "2bb1146f322477e03d29d6f6e40adbf2fa5eff361d67330ecd0dc35b42cb8e48",
+        "size": 3745672,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/model_fp32.tflite.model_config.json",
+      "blobId": "d9ad7fea1ad1f24d0234f00002e07e93c3f0bf2e",
+      "size": 466
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/provenance.json",
+      "blobId": "ba3543c2a5a03ebfa990407621e2fa74e6621db9",
+      "size": 978
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/recipe.json",
+      "blobId": "904ee4579000bcf521a35108e8b9c8ce6407c779",
+      "size": 2143
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r224-s42/results.json",
+      "blobId": "dc830d8a6fbe87b6a1d55802a2a00073c6301e24",
+      "size": 3605
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/ATTRIBUTION.md",
+      "blobId": "bacb9627b37e7e396dca3a045428368b0a1fbb69",
+      "size": 316
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/README.md",
+      "blobId": "5e1ad9f586cd5a1de86f4ae2cfc784a37db0c72f",
+      "size": 3176
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/contracts.json",
+      "blobId": "06ccfb433141d384b30d65a66d0bb35287223da2",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/labels.txt",
+      "blobId": "836735f9d79e6d42be343cde9b03c27177d0c02f",
+      "size": 13
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/model_fp16.tflite",
+      "blobId": "a4d592d3aae97d0accda9895983284d2360bd714",
+      "size": 1923956,
+      "lfs": {
+        "sha256": "9f75398b56324b77d5c3a87bba67b175629aa08654963e8ad10c0b99ac5c1160",
+        "size": 1923956,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/model_fp16.tflite.model_config.json",
+      "blobId": "03e0bf9ec5bb5db83a7b00d04859434c3629a816",
+      "size": 466
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/model_fp32.tflite",
+      "blobId": "aa10261cebee6603ff9f1215c1e6c3e72c65d3f4",
+      "size": 3745672,
+      "lfs": {
+        "sha256": "1151f1f81ff3b9e770648a346914c1a8dbb3f929a4e497036c34e8d0d244fde8",
+        "size": 3745672,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/model_fp32.tflite.model_config.json",
+      "blobId": "03e0bf9ec5bb5db83a7b00d04859434c3629a816",
+      "size": 466
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/provenance.json",
+      "blobId": "2364b5c00dfb112a208789dc02c6eee973b9c34d",
+      "size": 978
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/recipe.json",
+      "blobId": "bfe17faac4492f5f6e6e7b315e490dfc3e8455dc",
+      "size": 2143
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r320-s42/results.json",
+      "blobId": "293c5e795bd3ea42cd0b0b08175a8ba3424c1015",
+      "size": 3697
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/ATTRIBUTION.md",
+      "blobId": "bacb9627b37e7e396dca3a045428368b0a1fbb69",
+      "size": 316
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/README.md",
+      "blobId": "bf00c554bea461ced7f735b896f22509a238c015",
+      "size": 3178
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/contracts.json",
+      "blobId": "e044628326c3b92dcf41bbd0b6595006b1181546",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/labels.txt",
+      "blobId": "836735f9d79e6d42be343cde9b03c27177d0c02f",
+      "size": 13
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/model_fp16.tflite",
+      "blobId": "b03239f8b6f86afb908e24708e30185af82f81d4",
+      "size": 1924292,
+      "lfs": {
+        "sha256": "0b3101b090167b9bc8814979b948bb0f8d4164071ba72cda8c26faa4e4e445e8",
+        "size": 1924292,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/model_fp16.tflite.model_config.json",
+      "blobId": "6804574f2cc8e22c402f955685a6a341be9f6eab",
+      "size": 466
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/model_fp32.tflite",
+      "blobId": "d12d37965d53a428278ee490c9d6c0ed187a5c8e",
+      "size": 3746008,
+      "lfs": {
+        "sha256": "34a14e76e96ae0ff66b4f54ac20568559dbf85e354f2fd1f776edff4e3189618",
+        "size": 3746008,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/model_fp32.tflite.model_config.json",
+      "blobId": "6804574f2cc8e22c402f955685a6a341be9f6eab",
+      "size": 466
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/provenance.json",
+      "blobId": "3b370bf5e12c24c1960daf4f5b98908d4e813080",
+      "size": 978
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/recipe.json",
+      "blobId": "4bf81d7a46f64b3294bedae400f470f624e3cf1d",
+      "size": 2143
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/fruit_freshness-r460-s42/results.json",
+      "blobId": "899d6627b84c7c3af44da85468338a02493fedf1",
+      "size": 3425
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/ATTRIBUTION.md",
+      "blobId": "b9b0bd4014a0bad613d6192cec02126a42d641f9",
+      "size": 268
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/README.md",
+      "blobId": "ba036ca7007f78ffcdccff516df808986ac30def",
+      "size": 3083
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/contracts.json",
+      "blobId": "5cb9bb301603ada0d1d52f94cb49d758f6f027a2",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/labels.txt",
+      "blobId": "bf30bb6213c03585768d7d6eee92d8e6638e68f6",
+      "size": 86
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/model_fp16.tflite",
+      "blobId": "a52dddc548ea6f5c8ae271fa3d81c5f5f0e880ee",
+      "size": 1933188,
+      "lfs": {
+        "sha256": "ee5646ca44ddfbc769f31da584d36daad3d256e38c6972b19b1ae57b59176843",
+        "size": 1933188,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/model_fp16.tflite.model_config.json",
+      "blobId": "8939bc5760f50abeb6e4b913944b5085b621daf0",
+      "size": 595
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/model_fp32.tflite",
+      "blobId": "85adf5a092f26c6e4e47740dd81e1a5a996eec13",
+      "size": 3764136,
+      "lfs": {
+        "sha256": "92ee23c336a1e0139f91b51e5a4710ff1b3e3b5487ddd3b96e24645e48f9602b",
+        "size": 3764136,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/model_fp32.tflite.model_config.json",
+      "blobId": "8939bc5760f50abeb6e4b913944b5085b621daf0",
+      "size": 595
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/provenance.json",
+      "blobId": "ff0a3afc3579c219383b1b9c4d5eef2c3de22e49",
+      "size": 1196
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/recipe.json",
+      "blobId": "e5451c60e5cdac95e832f42ddba6762ee5d32ebb",
+      "size": 1665
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r224-s42/results.json",
+      "blobId": "f870da665f4655940b3fb3f2c9155dda1d5044f8",
+      "size": 8213
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/ATTRIBUTION.md",
+      "blobId": "b9b0bd4014a0bad613d6192cec02126a42d641f9",
+      "size": 268
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/README.md",
+      "blobId": "67f7e0ac6284bccea037fb556b7331a21ec6e4c6",
+      "size": 3083
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/contracts.json",
+      "blobId": "3d13df03f582a9b8d8d44775504bad2dc2dd2774",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/labels.txt",
+      "blobId": "bf30bb6213c03585768d7d6eee92d8e6638e68f6",
+      "size": 86
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/model_fp16.tflite",
+      "blobId": "c5eeaa564037737d1947972ade9dcc27a2599bf8",
+      "size": 1933188,
+      "lfs": {
+        "sha256": "51576cfe0deb5f633fb1a8d0540e63bfa7c32c31c3f95281fa5faeb72cf1e5b1",
+        "size": 1933188,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/model_fp16.tflite.model_config.json",
+      "blobId": "382c90367552b7c503f62a89f48012e52987593a",
+      "size": 595
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/model_fp32.tflite",
+      "blobId": "fc4eb6c94eccb7b7b759b5b1fbf0c094c14c33a0",
+      "size": 3764136,
+      "lfs": {
+        "sha256": "b080da1c46eeffe6de6f74cd4ae1de4a02349f2480bbf20f42f14e9d64a43474",
+        "size": 3764136,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/model_fp32.tflite.model_config.json",
+      "blobId": "382c90367552b7c503f62a89f48012e52987593a",
+      "size": 595
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/provenance.json",
+      "blobId": "b1b59996c5f64b6cf470a31630aede5d267c50e2",
+      "size": 1196
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/recipe.json",
+      "blobId": "c34f7fffc3f4156cf315b137ad072015ba085ace",
+      "size": 1665
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r320-s42/results.json",
+      "blobId": "f546d3b07df2bb41e25526bbca865609fc0d6fa7",
+      "size": 8145
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/ATTRIBUTION.md",
+      "blobId": "b9b0bd4014a0bad613d6192cec02126a42d641f9",
+      "size": 268
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/README.md",
+      "blobId": "2b090891f649c796046fd346dd38392306e6e138",
+      "size": 3083
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/contracts.json",
+      "blobId": "0015c3ebb45721a3b7b666e8458af49e4c0061bb",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/labels.txt",
+      "blobId": "bf30bb6213c03585768d7d6eee92d8e6638e68f6",
+      "size": 86
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/model_fp16.tflite",
+      "blobId": "b190b5d340b60ff3fce07cf6fb678813b631439b",
+      "size": 1933524,
+      "lfs": {
+        "sha256": "3e597e34f9a3e67ab7e4314d776648834363e57d7d39e45fb35f4f4218a956c2",
+        "size": 1933524,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/model_fp16.tflite.model_config.json",
+      "blobId": "7b98b7f7eb5b42902f496f63eace63e5dff0e6f0",
+      "size": 595
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/model_fp32.tflite",
+      "blobId": "204a74b95fd8a59d2872c0ae1512a70248ccc4b4",
+      "size": 3764472,
+      "lfs": {
+        "sha256": "72e7d8a0200975c447e7822bb5c82ac80f3b7cfaec40ddbb656aabccd17652cd",
+        "size": 3764472,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/model_fp32.tflite.model_config.json",
+      "blobId": "7b98b7f7eb5b42902f496f63eace63e5dff0e6f0",
+      "size": 595
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/provenance.json",
+      "blobId": "0fa35b499d093926f7769391ef3693836ef7374a",
+      "size": 1196
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/recipe.json",
+      "blobId": "68ba13cee69918d4b8fbcf091b2aab9ebe122d95",
+      "size": 1620
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-r460-s42/results.json",
+      "blobId": "71f1a376fce56d6fe8b04e88ccc595bd62624b84",
+      "size": 8210
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/ATTRIBUTION.md",
+      "blobId": "b9b0bd4014a0bad613d6192cec02126a42d641f9",
+      "size": 268
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/README.md",
+      "blobId": "0bf5f1fb0955d96f58cc0198ac3d5b5d0588b5ac",
+      "size": 3073
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/contracts.json",
+      "blobId": "7d1529904d10b6d9ed715e7586c5001ccc0c8ab3",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/labels.txt",
+      "blobId": "bf30bb6213c03585768d7d6eee92d8e6638e68f6",
+      "size": 86
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/model_fp16.tflite",
+      "blobId": "a9bac26ef18cda7a862e3df0bd8aa3e94930a9ef",
+      "size": 1933188,
+      "lfs": {
+        "sha256": "c5fae4b572bca182dde82d345ba50df43fee7cf7b6bd08dcdecc91315e4c7ba4",
+        "size": 1933188,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/model_fp16.tflite.model_config.json",
+      "blobId": "697db842d34fe30e322acf9ee412f91db472bb0d",
+      "size": 595
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/model_fp32.tflite",
+      "blobId": "01ac026615dd03c75e87352f5e5c7df73e0f3fec",
+      "size": 3764136,
+      "lfs": {
+        "sha256": "5ed094af76dac70b7690735f850315ce53c7b6e6bd0d90b8b14ddb64d76b2d9e",
+        "size": 3764136,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/model_fp32.tflite.model_config.json",
+      "blobId": "697db842d34fe30e322acf9ee412f91db472bb0d",
+      "size": 595
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/provenance.json",
+      "blobId": "a61658bebd28be97533342616d3dfb72bdadc3d1",
+      "size": 1196
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/recipe.json",
+      "blobId": "b0ee08a8d89219dc5a1a7aa22cac8cec19a72538",
+      "size": 1387
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/hand_gestures-s17/results.json",
+      "blobId": "94880b2bfaa0994bb69b6200e6219ad8c46e0e41",
+      "size": 8175
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/ATTRIBUTION.md",
+      "blobId": "6ef84e28045cb762e6693e4da5439b97666fc194",
+      "size": 306
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/README.md",
+      "blobId": "b04c58e3ce648c4bbec5f61bedc5be9b3f66986f",
+      "size": 3051
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/contracts.json",
+      "blobId": "fd7905029cfd75f349b329c84e732c489ea4d232",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/labels.txt",
+      "blobId": "53140c0cfc7e35139e98462b908d6ff4b1ba6b53",
+      "size": 15
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/model_fp16.tflite",
+      "blobId": "3258ed4e2873b298b8c635e071b50d1ab30f0ce5",
+      "size": 1922536,
+      "lfs": {
+        "sha256": "943732139763aba28af299b02a010c20d6bf940cc9fd1a2922b65e8db457595c",
+        "size": 1922536,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/model_fp16.tflite.model_config.json",
+      "blobId": "fd3eb4361679fa9511b65fe59c3307a278413c69",
+      "size": 468
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/model_fp32.tflite",
+      "blobId": "a6a9617871c6625f26ca8798f7ff83314c4ca4f0",
+      "size": 3744632,
+      "lfs": {
+        "sha256": "0172406f4109c7b1c1e917d195eaf8e4a92813eb85dcbc66bc8dfc87f9198182",
+        "size": 3744632,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/model_fp32.tflite.model_config.json",
+      "blobId": "fd3eb4361679fa9511b65fe59c3307a278413c69",
+      "size": 468
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/provenance.json",
+      "blobId": "b2a927d3ee6d3a42a6b83c2a9515c67f79fe55e4",
+      "size": 967
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/recipe.json",
+      "blobId": "c8d29b2715e3baee8f517b44fe35ea737dac26ee",
+      "size": 2713
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r224-s42/results.json",
+      "blobId": "9a93818aa0ed6ce4ce476486e7ba466606ddc012",
+      "size": 3861
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/ATTRIBUTION.md",
+      "blobId": "6ef84e28045cb762e6693e4da5439b97666fc194",
+      "size": 306
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/README.md",
+      "blobId": "d333206591f1ab797f88e11d09dc612339dd5103",
+      "size": 3051
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/contracts.json",
+      "blobId": "d03980102393a26c2216235a89840107efd34bda",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/labels.txt",
+      "blobId": "53140c0cfc7e35139e98462b908d6ff4b1ba6b53",
+      "size": 15
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/model_fp16.tflite",
+      "blobId": "71ca6daf35f984794f2d7e837d18ca03b6edcdee",
+      "size": 1923956,
+      "lfs": {
+        "sha256": "986271293f1fb43b66e09f9d7f7d1b4a663e1ffa9eb8c1fef355dc5f682e8709",
+        "size": 1923956,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/model_fp16.tflite.model_config.json",
+      "blobId": "173c2448dc6c833d4ce85de8ef5329d87fc28588",
+      "size": 468
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/model_fp32.tflite",
+      "blobId": "966a5c28a86c0a70e5ac84bf312074785b51794e",
+      "size": 3745672,
+      "lfs": {
+        "sha256": "c9cfb6e78897d9b053817b99a2334a0e02d507242690c3def853bac66982738b",
+        "size": 3745672,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/model_fp32.tflite.model_config.json",
+      "blobId": "173c2448dc6c833d4ce85de8ef5329d87fc28588",
+      "size": 468
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/provenance.json",
+      "blobId": "e73c1766bb5e0d8dc70866edad8b304c27e5298e",
+      "size": 967
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/recipe.json",
+      "blobId": "fc6772923c96c033a3427a2aa446bd52ec02804b",
+      "size": 2115
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r320-s42/results.json",
+      "blobId": "c91e8541bab0017a11d8b87996dee8ade2325dc6",
+      "size": 3673
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/ATTRIBUTION.md",
+      "blobId": "6ef84e28045cb762e6693e4da5439b97666fc194",
+      "size": 306
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/README.md",
+      "blobId": "77f2c4fbce58933dcbcf25fc002acc6812abec15",
+      "size": 3051
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/contracts.json",
+      "blobId": "eaae7fea19515b60d30f9355855f828ae17dde22",
+      "size": 2243
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/labels.txt",
+      "blobId": "53140c0cfc7e35139e98462b908d6ff4b1ba6b53",
+      "size": 15
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/model_fp16.tflite",
+      "blobId": "16c79a4a1d49fd536167c606f7e255b47d775dfc",
+      "size": 1924292,
+      "lfs": {
+        "sha256": "ddc44bc80049a9180534277b440b74ef6a60fd7f3f9ca764b08a07bd183b8dd0",
+        "size": 1924292,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/model_fp16.tflite.model_config.json",
+      "blobId": "44f2548dc4da2c0a1adc5547033e642c71a1ac21",
+      "size": 468
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/model_fp32.tflite",
+      "blobId": "718c14f40fb9bc11baae4e81dacbb10cea9c7081",
+      "size": 3746008,
+      "lfs": {
+        "sha256": "2ddb6e8ee8799cba65bd68cc1db69a7275fe2a3564c89b805f928385b6dabd82",
+        "size": 3746008,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/model_fp32.tflite.model_config.json",
+      "blobId": "44f2548dc4da2c0a1adc5547033e642c71a1ac21",
+      "size": 468
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/provenance.json",
+      "blobId": "25822602d193b5e4856f6e75fa3f1fc0f680967a",
+      "size": 967
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/recipe.json",
+      "blobId": "2d5306e388ee3c90020ea8dc1ba536ab8d3d03ce",
+      "size": 2115
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/indoor_outdoor-r460-s42/results.json",
+      "blobId": "ff01f6b58a54ec07cae6600a8df77dad08962e8b",
+      "size": 3673
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/ATTRIBUTION.md",
+      "blobId": "9837e07d72d796a607be83bf0278c0c6700029df",
+      "size": 263
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/README.md",
+      "blobId": "9e78cfb0c5945b1aa48265ee98f2a7ddc822f982",
+      "size": 3014
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/contracts.json",
+      "blobId": "8e7b95efcd61d30134574dbf180a24bd5a425c3e",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/labels.txt",
+      "blobId": "6bce7e25dacc61d6146c08f2a35a127404eb0f81",
+      "size": 40
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/model_fp16.tflite",
+      "blobId": "13664a22b0c0aa1722233483b840b76e7f46224b",
+      "size": 1933188,
+      "lfs": {
+        "sha256": "104a3e6f0d6844fef919e02fcc9495a3255ee222bd91386509f34d6a3b2ada92",
+        "size": 1933188,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/model_fp16.tflite.model_config.json",
+      "blobId": "2e3fd226222b73709f8351777b6617408ac258e2",
+      "size": 549
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/model_fp32.tflite",
+      "blobId": "88603854ac590c9c1bddecf1c5ecb598dea1ea3b",
+      "size": 3764136,
+      "lfs": {
+        "sha256": "7e817934cccf3a7a1402132eddfde34d66f82b361d17d01ad43157a8c08ae590",
+        "size": 3764136,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/model_fp32.tflite.model_config.json",
+      "blobId": "2e3fd226222b73709f8351777b6617408ac258e2",
+      "size": 549
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/provenance.json",
+      "blobId": "d83d665814d71241c9ffb51597c75c08a34b19f7",
+      "size": 1203
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/recipe.json",
+      "blobId": "b79e606cbe492d2346e8239ae04b7925a9c33ff7",
+      "size": 1688
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r224-s42/results.json",
+      "blobId": "10e01a23c8ea6d19811110e5708814ab6e36d6a3",
+      "size": 7854
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/ATTRIBUTION.md",
+      "blobId": "9837e07d72d796a607be83bf0278c0c6700029df",
+      "size": 263
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/README.md",
+      "blobId": "9dd41f68330127153fa1d52b85c1ce0780cf61af",
+      "size": 3014
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/contracts.json",
+      "blobId": "91856ab112a38ace9e566e56c1d9feeb48ef6206",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/labels.txt",
+      "blobId": "6bce7e25dacc61d6146c08f2a35a127404eb0f81",
+      "size": 40
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/model_fp16.tflite",
+      "blobId": "d3ee9bf6240f45890f52140fca55b2aa2950ad58",
+      "size": 1933188,
+      "lfs": {
+        "sha256": "2593cc3201a763c4f8be5e51825f6b81257feb2dbe4bc992a5c4e73ec6bcd68f",
+        "size": 1933188,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/model_fp16.tflite.model_config.json",
+      "blobId": "a8c726815ab3169765ae017c75db90ec360053cb",
+      "size": 549
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/model_fp32.tflite",
+      "blobId": "0fdefa3da833902bea45a77be2f04ffc1345d8d6",
+      "size": 3764136,
+      "lfs": {
+        "sha256": "93f23a0a221aa4e006d6c9424b6e9dd15a6e4926c4c034c83f4caebaba04d9fd",
+        "size": 3764136,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/model_fp32.tflite.model_config.json",
+      "blobId": "a8c726815ab3169765ae017c75db90ec360053cb",
+      "size": 549
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/provenance.json",
+      "blobId": "4d480064b9e312250096d15d71f54bab3ea4a062",
+      "size": 1203
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/recipe.json",
+      "blobId": "fb239463558f9376c0484f159132ff3a71a63b72",
+      "size": 1688
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r320-s42/results.json",
+      "blobId": "a77638aff4df1dbc3248b17418f14764821f9234",
+      "size": 7828
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/ATTRIBUTION.md",
+      "blobId": "9837e07d72d796a607be83bf0278c0c6700029df",
+      "size": 263
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/README.md",
+      "blobId": "a4fe67650507615150054a2959700027339fcda4",
+      "size": 3014
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/contracts.json",
+      "blobId": "900025e8c663e7cd9703469b0b71974e1533ab48",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/labels.txt",
+      "blobId": "6bce7e25dacc61d6146c08f2a35a127404eb0f81",
+      "size": 40
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/model_fp16.tflite",
+      "blobId": "34423f615e4d35d5c54e06c280df08846dff4e3c",
+      "size": 1933524,
+      "lfs": {
+        "sha256": "4ab678c223c14d0c303e820af92bf55b074422845993807ec5c93f30907bdddb",
+        "size": 1933524,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/model_fp16.tflite.model_config.json",
+      "blobId": "8cbe02683aef836328a1c24619f53455d1404f1b",
+      "size": 549
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/model_fp32.tflite",
+      "blobId": "4a1afbc2b2bd1953a80b0a52d1e85b7d1440d305",
+      "size": 3764472,
+      "lfs": {
+        "sha256": "975caa98a4f2a67e74a58814cc7d0cda078f6944f64f2d968cc03673f2badd70",
+        "size": 3764472,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/model_fp32.tflite.model_config.json",
+      "blobId": "8cbe02683aef836328a1c24619f53455d1404f1b",
+      "size": 549
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/provenance.json",
+      "blobId": "d8e25aba6db6c25e3a57d51bdf9f2aad6447a771",
+      "size": 1203
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/recipe.json",
+      "blobId": "f5980b407931e4c2349d8b52ff8e1a3f64d5ad15",
+      "size": 1688
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/kmnist-r460-s42/results.json",
+      "blobId": "bac41109b148cc2cc6c83f40804c8819aca019f7",
+      "size": 7858
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/ATTRIBUTION.md",
+      "blobId": "a6522061617ad260ff3c6167c537cd5b8e67ee2e",
+      "size": 278
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/README.md",
+      "blobId": "9043b58734a3744dc5fb59184a5099a3fe1832c6",
+      "size": 3037
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/contracts.json",
+      "blobId": "9fab5fc671fe3afa3f824056055167e3e209ea0e",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/labels.txt",
+      "blobId": "1f31cb25798758db18af2e79c449b17db45143f2",
+      "size": 63
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/model_fp16.tflite",
+      "blobId": "4a7e0d144f83016dc9fa439b517457fdf6573bff",
+      "size": 1949344,
+      "lfs": {
+        "sha256": "6988c3feac758aaea8f051b82f135c748aab50c02b98aa48c0a1fc2aaef2f73e",
+        "size": 1949344,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/model_fp16.tflite.model_config.json",
+      "blobId": "6ee35cfb0605d3e4f75eed38da9ed8acb4261b8a",
+      "size": 670
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/model_fp32.tflite",
+      "blobId": "10492f41b990257117dc96c394274cde8d441f85",
+      "size": 3796448,
+      "lfs": {
+        "sha256": "8220920000fe2b31e4f47b7d52d78ec6ceb7fd2ef08226f1fec0ccf5321d7678",
+        "size": 3796448,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/model_fp32.tflite.model_config.json",
+      "blobId": "6ee35cfb0605d3e4f75eed38da9ed8acb4261b8a",
+      "size": 670
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/provenance.json",
+      "blobId": "64acebdfb29c3ff95fb208de0915e5b9fb192070",
+      "size": 1715
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/recipe.json",
+      "blobId": "7e211df7d3cd1d3bbceada576370464e085107f4",
+      "size": 2244
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r224-s42/results.json",
+      "blobId": "7dbe8efac719cb8246d518e8795dc50dc4bb6dd2",
+      "size": 22379
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/ATTRIBUTION.md",
+      "blobId": "a6522061617ad260ff3c6167c537cd5b8e67ee2e",
+      "size": 278
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/README.md",
+      "blobId": "03bac2a6a58a31c1e7124f150c3dfcccf4ed3b61",
+      "size": 3037
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/contracts.json",
+      "blobId": "725f97c8cca105e6451091d54b9fc6b867ec12b5",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/labels.txt",
+      "blobId": "1f31cb25798758db18af2e79c449b17db45143f2",
+      "size": 63
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/model_fp16.tflite",
+      "blobId": "c2e58f0304703107802d9f00122a9d1ac7a4c419",
+      "size": 1949344,
+      "lfs": {
+        "sha256": "d8194fa80164c4855eb768405876717c7b7cb99fc060e78aa49b28402b66f642",
+        "size": 1949344,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/model_fp16.tflite.model_config.json",
+      "blobId": "5710e6df6be62b2dee2d11a044b1d097709b56a7",
+      "size": 670
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/model_fp32.tflite",
+      "blobId": "c41ad4c932fa08ed4f21f1b1e369a10ed32f61ed",
+      "size": 3796448,
+      "lfs": {
+        "sha256": "86029b227b0e12fdcac5805454ee139af06043348cebdf8cf25dc103b0bc10bc",
+        "size": 3796448,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/model_fp32.tflite.model_config.json",
+      "blobId": "5710e6df6be62b2dee2d11a044b1d097709b56a7",
+      "size": 670
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/provenance.json",
+      "blobId": "8e72bf3daefc48a00575da9e95d54fc2782c32ca",
+      "size": 1715
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/recipe.json",
+      "blobId": "16f6908b670f113d1dc52f7552d60a636f886447",
+      "size": 2244
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r320-s42/results.json",
+      "blobId": "0d599e5d6b8c87d890eb658f99038bff14edc098",
+      "size": 22752
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/ATTRIBUTION.md",
+      "blobId": "a6522061617ad260ff3c6167c537cd5b8e67ee2e",
+      "size": 278
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/README.md",
+      "blobId": "d08864f6e78be05d7a090f31aa2d1fa93e0fee09",
+      "size": 3037
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/contracts.json",
+      "blobId": "466023817fefe38a419c1a75914507e5e7f932ee",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/labels.txt",
+      "blobId": "1f31cb25798758db18af2e79c449b17db45143f2",
+      "size": 63
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/model_fp16.tflite",
+      "blobId": "7ffe530c6c48a9503f18e9f1ece606d25df4ca22",
+      "size": 1949680,
+      "lfs": {
+        "sha256": "7d698dd9e62b55bbef975f181045b897fac510136a6f6f5cdd80b10da9f728e1",
+        "size": 1949680,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/model_fp16.tflite.model_config.json",
+      "blobId": "8c38a4f5d766b9d702fa1234b0aedf48933979e8",
+      "size": 670
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/model_fp32.tflite",
+      "blobId": "eb59d874bbeb8c8cdb094708bdea266342486752",
+      "size": 3796784,
+      "lfs": {
+        "sha256": "993de10ba6a29cd894b5d482ee2331cc2897cab548823d354e71af2daaba551d",
+        "size": 3796784,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/model_fp32.tflite.model_config.json",
+      "blobId": "8c38a4f5d766b9d702fa1234b0aedf48933979e8",
+      "size": 670
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/provenance.json",
+      "blobId": "e06d7389d3a41aed45a28f3fd14469c4e14a44cc",
+      "size": 1715
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/recipe.json",
+      "blobId": "3c0bcc3ed8964406ab47b681dacfd52db846db8d",
+      "size": 2244
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/sign_alphabet-r460-s42/results.json",
+      "blobId": "8c7be70a2f7dc057bc5df88675b0a57340c1499d",
+      "size": 22544
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s2026/ATTRIBUTION.md",
+      "blobId": "bcb577733ed4f94c0bd79856d05ad4ab93b4cd84",
+      "size": 264
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s2026/README.md",
+      "blobId": "0f39bc660f09daf2147ce2c69993e30b8bd2db48",
+      "size": 2932
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s2026/contracts.json",
+      "blobId": "470e4f4c06a29033272653ee2bcbb862eb35336d",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s2026/labels.txt",
+      "blobId": "8b1acc12b635c26f3decadeaa251729d3ce512e9",
+      "size": 20
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s2026/model_fp16.tflite",
+      "blobId": "0042d51c712595ffd44a52f94967a44601484388",
+      "size": 1933188,
+      "lfs": {
+        "sha256": "f996556b2d0d53864bd63cd202a0788d12dedb5e3ebe86b979aa17a347b891e8",
+        "size": 1933188,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s2026/model_fp32.tflite",
+      "blobId": "944096455d6f1382c6c36bcec6cd4853516e9081",
+      "size": 3764136,
+      "lfs": {
+        "sha256": "27f037a3f447add7cf23fa39e5284f6cfc833393ffa522b26af59f3d2d277104",
+        "size": 3764136,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s2026/provenance.json",
+      "blobId": "058601c9ee99dcd43fe85a18a6c9485e6fd1f561",
+      "size": 1193
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s2026/recipe.json",
+      "blobId": "bab07c89dd83839e42b86d8e17575eabda9eb649",
+      "size": 1742
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s2026/results.json",
+      "blobId": "8e9e618c1d503c7a33d0619f485b0e55652a0ae2",
+      "size": 8003
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s42/ATTRIBUTION.md",
+      "blobId": "bcb577733ed4f94c0bd79856d05ad4ab93b4cd84",
+      "size": 264
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s42/README.md",
+      "blobId": "904733a98387880e14d6dd3bc9fa1dd29a85e294",
+      "size": 2926
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s42/contracts.json",
+      "blobId": "52da3512a0d902e958fcba7240363fefd34ec314",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s42/labels.txt",
+      "blobId": "8b1acc12b635c26f3decadeaa251729d3ce512e9",
+      "size": 20
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s42/model_fp16.tflite",
+      "blobId": "5b17596023264b206ce7c5a0722c969794ec81b0",
+      "size": 1933188,
+      "lfs": {
+        "sha256": "7c876574d5676d170427430fc31093831b560c2aabc0ae65349daf924357ec17",
+        "size": 1933188,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s42/model_fp32.tflite",
+      "blobId": "f4f876ab48e685b3ff1f199a6497e3a01fea6fc8",
+      "size": 3764136,
+      "lfs": {
+        "sha256": "c6ddd1218e3a1f4a95313b8c93f8bbd4e808e58422054286b85c9e96473c70a3",
+        "size": 3764136,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s42/provenance.json",
+      "blobId": "76707e11ba1879d962d72361af146affcaafe287",
+      "size": 1193
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s42/recipe.json",
+      "blobId": "32391b5065bb1d478aec6e5d3fb2f7af68ce4cfe",
+      "size": 1740
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-r128-s42/results.json",
+      "blobId": "b719d7752b36afb2e74fafa22e6505ddb2e5538d",
+      "size": 7995
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-s17/ATTRIBUTION.md",
+      "blobId": "bcb577733ed4f94c0bd79856d05ad4ab93b4cd84",
+      "size": 264
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-s17/README.md",
+      "blobId": "4614b7e022547a5f4201bf322a76d994e321a6a5",
+      "size": 2916
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-s17/contracts.json",
+      "blobId": "1461f9aed8e7a3444e03ee4980807dc4fef0f61b",
+      "size": 2245
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-s17/labels.txt",
+      "blobId": "8b1acc12b635c26f3decadeaa251729d3ce512e9",
+      "size": 20
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-s17/model_fp16.tflite",
+      "blobId": "93883c6e6762e593ebac58e648c993a081865471",
+      "size": 1933188,
+      "lfs": {
+        "sha256": "1e74e898bf4a4cff0cf3732bf902858ac0e375deee895c6c3048f217de49188b",
+        "size": 1933188,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-s17/model_fp32.tflite",
+      "blobId": "a1da9195e7d4ad3b80f0ed60b7264872588bdae4",
+      "size": 3764136,
+      "lfs": {
+        "sha256": "db9adfad802220238bfe840ef39f7ce92fcbe8318949104c0daa9def3b91c464",
+        "size": 3764136,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-s17/provenance.json",
+      "blobId": "42aee02d0fd7104b86acdd3a1e057233d92355d6",
+      "size": 1193
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-s17/recipe.json",
+      "blobId": "b5e27a44978fb759db039925cd1becc78c240ae5",
+      "size": 1698
+    },
+    {
+      "rfilename": "campaigns/extension-20261007/spoken_digits-s17/results.json",
+      "blobId": "b5ca4f92fe73d0c3fefbccc74d68752dde4eb640",
+      "size": 7996
+    },
+    {
+      "rfilename": "catalog.json",
+      "blobId": "20e5ba26ab6a1af2f7625def8ccacfcd61392c4d",
+      "size": 96699
+    },
+    {
+      "rfilename": "catalogue.json",
+      "blobId": "a383e24c588fb03617312cbd154c49b4eb6aabb9",
+      "size": 19560
+    },
+    {
+      "rfilename": "docs/CHOOSING_VARIANTS.md",
+      "blobId": "94e361610a379a0ca04ba001c2ee2d5694cba1ef",
+      "size": 4773
+    },
+    {
+      "rfilename": "docs/NAVIGATION.md",
+      "blobId": "543a105001035039ca98a55b69e0203aee927a1b",
+      "size": 1138
+    },
+    {
+      "rfilename": "docs/USAGES.md",
+      "blobId": "3bcffe235fc2aca3903c33ec24079600766b2041",
+      "size": 3829
+    },
+    {
+      "rfilename": "docs/UWD.md",
+      "blobId": "539e06e17ffc6858a6e534e9839e2d4a30600682",
+      "size": 767
+    },
+    {
+      "rfilename": "docs/benchmarks/README.md",
+      "blobId": "b5097a94e1acfb7b129fafa5c792c2ab975ffb83",
+      "size": 2587
+    },
+    {
+      "rfilename": "docs/benchmarks/blocs-texte-ocrd.md",
+      "blobId": "f85b27785c5ad43b8d89a9e0120be88e18deae84",
+      "size": 3868
+    },
+    {
+      "rfilename": "docs/benchmarks/blur.md",
+      "blobId": "b896a0926fab4edde992816cad26d2503ef12ef1",
+      "size": 4707
+    },
+    {
+      "rfilename": "docs/benchmarks/casques.md",
+      "blobId": "04bef32071473a43d52f60f33c81e15d681cc59f",
+      "size": 3746
+    },
+    {
+      "rfilename": "docs/benchmarks/document_corners.md",
+      "blobId": "e57da33e97737fae4ed62fb51c6e5c7a1e643af7",
+      "size": 4990
+    },
+    {
+      "rfilename": "docs/benchmarks/fashion_mnist.md",
+      "blobId": "c43d46b7dd2709c2efc8420e26fbc4d10b6b61f5",
+      "size": 3757
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/blocs-texte-ocrd.png",
+      "blobId": "5020452786ec96b36219afec660bc4c920ac6093",
+      "size": 134775,
+      "lfs": {
+        "sha256": "b6a388b642048d3954a68b70e93310978a44d4d6d1a2832327eed49a9ae30e14",
+        "size": 134775,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/blur.png",
+      "blobId": "36636b4b39087913863cf3912b2a194518bb8564",
+      "size": 144978,
+      "lfs": {
+        "sha256": "e5f42a8d824c815cb12d6608239486a6e97532a292f7b4414cde6c5d2ccd53f4",
+        "size": 144978,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/casques.png",
+      "blobId": "db817b2d30b3995ea78ab12c876726f3b13e38ce",
+      "size": 131176,
+      "lfs": {
+        "sha256": "33b77293133406f72b75add2bae4e01c2536a74079d7604b355f483b7c76a4f6",
+        "size": 131176,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/document_corners.png",
+      "blobId": "5f8b0ae6d572c41499bb8aaf9a128c20996b4f81",
+      "size": 147308,
+      "lfs": {
+        "sha256": "7cdb25ab2997a442bf34587b08eab69fe2422204537bd647d111a3537d081210",
+        "size": 147308,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/fashion_mnist.png",
+      "blobId": "94099c6e48c0d9f5e1ce1a3f09ecda786870f6b9",
+      "size": 102868,
+      "lfs": {
+        "sha256": "45ac02197f4a68e7944333c5e321a9d6f492043ab2f2b4579fee9052571f5eb0",
+        "size": 102868,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/fruit_freshness.png",
+      "blobId": "82f66b975c9553b4e61cf47c2c4efeb0c6fd1d59",
+      "size": 120946,
+      "lfs": {
+        "sha256": "b84a66ba62a940e97cd27cb82176aaef5aa6970d35a73c5c255a2aa0199194f2",
+        "size": 120946,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/hand_gestures.png",
+      "blobId": "8a1449e3a1330999dd702fc276ecd67c8218da31",
+      "size": 143351,
+      "lfs": {
+        "sha256": "b3da268f63797fdf9ee02c180bd6dac425b021e82bb4b7cfbf713caf676b223c",
+        "size": 143351,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/indoor_outdoor.png",
+      "blobId": "ad663e901caf87fd54a5ff89874af5a114b03e6e",
+      "size": 124393,
+      "lfs": {
+        "sha256": "725dab47b2cc7d97c9a166b184a4c35c46d1183c5983698366483282bd59fce8",
+        "size": 124393,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/kmnist.png",
+      "blobId": "285625067ecf7ec37821737d9c1a0a0396ab9091",
+      "size": 123898,
+      "lfs": {
+        "sha256": "66253bdec3b655a1c79a6f6ea6ed39a8b7a32609d7a2d86bcebb29386c8b4565",
+        "size": 123898,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/materiaux.png",
+      "blobId": "f4dcae9e8a267ea71b2a8c83568d74d0cc18d8fd",
+      "size": 126990,
+      "lfs": {
+        "sha256": "acedd2461f5d8e0d4b945936b5e4c3f762e50c222d96ce8ea3582e3de6d8d81c",
+        "size": 126990,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/nids-de-poule.png",
+      "blobId": "b6831ea855f0f99779cf6fb8649af5328c26e846",
+      "size": 170112,
+      "lfs": {
+        "sha256": "e05655adbb25e97671b5f068f334b7cec273822f0d86161c5011efb0381235b9",
+        "size": 170112,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/pcb1.png",
+      "blobId": "863e80eb91dca020f9e9180978c8efbc3419f6a2",
+      "size": 155320,
+      "lfs": {
+        "sha256": "6ed58811070a42521e0038943668a974a93f8fc6a4d6900555da771547d972fd",
+        "size": 155320,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/sign_alphabet.png",
+      "blobId": "7308b01fa6404bba10aa1ec05b2161c21e097d2a",
+      "size": 123117,
+      "lfs": {
+        "sha256": "c2570edc9e9ebe7945fc9a00fa10ed8c020927ff97919c90dd7af37eb9af772a",
+        "size": 123117,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/spoken_digits.png",
+      "blobId": "92ce9be59f3dbe9f8efc3555d5bbb85ef9b9d976",
+      "size": 124294,
+      "lfs": {
+        "sha256": "94cb397842b0db0fb2194afc2579f1f2b828db3252b177981bfc96d297fbda69",
+        "size": 124294,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/figures/trashnet.png",
+      "blobId": "46c2f9115139a31428600dd25148bcf220f92ab6",
+      "size": 124984,
+      "lfs": {
+        "sha256": "839d208a31ed1cc1912ca6c7db9be08fdda8c01b26bd43afa5c3dee9138df867",
+        "size": 124984,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/benchmarks/fruit_freshness.md",
+      "blobId": "a6cd89ff3dec893c7c698a3e1cdb41f2602eb270",
+      "size": 4293
+    },
+    {
+      "rfilename": "docs/benchmarks/hand_gestures.md",
+      "blobId": "9f65d06e8891b4b347d00b4f3d52bbe0940c5971",
+      "size": 4892
+    },
+    {
+      "rfilename": "docs/benchmarks/indoor_outdoor.md",
+      "blobId": "d4fe0714380328a762bb05327c0ded1250f982ff",
+      "size": 4234
+    },
+    {
+      "rfilename": "docs/benchmarks/kmnist.md",
+      "blobId": "6634ce5c0816119cafbd10109614f3d1148dd4a9",
+      "size": 4146
+    },
+    {
+      "rfilename": "docs/benchmarks/materiaux.md",
+      "blobId": "7809b8ee621acf3d5f7f0da845960931ea5da9cb",
+      "size": 3801
+    },
+    {
+      "rfilename": "docs/benchmarks/nids-de-poule.md",
+      "blobId": "da94346be71f0eb6c58669e25e68363ab5747cbf",
+      "size": 4680
+    },
+    {
+      "rfilename": "docs/benchmarks/pcb1.md",
+      "blobId": "927a598c6532a09fc95eaa6a7fb1477dcba1fed4",
+      "size": 4370
+    },
+    {
+      "rfilename": "docs/benchmarks/sign_alphabet.md",
+      "blobId": "c4521f5762c9e84819636acb1b1236595d1b0cb9",
+      "size": 4221
+    },
+    {
+      "rfilename": "docs/benchmarks/spoken_digits.md",
+      "blobId": "e71ebd234520b3e886a5832b90b6214befbd8642",
+      "size": 4374
+    },
+    {
+      "rfilename": "docs/benchmarks/trashnet.md",
+      "blobId": "4d7385f456e66cfbdd75e7b80f07a0a4cc2f0ef0",
+      "size": 3779
+    },
+    {
+      "rfilename": "docs/benchmarks/variants.csv",
+      "blobId": "afeb61c9663095834da39cbd67729211699f8ae1",
+      "size": 49172
+    },
+    {
+      "rfilename": "docs/benchmarks/variants.json",
+      "blobId": "47e5d974d2d4cf8927c23a98819a6a798eb37e20",
+      "size": 177942
+    },
+    {
+      "rfilename": "docs/media/LICENSE.compose-phosphor-icon",
+      "blobId": "990580fc7e3f345ddc6d3b36058e82499a090948",
+      "size": 1065
+    },
+    {
+      "rfilename": "docs/media/LICENSE.phosphor",
+      "blobId": "78c9810819776e135d314adc0ff26eda7bec8b38",
+      "size": 1071
+    },
+    {
+      "rfilename": "docs/media/NOTICES.design.txt",
+      "blobId": "f5a2fc04acf5dc6deb78252a9e8e5eb5e557884c",
+      "size": 892
+    },
+    {
+      "rfilename": "docs/media/OFL.barlow.txt",
+      "blobId": "2f22ba6ca4dbc12145ae40b14c3368f387cba0e2",
+      "size": 4377
+    },
+    {
+      "rfilename": "docs/media/README.md",
+      "blobId": "ce6997910c78b2db8590d698fc3251a04f5fc61c",
+      "size": 610
+    },
+    {
+      "rfilename": "docs/media/cadryl-banner-en.webp",
+      "blobId": "02f8c13e9e8fa7dc0f70f565868e8fcbc35e8f97",
+      "size": 139490,
+      "lfs": {
+        "sha256": "821959e3bd41b2f7e995229865ea89a5861bd7788b56feeaec675b05dcc1e521",
+        "size": 139490,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "docs/media/cadryl-banner-fr.webp",
+      "blobId": "db14348f42aa7e04144efff4a08300ad25b9a364",
+      "size": 139758,
+      "lfs": {
+        "sha256": "0701f32a470801dd25d1b341f3848ecc8f9ad578629d20720784ad440bb000e5",
+        "size": 139758,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "infer.py",
+      "blobId": "7b1266110943707df15a675b6c4095ffdb392dd7",
+      "size": 3731
+    },
+    {
+      "rfilename": "licenses/CC-BY-4.0.txt",
+      "blobId": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "size": 18657
+    },
+    {
+      "rfilename": "licenses/CC0-1.0.txt",
+      "blobId": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+      "size": 7048
+    },
+    {
+      "rfilename": "licenses/keras-APACHE.txt",
+      "blobId": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+      "size": 11357
+    },
+    {
+      "rfilename": "licenses/mediapipe-APACHE.txt",
+      "blobId": "0e03e3911e0ac02c72ed527b34efe250f0fb9bef",
+      "size": 12331
+    },
+    {
+      "rfilename": "licenses/model-garden-APACHE.txt",
+      "blobId": "43fcf7bf1f1f9f824a1debf05d6ced45bf5810aa",
+      "size": 11405
+    },
+    {
+      "rfilename": "licenses/pothole-original-README.dataset.txt",
+      "blobId": "b1aaae2899ce65eed4ecdc565e660336c89b9a02",
+      "size": 165
+    },
+    {
+      "rfilename": "licenses/source_checks.json",
+      "blobId": "539a1b886892aff5a13292e36e8deebfddd0257d",
+      "size": 2666
+    },
+    {
+      "rfilename": "licenses/tensorflow-APACHE.txt",
+      "blobId": "12d255f8e0f049d3c3127e71788e219b86cdf55b",
+      "size": 13575
+    },
+    {
+      "rfilename": "licenses/trashnet-MIT.txt",
+      "blobId": "925517fef3432a4e5574899ec0d7934cffab5a19",
+      "size": 1067
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/ATTRIBUTION.md",
+      "blobId": "75b4c0602d8936d7d59242777d535f082255f944",
+      "size": 237
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/README.md",
+      "blobId": "8df1e2bc0a732597659f0a9f0483b5264df6a8a1",
+      "size": 2937
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/contract.json",
+      "blobId": "80f3780d56b1350b3d33400854057f683209a6a5",
+      "size": 4246
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/labels.txt",
+      "blobId": "895c9f5e216b02d51a3b07c3ffdb7e541b5d101b",
+      "size": 11
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/metrics_fp16.json",
+      "blobId": "c9da5551b0ba27a4880c46d8844e9f35b4040665",
+      "size": 676
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/metrics_fp32.json",
+      "blobId": "6a05363a2469f03f91611032b8107d4b86b0b5ea",
+      "size": 669
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/model_fp16.tflite",
+      "blobId": "c98188e38c31530e2260c28b3ca5088a8bed1143",
+      "size": 6503640,
+      "lfs": {
+        "sha256": "7480e45c6fe23d4eb0864648fb883f4419354be2d9502920cfe6ae440a3d6f91",
+        "size": 6503640,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/model_fp16.tflite.model_config.json",
+      "blobId": "b42e62ff46d15ab4d80a5c9fd52037ba38e8c0f9",
+      "size": 783
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/model_fp32.tflite",
+      "blobId": "dd9d52c8dc5f0efeec7f6c711d83cf393390911d",
+      "size": 12784604,
+      "lfs": {
+        "sha256": "3fee11c06fc1ea8f187bc2f6fd03a13eb2d011c29dd3479c7577b622d55fcb8e",
+        "size": 12784604,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/model_fp32.tflite.model_config.json",
+      "blobId": "b42e62ff46d15ab4d80a5c9fd52037ba38e8c0f9",
+      "size": 783
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s17/verification.json",
+      "blobId": "203b4540432590984f7509a1c74a1aeb521a74b7",
+      "size": 983
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/ATTRIBUTION.md",
+      "blobId": "75b4c0602d8936d7d59242777d535f082255f944",
+      "size": 237
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/README.md",
+      "blobId": "e61e04adce6ac08c1a9aa9d896636aea57ec8ce2",
+      "size": 2943
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/contract.json",
+      "blobId": "73e4b5e4823e378c2afb23e370228d13421b1693",
+      "size": 4246
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/labels.txt",
+      "blobId": "895c9f5e216b02d51a3b07c3ffdb7e541b5d101b",
+      "size": 11
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/metrics_fp16.json",
+      "blobId": "161cdd67475ab3ed48976c8e5e6341d8f0b6a15f",
+      "size": 672
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/metrics_fp32.json",
+      "blobId": "ef59e6fa193ca6ef7fd7c7401fad6cb4371b623f",
+      "size": 671
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/model_fp16.tflite",
+      "blobId": "d0d8c029de85e8dbd2215464846c2dc845f36e6d",
+      "size": 6503640,
+      "lfs": {
+        "sha256": "c5efa9ea6703081abbb5fecb44ac274ecc9f0f45b74dfc232bcbca19bc145448",
+        "size": 6503640,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/model_fp16.tflite.model_config.json",
+      "blobId": "b42e62ff46d15ab4d80a5c9fd52037ba38e8c0f9",
+      "size": 783
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/model_fp32.tflite",
+      "blobId": "0a0de01168abc9f08202538898b37d7d2ad1a1f1",
+      "size": 12784604,
+      "lfs": {
+        "sha256": "e9eb77884dd56fc8f3e3597dcad3149099e14340f6d6e7a7a85820344dbedd27",
+        "size": 12784604,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/model_fp32.tflite.model_config.json",
+      "blobId": "b42e62ff46d15ab4d80a5c9fd52037ba38e8c0f9",
+      "size": 783
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s2026/verification.json",
+      "blobId": "1ef66ee4bedfdc6c6ab3e3e6b2851ea6f44b47db",
+      "size": 985
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/ATTRIBUTION.md",
+      "blobId": "75b4c0602d8936d7d59242777d535f082255f944",
+      "size": 237
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/README.md",
+      "blobId": "f061ab61438132797bf644ab9d69f3fe8463612d",
+      "size": 2937
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/contract.json",
+      "blobId": "e4f81f90335064a8c6b6f3533e7c03d2442ae3b7",
+      "size": 4246
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/labels.txt",
+      "blobId": "895c9f5e216b02d51a3b07c3ffdb7e541b5d101b",
+      "size": 11
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/metrics_fp16.json",
+      "blobId": "7c7c2a4ee1daff13c96b85b01c6415d575fd53bf",
+      "size": 669
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/metrics_fp32.json",
+      "blobId": "cd36337d1222168b31b924f9655e4f30e61f3dde",
+      "size": 675
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/model_fp16.tflite",
+      "blobId": "0d15c768873fa707ac1bff874627e960b85a7cd3",
+      "size": 6503640,
+      "lfs": {
+        "sha256": "0090bed60ba08f1578834c4052112bafcf803ceb3896ad8d548094c2a7b5d157",
+        "size": 6503640,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/model_fp16.tflite.model_config.json",
+      "blobId": "b42e62ff46d15ab4d80a5c9fd52037ba38e8c0f9",
+      "size": 783
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/model_fp32.tflite",
+      "blobId": "4e6c5f71331dd6fc9a70c146ef9e6b7d3945c829",
+      "size": 12784604,
+      "lfs": {
+        "sha256": "f930f78a69657b3320af3c55cc8b2e6c1d6ba3855d11ab734135ff9bc0ed898b",
+        "size": 12784604,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/model_fp32.tflite.model_config.json",
+      "blobId": "b42e62ff46d15ab4d80a5c9fd52037ba38e8c0f9",
+      "size": 783
+    },
+    {
+      "rfilename": "models/blocs-texte-ocrd-s42/verification.json",
+      "blobId": "b51628306a7eb0546cabeca0640b4863d635f53b",
+      "size": 983
+    },
+    {
+      "rfilename": "models/casques-s2026/ATTRIBUTION.md",
+      "blobId": "d6830c4a849ed3e4337232b00f8ebe1673b2e15c",
+      "size": 299
+    },
+    {
+      "rfilename": "models/casques-s2026/README.md",
+      "blobId": "039292b9da5b4fb98a56f5548b55f28acf040301",
+      "size": 2984
+    },
+    {
+      "rfilename": "models/casques-s2026/contract.json",
+      "blobId": "1ffc428c271e91f242072d8bf1b1f5672d56cf5f",
+      "size": 4268
+    },
+    {
+      "rfilename": "models/casques-s2026/labels.txt",
+      "blobId": "880a78dc34d641420c8eedf475b20b481d76c229",
+      "size": 19
+    },
+    {
+      "rfilename": "models/casques-s2026/metrics_fp16.json",
+      "blobId": "9c203bea1c2ae046eb5361a271734ff3ce2d4d80",
+      "size": 765
+    },
+    {
+      "rfilename": "models/casques-s2026/metrics_fp32.json",
+      "blobId": "746b64f98dbb73c24179a8a33d3634b07b4df51d",
+      "size": 761
+    },
+    {
+      "rfilename": "models/casques-s2026/model_fp16.tflite",
+      "blobId": "da496a9d2170b1d73c33e6d0992ff80d2be22e1c",
+      "size": 5254948,
+      "lfs": {
+        "sha256": "709cab6cad9501a4acaa378afaa9dcbd96736a84a91aa981757f9a70e89f0bae",
+        "size": 5254948,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/casques-s2026/model_fp16.tflite.model_config.json",
+      "blobId": "bca9ce33a2b0b9700ee66088f0a8cfec95f65d76",
+      "size": 805
+    },
+    {
+      "rfilename": "models/casques-s2026/model_fp32.tflite",
+      "blobId": "1ee5913020dae4392b662733d2c50a1005f20fd1",
+      "size": 10309368,
+      "lfs": {
+        "sha256": "7e936e3b9013deb71a54372437434464b3449dfb6341be75e0ead8418103ea52",
+        "size": 10309368,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/casques-s2026/model_fp32.tflite.model_config.json",
+      "blobId": "bca9ce33a2b0b9700ee66088f0a8cfec95f65d76",
+      "size": 805
+    },
+    {
+      "rfilename": "models/casques-s2026/verification.json",
+      "blobId": "0b92ec55c9a1a736357b95e46306335b17634e73",
+      "size": 986
+    },
+    {
+      "rfilename": "models/casques-s42/ATTRIBUTION.md",
+      "blobId": "d6830c4a849ed3e4337232b00f8ebe1673b2e15c",
+      "size": 299
+    },
+    {
+      "rfilename": "models/casques-s42/README.md",
+      "blobId": "40386e8033d986554aa48cf8e375675f55870675",
+      "size": 2978
+    },
+    {
+      "rfilename": "models/casques-s42/contract.json",
+      "blobId": "08b3f78ffd268ba75e1cd2330333858d4ce7ec9f",
+      "size": 4268
+    },
+    {
+      "rfilename": "models/casques-s42/labels.txt",
+      "blobId": "880a78dc34d641420c8eedf475b20b481d76c229",
+      "size": 19
+    },
+    {
+      "rfilename": "models/casques-s42/metrics_fp16.json",
+      "blobId": "a96381f1396bcead012ccbb01ea5e36a4420ba6f",
+      "size": 765
+    },
+    {
+      "rfilename": "models/casques-s42/metrics_fp32.json",
+      "blobId": "991d873fa579bbdf550148deb7bd00a593b58c40",
+      "size": 767
+    },
+    {
+      "rfilename": "models/casques-s42/model_fp16.tflite",
+      "blobId": "260bd1183ca9dfcf447aa3a20d4824c9eab8d04a",
+      "size": 5254948,
+      "lfs": {
+        "sha256": "b5d038893b836be758101c14ec61fc925d7b32d455e01396d024a7a10a0ff667",
+        "size": 5254948,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/casques-s42/model_fp16.tflite.model_config.json",
+      "blobId": "bca9ce33a2b0b9700ee66088f0a8cfec95f65d76",
+      "size": 805
+    },
+    {
+      "rfilename": "models/casques-s42/model_fp32.tflite",
+      "blobId": "6f09645f65e172c52aa2ac73a58532f57a6ee860",
+      "size": 10309368,
+      "lfs": {
+        "sha256": "1d0a04d808636171d708f5e4c86971ca14857a6114b6f5472a125eda0a1306f9",
+        "size": 10309368,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/casques-s42/model_fp32.tflite.model_config.json",
+      "blobId": "bca9ce33a2b0b9700ee66088f0a8cfec95f65d76",
+      "size": 805
+    },
+    {
+      "rfilename": "models/casques-s42/verification.json",
+      "blobId": "6756e7659105c92819c2179f26733bb794460aac",
+      "size": 984
+    },
+    {
+      "rfilename": "models/casques/README.md",
+      "blobId": "f9807389d3b3aa9b833980f01a45fd6c04ad320e",
+      "size": 2970
+    },
+    {
+      "rfilename": "models/casques/contract.json",
+      "blobId": "97af79c52420529e07c77476bcceb690327f200e",
+      "size": 4569
+    },
+    {
+      "rfilename": "models/casques/labels.txt",
+      "blobId": "880a78dc34d641420c8eedf475b20b481d76c229",
+      "size": 19
+    },
+    {
+      "rfilename": "models/casques/metrics_fp16.json",
+      "blobId": "0a2b005c045ce9975bdbb929ee811d840dd15327",
+      "size": 790
+    },
+    {
+      "rfilename": "models/casques/metrics_fp32.json",
+      "blobId": "2c18e68b59475c5655032164d0b5a072f09d57e8",
+      "size": 795
+    },
+    {
+      "rfilename": "models/casques/model_fp16.tflite",
+      "blobId": "ffd4e0389029855b4a5e546dad7bc6b4883a1f5b",
+      "size": 5254948,
+      "lfs": {
+        "sha256": "4283eba138e59954765379b60583fc415e49a9c94dcb07b57e91b23aa51e9f44",
+        "size": 5254948,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/casques/model_fp16.tflite.model_config.json",
+      "blobId": "bca9ce33a2b0b9700ee66088f0a8cfec95f65d76",
+      "size": 805
+    },
+    {
+      "rfilename": "models/casques/model_fp32.tflite",
+      "blobId": "d97ce7bff9e674bf867b66148b5450981ac968a4",
+      "size": 10309368,
+      "lfs": {
+        "sha256": "17e537c6161365b9be8f3e0935bd64c979972e24d017ff7a6c76ff0e4f879b61",
+        "size": 10309368,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/casques/model_fp32.tflite.model_config.json",
+      "blobId": "bca9ce33a2b0b9700ee66088f0a8cfec95f65d76",
+      "size": 805
+    },
+    {
+      "rfilename": "models/casques/verification.json",
+      "blobId": "fdca3c0cca6b0132c57d49d804855eff33a48cd0",
+      "size": 2158
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/README.md",
+      "blobId": "105184a2bf33f12559b86db8c20c8b953ab65cf7",
+      "size": 2843
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/artifact_manifest.json",
+      "blobId": "9205e84a7d4f08740c3bc1b30f37dcf29626da43",
+      "size": 1656
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/cadryl-model-config.json",
+      "blobId": "b413585f9097d803481294638f97f182eee6df02",
+      "size": 1059
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/compatibility-litert22.json",
+      "blobId": "b3b75a65dcb5e90d49e9ed039d0743b8b4057366",
+      "size": 3084
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/fireviewer_yolo26m_v54_768_fp32.tflite",
+      "blobId": "14dfec572158e96f0a98e99cf8cb5b54a4a50b57",
+      "size": 81772512,
+      "lfs": {
+        "sha256": "356ece3319343b8f5d19388f9755d03edd196655d4771bb72a1676b810b1e1f7",
+        "size": 81772512,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/fireviewer_yolo26m_v54_768_fp32.tflite.model_config.json",
+      "blobId": "b413585f9097d803481294638f97f182eee6df02",
+      "size": 1059
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/labels.txt",
+      "blobId": "050ef1b06177f240a70ac20d989d8d988927d25b",
+      "size": 57
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/provenance.json",
+      "blobId": "61158efd24037e006bf1f908927a066599320c79",
+      "size": 1160
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/runtime_contract.json",
+      "blobId": "19a76710e8894f749efcbdbfdd490acebe921640",
+      "size": 1685
+    },
+    {
+      "rfilename": "models/fireviewer_yolo26m_v54_768_fp32/verification.json",
+      "blobId": "747a301c01d218c120da10a95a5f8ec1f67b150b",
+      "size": 33669
+    },
+    {
+      "rfilename": "models/materiaux-s2026/ATTRIBUTION.md",
+      "blobId": "faec6265c8ad21fd4f4ce23aa65ef19345f47404",
+      "size": 312
+    },
+    {
+      "rfilename": "models/materiaux-s2026/README.md",
+      "blobId": "d2567bf46154a0172c51c5ae5695d698e0b7d7ea",
+      "size": 2999
+    },
+    {
+      "rfilename": "models/materiaux-s2026/contract.json",
+      "blobId": "97342db3b6e5b5664449f2bfbf9e357bf2128192",
+      "size": 2103
+    },
+    {
+      "rfilename": "models/materiaux-s2026/labels.txt",
+      "blobId": "7be5016e603e7bdee7decf56e8a5a708e4df7e78",
+      "size": 25
+    },
+    {
+      "rfilename": "models/materiaux-s2026/metrics_fp16.json",
+      "blobId": "4ca5bdc9632ba450ec767e9d6218e28be042dff3",
+      "size": 1485
+    },
+    {
+      "rfilename": "models/materiaux-s2026/metrics_fp32.json",
+      "blobId": "828e42c2ef494c497ce78c2ccfdf661ebb13ebb1",
+      "size": 1486
+    },
+    {
+      "rfilename": "models/materiaux-s2026/model_fp16.tflite",
+      "blobId": "72f32930bd664e513d0781325ef19db67641fd46",
+      "size": 1924616,
+      "lfs": {
+        "sha256": "f3407483d2269e335e784afdc88cc443858b9bb651f073051797c324b1e6b6f6",
+        "size": 1924616,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/materiaux-s2026/model_fp16.tflite.model_config.json",
+      "blobId": "16655606a41f27446e8c6afd746edc23328fd6ad",
+      "size": 492
+    },
+    {
+      "rfilename": "models/materiaux-s2026/model_fp32.tflite",
+      "blobId": "25b100629d22d4268103093a6970ab47bfe4b1ef",
+      "size": 3749060,
+      "lfs": {
+        "sha256": "d694f6fb20cfce79499280f0b6cc7b1f5477614d7605bb963e5f167517be1017",
+        "size": 3749060,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/materiaux-s2026/model_fp32.tflite.model_config.json",
+      "blobId": "16655606a41f27446e8c6afd746edc23328fd6ad",
+      "size": 492
+    },
+    {
+      "rfilename": "models/materiaux-s2026/verification.json",
+      "blobId": "df1851362de0f182fcafb9941af6c1ec5ea808b8",
+      "size": 987
+    },
+    {
+      "rfilename": "models/materiaux-s42/ATTRIBUTION.md",
+      "blobId": "faec6265c8ad21fd4f4ce23aa65ef19345f47404",
+      "size": 312
+    },
+    {
+      "rfilename": "models/materiaux-s42/README.md",
+      "blobId": "38df07ff0b38d3a0f97dced4b05bd5b8512955e8",
+      "size": 2993
+    },
+    {
+      "rfilename": "models/materiaux-s42/contract.json",
+      "blobId": "21b6ddc36bf062681bd37a95aa49dd5291e5ae8d",
+      "size": 2103
+    },
+    {
+      "rfilename": "models/materiaux-s42/labels.txt",
+      "blobId": "7be5016e603e7bdee7decf56e8a5a708e4df7e78",
+      "size": 25
+    },
+    {
+      "rfilename": "models/materiaux-s42/metrics_fp16.json",
+      "blobId": "e8095e6d83eadaf0994d5c331efa7b6e8974ad48",
+      "size": 1489
+    },
+    {
+      "rfilename": "models/materiaux-s42/metrics_fp32.json",
+      "blobId": "45399b220068ff940da17a30e0815814c1967432",
+      "size": 1488
+    },
+    {
+      "rfilename": "models/materiaux-s42/model_fp16.tflite",
+      "blobId": "d688f880cfaacbb78ab3a31eb2c77e89f70a7b65",
+      "size": 1924616,
+      "lfs": {
+        "sha256": "1ed24f5d6f3074df8a14dfb57d193a24caa37523301bef923bffaa36891d11ba",
+        "size": 1924616,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/materiaux-s42/model_fp16.tflite.model_config.json",
+      "blobId": "16655606a41f27446e8c6afd746edc23328fd6ad",
+      "size": 492
+    },
+    {
+      "rfilename": "models/materiaux-s42/model_fp32.tflite",
+      "blobId": "1804d78637ceb7a02800e10c1c0ac80aae4fe29d",
+      "size": 3749060,
+      "lfs": {
+        "sha256": "e6f6f11fcd53760aa3bf06658802824ccab5c0f73da6726da4fa53711231c4a7",
+        "size": 3749060,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/materiaux-s42/model_fp32.tflite.model_config.json",
+      "blobId": "16655606a41f27446e8c6afd746edc23328fd6ad",
+      "size": 492
+    },
+    {
+      "rfilename": "models/materiaux-s42/verification.json",
+      "blobId": "9d59af4c787645e9b815ca516a155c2553443ee7",
+      "size": 985
+    },
+    {
+      "rfilename": "models/materiaux/README.md",
+      "blobId": "b77ee108c1fba86ae738372cf950a0a844407d4d",
+      "size": 2983
+    },
+    {
+      "rfilename": "models/materiaux/contract.json",
+      "blobId": "1c6668bb8eef39a9d7c8d2ae0f9b13589fef7106",
+      "size": 2211
+    },
+    {
+      "rfilename": "models/materiaux/labels.txt",
+      "blobId": "7be5016e603e7bdee7decf56e8a5a708e4df7e78",
+      "size": 25
+    },
+    {
+      "rfilename": "models/materiaux/metrics_fp16.json",
+      "blobId": "335691a7d2c57202597d133b1a444bd3bf26f8b3",
+      "size": 1655
+    },
+    {
+      "rfilename": "models/materiaux/metrics_fp32.json",
+      "blobId": "1707e7dc454a42195f0674565f375b25223c1e25",
+      "size": 1654
+    },
+    {
+      "rfilename": "models/materiaux/model_fp16.tflite",
+      "blobId": "1f64d0de0fbabe3030cc94e80e6ce330ea0c7c19",
+      "size": 1924616,
+      "lfs": {
+        "sha256": "1a9c3be4b9fa7e538e5a52ebb86c27bd0982363135b856a8dbc010d6b1822e6e",
+        "size": 1924616,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/materiaux/model_fp16.tflite.model_config.json",
+      "blobId": "16655606a41f27446e8c6afd746edc23328fd6ad",
+      "size": 492
+    },
+    {
+      "rfilename": "models/materiaux/model_fp32.tflite",
+      "blobId": "8fadf0cffd4d970c0885634a3fe3fdbab6610f28",
+      "size": 3749060,
+      "lfs": {
+        "sha256": "1765b40f311f1db40bd1163f680505cd91b410d5ff27995874dc034f9f620321",
+        "size": 3749060,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/materiaux/model_fp32.tflite.model_config.json",
+      "blobId": "16655606a41f27446e8c6afd746edc23328fd6ad",
+      "size": 492
+    },
+    {
+      "rfilename": "models/materiaux/verification.json",
+      "blobId": "9ef252d1c172e3302149900a71ef1a768d5c544f",
+      "size": 2130
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/ATTRIBUTION.md",
+      "blobId": "d3f5770dd6cf8f24f32cf1526e1fd440490cef13",
+      "size": 367
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/README.md",
+      "blobId": "436ef17cdc1d6b09b487d921b71a81efba750ef3",
+      "size": 3334
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/contract.json",
+      "blobId": "f927f36a003efddbc31c10355a57bdb927d36a64",
+      "size": 3059
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/labels.txt",
+      "blobId": "518aa5d4a55f06bbffc25f05e308d881dfad4489",
+      "size": 19
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/metrics_fp16.json",
+      "blobId": "0b098668f5673bf827c9e71b3d66e6509ee70b65",
+      "size": 597
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/metrics_fp32.json",
+      "blobId": "15a201b17a33267902b181f0b4ec2baec2d68b9d",
+      "size": 597
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/metrics_int8.json",
+      "blobId": "37ab5d5892b9dbf7709bf0ad66f9606a731cfbac",
+      "size": 596
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/model_fp16.tflite",
+      "blobId": "dd971aed26fb90a6978b22ef2cc651d889a28558",
+      "size": 6632948,
+      "lfs": {
+        "sha256": "a1f07929e169662c07c612f61296bb5b4b49f653dd72d30fe949efc4a0571136",
+        "size": 6632948,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/model_fp16.tflite.model_config.json",
+      "blobId": "861462ea846eb8cb283c61bf76785e4be0dd6795",
+      "size": 483
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/model_fp32.tflite",
+      "blobId": "344d83111b961a7e660e27d7694695151abfe1f4",
+      "size": 13194108,
+      "lfs": {
+        "sha256": "056430e99345ff68fde54d9ee447eba604f65996000276eb497c6c6d0e84ab0f",
+        "size": 13194108,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/model_fp32.tflite.model_config.json",
+      "blobId": "861462ea846eb8cb283c61bf76785e4be0dd6795",
+      "size": 483
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/model_int8.tflite",
+      "blobId": "bf74790e729626c8e85638347c740f3c58977877",
+      "size": 3766768,
+      "lfs": {
+        "sha256": "edb35333923370447432737b7eced004a6b5a9b75ba36e9748de6f45975a5ecb",
+        "size": 3766768,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/model_int8.tflite.model_config.json",
+      "blobId": "fcdf14f19a2a3d06face4aa1ce12acf5febd2287",
+      "size": 481
+    },
+    {
+      "rfilename": "models/nids-de-poule-s2026/verification.json",
+      "blobId": "577e1ff823452decbcdf2187e4079a75560ae0d5",
+      "size": 1304
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/ATTRIBUTION.md",
+      "blobId": "d3f5770dd6cf8f24f32cf1526e1fd440490cef13",
+      "size": 367
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/README.md",
+      "blobId": "234a5d38a677272dbcf3c2afbba05ae38ed02450",
+      "size": 3326
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/contract.json",
+      "blobId": "ff0597c57d3a85330588a0896c543e3edb08a064",
+      "size": 3059
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/labels.txt",
+      "blobId": "518aa5d4a55f06bbffc25f05e308d881dfad4489",
+      "size": 19
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/metrics_fp16.json",
+      "blobId": "5b7ea4d303cd0c00eafe8d71a51a7863120554df",
+      "size": 597
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/metrics_fp32.json",
+      "blobId": "8e59a986c37522ab20c77c019321058b162eeb74",
+      "size": 597
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/metrics_int8.json",
+      "blobId": "f49d204a92dc0d62e0e78a24e39fdaf131b02044",
+      "size": 596
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/model_fp16.tflite",
+      "blobId": "2beff567b298e65ac161ab243e14129a43ba0997",
+      "size": 6632948,
+      "lfs": {
+        "sha256": "fc30f4cd6bfa2ada4a9c65aabd371ae9bcdb184b299ab4ad372cdd0cd7243dae",
+        "size": 6632948,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/model_fp16.tflite.model_config.json",
+      "blobId": "861462ea846eb8cb283c61bf76785e4be0dd6795",
+      "size": 483
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/model_fp32.tflite",
+      "blobId": "3686709a32eb9277b9f5c8829b7a31e5c14b44d7",
+      "size": 13194108,
+      "lfs": {
+        "sha256": "1707ca64bc2d492f06b33695c9c7de302d16369318990d876c6967ac1d1b42c4",
+        "size": 13194108,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/model_fp32.tflite.model_config.json",
+      "blobId": "861462ea846eb8cb283c61bf76785e4be0dd6795",
+      "size": 483
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/model_int8.tflite",
+      "blobId": "b25ee55f4cc97ace983f9d3d84bd64dcb347cf33",
+      "size": 3766768,
+      "lfs": {
+        "sha256": "0be1f44503d013376fabab3a89d70137f6916a9bd80e666e0ae9d4ccb91c4e8a",
+        "size": 3766768,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/model_int8.tflite.model_config.json",
+      "blobId": "fcdf14f19a2a3d06face4aa1ce12acf5febd2287",
+      "size": 481
+    },
+    {
+      "rfilename": "models/nids-de-poule-s42/verification.json",
+      "blobId": "5ed7652c1a55a6c250eebbba083b7c63e3945fc8",
+      "size": 1302
+    },
+    {
+      "rfilename": "models/nids-de-poule/README.md",
+      "blobId": "c95d6d7275a2abb1344cf57d8fe723d79f7d6796",
+      "size": 3314
+    },
+    {
+      "rfilename": "models/nids-de-poule/contract.json",
+      "blobId": "966d7b62801ff6d5c94d0d9ae532aca112812a9c",
+      "size": 3285
+    },
+    {
+      "rfilename": "models/nids-de-poule/labels.txt",
+      "blobId": "518aa5d4a55f06bbffc25f05e308d881dfad4489",
+      "size": 19
+    },
+    {
+      "rfilename": "models/nids-de-poule/metrics_fp16.json",
+      "blobId": "86d0f49c07ec4f7a6d20a4b97eaea9c52bdcf67e",
+      "size": 618
+    },
+    {
+      "rfilename": "models/nids-de-poule/metrics_fp32.json",
+      "blobId": "f7746f707f5c22ac070c8f05a9226fb632fe30e2",
+      "size": 618
+    },
+    {
+      "rfilename": "models/nids-de-poule/metrics_int8.json",
+      "blobId": "71682395b9df5dc1970e17a4b23195c7234bed03",
+      "size": 616
+    },
+    {
+      "rfilename": "models/nids-de-poule/model_fp16.tflite",
+      "blobId": "eab4fc936dbbef23c4cf618f5acfcf9338203a98",
+      "size": 6632948,
+      "lfs": {
+        "sha256": "9b848016cc5d57cfe3f9ce1240610224e2468bb0a0c730994fbef17e0ce72b9a",
+        "size": 6632948,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/nids-de-poule/model_fp16.tflite.model_config.json",
+      "blobId": "861462ea846eb8cb283c61bf76785e4be0dd6795",
+      "size": 483
+    },
+    {
+      "rfilename": "models/nids-de-poule/model_fp32.tflite",
+      "blobId": "5bcecb7068b224358c9c325d23ce5a587a956d29",
+      "size": 13194108,
+      "lfs": {
+        "sha256": "9fec88f3cff5bce93b4098c94eda9ba1ac02803a62e4c1448587d793f4b36053",
+        "size": 13194108,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/nids-de-poule/model_fp32.tflite.model_config.json",
+      "blobId": "861462ea846eb8cb283c61bf76785e4be0dd6795",
+      "size": 483
+    },
+    {
+      "rfilename": "models/nids-de-poule/model_int8.tflite",
+      "blobId": "6f9ec8af8d4119befa7eaafc5ac65d5ba26df883",
+      "size": 3766768,
+      "lfs": {
+        "sha256": "deb1c2a34f3d2dbf67c1ecdc374745bd7ccfebd26b74878734e68f203ea3b8dc",
+        "size": 3766768,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/nids-de-poule/model_int8.tflite.model_config.json",
+      "blobId": "fcdf14f19a2a3d06face4aa1ce12acf5febd2287",
+      "size": 481
+    },
+    {
+      "rfilename": "models/nids-de-poule/verification.json",
+      "blobId": "1f84bd3925e2a0937e507d42b1c804735a309ca7",
+      "size": 3750
+    },
+    {
+      "rfilename": "models/pcb1-320/README.md",
+      "blobId": "ca9bc2b21018fb3fa4c385de6a46b5cd74e08d71",
+      "size": 3018
+    },
+    {
+      "rfilename": "models/pcb1-320/contract.json",
+      "blobId": "655aa50012923d4caf5fe722f1647ee1dcc1b075",
+      "size": 2186
+    },
+    {
+      "rfilename": "models/pcb1-320/labels.txt",
+      "blobId": "f1a8e362695ef44ed938ca28f92062ea20187fd6",
+      "size": 15
+    },
+    {
+      "rfilename": "models/pcb1-320/metrics_fp16.json",
+      "blobId": "771d0a40587132572bc5e60335908589f631b756",
+      "size": 648
+    },
+    {
+      "rfilename": "models/pcb1-320/metrics_fp32.json",
+      "blobId": "38be523f91b9eef9b65f5224f8081ffff5f43948",
+      "size": 648
+    },
+    {
+      "rfilename": "models/pcb1-320/model_fp16.tflite",
+      "blobId": "b1442b854a6a18d46be586d1e8135131781638bc",
+      "size": 6011876,
+      "lfs": {
+        "sha256": "74b6e858c844e12c090d47879b80f95d8175e3a1c298fad5a76fad343eb5003e",
+        "size": 6011876,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/pcb1-320/model_fp16.tflite.model_config.json",
+      "blobId": "e68d19fda6b7317f408401d9cfca5fa7896c373f",
+      "size": 468
+    },
+    {
+      "rfilename": "models/pcb1-320/model_fp32.tflite",
+      "blobId": "c6722293bad1fde6f18e150b4f999b091630dd14",
+      "size": 11909796,
+      "lfs": {
+        "sha256": "0eec7c40e3212aeca6a015ce76818acccb4e6edbeedd4f1a2210cd73faa9d21e",
+        "size": 11909796,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/pcb1-320/model_fp32.tflite.model_config.json",
+      "blobId": "e68d19fda6b7317f408401d9cfca5fa7896c373f",
+      "size": 468
+    },
+    {
+      "rfilename": "models/pcb1-320/verification.json",
+      "blobId": "eb4d28f05ce389ce5814addf02ea71079be92def",
+      "size": 2156
+    },
+    {
+      "rfilename": "models/pcb1-448/README.md",
+      "blobId": "f9e19bc94b3310144f96e46ad34ef556f5cfc3e4",
+      "size": 3008
+    },
+    {
+      "rfilename": "models/pcb1-448/contract.json",
+      "blobId": "67c5bed17e898d9867a92912ac44d4d178d3c5e1",
+      "size": 2186
+    },
+    {
+      "rfilename": "models/pcb1-448/labels.txt",
+      "blobId": "f1a8e362695ef44ed938ca28f92062ea20187fd6",
+      "size": 15
+    },
+    {
+      "rfilename": "models/pcb1-448/metrics_fp16.json",
+      "blobId": "c8700f7315e3980b5e45e2987df1123983b3c974",
+      "size": 1490
+    },
+    {
+      "rfilename": "models/pcb1-448/metrics_fp32.json",
+      "blobId": "eaec86fe7ee59b4f9a8a12b08185411557d3ece7",
+      "size": 1488
+    },
+    {
+      "rfilename": "models/pcb1-448/model_fp16.tflite",
+      "blobId": "619caee8a83c10f87a7a598c2ff15594c64e2e08",
+      "size": 6011876,
+      "lfs": {
+        "sha256": "4f3667814ade9b0371f5eae2bd37f8954e64d292918e0985fbbb4a438af024a3",
+        "size": 6011876,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/pcb1-448/model_fp16.tflite.model_config.json",
+      "blobId": "30f8e8aae31051f5ed572d16afb54ef7b2724e23",
+      "size": 468
+    },
+    {
+      "rfilename": "models/pcb1-448/model_fp32.tflite",
+      "blobId": "70271f677201cf9b45ab12f5990cd59826fa58d6",
+      "size": 11909796,
+      "lfs": {
+        "sha256": "04cab5e1ce21747615363a7b2df29553007cf1ec9d27365a83ad6d9c03b2db3d",
+        "size": 11909796,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/pcb1-448/model_fp32.tflite.model_config.json",
+      "blobId": "30f8e8aae31051f5ed572d16afb54ef7b2724e23",
+      "size": 468
+    },
+    {
+      "rfilename": "models/pcb1-448/verification.json",
+      "blobId": "0e7e6a0a66b224bba70408dc1483297cb7405918",
+      "size": 2129
+    },
+    {
+      "rfilename": "models/trashnet-s2026/ATTRIBUTION.md",
+      "blobId": "3a408bf456b6470e77f237371c7bb13efa6ad413",
+      "size": 265
+    },
+    {
+      "rfilename": "models/trashnet-s2026/README.md",
+      "blobId": "60147ac47b8a65562dc656f1a9f9ce87ca128234",
+      "size": 2972
+    },
+    {
+      "rfilename": "models/trashnet-s2026/contract.json",
+      "blobId": "352fd77604b3dece6b1bdc73458697e767a97bfb",
+      "size": 2134
+    },
+    {
+      "rfilename": "models/trashnet-s2026/labels.txt",
+      "blobId": "00224c98a65083f995cec9d9bd4d4bcc2829355b",
+      "size": 42
+    },
+    {
+      "rfilename": "models/trashnet-s2026/metrics_fp16.json",
+      "blobId": "dccfe4f815447db54dde5e4615d22e919a13b876",
+      "size": 2085
+    },
+    {
+      "rfilename": "models/trashnet-s2026/metrics_fp32.json",
+      "blobId": "b7a490148f93051989d513f4cd40782f62483abd",
+      "size": 2051
+    },
+    {
+      "rfilename": "models/trashnet-s2026/model_fp16.tflite",
+      "blobId": "07f228627c08a1a0b28eedd33859b60f3bc3bb5e",
+      "size": 1926924,
+      "lfs": {
+        "sha256": "4896625e060f56402e2b901aa3ea3f6ee69c05b7ef6a2efb547537661db8cc6d",
+        "size": 1926924,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/trashnet-s2026/model_fp16.tflite.model_config.json",
+      "blobId": "08641e71d7ee4a252e304d3245d1ed875d3c9f2a",
+      "size": 523
+    },
+    {
+      "rfilename": "models/trashnet-s2026/model_fp32.tflite",
+      "blobId": "320caeb8eae0a2debcea16576c3c64b0aefb5148",
+      "size": 3753676,
+      "lfs": {
+        "sha256": "70f0f605985829b10870b158be520501afb49a3650847e0f604bc553ae0ef7d6",
+        "size": 3753676,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/trashnet-s2026/model_fp32.tflite.model_config.json",
+      "blobId": "08641e71d7ee4a252e304d3245d1ed875d3c9f2a",
+      "size": 523
+    },
+    {
+      "rfilename": "models/trashnet-s2026/verification.json",
+      "blobId": "cc35d25cb0b0d0ef5181553e58a98b63481dbbf2",
+      "size": 986
+    },
+    {
+      "rfilename": "models/trashnet-s42/ATTRIBUTION.md",
+      "blobId": "3a408bf456b6470e77f237371c7bb13efa6ad413",
+      "size": 265
+    },
+    {
+      "rfilename": "models/trashnet-s42/README.md",
+      "blobId": "360fc5e46baa49537ccbedbca75689f0835ec5de",
+      "size": 2966
+    },
+    {
+      "rfilename": "models/trashnet-s42/contract.json",
+      "blobId": "1732276689d3bec1cc464e46c8567325d3a8a488",
+      "size": 2134
+    },
+    {
+      "rfilename": "models/trashnet-s42/labels.txt",
+      "blobId": "00224c98a65083f995cec9d9bd4d4bcc2829355b",
+      "size": 42
+    },
+    {
+      "rfilename": "models/trashnet-s42/metrics_fp16.json",
+      "blobId": "327ccdd19465d9a3726912670eb39e51da32d072",
+      "size": 2097
+    },
+    {
+      "rfilename": "models/trashnet-s42/metrics_fp32.json",
+      "blobId": "d82e188743c2e3999a58599d1e03aba88f14401d",
+      "size": 2098
+    },
+    {
+      "rfilename": "models/trashnet-s42/model_fp16.tflite",
+      "blobId": "48b844be9113babaf319776e51937db4a26b2268",
+      "size": 1926924,
+      "lfs": {
+        "sha256": "ad3234abbbb0622a91af34a871e812a98fca5f0b05493fce0c8cb00c633762b1",
+        "size": 1926924,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/trashnet-s42/model_fp16.tflite.model_config.json",
+      "blobId": "08641e71d7ee4a252e304d3245d1ed875d3c9f2a",
+      "size": 523
+    },
+    {
+      "rfilename": "models/trashnet-s42/model_fp32.tflite",
+      "blobId": "8cc516494a2a5ef0a9ba3818839078fa313bbe85",
+      "size": 3753676,
+      "lfs": {
+        "sha256": "cca8693715967e6bc2fe086435186c846f61876bc1814e350f4ac902925e4739",
+        "size": 3753676,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/trashnet-s42/model_fp32.tflite.model_config.json",
+      "blobId": "08641e71d7ee4a252e304d3245d1ed875d3c9f2a",
+      "size": 523
+    },
+    {
+      "rfilename": "models/trashnet-s42/verification.json",
+      "blobId": "7bf679fbbab33f18a6373afe7222097a4efed706",
+      "size": 984
+    },
+    {
+      "rfilename": "models/trashnet/README.md",
+      "blobId": "a6e06315389b68564144001d5d9c4467c2e055ae",
+      "size": 2958
+    },
+    {
+      "rfilename": "models/trashnet/contract.json",
+      "blobId": "3f66c30640d872c2562518ab486af34cb0f98542",
+      "size": 2244
+    },
+    {
+      "rfilename": "models/trashnet/labels.txt",
+      "blobId": "00224c98a65083f995cec9d9bd4d4bcc2829355b",
+      "size": 42
+    },
+    {
+      "rfilename": "models/trashnet/metrics_fp16.json",
+      "blobId": "0627a5995508b7193d56ff687cb46ff98cedc939",
+      "size": 2228
+    },
+    {
+      "rfilename": "models/trashnet/metrics_fp32.json",
+      "blobId": "97befc886835801be2b6cad695f0403ccd9ac8fb",
+      "size": 2211
+    },
+    {
+      "rfilename": "models/trashnet/model_fp16.tflite",
+      "blobId": "b9645b6667bec2c2b413e30abe707f0a378abad2",
+      "size": 1926924,
+      "lfs": {
+        "sha256": "c9f2084fcdfe8b022db26bbe7356709ea30fe979f225cbe137c4e51a6c98efe8",
+        "size": 1926924,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/trashnet/model_fp16.tflite.model_config.json",
+      "blobId": "08641e71d7ee4a252e304d3245d1ed875d3c9f2a",
+      "size": 523
+    },
+    {
+      "rfilename": "models/trashnet/model_fp32.tflite",
+      "blobId": "044c464effe4e2def51c07f425454dc0b58a009a",
+      "size": 3753676,
+      "lfs": {
+        "sha256": "4678afc935fbca128e2bf79f713f7bf3419e9e3511f6d6472e7d60467f54ef9c",
+        "size": 3753676,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/trashnet/model_fp32.tflite.model_config.json",
+      "blobId": "08641e71d7ee4a252e304d3245d1ed875d3c9f2a",
+      "size": 523
+    },
+    {
+      "rfilename": "models/trashnet/verification.json",
+      "blobId": "851d8af1deb814b23c0f490c59f25ed2438c7512",
+      "size": 2601
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/ATTRIBUTION.md",
+      "blobId": "dc48ad8d02e9f46d680727eb1bb120cdb7ec4409",
+      "size": 290
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/README.md",
+      "blobId": "1fa182c446bb556894280a9e3d7bd4474148a7dd",
+      "size": 3024
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/contract.json",
+      "blobId": "25ef306c347bd27addc60e99a90fee3377c4aaca",
+      "size": 1998
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/labels.txt",
+      "blobId": "f1a8e362695ef44ed938ca28f92062ea20187fd6",
+      "size": 15
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/metrics_fp16.json",
+      "blobId": "5ed6680cdc811facac74f214a5ce57b086675638",
+      "size": 1411
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/metrics_fp32.json",
+      "blobId": "4ce9333361c6f0b6f49ac8b8e56056782278a500",
+      "size": 1412
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/model_fp16.tflite",
+      "blobId": "f93143866b7fafa45f2076ea121e2f3d7b14c480",
+      "size": 6011876,
+      "lfs": {
+        "sha256": "0d47e8326b794e23e9cf73693d2c9d51d53c8313905baa268aece4702f42a7bb",
+        "size": 6011876,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/model_fp16.tflite.model_config.json",
+      "blobId": "30f8e8aae31051f5ed572d16afb54ef7b2724e23",
+      "size": 468
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/model_fp32.tflite",
+      "blobId": "eee191e89ea0f0b96fbd394190e88d55959a0778",
+      "size": 11909796,
+      "lfs": {
+        "sha256": "a8f90779fe5c0e26dc8ad0a71bf192a8ba7fd977bf8dd9c8db82fb87baa7d158",
+        "size": 11909796,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/model_fp32.tflite.model_config.json",
+      "blobId": "30f8e8aae31051f5ed572d16afb54ef7b2724e23",
+      "size": 468
+    },
+    {
+      "rfilename": "models/visa-pcb1-s2026/verification.json",
+      "blobId": "8a115571357ec95db1c9a96bcae2a5b6f1c7057c",
+      "size": 986
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/ATTRIBUTION.md",
+      "blobId": "dc48ad8d02e9f46d680727eb1bb120cdb7ec4409",
+      "size": 290
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/README.md",
+      "blobId": "29a9aff7b9994e8ae1a93670bb5923176ad5c5f9",
+      "size": 3018
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/contract.json",
+      "blobId": "373b9573cc80b8b2e62c66644342d278b4992bbb",
+      "size": 1998
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/labels.txt",
+      "blobId": "f1a8e362695ef44ed938ca28f92062ea20187fd6",
+      "size": 15
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/metrics_fp16.json",
+      "blobId": "ddd9613d164b7eb0d3b84f6e576f77290763d1a1",
+      "size": 1388
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/metrics_fp32.json",
+      "blobId": "d982d6ed84a9364db018280aa5fb60f98a7a0a26",
+      "size": 1393
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/model_fp16.tflite",
+      "blobId": "60c16421ea98447e4d5687d9130d1e2fcdeb4dec",
+      "size": 6011876,
+      "lfs": {
+        "sha256": "eb21dea42c1a30e2d50be149ce3af43d878a070989e6491d97e41d8131ccc71f",
+        "size": 6011876,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/model_fp16.tflite.model_config.json",
+      "blobId": "30f8e8aae31051f5ed572d16afb54ef7b2724e23",
+      "size": 468
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/model_fp32.tflite",
+      "blobId": "e3d42f03991387278bc7aba0c235ca2e9b4daf86",
+      "size": 11909796,
+      "lfs": {
+        "sha256": "6c0f60621889fafaaba68a43c8ab0a0c1c4a4f4497a0462ac772e63453145ee1",
+        "size": 11909796,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/model_fp32.tflite.model_config.json",
+      "blobId": "30f8e8aae31051f5ed572d16afb54ef7b2724e23",
+      "size": 468
+    },
+    {
+      "rfilename": "models/visa-pcb1-s42/verification.json",
+      "blobId": "72ddf3a30bbfdaea62158afda1745bee06d04abe",
+      "size": 984
+    },
+    {
+      "rfilename": "requirements-windows-test.lock",
+      "blobId": "c007b2124d0bde2b07d793f63d4e20cf14faad3c",
+      "size": 978
+    },
+    {
+      "rfilename": "verification.json",
+      "blobId": "9ea065cae5e7bf2c5a7a69cbf0ebf583f257ce0b",
+      "size": 2186
+    },
+    {
+      "rfilename": "verify_package.py",
+      "blobId": "83b48e5ffc1638d8db136f051038f48f248d0140",
+      "size": 2076
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-10-05T01:25:49.000Z",
+  "usedStorage": 568911282
+}

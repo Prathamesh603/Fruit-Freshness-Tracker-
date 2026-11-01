@@ -1,0 +1,74 @@
+{
+  "id": "fruit_freshness-r224",
+  "priority": 18,
+  "corpus_id": "corpus-054",
+  "dataset": "Fruits frais / gâtés",
+  "use": "Cadryl : inspection visuelle simple",
+  "task": "classification",
+  "model": "MobileNetV3Small",
+  "size": 224,
+  "seed": 42,
+  "epochs": 60,
+  "min_epochs": 12,
+  "patience": 8,
+  "batch": 128,
+  "lr": 0.0003,
+  "monitor": "val_balanced_accuracy",
+  "monitor_mode": "max",
+  "source": "https://huggingface.co/datasets/Project-AgML/fresh_rotten_fruit_classification",
+  "revision": "65d4488931fef98c76bf996180064397fbe7da34",
+  "license": "CC BY 4.0",
+  "scope": "Classes espèce/état conservées ; aucune preuve de sécurité alimentaire. Benchmark using available annotations; no signer/scene/session-disjoint qualification.",
+  "group_basis": "exact_original_benchmark_pixels",
+  "labels": [
+    "fresh",
+    "rotten"
+  ],
+  "input_domain": "RGB_0_255",
+  "contract": {
+    "input": [
+      1,
+      224,
+      224,
+      3
+    ],
+    "input_dtype": "float32",
+    "range": [
+      0,
+      255
+    ],
+    "output": "probabilities in labels.txt order",
+    "resize": "square bilinear",
+    "android_qualification": false
+  },
+  "augmentation_horizontal_flip": true,
+  "split_policy": "Available original test/validation retained; absent holdouts frozen by native pixel hash before training",
+  "minimum_quality_target": 0.85,
+  "quality_target_state": "freeze_before_training_in_review_receipt",
+  "raw_corpus_redistribution": false,
+  "benchmark_authorization": {
+    "owner_accepted_missing_identity": true,
+    "original_recipe_sha256": "92073c3f9cca71be3d1c3ba2098feb67ca2828e7f7fb1c3f55e5669c9331731f",
+    "original_identity_requirement": "fruit_capture",
+    "pixel_groups_are_not_subject_identity": true,
+    "threshold_frozen_before_training": true
+  },
+  "resolutions": [
+    224,
+    320,
+    460
+  ],
+  "trials_per_model": 3,
+  "base_recipe_id": "fruit_freshness",
+  "training_compute_policy": "float32",
+  "resolution_comparison": {
+    "sizes": [
+      224,
+      320,
+      460
+    ],
+    "common_seed": 42,
+    "one_trial_per_size": true,
+    "same_original_pixels_and_partitions": true
+  }
+}

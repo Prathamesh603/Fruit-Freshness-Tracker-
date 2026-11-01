@@ -1,0 +1,433 @@
+{
+  "_id": "6842c01b6ea1bdfd123b6476",
+  "id": "Dhahlan2000/freshness_detector_updated",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "tags": [
+    "tensorboard",
+    "safetensors",
+    "vit",
+    "image-classification",
+    "pytorch",
+    "huggingpics",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 9,
+  "likes": 0,
+  "modelId": "Dhahlan2000/freshness_detector_updated",
+  "author": "Dhahlan2000",
+  "sha": "0881abf06c1846cb5c78489606ea64b363531711",
+  "lastModified": "2025-06-06T10:17:18.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": [
+    {
+      "name": "freshness_detector_updated",
+      "results": [
+        {
+          "task": {
+            "name": "Image Classification",
+            "type": "image-classification"
+          },
+          "metrics": [
+            {
+              "name": "Accuracy",
+              "type": "accuracy",
+              "value": 0.9561068415641785,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {
+    "architectures": [
+      "ViTForImageClassification"
+    ],
+    "model_type": "vit"
+  },
+  "cardData": {
+    "tags": [
+      "image-classification",
+      "pytorch",
+      "huggingpics"
+    ],
+    "metrics": [
+      "accuracy"
+    ],
+    "model-index": [
+      {
+        "name": "freshness_detector_updated",
+        "results": [
+          {
+            "task": {
+              "name": "Image Classification",
+              "type": "image-classification"
+            },
+            "metrics": [
+              {
+                "name": "Accuracy",
+                "type": "accuracy",
+                "value": 0.9561068415641785,
+                "verified": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "834df21f6e580edc669703c503d9fe53c570a6a0",
+      "size": 3429
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "53b8f4903f83ecad79fc67d0deaa9c84627b55cb",
+      "size": 2821
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "1649a3d3a61f94dedc233d96d5a3b310b96cb249",
+      "size": 2396
+    },
+    {
+      "rfilename": "images/Bellpepper_fresh.jpeg",
+      "blobId": "a85f7360373013fc247bc39d0eb1f628a9e05c28",
+      "size": 77273,
+      "lfs": {
+        "sha256": "85e90dcaa1f650b8dab92c71200c0857aca0d2bfe0f6eabff863f4aa50735475",
+        "size": 77273,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/Bellpepper_intermediate_fresh.png",
+      "blobId": "bef409bb4912ca5efa0652b9eccd174ef13fa071",
+      "size": 616961,
+      "lfs": {
+        "sha256": "dc11e47b0d5dc34c8edde5f9a023a9e4dfe50901f8927967b87c26c53beae572",
+        "size": 616961,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/Bellpepper_rotten.jpg",
+      "blobId": "04891ddb5d7e821ca424342a2d5694e8bab069f4",
+      "size": 16242,
+      "lfs": {
+        "sha256": "7aebed888cea586bc55ac401513092103524b066b09de6380677806cdd3e626c",
+        "size": 16242,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/Carrot_fresh.jpeg",
+      "blobId": "159249635d194108eb19b6fa083f96c63ecc0d1b",
+      "size": 82583,
+      "lfs": {
+        "sha256": "875d905c0e5f97cb0f1a10cadb786cd6259b274fcda0ee41153b4458ab14dfcb",
+        "size": 82583,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/Carrot_intermediate_fresh.jpg",
+      "blobId": "6fac7b71c9b6a9d739850af95baac025465ecb0f",
+      "size": 11258,
+      "lfs": {
+        "sha256": "2cde5c4af3f5fa94d541a1193733287e04041626d3f07e825516e66537e67927",
+        "size": 11258,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/Carrot_rotten.jpeg",
+      "blobId": "636987aae59db2bdc46dca397e0b36e3181f6bde",
+      "size": 4593,
+      "lfs": {
+        "sha256": "d3ad0374ec22ee236f85352141ca6f85434a4ed0847b47ff0178780d191fee70",
+        "size": 4593,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "images/Cucumber_fresh.jpg",
+      "blobId": "b1c37350117408773de6f29967c24565603dc57b",
+      "size": 13197,
+      "lfs": {
+        "sha256": "db6459bd3d374a57db08840fc338c9c2e9ffb7149957d20d2ad81229b5cc2b6e",
+        "size": 13197,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/Cucumber_intermediate_fresh.jpeg",
+      "blobId": "04f1797ef3d970529e175043297b1ed7133c73f2",
+      "size": 23929,
+      "lfs": {
+        "sha256": "f2cf3e0e7c49ce1b925789b461043192286542c636208faa854a08f6f4d3f77d",
+        "size": 23929,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/Cucumber_rotten.jpg",
+      "blobId": "1264c241bca614447ba89372efbf33e7afe30f77",
+      "size": 5208,
+      "lfs": {
+        "sha256": "06a4d5abe9185dbe15b8f6cfefa6bcb728b83b189d299aa3a26c47075d4fa0bc",
+        "size": 5208,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "images/Potato_fresh.jpeg",
+      "blobId": "f83ecb8f368c340c9aff1c2ce3fec376986ed589",
+      "size": 343469,
+      "lfs": {
+        "sha256": "7e2649c63cb73d9a40c6817e78b20b051b9092fff6b3aa783d9cfa1b863432e3",
+        "size": 343469,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/Potato_intermediate_fresh.png",
+      "blobId": "23744041821daae6fa760fdd798d1d32c55c5ae4",
+      "size": 498971,
+      "lfs": {
+        "sha256": "550e0c0dac88c3470b9d1faf861d39ffa403e193ebd2f3741b1e2ba744a7d079",
+        "size": 498971,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/Potato_rotten.jpg",
+      "blobId": "526d23b8459502a11ad22055250e5c77352d2d29",
+      "size": 11415,
+      "lfs": {
+        "sha256": "dd2ac6791543a1319e535def9292f4649a577a9643f2d9fe3633234d5f857de4",
+        "size": 11415,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/Tomato_fresh.jpg",
+      "blobId": "56c9d64960fa81bcf48879f4e90c08991a4da25b",
+      "size": 8800,
+      "lfs": {
+        "sha256": "084c8f22aed4ebb4a0b3509d712d859f9628fbcbafc1e5d4e4a7a2be6a04651e",
+        "size": 8800,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "images/Tomato_intermediate_fresh.jpeg",
+      "blobId": "87984a3af330067b30f9489979ca0d4456f9ca2b",
+      "size": 2050573,
+      "lfs": {
+        "sha256": "e2a54b79da6029d726d327a7b5c9e80af00b2f9af3915eb9d725c0dbeb56518b",
+        "size": 2050573,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "images/Tomato_rotten.jpeg",
+      "blobId": "e9ff1b739bba520d62181aa2da4d630c707eb77f",
+      "size": 98482,
+      "lfs": {
+        "sha256": "8788e1c3a9d5f54380c41a34dfa3b89ec42fa10cab15b8bc44eb839d20b58264",
+        "size": 98482,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/ripe_apple.jpg",
+      "blobId": "e9df625d9571ab3fd028efb585ba610d5ed9b203",
+      "size": 3188,
+      "lfs": {
+        "sha256": "b48f9c59995ebbbb25ec31e457a0b07431c75a9eea746b4d9142657d4591726f",
+        "size": 3188,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "images/ripe_banana.jpg",
+      "blobId": "092cc98e68759091ddc4df591dd5c902ace44b96",
+      "size": 37161,
+      "lfs": {
+        "sha256": "dd410a613e9acafdc942a6d479e1642396f1e6f8f8147ac9a189d3a1de39b051",
+        "size": 37161,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/ripe_mango.jpg",
+      "blobId": "6b67d1878620a13d04dbcdb72ccde52bd92cc0e0",
+      "size": 4392,
+      "lfs": {
+        "sha256": "8fd62e6217bc1a04f1d9bc85d73674998843822ca3d72df31f894349ea8f06bb",
+        "size": 4392,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "images/ripe_oranges.png",
+      "blobId": "8896b714473a359f8bbdec425fb2b58fb8eca738",
+      "size": 240649,
+      "lfs": {
+        "sha256": "1f1c2997b09a9f44e1d8fa29e7ee0223e9ac59d5bf6b4233f9cc1d8ed6626d93",
+        "size": 240649,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/ripe_strawberry.jpg",
+      "blobId": "46db468a7be2700a349677755858ff0d1c998c38",
+      "size": 8749,
+      "lfs": {
+        "sha256": "0e60b015f9a6156886f161c0933f59ccaf798a066e1b9191103d6d7e0b03193f",
+        "size": 8749,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "images/rotten_apple.webp",
+      "blobId": "1ada90f7aa2a0065fb8251513d11f98041e02aac",
+      "size": 39814,
+      "lfs": {
+        "sha256": "9e0bb9a0af114d5dd1f18f109a0ab270fc9b9b812d33b5e0be7ae4c775fbcf8b",
+        "size": 39814,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/rotten_banana.png",
+      "blobId": "af86c505480d6a1a510ea88f10c5d549158132ea",
+      "size": 198343,
+      "lfs": {
+        "sha256": "0ce02b7bf87ccb92fd36a5cdb91ee9b451cfa075695cddb2af070faaafe54e47",
+        "size": 198343,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/rotten_mango.jpg",
+      "blobId": "a705dfa77e1efc1c5d146943eb2333f13869655b",
+      "size": 4043,
+      "lfs": {
+        "sha256": "eb143c99f2e2af14c75acc365bb6f8c0585e0059de3378c2ac6a982dfa846ac8",
+        "size": 4043,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "images/rotten_oranges.png",
+      "blobId": "d3b8aeffbd7b7fb4d947724aa58753b280f99133",
+      "size": 327332,
+      "lfs": {
+        "sha256": "0711e6566b11e3e9eec5f28e9c4e210c05b92bf2ea72e03a479e2e0362843fef",
+        "size": 327332,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "images/rotten_strawberry.jpg",
+      "blobId": "abde9ab84c704bfc3fa950d1f4c2ae994a369771",
+      "size": 40551,
+      "lfs": {
+        "sha256": "c7dda45a297a46f16952cdba1e5bf7076c62ab630adbe2beef6fc3df2312bca4",
+        "size": 40551,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/unripe_apple.jpg",
+      "blobId": "1ea61820fa54b2292079f8cb6c7afebf75232955",
+      "size": 27894,
+      "lfs": {
+        "sha256": "f1a0f718c0f50def72e24ed4153315466e45249055436fe872b5e40f441401df",
+        "size": 27894,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/unripe_banana.jpg",
+      "blobId": "97441945608f8c779cd893ede36b4da125cf3d73",
+      "size": 2167057,
+      "lfs": {
+        "sha256": "fcd8545e6f4155caa0ae26c3d47b3ac86320574aeafabfbec52043344a9a393f",
+        "size": 2167057,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "images/unripe_mango.jpg",
+      "blobId": "f2e13b161f7e2d9c7b9ccafb84365b2887714b52",
+      "size": 42185,
+      "lfs": {
+        "sha256": "ecca6a2fd43c975dd59a0dd6e0d831d5a49c7971bb6bbd47bd90f1ba3f39efe1",
+        "size": 42185,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/unripe_oranges.jpg",
+      "blobId": "77bb688a50b343a42bce15e7956ed5d18930551c",
+      "size": 79812,
+      "lfs": {
+        "sha256": "bd92e89625e43801693c8482bb2ca9b68af90d53a9743d00aa3242dd2df4dbba",
+        "size": 79812,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "images/unripe_strawberry.jpg",
+      "blobId": "ae229f210c4b0e5d52dfc0b138f15ea1a3f9ead3",
+      "size": 129741,
+      "lfs": {
+        "sha256": "815cda5a835291b9210c6e526647385548bfb3a3c5a49f6d22f5fad803e4c1dd",
+        "size": 129741,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "5c71c97891f4b7f34a0f038ae9ca5a28afb791ce",
+      "size": 343310104,
+      "lfs": {
+        "sha256": "cb3e60bd396ce9a0d19f332aef14c52930239f73d7301dc8befc05ee20299f04",
+        "size": 343310104,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "preprocessor_config.json",
+      "blobId": "e9661b02d9ca27fedbdec7fa9773622c5edc6e81",
+      "size": 353
+    },
+    {
+      "rfilename": "runs/events.out.tfevents.1749204106.ac2f9455b857.424.0",
+      "blobId": "b3615385fe8c5357b8574de9d0cc16d1675c0ff1",
+      "size": 9214,
+      "lfs": {
+        "sha256": "5209de6d75d9314cd8346247671ccaa44c4af4b4600ce0e11271305b9bb8ab5e",
+        "size": 9214,
+        "pointerSize": 129
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2025-06-06T10:16:59.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 85821726
+    },
+    "total": 85821726
+  },
+  "usedStorage": 350533183
+}

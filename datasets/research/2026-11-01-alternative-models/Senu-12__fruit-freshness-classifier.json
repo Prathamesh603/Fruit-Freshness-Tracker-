@@ -1,0 +1,59 @@
+{
+  "_id": "6a3fa82b1831ca8ca8d15ce6",
+  "id": "Senu-12/fruit-freshness-classifier",
+  "private": false,
+  "library_name": "keras",
+  "tags": [
+    "keras",
+    "license:apache-2.0",
+    "region:us"
+  ],
+  "downloads": 36,
+  "likes": 0,
+  "modelId": "Senu-12/fruit-freshness-classifier",
+  "author": "Senu-12",
+  "sha": "409c55a15256a8cd876773e3b8008cd450faa20c",
+  "lastModified": "2026-06-27T11:02:57.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "apache-2.0"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "35e161922b762707f960298e87c4435539e75b5e",
+      "size": 1643
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "154df8298fab5ecf322016157858e08cd1bccbe1",
+      "size": 28
+    },
+    {
+      "rfilename": "cnn/cnn_model.keras",
+      "blobId": "23093786ca58265b7be330c2833e5084b7c06a5e",
+      "size": 1066042131,
+      "lfs": {
+        "sha256": "15ccaaaf6a8ef969c4934d9e0d0841aac1f62a73bd5c82f86d1b16e4b01bff76",
+        "size": 1066042131,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "mobilenet/mobilenet_model.keras",
+      "blobId": "0fafc765b6dce64bfe1525c344c43b7fdc582b58",
+      "size": 11597552,
+      "lfs": {
+        "sha256": "3431e60bb857946e33a4cd033f23288100e419c29a665f8075f9b816a39a3b31",
+        "size": 11597552,
+        "pointerSize": 133
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-06-27T10:38:35.000Z",
+  "usedStorage": 1077639683
+}

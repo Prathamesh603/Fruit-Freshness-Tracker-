@@ -1,0 +1,74 @@
+{
+  "_id": "6a8e6a31011a57c4c04f4df0",
+  "id": "Aniket2003333333/fruit-veg-freshness-mobilenetv2",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "tags": [
+    "image-classification",
+    "pytorch",
+    "mobilenetv2",
+    "fruit-freshness",
+    "vegetable-freshness",
+    "dataset:raghavrpotdar/fresh-and-stale-images-of-fruits-and-vegetables",
+    "license:apache-2.0",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "Aniket2003333333/fruit-veg-freshness-mobilenetv2",
+  "author": "Aniket2003333333",
+  "sha": "a192bc62a49c31c6b0e24a695368eb9e535ee7c6",
+  "lastModified": "2026-08-26T04:23:44.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "apache-2.0",
+    "tags": [
+      "image-classification",
+      "pytorch",
+      "mobilenetv2",
+      "fruit-freshness",
+      "vegetable-freshness"
+    ],
+    "datasets": [
+      "raghavrpotdar/fresh-and-stale-images-of-fruits-and-vegetables"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "e8d19795b26cd7a20b2e6805568204728552498b",
+      "size": 1514
+    },
+    {
+      "rfilename": "freshness_mobilenetv2_state_dict.pth",
+      "blobId": "e48067686c5643e6a6257042ff29eb1aeaeb2a99",
+      "size": 9158475,
+      "lfs": {
+        "sha256": "10ddb94422bb09dec7eef3559508b8c3bcb3db45441cf72b16988b73cbb78d84",
+        "size": 9158475,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "freshness_mobilenetv2_traced.pt",
+      "blobId": "ef29e0ee8ee190dd41c6768aef716dedfb552e18",
+      "size": 9509150,
+      "lfs": {
+        "sha256": "5fed4731e67cc5a3ff9c0ebe996fa1233171c54a01cdce1b28d1c1e4ac89aae2",
+        "size": 9509150,
+        "pointerSize": 132
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-08-26T04:23:13.000Z",
+  "usedStorage": 18667625
+}

@@ -1,0 +1,108 @@
+{
+  "targets": [
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\ml\\data\\raw\\mendeley_bdd69gyhv8\\Original_Image.zip",
+      "bytes": 2794170228,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\ml\\data\\raw\\mendeley_bdd69gyhv8\\originals",
+      "bytes": 1212615636,
+      "files": 1200,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\datasets\\fruit13\\raw\\fruit16k\\publisher.zip",
+      "bytes": 99928214,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\datasets\\zenodo-fruit9-v1\\downloads\\AgricultureDataset.zip",
+      "bytes": 1005423492,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\detector_training\\yolov8n-fruit9-v1\\data\\images\\train",
+      "bytes": 146522299,
+      "files": 2256,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\detector_training\\yolov8n-fruit9-v1\\data\\images\\val",
+      "bytes": 29716988,
+      "files": 484,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\detector_training\\yolov8n-fruit9-v1\\data\\labels\\train",
+      "bytes": 254665,
+      "files": 2256,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\detector_training\\yolov8n-fruit9-v1\\data\\labels\\val",
+      "bytes": 59333,
+      "files": 484,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\android\\.kotlin",
+      "bytes": 0,
+      "files": 0,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\apps\\01-fruit-lens-classic\\source\\android\\.gradle",
+      "bytes": 3468524,
+      "files": 13,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\apps\\01-fruit-lens-classic\\source\\android\\.kotlin",
+      "bytes": 0,
+      "files": 0,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\apps\\01-fruit-lens-classic\\source\\android\\app\\build",
+      "bytes": 355432291,
+      "files": 2159,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\apps\\01-fruit-lens-classic\\source\\android\\app\\.cxx",
+      "bytes": 1631567,
+      "files": 81,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\apps\\01-fruit-lens-classic\\editions\\02-classic-plus\\android\\.kotlin",
+      "bytes": 0,
+      "files": 0,
+      "removed": true
+    },
+    {
+      "path": "D:\\Projects\\Fruit freshness detection\\apps\\02-fruit-lens-custom\\android\\.kotlin",
+      "bytes": 0,
+      "files": 0,
+      "removed": true
+    },
+    {
+      "path": "D:\\.gradle\\wrapper\\dists",
+      "bytes": 283718232,
+      "files": 311,
+      "removed": true
+    },
+    {
+      "path": "D:\\.gradle\\.tmp",
+      "bytes": 722787,
+      "files": 15,
+      "removed": true
+    }
+  ],
+  "before_free_bytes": 6478196736,
+  "after_free_bytes": 12407177216
+}

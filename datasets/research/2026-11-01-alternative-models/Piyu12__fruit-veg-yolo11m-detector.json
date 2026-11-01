@@ -1,0 +1,65 @@
+{
+  "_id": "6a908e85ef38552b7d8b64a7",
+  "id": "Piyu12/fruit-veg-yolo11m-detector",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "object-detection",
+    "yolo11",
+    "fruit-detection",
+    "vegetable-detection",
+    "dataset:bohni-tech/fruits-and-vegi",
+    "license:agpl-3.0",
+    "region:us"
+  ],
+  "downloads": 181,
+  "likes": 0,
+  "modelId": "Piyu12/fruit-veg-yolo11m-detector",
+  "author": "Piyu12",
+  "sha": "82c9865261175e778ba5641cf8560b5d10439ec6",
+  "lastModified": "2026-08-27T19:22:55.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "agpl-3.0",
+    "tags": [
+      "object-detection",
+      "yolo11",
+      "ultralytics",
+      "fruit-detection",
+      "vegetable-detection"
+    ],
+    "datasets": [
+      "bohni-tech/fruits-and-vegi"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "221d3396982454173cb67b05c915a95a71246000",
+      "size": 1049
+    },
+    {
+      "rfilename": "best.pt",
+      "blobId": "6f409a1320b9d6cdeb14df32ebd2f1c0d253dccb",
+      "size": 40565868,
+      "lfs": {
+        "sha256": "499ccee2169731363de26146d9989942c27f3849f64509e0b5190cbd1c679c19",
+        "size": 40565868,
+        "pointerSize": 133
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-08-27T19:22:45.000Z",
+  "usedStorage": 40565868
+}

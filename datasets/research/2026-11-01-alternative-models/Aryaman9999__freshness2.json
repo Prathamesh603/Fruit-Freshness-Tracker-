@@ -1,0 +1,136 @@
+{
+  "_id": "67054dd6cb8d14d87f610ae8",
+  "id": "Aryaman9999/freshness2",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "tags": [
+    "tensorboard",
+    "safetensors",
+    "resnet",
+    "autotrain",
+    "image-classification",
+    "dataset:jojogo9/freshness_of_fruits_and_veges_256",
+    "base_model:microsoft/resnet-50",
+    "base_model:finetune:microsoft/resnet-50",
+    "region:us"
+  ],
+  "downloads": 8,
+  "likes": 0,
+  "modelId": "Aryaman9999/freshness2",
+  "author": "Aryaman9999",
+  "sha": "d7baac11a48be738b5d475c7b99167506d26be18",
+  "lastModified": "2024-10-08T17:10:14.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/tiger.jpg",
+      "example_title": "Tiger"
+    },
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/teapot.jpg",
+      "example_title": "Teapot"
+    },
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/palace.jpg",
+      "example_title": "Palace"
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "ResNetForImageClassification"
+    ],
+    "model_type": "resnet"
+  },
+  "cardData": {
+    "tags": [
+      "autotrain",
+      "image-classification"
+    ],
+    "base_model": "microsoft/resnet-50",
+    "widget": [
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/tiger.jpg",
+        "example_title": "Tiger"
+      },
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/teapot.jpg",
+        "example_title": "Teapot"
+      },
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/palace.jpg",
+        "example_title": "Palace"
+      }
+    ],
+    "datasets": [
+      "jojogo9/freshness_of_fruits_and_veges_256"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "d54775d048cb1e41dac825977f00d01f7d388c19",
+      "size": 592
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "c3af4bc702f5f53325fc785b498ba6accd062968",
+      "size": 1927
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "c055563036a243d4ebe4747c259472d0b9ef6186",
+      "size": 94483312,
+      "lfs": {
+        "sha256": "fd10b315cbbf903032062e56a46cc54ea4083e47cf56f6344a44985834a6dfcc",
+        "size": 94483312,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "preprocessor_config.json",
+      "blobId": "8228c2b6b7368920da26fa97ecf6b616791fd03d",
+      "size": 352
+    },
+    {
+      "rfilename": "runs/Oct08_15-20-54_r-aryaman9999-autotrain-advanced-bvo0631t-60327-g8tsi/events.out.tfevents.1728400856.r-aryaman9999-autotrain-advanced-bvo0631t-60327-g8tsi.101.0",
+      "blobId": "0a02ea849184e9a6d5d9d62d79c8601281dcbd21",
+      "size": 24025,
+      "lfs": {
+        "sha256": "d23baafeac0c6e995e7f37a68aba5272ca7c99ce67c99c6e8760d5440273758a",
+        "size": 24025,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "training_args.bin",
+      "blobId": "11cfe0d83891b013bc18a3e562914c89edc63e08",
+      "size": 5240,
+      "lfs": {
+        "sha256": "5b4da1035e13ca2a885069a3426c9d2f41f0a11e3a3ac9e5cabc83b5f6996cb9",
+        "size": 5240,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "training_params.json",
+      "blobId": "342edf2269caa231c4b99a94f9ca8f45d0546f8e",
+      "size": 786
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2024-10-08T15:20:54.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 23610328
+    },
+    "total": 23610328
+  },
+  "usedStorage": 94673175
+}

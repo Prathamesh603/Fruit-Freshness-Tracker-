@@ -1,0 +1,83 @@
+{
+  "_id": "6a119d66425f7f7a2e9d53d7",
+  "id": "Alisa-Sun/freshness-detection",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "vit",
+    "image-classification",
+    "arxiv:1910.09700",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 3,
+  "likes": 0,
+  "modelId": "Alisa-Sun/freshness-detection",
+  "author": "Alisa-Sun",
+  "sha": "d56fbcd9abd9e064bfd43f7a79343fd944c34318",
+  "lastModified": "2026-05-28T17:10:18.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "ViTForImageClassification"
+    ],
+    "model_type": "vit"
+  },
+  "cardData": {
+    "library_name": "transformers",
+    "tags": []
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForImageClassification",
+    "pipeline_tag": "image-classification",
+    "processor": "AutoImageProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "bc5f30d6632ac0efdc7be2e9095e9e9579af2e33",
+      "size": 5174
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "6cba1f1843ac2094c8a88c0734c2c11d9d805749",
+      "size": 737
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "1b3226a4f97302cb37ca8aa78d0d57dcebd378d7",
+      "size": 343223968,
+      "lfs": {
+        "sha256": "bf01b1a94b14388969b90e4386ff672baab9fce2cd098c959eb8761b3e18a378",
+        "size": 343223968,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "preprocessor_config.json",
+      "blobId": "658ffceeabf492d50f178a281293c1c3e26d0928",
+      "size": 351
+    }
+  ],
+  "spaces": [
+    "Alisa-Sun/smart-shelf-guard"
+  ],
+  "createdAt": "2026-05-23T12:28:22.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 85800194
+    },
+    "total": 85800194
+  },
+  "usedStorage": 1372895872
+}

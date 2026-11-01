@@ -1,0 +1,6 @@
+{
+  "task": "detect",
+  "names": ["apple", "banana", "grape", "lemon", "mango", "orange", "pomegranate", "strawberry", "tomato"],
+  "training_started": false,
+  "dataset_ready": false
+}

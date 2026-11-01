@@ -1,0 +1,37 @@
+{
+  "_id": "6a97ff26c4b53d79ed425866",
+  "id": "Sree0925/food-freshness-model",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "Sree0925/food-freshness-model",
+  "author": "Sree0925",
+  "sha": "df0e5ee72c55d41b1eb624785e571d34c9d14e1f",
+  "lastModified": "2026-09-02T10:55:11.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "food_model.h5",
+      "blobId": "18480c004499ca9ec29fc2ca30c23f0c3696983c",
+      "size": 286932824,
+      "lfs": {
+        "sha256": "3dcd7693dc808b091758ed9604e609118d6ba99f127f4732195b5e6f88ef1833",
+        "size": 286932824,
+        "pointerSize": 134
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-09-02T10:49:10.000Z",
+  "usedStorage": 286932824
+}

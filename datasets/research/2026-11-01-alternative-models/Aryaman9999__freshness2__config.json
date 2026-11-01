@@ -1,0 +1,94 @@
+{
+  "_name_or_path": "microsoft/resnet-50",
+  "_num_labels": 24,
+  "architectures": [
+    "ResNetForImageClassification"
+  ],
+  "depths": [
+    3,
+    4,
+    6,
+    3
+  ],
+  "downsample_in_bottleneck": false,
+  "downsample_in_first_stage": false,
+  "embedding_size": 64,
+  "hidden_act": "relu",
+  "hidden_sizes": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "id2label": {
+    "0": "FreshApple",
+    "1": "FreshBanana",
+    "2": "FreshCucumber",
+    "3": "FreshGrape",
+    "4": "FreshGuava",
+    "5": "FreshJujube",
+    "6": "FreshOkra",
+    "7": "FreshOrange",
+    "8": "FreshPomegranate",
+    "9": "FreshPotato",
+    "10": "FreshStrawberry",
+    "11": "FreshTomato",
+    "12": "RottenApple",
+    "13": "RottenBanana",
+    "14": "RottenCucumber",
+    "15": "RottenGrape",
+    "16": "RottenGuava",
+    "17": "RottenJujube",
+    "18": "RottenOkra",
+    "19": "RottenOrange",
+    "20": "RottenPomegranate",
+    "21": "RottenPotato",
+    "22": "RottenStrawberry",
+    "23": "RottenTomato"
+  },
+  "label2id": {
+    "FreshApple": 0,
+    "FreshBanana": 1,
+    "FreshCucumber": 2,
+    "FreshGrape": 3,
+    "FreshGuava": 4,
+    "FreshJujube": 5,
+    "FreshOkra": 6,
+    "FreshOrange": 7,
+    "FreshPomegranate": 8,
+    "FreshPotato": 9,
+    "FreshStrawberry": 10,
+    "FreshTomato": 11,
+    "RottenApple": 12,
+    "RottenBanana": 13,
+    "RottenCucumber": 14,
+    "RottenGrape": 15,
+    "RottenGuava": 16,
+    "RottenJujube": 17,
+    "RottenOkra": 18,
+    "RottenOrange": 19,
+    "RottenPomegranate": 20,
+    "RottenPotato": 21,
+    "RottenStrawberry": 22,
+    "RottenTomato": 23
+  },
+  "layer_type": "bottleneck",
+  "model_type": "resnet",
+  "num_channels": 3,
+  "out_features": [
+    "stage4"
+  ],
+  "out_indices": [
+    4
+  ],
+  "problem_type": "single_label_classification",
+  "stage_names": [
+    "stem",
+    "stage1",
+    "stage2",
+    "stage3",
+    "stage4"
+  ],
+  "torch_dtype": "float32",
+  "transformers_version": "4.45.0"
+}

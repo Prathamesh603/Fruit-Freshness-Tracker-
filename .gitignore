@@ -56,3 +56,8 @@ datasets/zenodo-fruit9-v1/downloads/*
 datasets/zenodo-fruit9-v1/prepared/
 datasets/zenodo-fruit9-v1/original-labels/
 datasets/zenodo-fruit9-v1/quarantine/
+
+# New source archives/prepared images stay local; retain documentation and audits.
+datasets/fruit9-v3/incoming/*
+!datasets/fruit9-v3/incoming/README.md
+datasets/fruit9-v3/prepared/

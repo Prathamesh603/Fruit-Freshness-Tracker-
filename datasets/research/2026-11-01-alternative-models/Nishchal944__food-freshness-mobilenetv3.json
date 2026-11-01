@@ -1,0 +1,37 @@
+{
+  "_id": "6a90a365fd3eca43012d8474",
+  "id": "Nishchal944/food-freshness-mobilenetv3",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "Nishchal944/food-freshness-mobilenetv3",
+  "author": "Nishchal944",
+  "sha": "7fff0d5b47c3831846e5baee95ce240325a12ced",
+  "lastModified": "2026-08-27T21:01:57.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "food_freshness.pt",
+      "blobId": "3625f23b4118a69a1334b36270d373c68151ca51",
+      "size": 6215917,
+      "lfs": {
+        "sha256": "85d07c30610bfaa510f78b54dd97b495a884bfadf7bf781a0dad96036c640799",
+        "size": 6215917,
+        "pointerSize": 132
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-08-27T20:51:49.000Z",
+  "usedStorage": 6215917
+}

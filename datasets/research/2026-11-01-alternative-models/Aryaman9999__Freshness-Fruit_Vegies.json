@@ -1,0 +1,142 @@
+{
+  "_id": "66eff77b5e21be2819b7d547",
+  "id": "Aryaman9999/Freshness-Fruit_Vegies",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "tags": [
+    "tensorboard",
+    "safetensors",
+    "vit",
+    "autotrain",
+    "image-classification",
+    "dataset:jojogo9/freshness_of_fruits_and_veges_256",
+    "base_model:google/vit-base-patch16-224",
+    "base_model:finetune:google/vit-base-patch16-224",
+    "region:us"
+  ],
+  "downloads": 33,
+  "likes": 0,
+  "modelId": "Aryaman9999/Freshness-Fruit_Vegies",
+  "author": "Aryaman9999",
+  "sha": "c67ef67afef0e38ecb4f368dd3718c5cc87623c7",
+  "lastModified": "2024-09-22T17:05:40.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/tiger.jpg",
+      "example_title": "Tiger"
+    },
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/teapot.jpg",
+      "example_title": "Teapot"
+    },
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/palace.jpg",
+      "example_title": "Palace"
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "ViTForImageClassification"
+    ],
+    "model_type": "vit"
+  },
+  "cardData": {
+    "tags": [
+      "autotrain",
+      "image-classification"
+    ],
+    "base_model": "google/vit-base-patch16-224",
+    "widget": [
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/tiger.jpg",
+        "example_title": "Tiger"
+      },
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/teapot.jpg",
+        "example_title": "Teapot"
+      },
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/palace.jpg",
+        "example_title": "Palace"
+      }
+    ],
+    "datasets": [
+      "jojogo9/freshness_of_fruits_and_veges_256"
+    ],
+    "pipeline_tag": "image-classification"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "7abf3aef16ec3131a442f2ffdd2d3d42e2ebbd9f",
+      "size": 633
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "e3f4ef13378369e0c435b93efc44721a5023305f",
+      "size": 1850
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "22adbbe00c17fb42713f051d8d4a84f6fa42a7dd",
+      "size": 343291648,
+      "lfs": {
+        "sha256": "05e56a6c7d86c5ee1cac33d56efe2097b3fd529fd0d37babb19072aa82ca52f4",
+        "size": 343291648,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "preprocessor_config.json",
+      "blobId": "273d24924a8bd10227b532d603484f165dcb0b5d",
+      "size": 325
+    },
+    {
+      "rfilename": "runs/Sep22_10-54-51_r-aryaman9999-first-try-40utvozt-f0591-tmbfb/events.out.tfevents.1727002492.r-aryaman9999-first-try-40utvozt-f0591-tmbfb.113.0",
+      "blobId": "94e7c036ca31cb2043e26594c11980fd22b912f9",
+      "size": 23915,
+      "lfs": {
+        "sha256": "05eeb54d4b8ef1fac0b64f0e9bf8c8ea64902485882b885e84ba419d91849a25",
+        "size": 23915,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "training_args.bin",
+      "blobId": "fc3618cf677f6b2a870d3bdb40f203c5cd784c82",
+      "size": 5240,
+      "lfs": {
+        "sha256": "919d684196ea3fb94d28afa7b2f8ca17641f18a86d139c709e145f03525e602a",
+        "size": 5240,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "training_params.json",
+      "blobId": "6f7fea9313564f337b892ea0ed24c4189a6cfe26",
+      "size": 805
+    }
+  ],
+  "spaces": [
+    "YogitaJain/classification",
+    "scicat3218/food-ai-X",
+    "scicat3218/food-ai-beta3",
+    "scicat3218/food-ai-alpha1"
+  ],
+  "createdAt": "2024-09-22T10:54:51.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 85817112
+    },
+    "total": 85817112
+  },
+  "usedStorage": 343625075
+}

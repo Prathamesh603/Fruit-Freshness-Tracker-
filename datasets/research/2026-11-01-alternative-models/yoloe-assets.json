@@ -1,0 +1,26 @@
+[
+  {
+    "name": "yoloe-11m-seg.pt",
+    "size": 60276714,
+    "digest": "sha256:785199b7cc75a5f4041dec15782a4b8a4105e5a34d7ffb287a0a10781724c5bd",
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-11m-seg.pt"
+  },
+  {
+    "name": "yoloe-11s-seg.pt",
+    "size": 27803986,
+    "digest": "sha256:8e439445c87338b79d9ce21dec109f4621e26df67e94d26ea1a98c1e64dce3e3",
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-11s-seg.pt"
+  },
+  {
+    "name": "yoloe-26m-seg.pt",
+    "size": 70443185,
+    "digest": "sha256:585f5ec9028fd358035da8d860c27c56be285a795cba2076fba536a4391c2c83",
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26m-seg.pt"
+  },
+  {
+    "name": "yoloe-26s-seg.pt",
+    "size": 31072171,
+    "digest": "sha256:48f24206bc8680d60cbbfa296b0140da849669b9515058b72f5a945142df0654",
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-26s-seg.pt"
+  }
+]

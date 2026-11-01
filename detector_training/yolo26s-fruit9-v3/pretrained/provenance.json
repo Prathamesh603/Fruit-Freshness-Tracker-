@@ -1,0 +1,27 @@
+{
+  "model": "YOLO26s detection",
+  "status": "official_pretrained_downloaded_not_fruit_finetuned",
+  "source": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s.pt",
+  "release": "v8.4.0",
+  "asset_id": 340096060,
+  "bytes": 20422725,
+  "sha256": "646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b",
+  "publisher_digest_verified": true,
+  "original_dataset": "COCO 2017 / 80 classes per official model documentation",
+  "target_experiment": "yolo26s-fruit9-v3",
+  "target_classes": [
+    "apple",
+    "banana",
+    "grape",
+    "lemon",
+    "mango",
+    "orange",
+    "pomegranate",
+    "strawberry",
+    "tomato"
+  ],
+  "training_started": false,
+  "inference_verified": false,
+  "android_export_verified": false,
+  "phone_latency_verified": false
+}
